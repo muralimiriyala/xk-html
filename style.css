@@ -23,26 +23,26 @@ Text Domain:
 
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Gotham-Medium';
     src: url('/fonts/GothamMedium.eot');
     src: url('/fonts/GothamMedium.eot?#iefix') format('embedded-opentype'),
         url('/fonts/GothamMedium.woff2') format('woff2'),
         url('/fonts/GothamMedium.woff') format('woff'),
         url('/fonts/GothamMedium.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Gotham-Bold';
     src: url('./fonts/GothamBold.eot');
     src: url('./fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
         url('./fonts/GothamBold.woff2') format('woff2'),
         url('./fonts/GothamBold.woff') format('woff'),
         url('./fonts/GothamBold.ttf') format('truetype');
-    font-weight: 700;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }

@@ -1,0 +1,63 @@
+/* knowledgebase section */
+.knowledgebase-main{padding: 120px 0;}
+.knowledgebase-text{margin: auto; width: 768px; font-size: 16px; font-weight: 325; color: #0a0a1e; line-height: 24px; text-align: center; letter-spacing: -0.32px;}
+.optional-text{display: block; font-size: 14px; font-weight: 400; line-height: 22px; color: #0a0a1e; opacity: 0.5; margin-bottom: 24PX; text-transform: uppercase; letter-spacing: 0.2em;}
+.knowledgebase-text h1{font-size: 48px; font-weight: 400; line-height: 56px; letter-spacing: -0.02em; margin-bottom: 28px;}
+.knowledgebase-text p{margin-bottom: 40px;}
+
+
+/* Browse logos section */
+.browse-logos-section{background-image: url("images/browse-background-image@2x.png");}
+.browse-logos-main{padding: 80px 0;}
+.browse-logos-list{background-color: #ffffff; width: 230px; height: 112px; align-items: center;}
+.browse-logos-list:hover{background-color: #0A0A1E; color: #ffffff;}
+.browse-icon{width: 32px; height: 32px; margin-left: 34px;}
+.browse-logos-list span{width: 114px; font-size: 20px; line-height: 24px; letter-spacing: -0.4px;}
+
+
+/* Training section */
+.training-section{background-color: #f3f3f4;}
+.training-main{padding: 40px 0;}
+.training-head{margin-bottom: 34px;}
+.training-right{text-align: right;}
+.training-left span{opacity: 1}
+.training-row{margin-bottom: 40px;}
+.training-list{ width: 552px; height: 132px; padding: 18px 20px; position: relative; z-index: 1;}
+.training-list::after{background-color: #ffffff; width: calc(100% - 68px); left: 68px; left: 68px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;} 
+.training-content{letter-spacing: -0.36px;}
+.training-content p{margin-bottom: 14px;}
+.training-list::before{content: ""; display: block; background-image: url("images/training-edu-image.svg");  width: 68px; height: 132px; position: absolute; top:0; left: 0; z-index: -1; }
+.training-image img{max-width: 96px;}
+ul{margin-left: 0;}
+ul li a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: all .45s ease-in-out;
+    background-color: rgba(0, 240, 255, 0.25);
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px 8px 7px 8px;
+    font-weight: 500;
+    font-family: Gotham-Medium;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    color: #0a0a1e;
+  }
+/* media starts here */
+@media only screen and (min-width: 1024px){
+.browse-logos-row{gap: 32px;}
+.browse-logos-list{flex: 0 0 calc(20% - 26px); gap: 20px;}
+
+
+.training-left{flex: 50%;}
+.training-right{flex: 50%;}
+.training-row{gap: 40px;}
+.training-list{flex: 0 0 calc(50% - 20px); gap: 20px;}
+.training-image{flex: 96px;}
+.training-content{flex: 0 0 calc(100% - 116px);}
+}

@@ -7,8 +7,8 @@ a{color: var(--link-color); text-decoration: none; transition: all 0.45s ease-in
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--black);}
-h1, h2, h3, h4, h5, h6 {clear: both; margin: 0; color: var(--corporate-color); font-weight: 800; letter-spacing: -0.05em; text-transform: none; font-family: 'Overpass', sans-serif;}
-h1 {font-size: 48px; line-height: 56px; margin-bottom: 20px;}
+h1, h2, h3, h4, h5, h6 {clear: both; margin: 0; color: var(--corporate-color); font-weight: 800; letter-spacing: -0.96px; text-transform: none; font-family: 'Gotham-Bold';}
+h1 {font-size: 48px; line-height: 56px; margin-bottom: 24px;}
 h2 {font-size: 40px; line-height: 48px; margin-bottom: 24px;}
 h3 {font-size: 32px; line-height: 40px; margin-bottom: 20px;}
 h4 {font-size: 24px; line-height: 28px; margin-bottom: 16px;}
@@ -150,8 +150,8 @@ img.aligncenter{margin: 25px 0;}
 .table-cell{display: table-cell; vertical-align: middle;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
-body{font-size: 18px; line-height: 26px; font-family: 'HelveticaNeueLTStd-Roman', sans-serif; overflow: hidden; color: var(--slate-color); background-color: transparent;}
-span.optional-text{margin-bottom: 24px; color: var(--cement-color); font-size: 1rem; line-height: 20px; letter-spacing: 0.1em; font-weight: 400; display: block; font-family: 'League Gothic', sans-serif; text-transform: uppercase;}
+body{font-size: 18px; line-height: 26px; font-family: 'Gotham-Book'; overflow: hidden; color: var(--slate-color); background-color: transparent;}
+span.optional-text{margin-bottom: 22px; color: #0a0a1e; font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold'; text-transform: uppercase; opacity: 0.5}
 span.optional-text.black{margin-bottom: 46px; padding-right: 80px; text-align: right; color: var(--slate-color);}
 
 .radius-8{border-radius: 8px;}
