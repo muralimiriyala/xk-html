@@ -1,0 +1,16 @@
+@import url("_short-intro-section.css");
+
+
+/* Leadership section */
+.leadership-main{padding: 56px 0;}
+.leadership-head h3{letter-spacing: -0.64px; margin-bottom: 48px;}
+.leadership-text{background-color: rgba(255, 255, 255, 0.8); width: 100%; height: auto; max-width: 332px; bottom: 0; left: 32px;padding: 22px 32px; position: absolute; -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px #00d2e1;}
+.leadership-desc{display: none;}
+.leadership-pos h4{letter-spacing: -0.48px; margin-bottom: 4px;}
+.leadership-pos span{display: block; font-size: 20px; line-height: 32px; letter-spacing: -0.4px; opacity: 0.5; margin-bottom: 4px;}
+
+
+@media only screen and (min-width: 1024px){
+    .leadership-row{gap: 48px;}
+    .leadership-list{flex: 0 0 calc(33.33% - 32px);}
+}

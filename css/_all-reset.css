@@ -7,7 +7,7 @@ a{color: var(--link-color); text-decoration: none; transition: all 0.45s ease-in
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--black);}
-h1, h2, h3, h4, h5, h6 {clear: both; margin: 0; color: var(--corporate-color); font-weight: 800; letter-spacing: -0.96px; text-transform: none; font-family: 'Gotham-Bold';}
+h1, h2, h3, h4, h5, h6 {clear: both; margin: 0; color: var(--corporate-color); letter-spacing: -0.96px; text-transform: none; font-family: 'Gotham-Bold';}
 h1 {font-size: 48px; line-height: 56px; margin-bottom: 24px;}
 h2 {font-size: 40px; line-height: 48px; margin-bottom: 24px;}
 h3 {font-size: 32px; line-height: 40px; margin-bottom: 20px;}
