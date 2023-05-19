@@ -1,4 +1,10 @@
-.breadcrumbs>li{display: inline;}
+
 .breadcrumbs>li>a{text-decoration: none; }
 .breadcrumbs>li:last-child>a{color: #0a0a1e; opacity: 0.5;}
 .breadcrumbs li::before{content: "/"; position: absolute; color: #00d2e1; padding: 4px; height: 100%; top: 0; left: 12px;}
+
+
+
+@media only screen and (min-width:1024px){
+.breadcrumbs{gap: 20px;}
+}
