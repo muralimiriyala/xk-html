@@ -6,7 +6,7 @@
 .leadership-desc{display: none;}
 .leadership-pos h4{letter-spacing: -0.48px; margin-bottom: 4px;}
 .leadership-pos span{display: block; font-size: 20px; line-height: 32px; letter-spacing: -0.4px; opacity: 0.5; margin-bottom: 4px;}
-
+.leadership-list:hover .leadership-desc{display: block;}
 
 /* media  css starts here */
 @media only screen and (min-width: 1024px){

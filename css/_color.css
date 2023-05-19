@@ -1,0 +1,13 @@
+:root {
+    --black: #000000;
+    --black-10: rgb(0 0 0 / 10%);
+    --black-25: rgb(0 0 0 / 25%);
+    --black-50: rgb(0 0 0 / 50%);
+    --black-75: rgb(0 0 0 / 75%);
+    --white: #ffffff;
+    --white-50: rgb(255 255 255 / 50%);
+    --white-75: rgb(255 255 255 / 75%);
+    --error: #f00;
+    --midnight-color: #0A0A1E;
+    --electric-color: #00D2E1;
+}
