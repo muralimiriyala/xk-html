@@ -33,21 +33,11 @@
 .training-content p{margin-bottom: 14px;}
 .training-list::before{content: ""; display: block; background-image: url("images/training-edu-image.svg");  width: 68px; height: 132px; position: absolute; top:0; left: 0; z-index: -1; }
 .training-image img{max-width: 96px;}
-ul{margin-left: 0;}
-ul li a {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: all .45s ease-in-out;
-    background-color: rgba(0, 240, 255, 0.25);
-    font-size: 12px;
-    line-height: 12px;
-    padding: 5px 8px 7px 8px;
-    font-weight: 500;
-    font-family: Gotham-Medium;
-    letter-spacing: normal;
-    text-transform: capitalize;
-    color: #0a0a1e;
-  }
+ul.tag-links{margin-left: 0;}
+ul.tag-links li a { background-color: rgba(0, 240, 255, 0.25); font-size: 12px; line-height: 12px; padding: 5px 8px 7px 8px; font-weight: 500; font-family: 'Gotham-Medium', sans-serif; text-transform: capitalize; color: #0a0a1e; }
+
+
+
 /* media starts here */
 @media only screen and (min-width: 1024px){
 .browse-logos-row{gap: 32px;}
