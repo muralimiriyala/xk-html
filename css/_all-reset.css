@@ -93,7 +93,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ background-color: var(--health-color); border-radius: 0; color: var(--white); display: inline-block; font-size: 1rem; line-height: 1.5; letter-spacing: 0.05em; padding: 8px 12px 8px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'League Gothic', sans-serif; transform: translate3d(0.05px, 0.05px, 0px) scale(1); text-transform: uppercase; transition: all 0.45s ease-in-out;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 1rem; line-height: 1.5; letter-spacing: 0.2em; padding: 8px 12px 8px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Book', sans-serif; transform: translate3d(0.05px, 0.05px, 0px) scale(1); text-transform: uppercase; transition: all 0.45s ease-in-out;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--privacy-color); color: var(--white);}
 
 .button::after { top: 0; bottom: 0; left: 0; right: 0; background-color: var(--slate-color); -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; transition: all 0.45s ease-in-out; content: ""; position: absolute; z-index: -1; }
@@ -107,9 +107,9 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.white{color: var(--white); border-color: var(--privacy-color);}
 .button.white:hover:after{background-color: var(--privacy-color);}
 
-.btn-link{padding-right: 20px; font-size: 1rem; line-height: 1.5; letter-spacing: 0.05em; color: var(--corporate-color); text-transform: uppercase; font-family: 'League Gothic', sans-serif; position: relative;}
-.btn-link:hover{color: var(--privacy-color);}
-.btn-link::after{right: 0; top: 50%; transform: translateY(-50%); content: "\f061"; display: block; font-family: "Font Awesome 6 Pro"; position: absolute;}
+.text-link{font-size: 12px; line-height: 12px; text-transform: uppercase;}
+.text-link::before{width: 1px; height: 20px; right: 0; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
+.text-link::after{width: 20px; height: 21px; right: 0; background-image: url('../images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; content: ""; display: block; position: absolute;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--black-50); font-family: 'Graphik-Regular', sans-serif;}
