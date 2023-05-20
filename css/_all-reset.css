@@ -107,9 +107,9 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.white{color: var(--white); border-color: var(--privacy-color);}
 .button.white:hover:after{background-color: var(--privacy-color);}
 
-.text-link{font-size: 12px; line-height: 12px; text-transform: uppercase;}
-.text-link::before{width: 1px; height: 20px; right: 0; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
-.text-link::after{width: 20px; height: 21px; right: 0; background-image: url('../images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; content: ""; display: block; position: absolute;}
+.text-link{padding-right: 50px; font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block;}
+.text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
+.text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('../images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--black-50); font-family: 'Graphik-Regular', sans-serif;}
@@ -154,13 +154,6 @@ body{font-size: 18px; line-height: 26px; font-family: 'Gotham-Book'; overflow: h
 span.optional-text{margin-bottom: 22px; color: #0a0a1e; font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold'; text-transform: uppercase; opacity: 0.5}
 span.optional-text.black{margin-bottom: 46px; padding-right: 80px; text-align: right; color: var(--slate-color);}
 
-.radius-8{border-radius: 8px;}
-.radius-12{border-radius: 12px;}
-.radius-16{border-radius: 16px;}
-.radius-24{border-radius: 24px;}
-.radius-img-12 img{border-radius: 12px;}
-.radius-img-16 img{border-radius: 16px;}
-.radius-img-24 img{border-radius: 24px;}
 .pos-relative{position: relative;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
@@ -226,5 +219,5 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
+    .hide-mobile{display: none;}
 }

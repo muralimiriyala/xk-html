@@ -1,1 +1,1 @@
-jQuery(window).on("load",function(){jQuery(this).scrollTop();4<scroll?jQuery(".main-header").addClass("fixed-header"):jQuery(".main-header").removeClass("fixed-header")});
+jQuery(window).on("load scroll",function(){4<jQuery(this).scrollTop()?jQuery(".main-header").addClass("fixed-header"):jQuery(".main-header").removeClass("fixed-header")});
