@@ -14,6 +14,7 @@ h3 {font-size: 32px; line-height: 40px; margin-bottom: 20px;}
 h4 {font-size: 24px; line-height: 28px; margin-bottom: 16px;}
 h5 {font-size: 20px; line-height: 24px; margin-bottom: 14px;}
 h6 {font-size: 1rem; line-height: 26px; margin-bottom: 8px;}
+h1 span{background-position: 0 0; background-image: linear-gradient(to top, var(--electric-color) 20px, transparent 0px);}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--black);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--slate-color);}
 address { margin-bottom: 9px;}
@@ -150,9 +151,10 @@ img.aligncenter{margin: 25px 0;}
 .table-cell{display: table-cell; vertical-align: middle;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
-body{font-size: 18px; line-height: 26px; font-family: 'Gotham-Book'; overflow: hidden; color: var(--slate-color); background-color: transparent;}
-span.optional-text{margin-bottom: 22px; color: #0a0a1e; font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold'; text-transform: uppercase; opacity: 0.5}
+body{font-size: 18px; line-height: 26px; letter-spacing: -0.02em; font-family: 'Gotham-Book'; overflow: hidden; color: var(--slate-color); background-color: transparent;}
+span.optional-text{margin-bottom: 22px; color: #0a0a1e; font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; opacity: 0.5}
 span.optional-text.black{margin-bottom: 46px; padding-right: 80px; text-align: right; color: var(--slate-color);}
+span.optional-text.electric{color: var(--electric-color); letter-spacing: 0.2em; opacity: 1;}
 
 .pos-relative{position: relative;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
