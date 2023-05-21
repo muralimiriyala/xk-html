@@ -6,6 +6,7 @@
 .knowledgebase-text p{margin-bottom: 40px;}
 
 .knowledgebase-form{max-width: 450px; margin: 0 auto;}
+.knowledgebase-form input{}
 
 /* Browse logos section */
 .browse-logos-section{background-image: url("images/browse-background-image@2x.png");}
