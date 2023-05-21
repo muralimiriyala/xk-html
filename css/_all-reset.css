@@ -154,7 +154,11 @@ img.aligncenter{margin: 25px 0;}
 body{font-size: 18px; line-height: 26px; letter-spacing: -0.02em; font-family: 'Gotham-Book'; overflow: hidden; color: var(--slate-color); background-color: transparent;}
 span.optional-text{margin-bottom: 22px; color: #0a0a1e; font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; opacity: 0.5}
 span.optional-text.black{margin-bottom: 46px; padding-right: 80px; text-align: right; color: var(--slate-color);}
+<<<<<<< HEAD
+.sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--midnight-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
+=======
 span.optional-text.electric{color: var(--electric-color); letter-spacing: 0.2em; opacity: 1;}
+>>>>>>> e4b313679ace40ebc3998104ca26f54c5ae018d6
 
 span.optional-heading{}
 
