@@ -2,6 +2,7 @@
 .healthcare-row{padding-top: 72px;}
 .healthcare-list{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; color: var(--slate-color);}
 .healthcare-thumb{margin-bottom: 20px;}
+.healthcare-list p{margin-bottom: 20px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
