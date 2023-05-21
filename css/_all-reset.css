@@ -108,7 +108,7 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.white{color: var(--white); border-color: var(--privacy-color);}
 .button.white:hover:after{background-color: var(--privacy-color);}
 
-.text-link{padding-right: 50px; font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block; font-family: 'Gothma-Bold', sans-serif;}
+.text-link{padding-right: 50px; font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('../images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 
