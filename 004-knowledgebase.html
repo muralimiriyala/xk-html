@@ -24,11 +24,26 @@
     <div class="logo pos-relative">
         <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
     </div>
+    <nav class="navigation flex">
+        <ul class="main-menu flex">
+            <li><a href="">Solutions</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Knowledge Base</a></li>
+            <li><a href="">News & Events</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <div class="nav-right flex">
+        <span class="nav-rule"></span>
+            <ul class="nav-users flex">
+                <li><a href="#">@</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+    </nav>
 </div>
 </div>
 </header>
 <main class="main-content">
-
 <section class="knowledgebase-section">
     <div class="container">
         <div class="knowledgebase-main">
@@ -36,10 +51,10 @@
                 <span class="optional-text">Knowledge Base</span>
                 <h1>Headline focused on <span>learning.</span></h1>
                 <p>A brief introduction could appear here if necessary at netus elit convallis nibh donec in feugiat libero euismod risus egestas eu in sit ut. Tortor in vitae libero magnis cursus justog fermentum tortor.</p>
-                <form class="knowledgebase-form flex" action="">
-                    <input type="search" placeholder="search">
-                    <div class="know-searh-btn">
-                        <span class="fa-regular fa-magnify glass"></span>
+                <form class="knowledgebase-form flex pos-relative" action="">
+                    <input type="search" placeholder="Search">
+                    <div class="knowledge-srch-btn">
+                        <span class="search-icon"></span>
                         <input type="submit" value="submit">
                     </div>
                 </form>
@@ -105,9 +120,14 @@
                     </div>
                     <div class="training-content">
                         <p>A concise article or documentation title appears here on a few lines as needed to fit.</p>
-                        <ul class="tag-links flex">
-                            <li><a href="#">optional tag</a></li>
-                        </ul>
+                        <div class="tag-links-main flex">
+                            <ul class="tag-links flex">
+                                <li><a href="#">optional tag</a></li>
+                            </ul>
+                            <div class="tag-link-btn">
+                                <a href="#"><span class="fa-regular fa-arrow-right-long"></span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="training-list flex">
@@ -479,6 +499,51 @@
     </div>
 </section>
 
+<footer class="footer-main">
+<div class="container">
+    <div class="footer flex">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <a href="#"><img src="images/logo-white.svg" alt="logo-white"></a>
+            </div>
+            <div class="footer-desc">
+                <p>A short positioning statement goes here  varius mauris et hendrerit loreet viverra sit arcu blandit congue neque proin ultricies lectus feugiat porttitor nibh molestie sapien nibh sit adipiscing at.</p>
+            </div>
+            <ul class="copyright-links flex">
+                <li><a href="#" class="button">Technical Support</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+            <div class="copyrights-text">
+                <p>Copyright ©2023 Xandar Kardian Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="footer-right flex">
+            <div class="footer-list">
+                <span class="optional-text electric">Healthcare</span>
+                <ul class="footer-links">
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/long-term-icon.svg" alt="long-term-icon"></figure><span>Long Term Care</span></a></li>
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/accurate-icon.svg" alt="onaccurate-ic"></figure><span>Acute Care</span></a></li>
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/home-icon.svg" alt="home-icon"></figure><span>Home Health Care</span></a></li>
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/correctional-icon.svg" alt="correctional-icon"></figure><span>Correctional Health</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <span class="optional-text electric">BUILT ENVIRONMENT</span>
+                <ul class="footer-links">
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/commercial-icon.svg" alt="commercial-icon"></figure><span>Commercial Real Estate</span></a></li>
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/hotels-icon.svg" alt="hotels-icon"></figure><span>Hotels</span></a></li>
+                    <li><a class="flex" href=""><figure class="footer-icon"><img src="images/security-icon.svg" alt="section-icon"></figure><span>Security & Infrastructure</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
 </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
+<script src="./dist/core.bundle.js"></script>
 </body>
 </html>
