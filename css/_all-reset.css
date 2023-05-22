@@ -107,9 +107,10 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 
 .btn-gray{background: rgba(0, 240, 255, 0.05);}
 
-.text-link{padding-right: 50px; font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
+.text-link{padding-right: 50px; color: var(--midnight-color); font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('../images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
+.text-link:hover{color: var(--electric-color);}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif;}
@@ -151,10 +152,10 @@ img.aligncenter{margin: 25px 0;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
 body{font-size: 16px; line-height: 32px; letter-spacing: -0.02em; font-family: 'Gotham-Book'; overflow: hidden; color: var(--slate-color); background-color: transparent;}
-span.optional-text{margin-bottom: 22px; color: #0a0a1e; font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; opacity: 0.5}
+span.optional-text{margin-bottom: 22px; color: var(--midnight-50); font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 span.optional-text.black{margin-bottom: 46px; padding-right: 80px; text-align: right; color: var(--slate-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--midnight-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
-span.optional-text.electric{color: var(--electric-color); letter-spacing: 0.2em; opacity: 1;}
+span.optional-text.electric{color: var(--electric-color); letter-spacing: 0.2em;}
 
 
 .pos-relative{position: relative;}
@@ -201,6 +202,9 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
     }
 }
 .full_width{width: 100% !important; max-width: 100% !important; flex: 0 0 100% !important; margin-left: 0 !important; margin-right: 0 !important; float: none !important; display: block !important; padding-left: 0 !important; padding-right: 0 !important; left: 0 !important;}
+.f-500{font-family: 'Gotham-Medium', sans-serif;}
+.f-700{font-family: 'Gotham-Bold', sans-serif;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

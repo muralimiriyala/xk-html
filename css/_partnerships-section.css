@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+.partnerships-main{padding: 80px 0;}
+.partnerships-text{color: var(--midnight-color); font-size: 14px; line-height: 22px;}
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .partnerships-main{gap: 80px;}
+    .partnerships-text{flex: 0 0 calc(50% - 40px);}
+    .partnerships-logos{flex: 0 0 calc(50% - 40px); border-left: 2px solid var(--electric-color);}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
