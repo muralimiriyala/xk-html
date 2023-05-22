@@ -6,10 +6,10 @@
 .short-intro-desc{padding: 0 80px;}
 .short-intro-desc::before{content: ""; display: block; position: absolute; left: 0px; border: 1px solid #00d2e1; height: 100%; min-height: 214px;}
 .short-intro-desc::after{content: ""; display: block; position: absolute; right: 0px; top: 0; border: 1px solid #00d2e1; height: 100%; min-height: 214px;}
-.short-intro-icon{margin-bottom: 17px;}
+.short-intro-icon{margin-bottom: 18px;}
+.short-intro-list{font-size:14px ; line-height:  22px; letter-spacing: -0.28px;}
 .short-intro-list span{display: block; font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-weight: bold; margin-bottom: 20px;}
-.short-intro-list p{font-size:14px ; line-height:  22px; letter-spacing: -0.28px;}
-
+.short-intro-list p:not(:last-child){margin-bottom: 18px;}
 
 
 @media only screen and (min-width: 1024px){ 
