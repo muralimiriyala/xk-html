@@ -84,7 +84,11 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .browse-logos-list{gap: 20px; padding: 20px;}
 
     .training-list{margin-bottom: 30px;}
+    .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
+    .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
 
+<<<<<<< HEAD
+=======
     .training-list::after {
        
         width: 100%;
@@ -93,4 +97,5 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
         
 }
 
+>>>>>>> cf7e1673d7be6e9402979485a73c2109deebb753
 }
