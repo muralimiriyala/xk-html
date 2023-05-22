@@ -25,10 +25,10 @@
 .training-section:last-child .training-main{border-bottom: none;}
 .training-head{margin-bottom: 34px;}
 .training-right{text-align: right;}
-.training-left span{opacity: 1}
+.training-left span{color: var(--midnight-color);}
 .training-row{margin-bottom: 53px;}
 .training-list{padding: 18px 20px; position: relative; z-index: 1;}
-.training-list::before{content: ""; display: block; background-image: url("images/training-edu-image.svg");  width: 68px; height: 132px; position: absolute; top:0; left: 0; z-index: -1; }
+.training-list::before{content: ""; display: block; position: absolute; top:0; left: 0; z-index: -1; }
 .training-list::after{background-color: var(--white); width: calc(100% - 68px); left: 68px; height: 100%; content: ""; position: absolute; z-index: -1; top: 0;} 
 .training-content{letter-spacing: -0.36px;}
 .training-content p{margin-bottom: 14px;}
@@ -56,6 +56,7 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .training-right{flex: 50%;}
     .training-row{gap: 40px;}
     .training-list{flex: 0 0 calc(50% - 20px); gap: 20px;}
+    .training-list::before{content: ""; display: block; background-image: url("images/training-edu-image.svg");  width: 68px; height: 132px; position: absolute; top:0; left: 0; z-index: -1; }
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
 }
@@ -79,23 +80,26 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .training-content{flex: 0 0 calc(100% - 116px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 375px){
-    .knowledgebase-main{padding: 120px 0 95px;}
-     .browse-logos-main{padding: 0 0 30px;}
-    .browse-logos-list{gap: 20px; padding: 20px;}
+    .knowledgebase-main{padding: 120px 20px 95px;}
+    .knowledgebase-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -0.8px;
+        margin-bottom: 24px;
+      }
+    .knowledgebase-text p{margin-bottom: 30px;}
 
-    .training-list{margin-bottom: 30px;}
+    .browse-logos-main{padding: 0 0 30px;}
+    .browse-logos-list{gap: 20px; padding: 16px;}
+
+    .training-head { margin-bottom: 18px;}
+    .training-left span{margin-bottom: 16px;}
+    .training-row{margin-bottom: 0;}
+    .training-list{margin-bottom: 32px; line-height: 24px; gap: 20px;}
     .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
     .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
+    
+    
 
-<<<<<<< HEAD
-=======
-    .training-list::after {
-       
-        width: 100%;
-        left: 0px;
-        height: 100%;
-        
-}
-
->>>>>>> cf7e1673d7be6e9402979485a73c2109deebb753
 }
