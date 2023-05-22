@@ -1,0 +1,22 @@
+
+
+.expertise-main{padding: 80px 0;}
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .expertise-head{gap: 250px;}
+    .expertise-title{flex: 0 0 calc(100% - 435px);}
+    .expertise-btn{flex: 0 0 185px; padding-top: 3px; text-align: right;}
+}
+
+
+
+
+
+
+
+
+
+
+
