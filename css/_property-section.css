@@ -1,8 +1,5 @@
 
-
-
-
-
+.property-main{padding: 80px 0 0;}
 .property-image{margin-bottom: 44px;}
 .property-text{font-size: 16px; line-height: 1.5; color: var(--midnight-color);}
 .property-text hr{max-width: 112px;}
