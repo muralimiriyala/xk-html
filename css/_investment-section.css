@@ -1,0 +1,30 @@
+
+
+.investment-main{padding: 80px 0;}
+
+
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .investment-main{gap: 80px;}
+    .investment-image{flex: 0 0 600px;}
+    .investment-text{flex: 0 0 calc(100% - 680px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
