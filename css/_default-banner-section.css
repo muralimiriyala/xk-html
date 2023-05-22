@@ -2,9 +2,8 @@
 
 
 .default-banner-main{padding: 187px 0;}
-.default-banner-text{max-width: 530px; padding: 64px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);} 
-
-
+.default-banner-text{max-width: 530px; padding: 64px; font-size: 18px; line-height: 26px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);} 
+.default-banner-text h1{font-size: 40px; line-height: 48px;}
 
 
 
