@@ -1,0 +1,23 @@
+
+
+
+
+
+.property-image{margin-bottom: 44px;}
+.property-text{font-size: 16px; line-height: 1.5; color: var(--midnight-color);}
+.property-text hr{max-width: 112px;}
+ul.property-links > li{margin: 0; color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif;}
+ul.property-links > li::before{display: none;}
+
+
+/* media css starts here */
+@media only screen and (min-width: 768px){
+    ul.property-links{margin: 0; gap: 24px;}
+    ul.property-links > li{flex: 0 0 calc(50% - 12px);}
+    
+}
+@media only screen and (min-width: 1024px){
+    .property-main{gap: 80px;}
+    .property-list{flex: 0 0 calc(50% - 40px);}
+}
+
