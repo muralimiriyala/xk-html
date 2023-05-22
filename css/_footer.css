@@ -1,13 +1,8 @@
 
-
-
-
-
 .footer-main{background-color: var(--midnight-color); color: var(--white);}
 .footer{padding: 80px 0;}
-.footer-logo{margin-bottom: 80px;}
-.footer-desc{margin-bottom: 80px; font-size: 24px; line-height: 36px;}
-ul.copyright-links{margin: 0 0 80px; gap: 0 49px;}
+.footer-desc{font-size: 20px; line-height: 32px;}
+ul.copyright-links{margin: 0;}
 ul.copyright-links li{margin: 0;}
 ul.copyright-links li::before{display: none;}
 ul.copyright-links li a:not(.button){font-size: 12px; line-height: 20px; color: var(--white-50);}
@@ -18,18 +13,41 @@ ul.footer-links > li::before{display: none;}
 ul.footer-links > li{margin-bottom: 24px;}
 ul.footer-links > li > a{color: var(--white); font-size: 1rem; line-height: 1.5;}
 ul.footer-links > li > a:hover{color: var(--electric-color);}
-ul.footer-links > li > span{flex: 1;}
+ul.footer-links > li span{flex: 1;}
 .footer-icon{width: 25px; flex: 0 0 25px; margin-right: 16px;}
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
-    .footer{gap: 144px;;}
+@media only screen and (min-width: 1300px){
+    .footer{gap: 0 136px;;}
     .footer-left{flex: 0 0 600px;}
-    .footer-right{flex: 0 0 calc(100% - 744px); gap: 44px;}
-    .footer-list{flex: 0 0 calc(50% - 22px);}
+    .footer-right{flex: 0 0 calc(100% - 736px); gap: 17px;}
+    .footer-list{flex: 0 0 calc(50% - 20px);}
+    .footer-logo{margin-bottom: 80px;}
+    .footer-desc{margin-bottom: 80px; font-size: 24px; line-height: 36px;}
+    ul.copyright-links{margin: 0 0 80px; gap: 20px 49px;}
 }
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .footer{gap: 60px;}
+    .footer-left{flex: 0 0 450px;}
+    .footer-right{flex: 0 0 calc(100% - 510px); gap: 20px;}
+    .footer-list{flex: 0 0 calc(50% - 10px);}
+    .footer-logo{margin-bottom: 40px;}
+    .footer-desc{margin-bottom: 40px;}
+    ul.copyright-links{margin: 0 0 40px; gap: 20px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .footer{padding: 40px 0 0; display: block;}
+    .footer-logo{margin-bottom: 38px;}
+    .footer-left{margin-bottom: 39px;}
+    .footer-right{display: block;}
+    .footer-list{margin-bottom: 39px;}
+    ul.footer-links > li{margin-bottom: 22px;}
+    ul.copyright-links{gap: 24px; margin-bottom: 30px;}
+    ul.copyright-links li:first-child{flex: 0 0 100%;}
+    ul.copyright-links li .button{width: 100%;}
+    ul.copyright-links li{flex: 1;}
+}
 
 
 

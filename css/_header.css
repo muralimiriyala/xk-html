@@ -29,9 +29,9 @@
     .fixed-header ul.nav-users li a{color: var(--white);}
     .main-content{padding-top: 88px;}
 }
-
-
-
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .navigation{display: none;}
+}
 
 
 
