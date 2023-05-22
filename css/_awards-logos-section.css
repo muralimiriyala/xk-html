@@ -5,11 +5,9 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-
-.awards-logos-row{gap: 121px;}
-.awards-logos-list{flex: 0 0 calc(14.28% - 104px);}
-.awards-logos-text{order: 1; flex: 0 0 50%;}
-.awards-logos-row{order: 3; padding-top: 57px;}
-.awards-logos-btn{order: 2; flex: 0 0 50%; text-align: right;}
-
+    .awards-logos-row{gap: 121px;}
+    .awards-logos-list{flex: 0 0 calc(14.28% - 104px);}
+    .awards-logos-text{order: 1; flex: 0 0 50%;}
+    .awards-logos-row{order: 3; padding-top: 57px;}
+    .awards-logos-btn{order: 2; flex: 0 0 50%; text-align: right;}
 }
