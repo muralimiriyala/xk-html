@@ -6,6 +6,7 @@ ul.copyright-links{margin: 0;}
 ul.copyright-links li{margin: 0;}
 ul.copyright-links li::before{display: none;}
 ul.copyright-links li a:not(.button){font-size: 12px; line-height: 20px; color: var(--white-50);}
+ul.copyright-links li a:not(.button):hover{color: var(--electric-color);}
 .copyrights{font-size: 12px; line-height: 20px; letter-spacing: -0.02em;}
 .copyrights-text{font-size: 12px; line-height: 20px; color: var(--white-80); font-family: 'Gotham-Medium', sans-serif;}
 ul.footer-links{margin: 0;}
@@ -36,8 +37,16 @@ ul.footer-links > li span{flex: 1;}
     .footer-desc{margin-bottom: 40px;}
     ul.copyright-links{margin: 0 0 40px; gap: 20px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 200px){
-    .footer{padding: 40px 0 0; display: block;}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .footer{padding: 60px 0 59px; display: block;}
+    .footer-logo{margin-bottom: 38px;}
+    .footer-left{margin-bottom: 39px;}
+    .footer-right{gap: 50px; margin-bottom: 30px;}
+    .footer-list{flex: 0 0 calc(50% - 25px);}
+    ul.copyright-links{margin: 0 0 40px; gap: 20px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .footer{padding: 40px 0 39px; display: block;}
     .footer-logo{margin-bottom: 38px;}
     .footer-left{margin-bottom: 39px;}
     .footer-right{display: block;}
