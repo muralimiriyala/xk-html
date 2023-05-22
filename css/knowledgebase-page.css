@@ -86,11 +86,6 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
 
     .training-list{margin-bottom: 30px;}
     .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
-    .training-list::after {
-       
-        width: 100%;
-        left: 0px;
-        top: 68px;
-        
-}
+    .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
 
+}
