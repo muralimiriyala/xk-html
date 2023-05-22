@@ -19,7 +19,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--black);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--slate-color);}
 address { margin-bottom: 9px;}
 abbr[title] {border-bottom: 1px dotted #2b2b2b; cursor: help;}
-b, strong {font-weight: 700;}
+b, strong {font-weight: normal; font-family: 'Gotham-Bold', sans-serif;}
 cite, dfn, em, i {font-style: italic;}
 mark, ins {background: #fff9c0; text-decoration: none;}
 p {margin-bottom: 26px;}
@@ -94,7 +94,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 1rem; line-height: 1.5; letter-spacing: 0.2em; padding: 8px 12px 8px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Book', sans-serif; transform: translate3d(0.05px, 0.05px, 0px) scale(1); text-transform: uppercase; transition: all 0.45s ease-in-out;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 14px; line-height: 1.5; letter-spacing: 0.2em; padding: 9px 17px 10px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Medium', sans-serif; text-transform: uppercase; transition: all 0.45s ease-in-out;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--electric-color); color: var(--white);}
 
 .button.btn-transparent{padding: 6px 10px; background-color: transparent; border: 2px solid var(--health-color); color: var(--slate-color);}
@@ -104,6 +104,8 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.black:hover{color: var(--white);}
 .button.white{color: var(--white); border-color: var(--privacy-color);}
 .button.white:hover:after{background-color: var(--privacy-color);}
+
+.btn-gray{background: rgba(0, 240, 255, 0.05);}
 
 .text-link{padding-right: 50px; font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}

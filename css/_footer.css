@@ -7,23 +7,26 @@
 .footer{padding: 80px 0;}
 .footer-logo{margin-bottom: 80px;}
 .footer-desc{margin-bottom: 80px; font-size: 24px; line-height: 36px;}
-ul.copyright-links{margin: 0; gap: 49px;}
+ul.copyright-links{margin: 0 0 80px; gap: 0 49px;}
+ul.copyright-links li{margin: 0;}
 ul.copyright-links li::before{display: none;}
 ul.copyright-links li a:not(.button){font-size: 12px; line-height: 20px; color: var(--white-50);}
 .copyrights{font-size: 12px; line-height: 20px; letter-spacing: -0.02em;}
-.copyrights-text{font-size: 12px; line-height: 20px;}
+.copyrights-text{font-size: 12px; line-height: 20px; color: var(--white-80); font-family: 'Gotham-Medium', sans-serif;}
 ul.footer-links{margin: 0;}
 ul.footer-links > li::before{display: none;}
 ul.footer-links > li{margin-bottom: 24px;}
 ul.footer-links > li > a{color: var(--white); font-size: 1rem; line-height: 1.5;}
+ul.footer-links > li > a:hover{color: var(--electric-color);}
 ul.footer-links > li > span{flex: 1;}
 .footer-icon{width: 25px; flex: 0 0 25px; margin-right: 16px;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .footer{gap: 80px;;}
+    .footer{gap: 144px;;}
     .footer-left{flex: 0 0 600px;}
-    .footer-right{flex: 0 0 calc(100% - 680px); gap: 44px;}
+    .footer-right{flex: 0 0 calc(100% - 744px); gap: 44px;}
     .footer-list{flex: 0 0 calc(50% - 22px);}
 }
 
