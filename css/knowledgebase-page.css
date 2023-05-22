@@ -1,7 +1,6 @@
 /* knowledgebase section */
 .knowledgebase-main{padding: 120px 0;}
 .knowledgebase-text{margin: auto;  font-size: 16px; font-weight: 325; color: #0a0a1e; line-height: 24px; text-align: center; letter-spacing: -0.32px;}
-.optional-text{display: block; font-size: 14px; font-weight: 400; line-height: 22px; color: #0a0a1e; opacity: 0.5; margin-bottom: 24PX; text-transform: uppercase; letter-spacing: 0.2em;}
 .knowledgebase-text h1{font-size: 48px; font-weight: 400; line-height: 56px; letter-spacing: -0.02em; margin-bottom: 28px;}
 .knowledgebase-text p{margin-bottom: 28px;}
 
@@ -94,3 +93,4 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
         
 }
 
+}
