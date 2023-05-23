@@ -1,16 +1,35 @@
 
 
-/* Leadership section */
-.leadership-main{padding: 56px 0;}
-.leadership-head h3{letter-spacing: -0.64px; margin-bottom: 48px;}
-.leadership-text{background-color: rgba(255, 255, 255, 0.8); width: 100%; height: auto; max-width: 332px; bottom: 0; left: 32px;padding: 22px 32px; position: absolute; -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px #00d2e1;}
-.leadership-desc{display: none;}
+
+.leadership-main{padding: 30px 0 79px;}
+.leadership-last-section .leadership-main{padding-bottom: 56px;}
+.leadership-head{margin-bottom: 51px;}
+.leadership-head h2{font-size: 32px; line-height: 40px; margin-bottom: 0;}
+ul.leadership-tags{margin: 0; top: 0; right: 0; gap: 10px; width: 100%; position: absolute; justify-content: flex-end;}
+ul.leadership-tags > li::before{display: none;}
+ul.leadership-tags > li{margin: 0;}
+ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12px; line-height: 12px; padding: 5px 8px 7px 8px; font-weight: 500; font-family: 'Gotham-Medium', sans-serif; text-transform: capitalize; color: #0a0a1e; display: inline-block; vertical-align: top;}
+
+
+.leadership-text { width: calc(100% - 64px); height: auto; bottom: 0; left: 0; right: 0; margin: 0 auto; padding: 22px 32px; max-height: calc(100% - 30px); background-color: var(--white-80); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px var(--electric-color); position: absolute; z-index: 1; overflow-y: auto; -webkit-overflow-scrolling: touch;}
+.leadership-desc{display: none; padding-top: 21px; font-size: 14px; line-height: 22px;}
 .leadership-pos h4{letter-spacing: -0.48px; margin-bottom: 4px;}
 .leadership-pos span{display: block; font-size: 20px; line-height: 32px; letter-spacing: -0.4px; opacity: 0.5; margin-bottom: 4px;}
-.leadership-list:hover .leadership-desc{display: block;}
+
 
 /* media  css starts here */
 @media only screen and (min-width: 1024px){
+    .leadership-head{gap: 20px;}
+    .leadership-title{flex: 1;}
     .leadership-row{gap: 48px;}
     .leadership-list{flex: 0 0 calc(33.33% - 32px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .leadership-row{gap: 48px;}
+    .leadership-list{flex: 0 0 calc(50% - 24px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .leadership-row{display: block;}
+    .leadership-list{margin-bottom: 40px;}
+    .leadership-text{width: calc(100% - 52px);}
 }

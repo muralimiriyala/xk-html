@@ -15,7 +15,7 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    
+    .default-banner-line{width: 1px; height: 100%; left: -23px; bottom: 0; background-color: var(--electric-color); position: absolute;}
 }
 
 
