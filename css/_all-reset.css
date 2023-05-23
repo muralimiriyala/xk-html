@@ -14,7 +14,8 @@ h3 {font-size: 32px; line-height: 40px; margin-bottom: 20px;}
 h4 {font-size: 24px; line-height: 28px; margin-bottom: 16px;}
 h5 {font-size: 20px; line-height: 24px; margin-bottom: 14px;}
 h6 {font-size: 1rem; line-height: 26px; margin-bottom: 8px;}
-h1 span{background-position: 0 0; background-image: linear-gradient(to top, var(--electric-color) 20px, transparent 0px);}
+h1 span{position: relative; font-family: 'Gotham-Bold', sans-serif;}
+h1 span::after{width: calc(100% + 12px); height: 20px; bottom: 2px; left: -6px; background-color: var(--electric-color); content: ""; display: block; position: absolute; z-index: -1;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--black);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--slate-color);}
 address { margin-bottom: 9px;}
@@ -105,11 +106,14 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .button.white{color: var(--white); border-color: var(--privacy-color);}
 .button.white:hover:after{background-color: var(--privacy-color);}
 
+.button.electric{background-color: var(--electric-color); color: var(--midnight-color);}
+.button.electric:hover{background-color: var(--midnight-color); color: var(--electric-color);}
+
 .btn-gray{background: rgba(0, 240, 255, 0.05);}
 
-.text-link{padding-right: 50px; color: var(--midnight-color); font-size: 12px; line-height: 12px; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
+.text-link{padding-right: 50px; color: var(--midnight-color); font-size: 12px; line-height: 12px; letter-spacing: 0.2em; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
-.text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('../images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
+.text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('./images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 .text-link:hover{color: var(--electric-color);}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
@@ -153,7 +157,7 @@ img.aligncenter{margin: 25px 0;}
 
 body{font-size: 16px; line-height: 32px; letter-spacing: -0.02em; font-family: 'Gotham-Book'; overflow: hidden; color: var(--slate-color); background-color: transparent;}
 span.optional-text{margin-bottom: 22px; color: var(--midnight-50); font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
-span.optional-text.black{margin-bottom: 46px; padding-right: 80px; text-align: right; color: var(--slate-color);}
+span.optional-text.black{margin-bottom: 46px; padding-right: 80px; color: var(--slate-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--midnight-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
 span.optional-text.electric{color: var(--electric-color); letter-spacing: 0.2em;}
 

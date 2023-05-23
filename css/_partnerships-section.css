@@ -1,23 +1,25 @@
 
-
-
-
-
-
-
 .partnerships-main{padding: 80px 0;}
 .partnerships-text{color: var(--midnight-color); font-size: 14px; line-height: 22px;}
+.partnerships-text span.optional-text{margin-bottom: 38px;}
+.partnerships-text h2{margin-bottom: 50px;}
+.partnerships-text .button{margin-top: 38px;}
 
-
-
-
+ul.partnerships-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif;}
+ul.partnerships-links > li::before{display: none;}
+.partnerships-icon{flex: 0 0 24px; width: 24px;}
+.partnerships-icon-text{flex: 0 0 calc(100% - 42px);}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    ul.partnerships-links{margin: 0; gap: 24px;}
+    ul.partnerships-links > li{flex: 0 0 calc(50% - 12px);}
+}
 @media only screen and (min-width: 1024px){
     .partnerships-main{gap: 80px;}
-    .partnerships-text{flex: 0 0 calc(50% - 40px);}
-    .partnerships-logos{flex: 0 0 calc(50% - 40px); border-left: 2px solid var(--electric-color);}
-
+    .partnerships-text{flex: 0 0 560px;}
+    .partnerships-logos{flex: 0 0 calc(100% - 640px); padding-left: 80px; gap: 36px 56px; border-left: 2px solid var(--electric-color);}
+    .partnerships-logo{flex: 0 0 calc(33.3333% - 38px);}
 }
 
 
