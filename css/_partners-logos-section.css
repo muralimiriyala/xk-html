@@ -7,17 +7,18 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){ 
-    ul.partners-links{gap: 40px;}
+    ul.partners-links{gap: 40px; margin-bottom: 46px;}
     ul.partners-links > li{flex: 0 0 calc(20% - 32px);}
     .partners-icon-list{flex: 0 0 calc(20% - 40px); gap: 20px;}
     .partners-icon-text{flex: 0 0 calc(100% - 44px);}
     .partners-icon{flex: 0 0 24px;}
 
-    .partners-logos-head{gap: 0 245px;}
+    .partners-logos-head{gap: 0 245px; margin-bottom: 51px;}
     .partners-logos-title{flex: 0 0 calc(100% - 425px);}
     .partners-logos-btn{flex: 0 0 180px;}
+    .partners-logos-title h2{margin-bottom: 0;}
 
-    .partners-logos-row{gap: 96px;}
+    .partners-logos-row{gap: 38px 96px;}
     .partners-logos-list{flex: 0 0 calc(20% - 77px);}
 }
 
