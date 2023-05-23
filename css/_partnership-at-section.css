@@ -10,13 +10,20 @@
 
 
 /* media css starts here */
-@media only screen and (min-width: 1024px){ 
+@media only screen and (min-width: 1024px){
+    .partnership-at-main{flex-direction: row-reverse;} 
     .partnership-at-main{gap: 80px;}
     .partnership-at-text{flex: 0 0 600px;}
     .partnership-at-image{flex: 0 0 calc(100% - 680px);}
     .custom-avatar{gap: 24px;}
     .avatar-image{flex: 0 0 88px;}
     .avatar-text{flex: 0 0 calc(100% - 112px); padding-left: 24px;}
+
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .partnership-at-main {gap: 45px;}
+    .partnership-at-text {flex: 0 0 500px;}
+    .partnership-at-image {flex: 0 0 calc(100% - 545px);}
 
 }
 
