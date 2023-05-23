@@ -1,19 +1,27 @@
 
 .careers-cta-wrap{padding: 56px 0 80px;}
 .careers-cta-main{z-index: 1;}
+.careers-cta-bg video{width: 100%; height: 100%;}
 
 /* media  css starts here */
 @media only screen and (min-width: 1024px){
-    .careers-cta-bg video{width: 100%; height: 100%; margin: 0; object-fit: cover;}
+    .careers-cta-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
     .careers-cta-pos{width: calc(100% - 427px); height: 100%; position: relative; z-index: 2; clip-path: polygon(0 0%, 100% 0, 64.5% 100%, 0% 100%); background-color: var(--electric-75); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);}
     .careers-cta-text{padding: 80px; max-width: 580px; font-size: 16px; line-height: 24px;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .careers-cta-pos{width: calc(100% - 227px); clip-path: polygon(0 0%,95% 0,70% 100%,0% 100%);}
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .careers-cta-bg{position: relative; overflow: hidden;}
+    .careers-cta-bg::after { width: 100%; height: 96px; bottom: 0; left: 0; clip-path: polygon(0 0, 55% 55%, 100% 100%, 0% 100%); background: linear-gradient(to bottom, rgba(0, 210, 225, 0) 0%, var(--electric-color) 100%); content: ""; display: block; position: absolute; }
+    .careers-cta-pos{background-color: var(--electric-color);}
+    .careers-cta-text{padding: 20px;}
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .careers-cta-bg{position: relative; max-height: 223px; overflow: hidden;}
-    .careers-cta-bg video{margin: 0; min-height: 223px;}
-    .careers-cta-pos{clip-path: polygon(0 0%, 100% 0, 64.5% 100%, 0% 100%); background-color: var(--electric-75);}
+    .careers-cta-bg{position: relative; overflow: hidden;}
+    .careers-cta-bg::after { width: 100%; height: 96px; bottom: 0; left: 0; clip-path: polygon(0 0, 55% 55%, 100% 100%, 0% 100%); background: linear-gradient(to bottom, rgba(0, 210, 225, 0) 0%, var(--electric-color) 100%); content: ""; display: block; position: absolute; }
+    .careers-cta-bg video{ min-height: 223px;}
+    .careers-cta-pos{background-color: var(--electric-color);}
     .careers-cta-text{padding: 20px;}
 }
