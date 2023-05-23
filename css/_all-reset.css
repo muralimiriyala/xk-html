@@ -123,7 +123,7 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 :-ms-input-placeholder {color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif; opacity: 1;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
-embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
+embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
 
 /* Alignment */
