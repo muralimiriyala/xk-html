@@ -1,12 +1,11 @@
 .partnership-at-main{padding: 80px 0;}
-.partnership-at-text{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; color: #2b2c2d; font-family: Gotham-Medium;} 
-.partnership-at-text p{margin-bottom: 24px;}
-.partnership-at-icon{margin-bottom: 26px;}
-.avatar-name{font-size: 18px; line-height: 22px; letter-spacing: -0.36px; color: var(--midnight-color);}  
+.partnership-at-desc{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; color: var(--dark-color);} 
+.partnership-at-desc p{margin-bottom: 24px;}
+.partnership-at-icon{margin-bottom: 26px; max-width: 24px;}
+.partnership-at-icon img{width: 100%; object-fit: cover;}
+.avatar-name{font-size: 18px; line-height: 22px; letter-spacing: -0.36px; color: var(--midnight-color); display: block;}  
 .avatar-text p{font-size: 16px; line-height: 24px; letter-spacing: -0.32px; opacity: 0.5;}
-.avatar-text::before{content: ""; display: block; position: absolute; left: -24px; top: 50%; transform: translatey(-50%);height: 100%; min-height: 88px; border: 1px solid var(--electric-color);}
-
-
+.avatar-text::before{content: ""; display: block; position: absolute; left: 0; top: 50%; transform: translatey(-50%);height: 100%; min-height: 88px; border: 1px solid var(--electric-color);}
 
 
 /* media css starts here */
@@ -14,9 +13,9 @@
     .partnership-at-main{gap: 80px;}
     .partnership-at-text{flex: 0 0 600px;}
     .partnership-at-image{flex: 0 0 calc(100% - 680px);}
-    .custom-avatar{gap: 50px;}
+    .custom-avatar{gap: 24px;}
     .avatar-image{flex: 0 0 88px;}
-    .avatar-text{flex: 0 0 calc(100% - 138px);}
+    .avatar-text{flex: 0 0 calc(100% - 112px); padding-left: 24px;}
 
 }
 
