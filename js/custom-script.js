@@ -23,15 +23,15 @@ jQuery(window).on("load resize orientationchange", function() {
     }
 });
 jQuery(document).ready(function(){
-    $('ul.financial-qlinks li:first a').addClass("active");
-    $(".financial-row:first").addClass("current-q");
-    $('ul.financial-qlinks li a').on('click', function(e){
+    jQuery('ul.financial-qlinks li:first a').addClass("active");
+    jQuery(".financial-row:first").addClass("current-q");
+    jQuery('ul.financial-qlinks li a').on('click', function(e){
         e.preventDefault();
-        $(this).parent().siblings().find('a').removeClass('active');
-        $(this).addClass('active');
-        var attrName = $(this).attr("data-name");
-        $(".financial-row").removeClass("current-q").hide();
-        $('.financial-row[data-target="' + attrName + '"]').fadeIn("normal");
+        jQuery(this).parent().siblings().find('a').removeClass('active');
+        jQuery(this).addClass('active');
+        var attrName = jQuery(this).attr("data-name");
+        jQuery(".financial-row").removeClass("current-q").hide();
+        jQuery('.financial-row[data-target="' + attrName + '"]').fadeIn(1000);
     });
 });
 
