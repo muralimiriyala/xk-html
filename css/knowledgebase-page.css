@@ -51,7 +51,6 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .knowledgebase-text{width: 768px;}
     .browse-logos-row{gap: 32px;}
     .browse-logos-list{flex: 0 0 calc(20% - 26px); gap: 20px; padding: 40px 32px; }
-
     .training-left{flex: 50%;}
     .training-right{flex: 50%;}
     .training-row{gap: 40px;}
@@ -66,13 +65,10 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .browse-logos-list {flex: 0 0 calc(20% - 20px); gap: 10px;padding: 35px 10px;}
     .browse-icon-text{font-size: 18px;}
     .training-content p{margin-bottom: 6px;}
-
-    
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .browse-logos-row{gap: 30px;}
     .browse-logos-list{flex: 0 0 calc(33.33% - 20px); gap: 20px; font-size: 18px; padding: 40px 32px; }
-
     .training-right{flex: 50%;}
     .training-row{display: block; margin-bottom: 45px;}
     .training-list{margin-bottom: 30px;}
@@ -81,25 +77,21 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
 }
 @media only screen and (max-width: 767px) and (min-width: 375px){
     .knowledgebase-main{padding: 120px 20px 95px;}
-    .knowledgebase-text h1 {
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 48px;
-        letter-spacing: -0.8px;
-        margin-bottom: 24px;
-      }
+    .knowledgebase-text h1 {font-size: 40px; font-weight: 500; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 24px;}
     .knowledgebase-text p{margin-bottom: 30px;}
-
+    .browse-bg {background-image: none;}
     .browse-logos-main{padding: 0 0 30px;}
     .browse-logos-list{gap: 20px; padding: 16px;}
-
-    .training-head { margin-bottom: 18px;}
-    .training-left span{margin-bottom: 16px;}
+    .training-main{padding: 40px 0 50px;}
+    .training-head{display: block; margin-bottom: 40px;}
+    .training-left .optional-text{margin-bottom: 16px;}
+    .training-right{text-align: left;}
     .training-row{margin-bottom: 0;}
     .training-list{margin-bottom: 32px; line-height: 24px; gap: 20px;}
+    .training-list:last-child{margin-bottom: 28px;}
     .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
     .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
-    
+    .tag-links-main{margin-bottom: 10px;}
     
 
 }
