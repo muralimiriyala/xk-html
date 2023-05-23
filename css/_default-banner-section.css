@@ -1,11 +1,14 @@
 
 
+.product-xk-main{top: 50%; transform: translateY(-50%); right: -206px; max-width: 590px; max-height: 590px; position: absolute;}
+.product-waves{width: 590px; height: 590px; left: 50%; top: 50%; transform: translate(-50%, -50%); background-image: url('./images/xk-radar-sphere.svg'); background-repeat: no-repeat; background-size: contain; position: absolute; z-index: 1;}
+.xk-device{width: 414px; height: 419px; margin: 0 auto; filter: drop-shadow(-40px 40px 40px rgba(10, 10, 30, 0.25)); background-image: url('./images/xk-device.svg'); background-repeat: no-repeat; background-size: contain; display: block;}
 
 .default-banner-main{padding: 187px 0;}
-.default-banner-text{max-width: 530px; padding: 64px; font-size: 18px; line-height: 26px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);} 
-.default-banner-text h1{font-size: 40px; line-height: 48px;}
-
-
+.default-banner-text{max-width: 530px; padding: 63px 64px 64px; font-size: 18px; line-height: 26px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color);} 
+.default-banner-text span.optional-text{margin-bottom: 30px;}
+.default-banner-text h1{font-size: 40px; line-height: 48px; margin-bottom: 33px;}
+.default-banner-text p:not(:last-child){margin-bottom: 34px;}
 
 
 

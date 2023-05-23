@@ -1,14 +1,9 @@
 
-
-
-
-
-
-
 .partnerships-main{padding: 80px 0;}
 .partnerships-text{color: var(--midnight-color); font-size: 14px; line-height: 22px;}
 .partnerships-text span.optional-text{margin-bottom: 38px;}
 .partnerships-text h2{margin-bottom: 50px;}
+.partnerships-text .button{margin-top: 38px;}
 
 ul.partnerships-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif;}
 ul.partnerships-links > li::before{display: none;}
