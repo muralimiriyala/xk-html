@@ -1,12 +1,12 @@
 
 jQuery(window).on("load scroll", function(){
     let scroll = jQuery(this).scrollTop();
-    scroll > 4 ? jQuery(".main-header").addClass("fixed-header") :  jQuery(".main-header").removeClass("fixed-header");
+    scroll > 4 ? jQuery(".main-header").addClass("fixed-header") : jQuery(".main-header").removeClass("fixed-header");
 });
 jQuery(window).on("load resize orientationchange", function() {
     if(jQuery(window).width() >= 768){
         jQuery(".leadership-list").each(function() {
-            let $this = $(this).children('.leadership-text');
+            let $this = jQuery(this).children('.leadership-text');
             let descItem = $this.find(".leadership-desc");
             $this.hover(function() {
                 descItem.slideDown(1000);
