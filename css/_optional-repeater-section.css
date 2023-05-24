@@ -16,6 +16,18 @@
   .optional-repeater-text ul li{margin-bottom: 0;}
   .optional-repeater-text ul {margin-bottom: 0;}
 
+  .reverse .optional-repeater-main{flex-direction: row-reverse; padding: 40px 0 80px;}
+  .reverse .optional-xk-shape {
+    width: 515.93px;
+    height: 396.17px;
+    right: -258px;
+    top: 81px;
+    background-image: url('./images/xk-shape.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+  }
 
 
 /* media css starts here */
