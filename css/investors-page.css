@@ -32,6 +32,6 @@ span.right-arrow{margin-left: 6px; color: var(--white);}
     .financial-content{flex: 0 0 calc( 100% - 432px);}
     .financial-date{flex: 0 0 180px;}
     .financial-qlinks{flex: 0 0 calc(100% - 180px);}
-    .financial-list-btn{flex: 0 0 112px;}
-    .financial-list-heading{flex: 0 0 calc(100% - 112px);}
+    .financial-list-btn{flex: 0 0 118px;}
+    .financial-list-heading{flex: 0 0 calc(100% - 118px);}
 }
