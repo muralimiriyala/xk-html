@@ -2,7 +2,7 @@
 
 
 
-
+.big-feature-wrap{padding: 80px 0;}
 .big-feature-main{padding-left: 95px;}
 .feature-point{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; color: var(--slate-color); padding: 40px; left: 0; top: 50%; transform: translateY(-50%); max-width: 335px; position: absolute; border-left: 2px solid var(--electric-color);}
 .feature-point .optional-text{margin-bottom: 24px;}
