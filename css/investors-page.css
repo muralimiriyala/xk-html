@@ -17,7 +17,7 @@
 .financial-row.current-q{display: block;}
 .financial-list{background-color: var(--white); margin-bottom: 24px; padding: 14px 16px 15px 24px; border-left: solid 1px var(--electric-color);}
 .financial-list:last-child{margin-bottom:0;}
-.financial-list-heading h5{margin-bottom: 6px;}
+.financial-list-heading h5{margin-bottom: 10px;}
 .financial-category-main{margin: 0;}
 .financial-category-main li{font-size: 12px; font-weight: 500; line-height: 1.33; letter-spacing: 1.2px; border-left: solid 1px var(--electric-color); padding: 0 11px; text-transform: uppercase; margin-bottom: 0;}
 .financial-category-main li:before{display: none;}
