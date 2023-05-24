@@ -9,7 +9,8 @@ ul.custom-form-links li{margin: 0 0 2px 0; line-height: 1.57;}
 ul.custom-form-links li::before{display: none;}
 ul.custom-form-links li a{font-size: 14px; letter-spacing: -0.28px; color: var(--midnight-color); font-weight: 500; font-family: Gotham;}
 ul.custom-form-links li a:hover{color: var(--electric-color);}
-
+.common-form-icon{max-width: 24px;}
+.common-form-icon img{object-fit: cover;}
 
 
 @media screen and (min-width: 1024px) {
@@ -18,4 +19,5 @@ ul.custom-form-links li a:hover{color: var(--electric-color);}
     .common-form-right{flex: 0 0 calc(100% - 432px);}
     .common-person-image{width: 88px;}
     .common-person-text{width: calc(100% - 113px); padding-left: 24px;}
+    
 }
