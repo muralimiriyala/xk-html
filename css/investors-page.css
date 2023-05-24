@@ -26,6 +26,13 @@
 .financial-category-main li:first-child{padding-left: 0; border-left: none;}
 span.right-arrow{margin-left: 6px; color: var(--white);}
 
+.open-positions-bg{padding: 40px; background-image: url("./images/opens-bg.svg"); background-repeat: no-repeat; background-size: cover;}
+ul.positions-links{margin: 0;}
+ul.positions-links > li::before{display: none;}
+ul.positions-links > li > a { padding: 10px 15px; align-items: center; color: var(--midnight-color); background-color: var(--white); font-size: 18px; line-height: 22px; letter-spacing: -.36px; font-family: 'Gotham-Medium', sans-serif; }
+ul.positions-links > li > a.active, ul.positions-links > li > a:hover{background-color: var(--midnight-color); color: var(--white);}
+
+
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
     .financial-text{flex: 0 0 352px; margin-right: 80px;}
@@ -34,4 +41,22 @@ span.right-arrow{margin-left: 6px; color: var(--white);}
     .financial-qlinks{flex: 0 0 calc(100% - 180px);}
     .financial-list-btn{flex: 0 0 118px;}
     .financial-list-heading{flex: 0 0 calc(100% - 118px);}
+
+    .open-positions-bg{margin-bottom: 46px;}
+    ul.positions-links{gap: 40px;}
+    ul.positions-links > li{flex: 0 0 calc(20% - 32px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    ul.positions-links{gap: 40px;}
+    ul.positions-links > li{flex: 0 0 calc(33.3333% - 27px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .open-positions-bg{padding: 20px; margin-bottom: 40px; background-image: url("./images/opens-bg-mobile.svg");}
+    .positions-btn{gap: 20px; padding: 16px; font-size: 20px; line-height: 24px; background-color: var(--midnight-color); color: var(--white); display: flex; cursor: pointer; position: relative; align-items: center;}
+    .positions-btn-icon{width: 28px;}
+    .positions-btn-text{width: calc(100% - 48px);}
+    .positions-btn-icon img{width: 100%; object-fit: cover;}
+    .positions-btn::after{width: 24px; height: 24px; right: 16px; top: 50%; transform: translateY(-50%); background: url("./images/down-arrow.svg") no-repeat; background-size: cover; content: ""; display: block; position: absolute;}
+    .positions-btn.active::after{background-image: url("./images/up-arrow.svg");}
+    ul.positions-links{display: none; padding: 16px; top: calc(100% - 20px); width: calc(100% - 40px); height: auto; position: absolute; background-color: var(--white); box-shadow: 0 2px 1px #D0D0D0; z-index: 2;}
 }
