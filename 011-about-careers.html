@@ -156,11 +156,20 @@
             <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
             <a href="#" class="text-link pos-relative">MORE</a>
         </div>
-        <div class="big-feature-image">
+        <div class="big-feature-image pos-relative">
             <picture class="big-feature-thumb object-fit">
                 <source srcset="images/career-big-feature@2x.jpg" media="(min-width: 768px)">
                 <img src="images/big-feature-one@2x.jpg" alt="big-feature-one">
             </picture>
+            <div class="play-btn-main flex flex-center">
+                <div class="play-btn flex flex-center pos-relative">
+                    <a href="#" class="play-btn-bg flex flex-center">
+                        <span class="square"></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -179,7 +188,7 @@
             <div class="optional-repeater-text">
                 <h2>Company culture and vibe</h2>
                 <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed fermentum condimentum vestibulum. Amet fermentum integer tristique quam nulla duis volutpat etiam risus. Augue lectus congue tincidunt vestibulum euismod eleifend facilisis lectus amet.</p>
-                <ul>
+                <ul class="optional-list">
                     <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
                     <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
                     <li>Cursus eu imperdiet egestas ligula proin sit vitae blandit</li>
@@ -242,158 +251,202 @@
     </div>
 </section>
 <section class="financial-section">
-    <div class="container">
-        <div class="financial-main flex">
-            <div class="financial-text">
-                <span class="optional-text">Open Positions</span>
-                <h2>A short intro about open positions at XK appears in this spot here</h2>
-                <p>At netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut tortor in vitae libero magnis cursus justo fermentum tortor.</p>
-                <form action="" class="financial-form">
-                    <div class="financial-form-field">
-                        <select name="" id="">
-                            <option value="Optional Filter">Optional Filter</option>
-                            <option value="Optional Filter">Optional Filter</option>
-                            <option value="Optional Filter">Optional Filter</option>
-                        </select>
-                    </div>
-                    <div class="financial-form-field">
-                        <select name="" id="">
-                            <option value="Optional Filter">Optional Filter</option>
-                            <option value="Optional Filter">Optional Filter</option>
-                            <option value="Optional Filter">Optional Filter</option>
-                        </select>
-                    </div>
-                </form>
+<div class="container">
+    <div class="financial-main flex">
+        <div class="financial-text">
+            <span class="optional-text">Open Positions</span>
+            <h2>A short intro about open positions at XK appears in this spot here</h2>
+            <p>At netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut tortor in vitae libero magnis cursus justo fermentum tortor.</p>
+            <form action="" class="financial-form">
+                <div class="financial-form-field">
+                    <select name="" id="">
+                        <option value="Optional Filter">Optional Filter</option>
+                        <option value="Optional Filter">Optional Filter</option>
+                        <option value="Optional Filter">Optional Filter</option>
+                    </select>
+                </div>
+                <div class="financial-form-field">
+                    <select name="" id="">
+                        <option value="Optional Filter">Optional Filter</option>
+                        <option value="Optional Filter">Optional Filter</option>
+                        <option value="Optional Filter">Optional Filter</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="financial-content">
+            <div class="open-positions-bg pos-relative">
+                <div class="positions-btn hide-table hide-desktop f-500">
+                    <figure class="positions-btn-icon"><img src="images/partner-icon.svg" alt="partner-icon"></figure>
+                    <span class="positions-btn-text">All</span>
+                </div>
+                <ul class="positions-links flex">
+                    <li>
+                        <a href="#" class="positions-icon-list flex active" data-value="data-positions-1">
+                            <span class="positions-icon-text">All</span>
+                            <figure class="positions-icon"><img src="images/partner-icon.svg" alt="partner-icon"></figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="positions-icon-list flex" data-value="data-positions-2">
+                            <span class="positions-icon-text">Resellers</span>
+                            <figure class="positions-icon"><img src="images/reseller-icon.svg" alt="reseller-icon"></figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="positions-icon-list flex" data-value="data-positions-3">
+                            <span class="positions-icon-text">Integration</span>
+                            <figure class="positions-icon"><img src="images/integration-icon.svg" alt="integration-icon"></figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="positions-icon-list flex" data-value="data-positions-4">
+                            <span class="positions-icon-text">Monitoring</span>
+                            <figure class="positions-icon"><img src="images/monitoring-icon.svg" alt="monitoring-icon"></figure>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="financial-content">
-                <div class="financial-row-main">
-                    <div class="financial-row" data-target="q1">
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Job posting title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">Office Location</a></li>
-                                    <li>Jan 30, 2023</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
+            <div class="financial-row-main">
+                <div class="financial-row" data-target="q1">
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Job posting title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Office Location</a></li>
+                                <li>Jan 30, 2023</li>
+                            </ul>
                         </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Job posting title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">Office Location</a></li>
-                                    <li>Jan 30, 2023</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
-                        </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Job posting title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">Office Location</a></li>
-                                    <li>Jan 30, 2023</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
-                        </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Job posting title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">Office Location</a></li>
-                                    <li>Jan 30, 2023</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
-                        </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Job posting title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">Office Location</a></li>
-                                    <li>Jan 30, 2023</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
                         </div>
                     </div>
-                    <div class="financial-row" data-target="q2">
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Report title appears here 22222222222222</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">PDF</a></li>
-                                    <li>4.2 mb</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Job posting title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Office Location</a></li>
+                                <li>Jan 30, 2023</li>
+                            </ul>
                         </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Report title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">PDF</a></li>
-                                    <li>4.2 mb</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
                         </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Report title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">PDF</a></li>
-                                    <li>4.2 mb</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
+                    </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Job posting title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Office Location</a></li>
+                                <li>Jan 30, 2023</li>
+                            </ul>
                         </div>
-                        <div class="financial-list flex flex-center">
-                            <div class="financial-list-heading">
-                                <h5>Report title appears here</h5>
-                                <ul class="financial-category-main flex">
-                                    <li><a href="#">Category</a></li>
-                                    <li><a href="#">PDF</a></li>
-                                    <li>4.2 mb</li>
-                                </ul>
-                            </div>
-                            <div class="financial-list-btn">
-                                <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
-                            </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Job posting title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Office Location</a></li>
+                                <li>Jan 30, 2023</li>
+                            </ul>
+                        </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Job posting title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Office Location</a></li>
+                                <li>Jan 30, 2023</li>
+                            </ul>
+                        </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">Apply<span class="fa-regular fa-arrow-right right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="financial-row" data-target="q2">
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Report title appears here 22222222222222</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">PDF</a></li>
+                                <li>4.2 mb</li>
+                            </ul>
+                        </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Report title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">PDF</a></li>
+                                <li>4.2 mb</li>
+                            </ul>
+                        </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Report title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">PDF</a></li>
+                                <li>4.2 mb</li>
+                            </ul>
+                        </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="financial-list flex flex-center">
+                        <div class="financial-list-heading">
+                            <h5>Report title appears here</h5>
+                            <ul class="financial-category-main flex">
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">PDF</a></li>
+                                <li>4.2 mb</li>
+                            </ul>
+                        </div>
+                        <div class="financial-list-btn">
+                            <a href="#" class="button">READ<span class="fa-regular fa-arrow-right right-arrow"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </section>
-
+<section class="newsletter-section">
+<div class="container">
+    <div class="newsletter-main flex">
+        <div class="newsletter-list newsletter-text"> 
+            <span class="optional-text">Newsletter Signup</span>
+            <h3>A short but persuasive headline aimed at driving signup conversions.</h3>
+        </div>
+        <div class="newsletter-list newsletter-form">
+            form goes here
+        </div>
+    </div>
+</div>
+</section>
 <footer class="footer-main">
 <div class="container">
     <div class="footer flex">

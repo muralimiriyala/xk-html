@@ -1,5 +1,5 @@
 
-.financial-section{background-color: #f3f3f4;}
+.financial-section{background-color: var(--light-gray-color);}
 .financial-main{padding: 78px 0 80px;}
 .financial-text h2{font-size: 32px; font-weight: 500; line-height: 1.25; letter-spacing: -0.64px;}
 .financial-text p{line-height: 1.5; letter-spacing: -0.32px; color: var(--midnight-color);}
