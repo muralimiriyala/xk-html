@@ -1,0 +1,37 @@
+.optional-repeater-main{padding: 40px 0;}
+.optional-xk-shape {
+    width: 515.93px;
+    height: 396.17px;
+    left: -258px;
+    top: 81px;
+    background-image: url('./images/xk-shape.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+  }
+  .optional-repeater-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+  .optional-repeater-text h2{margin-bottom: 42px;}
+  .optional-repeater-text p{margin-bottom: 24px;}
+  .optional-repeater-text ul li{margin-bottom: 0;}
+  .optional-repeater-text ul {margin-bottom: 0;}
+
+  .reverse .optional-repeater-main{flex-direction: row-reverse; padding: 40px 0 80px;}
+  .reverse .optional-xk-shape{ 
+    left: auto;
+    right: -258px;
+    
+  }
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){ 
+    .optional-repeater-main{gap: 80px;}
+    .optional-repeater-image{flex: 0 0 600px;}
+    .optional-repeater-text{flex: 0 0 calc(100% - 680px);}
+   
+
+
+
+
+}

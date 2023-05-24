@@ -9,7 +9,7 @@
 .short-intro-icon{margin-bottom: 18px;}
 .short-intro-text{font-size:14px ; line-height:  22px; letter-spacing: -0.28px;}
 .short-intro-text p:not(:last-child){margin-bottom: 18px;}
-
+.page-template-careers .short-intro-main{padding: 40px 0 80px;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){ 
     .short-intro-head{gap: 80px;}
