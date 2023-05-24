@@ -22,7 +22,18 @@ jQuery(window).on("load resize orientationchange", function() {
         });
     }
 });
-
+jQuery(document).ready(function(){
+    jQuery('ul.financial-qlinks li:first a').addClass("active");
+    jQuery(".financial-row:first").addClass("current-q");
+    jQuery('ul.financial-qlinks li a').on('click', function(e){
+        e.preventDefault();
+        jQuery(this).parent().siblings().find('a').removeClass('active');
+        jQuery(this).addClass('active');
+        var attrName = jQuery(this).attr("data-name");
+        jQuery(".financial-row").removeClass("current-q").hide();
+        jQuery('.financial-row[data-target="' + attrName + '"]').fadeIn(1000);
+    });
+});
 
 
 
