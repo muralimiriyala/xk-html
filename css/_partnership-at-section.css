@@ -4,7 +4,7 @@
 .partnership-at-icon{margin-bottom: 26px; max-width: 24px;}
 .partnership-at-icon img{width: 100%; object-fit: cover;}
 .avatar-name{font-size: 18px; line-height: 22px; letter-spacing: -0.36px; color: var(--midnight-color); display: block;}  
-.avatar-text p{font-size: 16px; line-height: 24px; letter-spacing: -0.32px; opacity: 0.5;}
+.avatar-text p{letter-spacing: -0.32px; opacity: 0.5;}
 .avatar-text::before{content: ""; display: block; position: absolute; left: 0; top: 50%; transform: translatey(-50%);height: 100%; min-height: 88px; border: 1px solid var(--electric-color);}
 .partnership-xk-shape { width: 515.93px; height: 396.17px; right: -258px; bottom: -68px; background-image: url('./images/xk-shape.svg'); background-repeat: no-repeat; background-size: contain; position: absolute; z-index: 1; }
 

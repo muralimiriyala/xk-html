@@ -5,7 +5,7 @@
 .financial-text p{line-height: 1.5; letter-spacing: -0.32px; color: var(--midnight-color);}
 .financial-form-field{margin-bottom: 24px;}
 
-.financial-qyears{padding: 24px; margin-bottom: 24px; background-image: url('/images/financial-tab-bg@2x.png'); background-size: cover;}
+.financial-qyears{padding: 24px; margin-bottom: 24px; background-image: url('./images/financial-tab-bg.svg'); background-size: cover;}
 .financial-qlinks{margin: 0; justify-content: flex-end; align-items: center; gap: 20px;}
 .financial-qlinks li{margin: 0;}
 .financial-qlinks li::before{display: none;}

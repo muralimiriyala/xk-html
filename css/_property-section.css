@@ -1,7 +1,6 @@
 
 .property-main{padding: 80px 0 80px;}
 .property-image{margin-bottom: 44px;}
-.property-text{font-size: 16px; line-height: 1.5; color: var(--midnight-color);}
 .property-text hr{max-width: 112px;}
 ul.property-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif;}
 ul.property-links > li::before{display: none;}
