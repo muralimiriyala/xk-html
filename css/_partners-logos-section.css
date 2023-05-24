@@ -21,8 +21,13 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
     .partners-logos-row{gap: 38px 96px;}
     .partners-logos-list{flex: 0 0 calc(20% - 77px);}
 }
-
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    ul.partners-links > li{flex: 0 0 calc(25% - 30px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    ul.partners-links{gap: 40px; margin-bottom: 46px;}
+    ul.partners-links > li{flex: 0 0 calc(25% - 30px);}
+}
 
 
 
