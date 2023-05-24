@@ -26,5 +26,22 @@
     .partnership-at-image {flex: 0 0 calc(100% - 545px);}
 
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .partnership-at-main{padding: 20px 0;}
+    .partnership-at-image{margin-bottom: 30px;}
+    .custom-avatar{gap: 24px;}
+    .avatar-image{flex: 0 0 88px;}
+    .avatar-text{flex: 0 0 calc(100% - 112px); padding-left: 24px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 375px){
+    .partnership-at-main{padding: 40px 0;}
+    .partnership-at-image{margin-bottom: 40px;}
+    .partnership-at-icon{margin-bottom: 22px;}
+    .partnership-at-desc {font-size: 20px; line-height: 24px; letter-spacing: -0.4px; margin-bottom: 24px;}
+
+    .custom-avatar{gap: 24px;}
+    .avatar-image{flex: 0 0 88px;}
+    .avatar-text{flex: 0 0 calc(100% - 112px); padding-left: 24px;}
+}
 
 
