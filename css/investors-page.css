@@ -30,7 +30,7 @@ span.right-arrow{margin-left: 6px; color: var(--white);}
 ul.positions-links{margin: 0;}
 ul.positions-links > li{margin: 0;}
 ul.positions-links > li::before{display: none;}
-ul.positions-links > li > a {gap: 20px; padding: 10px 15px; align-items: center; color: var(--midnight-color); background-color: var(--light-gray-color); font-size: 18px; line-height: 22px; letter-spacing: -.36px; font-family: 'Gotham-Medium', sans-serif; }
+ul.positions-links > li > a {gap: 20px; padding: 10px 15px; align-items: center; color: var(--midnight-color); background-color: var(--light-gray-color); font-size: 18px; line-height: 22px; font-family: 'Gotham-Medium', sans-serif; }
 ul.positions-links > li > a.active, ul.positions-links > li > a:hover{background-color: var(--midnight-color); color: var(--white);}
 .positions-icon{flex: 0 0 24px;}
 .positions-icon-text{flex: 0 0 calc(100% - 44px);}
@@ -46,13 +46,13 @@ ul.positions-links > li > a.active, ul.positions-links > li > a:hover{background
 
     .open-positions-bg{margin-bottom: 46px;}
     ul.positions-links{gap: 40px;}
-    /* ul.positions-links > li{flex: 0 0 calc(25% - 30px);} */
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     ul.positions-links{gap: 40px;}
     ul.positions-links > li{flex: 0 0 calc(33.3333% - 27px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .financial-main{display: block;}
     .open-positions-bg{padding: 20px; margin-bottom: 40px; background-image: url("./images/opens-bg-mobile.svg");}
     .positions-btn{gap: 20px; padding: 16px; font-size: 20px; line-height: 24px; background-color: var(--midnight-color); color: var(--white); display: flex; cursor: pointer; position: relative; align-items: center;}
     .positions-btn-icon{width: 28px;}
