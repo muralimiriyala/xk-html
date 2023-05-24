@@ -1,5 +1,5 @@
 
-.common-form-main{padding: 50px 52px 50px; border: solid 12px #e5fdff;}
+.common-form-main{padding: 50px 52px 50px; border: solid 12px var(--light-blue);}
 .common-form-icon{max-width: 24px; margin-bottom: 14px;}
 .common-form-icon img{object-fit: cover;}
 .common-person-desc{color: var(--slate-color);}

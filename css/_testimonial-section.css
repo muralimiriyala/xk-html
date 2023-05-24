@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+.testimonial-wrap{padding: 80px 0;}
+.testimonial-main{border: 12px solid var(--light-blue);}
+.testimonial-text{padding: 52px;}
+.testimonial-desc{font-size: 16px; line-height: 20px;color: var(--dark-color-500);}
+.testimonial-name{margin-bottom: 6px; color: var(--dark-color); display: block;}
+.testimonial-image{z-index: 1;}
+.testimonial-thumb img{border-radius: 50%;}
+.testimonial-bg-img{width: 640px; height: 640px; top: 50%; transform: translateY(-50%); z-index: -1; background-image: url("./images/radar-art.svg"); background-repeat: no-repeat; background-size: cover; background-position: center; position: absolute;}
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .testimonial-text{flex: 0 0 50%;}
+    .testimonial-image{flex: 0 0 50%;}
+    figure.testimonial-thumb{width: 432px; height: 432px; margin: 0 auto; display: block;}
+}
+

@@ -1,0 +1,36 @@
+
+.general-default-main{padding: 0 0 48px; font-size: 16px; line-height: 32px; color: var(--slate-color);}
+.general-default-main h3{padding-left: 18px; position: relative;}
+.general-default-main h3::before{width: 2px; height: 100%; top: 3px; left: 0; content: ""; display: block; position: absolute; background-color: var(--electric-color); position: absolute;}
+.general-default-main h4{padding-left: 18px; position: relative;}
+.general-default-main h4::before{width: 2px; height: 100%; top: 1px; left: 0; content: ""; display: block; position: absolute; background-color: var(--electric-color); position: absolute;}
+
+.general-product-bg{padding: 80px 0; margin: 48px 0; background-image: url("./images/general-product-bg.svg"); background-repeat: no-repeat; background-size: contain; background-position: center;}
+.general-product-main{background-color: var(--white);}
+.general-product-list h3{padding-left: 0;}
+.general-product-list h3::before{display: none;}
+.general-product-text{font-size: 14px; line-height: 22px;}
+.general-product-text ul{margin-bottom: 24px;}
+.general-product-text ul li{margin-bottom: 0;}
+.general-product-text ul li::before{top: 10px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .general-product-list{flex: 0 0 50%;}
+    .general-product-text{padding: 44px 48px 48px; border-left: 2px solid var(--electric-color);} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
