@@ -2,13 +2,49 @@
 .confirmation-main{padding: 80px 0;}
 .confirmation-text hr{max-width: 112px;}
 .confirmation-right{padding: 52px; border: 12px solid var(--light-blue);}
-
+.confirmation-head span{margin-bottom: 0;}
+.confirmation-head{margin-bottom: 26px;}
+.confirmation-image{margin-bottom: 24px;}
+.confirmation-text{font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
+.confirmation-text h1{font-size: 32px; line-height: 40px; letter-spacing: -0.68px;}
+.confirmation-text hr{margin: 23px 0 23px;}
+.confirmation-text p{margin-bottom: 24px;}
+.confirmation-text a span{color : var(--white);}
+.confirmation-right h2{margin-bottom: 80px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .confirmation-main{gap: 96px;}
     .confirmation-text{flex: 0 0 290px;}
     .confirmation-right{flex: 0 0 calc(100% - 386px);}
+    .confirmation-head{gap: 10px;}
+    .confirmation-icon{flex: 0 0 24px;}
+    .confirmation-head span{flex: 0 0 calc(100% -34px);}
 }
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+
+    .confirmation-main{gap: 60px;}
+    .confirmation-text{flex: 0 0 290px;}
+    .confirmation-right{flex: 0 0 calc(100% - 350px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .confirmation-text{margin-bottom: 50px;}
+    .confirmation-head{gap: 10px;}
+    .confirmation-icon{flex: 0 0 24px;}
+    .confirmation-head span{flex: 0 0 calc(100% -34px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 375px){
+    .confirmation-main{padding: 40px 0;}
+    .confirmation-text{margin-bottom: 40px;}
+    .confirmation-head{gap: 10px;}
+    .confirmation-icon{flex: 0 0 24px;}
+    .confirmation-head span{flex: 0 0 calc(100% -34px);}
+    .confirmation-right{padding: 20px;}
+    .confirmation-right h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+    .confirmation-image img{width: 100%;}
+
+}
+
 
 
 
