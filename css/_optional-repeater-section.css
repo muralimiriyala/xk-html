@@ -17,3 +17,25 @@ ul.optional-list li::before{top: 10px;}
   .optional-repeater-image{flex: 0 0 600px;}
   .optional-repeater-text{flex: 0 0 calc(100% - 680px);}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+  .optional-repeater-main {gap: 50px;}
+  .optional-repeater-image {flex: 0 0 450px;}
+  .optional-repeater-text {flex: 0 0 calc(100% - 500px);}
+  .optional-xk-shape{top: 20px;}
+  .reverse .optional-xk-shape{top: 35px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+ .optional-repeater-image{margin-bottom: 40px;}
+ .reverse .optional-repeater-main{padding: 40px 0;}
+}
+ @media only screen and (max-width: 768px) and (min-width: 375px){
+ .optional-repeater-text h2{font-size: 24px; line-height: 28px; margin-bottom: 24px; letter-spacing: -0.48px;}
+ .optional-xk-shape {
+  width: 310.93px;
+  height: 383.17px;
+  left: -157px;
+  top: 41px;
+}
+  .optional-repeater-image{margin-bottom: 40px;}
+  .reverse .optional-repeater-main{padding: 40px 0;}
+}

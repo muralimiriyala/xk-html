@@ -26,6 +26,7 @@
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){ 
+    .short-intro-main{padding: 40px 0;}
     .short-intro-title{margin-bottom: 40px;}
     .short-intro-desc{padding: 0 60px;}
     .short-intro-row {gap: 42px;}
