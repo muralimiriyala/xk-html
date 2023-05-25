@@ -12,12 +12,15 @@
     --error: #f00;
     --midnight-color: #0A0A1E;
     --midnight-50: rgb(10 10 30 / 50%);
+    --midnight-60: rgb(10 10 30 / 60%);
     --midnight-75: rgb(10 10 30 / 75%);
     --electric-color: #00D2E1;
     --electric-75: rgb(0 210 225 / 75%);
+    --electric-color-75: rgba(0, 240, 255, 0.75);
     --light-blue: #E5FDFF;
     --light-gray-color: #F3F3F4;
     --slate-color: #3C3C46;
+    --slate-50: rgb(60 60 70 / 50%);
     --link-color: #00D2E1;
     --dark-color: #2B2C2D;
     --dark-color-500: rgb(43 44 45 / 50%);
