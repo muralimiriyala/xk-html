@@ -33,11 +33,12 @@ $(document).ready(function(){
         $(this).parent().siblings().find('.accordion-content').slideUp(500);
     });
 
-    $('.frm_fields_container input').on("click focus", function() {
+    $('.frm_fields_container input').on("click", function() {
         $(this).siblings('label').addClass("active");
+        $(this).addClass("hide-placeholder");
     });
-    
     $('.frm_fields_container input').on("keyup", function() {
+        $(this).removeClass("hide-placeholder");
         var inputValue = $(this).val();
         var $thisInput = $(this);
         var $label = $(this).siblings('label');
@@ -50,13 +51,13 @@ $(document).ready(function(){
         }
     });
     $('.frm_fields_container input').on("keydown", function(event) {
+        $(this).removeClass("hide-placeholder");
         if (event.keyCode === 9) { // Tab key code
             var inputValue = $(this).val();
             var $thisInput = $(this);
             var $label = $(this).siblings('label');
             var $prevInput = $(this).parent('.frm_form_field').prev().find('input');
-            var $prevLabel = $prevInput.siblings('.active');
-
+            var $prevLabel = $prevInput.siblings();
             if (inputValue === "") {
                 $label.removeClass("active");
                 $thisInput.removeClass("focused");
@@ -64,8 +65,6 @@ $(document).ready(function(){
                 $label.addClass("active");
                 $thisInput.addClass("focused");
             }
-            $prevInput.removeClass("focused");
-            $prevLabel.removeClass('active');
         }
     });   
 
