@@ -14,6 +14,7 @@
 .general-product-text ul li{margin-bottom: 0;}
 .general-product-text ul li::before{top: 10px;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .general-product-list{flex: 0 0 50%;}
