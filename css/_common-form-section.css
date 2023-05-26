@@ -15,6 +15,7 @@ ul.custom-form-links li a:hover{color: var(--electric-color);}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
+    .general-default-page .common-form-wrap{padding-top: 80px;}
     .common-form-wrap{padding: 56px 0 80px;}
     .common-person-details{gap: 24px; margin-top: 57px;}
     .common-person-image{width: 88px;}

@@ -1,18 +1,15 @@
 
-
-
 .faqs-wrap{padding: 80px 0;}
 .faqs-main{padding: 0 80px; border: 2px solid var(--electric-color); border-top: none; border-bottom: none;}
-.accordion-list{margin-bottom: 23px; background-color: var(--white); border-radius: 16px;}
+.accordion-list{margin-bottom: 23px; background-color: var(--white);}
 .accordion-list:last-child{margin-bottom: 0;}
-.accordion-list.active{box-shadow: 0px 12px 24px rgba(151, 173, 200, 0.5);}
+.accordion-list.active{background-color: var(--light-gray-color); }
 .accordion-header{padding: 20px 53px 23px 20px; border: 2px solid var(--electric-color); font-size: 16px; line-height: 20px; cursor: pointer; position: relative;}
-.accordion-header.open{background-color: var(--white); color: var(--illumin-blue);}
-.accordion-header::after{right: 20px; top: 50%; transform: translateY(-50%); width: 28px; height: 16px; position: absolute; transition: all 0.5s ease; content: "";}
-.accordion-header.open::after{transform: translateY(-50%) rotate(0deg);}
-.accordion-content{display: none; padding: 4px 20px 20px; font-size: 14px; line-height: 20px;}
-.accordion-content ul li::before{top: 6px;}
-
+.accordion-header.open{background-color: var(--light-gray-color); border-color: var(--light-gray-color);}
+.accordion-header::after{right: 20px; top: 50%; transform: translateY(-50%); position: absolute; transition: all 0.5s ease; content: "\f0d7"; font-family: "Font Awesome 6 Sharp"; color: var(--electric-color); font-size: 20px; line-height: 20px;}
+.accordion-header.open::after{content: "\f0d8"; color: var(--slate-color);}
+.accordion-content{display: none; padding: 4px 20px 20px; font-size: 14px; line-height: 28px;}
+.accordion-content ul li::before{top: 13px;}
 
 
 /* media css starts here */

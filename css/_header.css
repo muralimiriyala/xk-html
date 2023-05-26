@@ -21,7 +21,7 @@
     ul.main-menu > li > ul{margin: 0; top: 0; left: 0; width: 100%; background-color: var(--light-gray-color); position: absolute;}
 
     /*-- solutions nav --*/
-    ul.main-menu > li.solutions-nav-item > ul{width: 100vw; left: -50vw;}
+    ul.main-menu > li.solutions-nav-item > ul{width: 100vw; left: -50vw; display: none;}
     .nav-item{gap: 8px;}
     .nav-icon{flex: 0 0 24px; width: 24px;}
     .nav-text{width: calc(100% - 32px); font-size: 12px; line-height: 20px;}
