@@ -11,6 +11,7 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
 .graphic-filters-list{gap: 20px;}
 .graphic-text{flex: 0 0 calc(100% - 52px);}
 .graphic-icon{flex: 0 0 32px;}
+.graphic-text br{display: none;}
 
 .contact-form{padding: 36px; border: 12px solid var(--light-blue);}
 
@@ -22,9 +23,19 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
 .locations-heading{margin-bottom: 8px; font-size: 14px; line-height: 22px; letter-spacing: 0.2em; display: block; text-transform: uppercase;}
 .address{margin-bottom: 0;}
 
+.login-form-wrap{padding: 24px 16px; margin: 40px 0 0; background-image: url("images/signup-bg.svg"); background-repeat: no-repeat; background-size: cover;}
+.login-form-main{ padding: 30px 32px 32px; background-color: var(--white); }
+.login-form-text{padding-left: 17px; font-size: 24px; line-height: 28px; letter-spacing: -0.28px; font-family: 'Gotham-Medium', sans-serif;}
+.login-form-text::before{width: 1px; height: 100%; top: 2px; left: 0; background-color: var(--electric-color); content: ""; display: block; position: absolute;} 
+.login-form-btns{gap: 20px;}
+.login-form-btns .button{padding: 9px 13px 10px; min-width: 104px;}
+
 /* media  css starts here */
 @media only screen and (min-width: 768px){
     .contact-sidebar h2{margin-bottom: 22px;}
+    .login-form-main{gap: 20px;}
+    .login-form-text{flex: 0 0 502px;}
+    .login-form-btns{flex: 0 0 calc(100% - 522px);}
 }
 @media only screen and (min-width: 1024px){
     .contact-page-main{gap: 80px;}
@@ -32,10 +43,19 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .contact-right{flex: 0 0 calc(100% - 432px);}
     ul.graphic-filters{gap: 8px; margin-bottom: 40px;}
     ul.graphic-filters > li{flex: 0 0 calc(25% - 6px);}
+    .graphic-text br{display: block;}
     .locations-row{gap: 32px;}
     .locations-list{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .contact-page-main{gap: 40px;}
+    .contact-right { flex: 0 0 calc(100% - 392px); }
+    ul.graphic-filters{gap: 8px; margin-bottom: 30px;}
+    ul.graphic-filters > li{flex: 0 0 calc(50% - 4px);}
+    .graphic-text br{display: none;}
+    .login-form-main{display: block;}
+    .login-form-text{margin-bottom: 40px;}
+
     .locations-row{gap: 20px;}
     .locations-list{flex: 0 0 calc(25% - 15px);}
 }
@@ -44,7 +64,7 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .contact-sidebar{margin-bottom: 40px;}
     ul.graphic-filters{gap: 8px; margin-bottom: 40px;}
     ul.graphic-filters > li{flex: 0 0 calc(50% - 4px);}
-    .graphic-text br{display: none;}
+
 
     .locations-row{gap: 20px;}
     .locations-list{flex: 0 0 calc(50% - 10px);}
@@ -63,7 +83,7 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .graphic-btn-icon img{width: 100%; object-fit: cover;}
     ul.graphic-filters{display: none; padding: 16px; top: 100%; width: 100%; height: auto; position: absolute; background-color: var(--white); box-shadow: 0 2px 1px #D0D0D0; z-index: 2;}
     ul.graphic-filters > li > a{padding: 23px 20px 25px;}
-    .graphic-text br{display: none;}
+
 
     .contact-form{padding: 20px;}
 
