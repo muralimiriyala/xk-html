@@ -23,7 +23,7 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
 .locations-heading{margin-bottom: 8px; font-size: 14px; line-height: 22px; letter-spacing: 0.2em; display: block; text-transform: uppercase;}
 .address{margin-bottom: 0;}
 
-.login-form-wrap{padding: 24px 16px; margin: 40px 0 0; background-image: url("images/signup-background.svg"); background-repeat: no-repeat; background-size: cover;}
+.login-form-wrap{padding: 24px 16px; margin: 40px 0 0; background-image: url("images/signup-bg.svg"); background-repeat: no-repeat; background-size: cover;}
 .login-form-main{ padding: 30px 32px 32px; background-color: var(--white); }
 .login-form-text{padding-left: 17px; font-size: 24px; line-height: 28px; letter-spacing: -0.28px; font-family: 'Gotham-Medium', sans-serif;}
 .login-form-text::before{width: 1px; height: 100%; top: 2px; left: 0; background-color: var(--electric-color); content: ""; display: block; position: absolute;} 
