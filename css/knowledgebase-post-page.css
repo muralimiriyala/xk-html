@@ -19,14 +19,11 @@
 .aside-icon{color: var(--link-color);}
 .aside-text{font-size: 10px; line-height: 12px; letter-spacing: 2px; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 
+.post-feature-wrap{padding: 80px 0;}
 .knowledge-post-article h3{padding-left: 16px; position: relative; font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
 .knowledge-post-article h3::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
-.post-feature-point{font-size: 14px;
-    line-height: 22px;
-    letter-spacing: -.28px;
-    color: var(--slate-color);
-    padding: 40px;
-    
+.post-feature-point{font-size: 14px; line-height: 22px; letter-spacing: -.28px; color: var(--slate-color);
+padding: 40px;
     top: 50%;
     transform: translateY(-50%);
     max-width: 335px;
@@ -44,6 +41,15 @@
         -webkit-backdrop-filter: blur(16px);
         backdrop-filter: blur(16px);
     }
+    .post-feature-point span{font-size: 14px; line-height: 22px; letter-spacing: 2.8px; text-transform: uppercase; color: var(--midnight-color); opacity: 0.5; font-family: 'Gotham-Bold',sanserif; margin-bottom: 24px; display: block;}
+    .post-feature-point p{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+
+    .post-note-main{padding: 36px; border: 12px solid var(--light-blue); margin : 80px 0;}
+    .post-note-head{margin-bottom: 24px;}
+    .post-note-head span{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sans-serif;}
+    .post-note-main p{font-size: 20px; line-height: 32px; letter-spacing: -0.8px; font-family: 'Gotham-Bookitalic',sans-serif; margin-bottom: 24px;}
+   
+   
     @media only screen and (min-width:1024px){
         .knowledge-post-main{gap: 80px;}
         .knowledge-post-article{flex: 0 0 calc(100% - 380px);}
@@ -54,12 +60,15 @@
         .signup-btns .button{flex: 0 0 calc(50% - 20px);}
         
         
-        .post-feature-point{left: auto; right: 0; border-left: 2px solid var(--electric-color); border-right: none;} 
-        
+        .post-feature-point{left: auto; right: -105px; border-left: 2px solid var(--electric-color); border-right: none;} 
+        .post-note-head{gap: 10px;}
+        .post-note-icon{flex: 0 0 24px;}
+        .post-note-head span{flex: 0 0 calc(100% - 34px);}
+      
+      
         .aside-head{gap: 8px;}
-        
-.aside-icon{flex: 0 0 12px;}
-.aside-text{flex: 0 0 calc(100% - 20px);}
-.breadcrumbs{gap: 34px;}
+        .aside-icon{flex: 0 0 12px;}
+        .aside-text{flex: 0 0 calc(100% - 20px);}
+        .breadcrumbs{gap: 34px;}
 
 }
