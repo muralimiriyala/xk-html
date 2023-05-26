@@ -1,6 +1,8 @@
 
 
 .contact-page-main{padding: 80px 0;}
+.contact-list{display: none;}
+.contact-list.current-g{display: block;}
 ul.graphic-filters{margin: 0;}
 ul.graphic-filters > li::before{display: none;}
 ul.graphic-filters > li{margin: 0;}
@@ -52,7 +54,16 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .contact-sidebar{margin-bottom: 40px;}
     .contact-sidebar h2{font-size: 32px; line-height: 40px; margin-bottom: 22px;}
 
-    ul.graphic-filters{display: none;}
+    .graphic-positions-bg{margin-bottom: 40px;}
+    .graphic-mobile-btn{gap: 20px; padding: 16px; font-size: 20px; line-height: 24px; background-color: var(--midnight-color); color: var(--white); display: flex; cursor: pointer; position: relative; align-items: center;}
+    .graphic-mobile-btn::after{width: 24px; height: 24px; right: 16px; top: 50%; transform: translateY(-50%); background: url("./images/down-arrow.svg") no-repeat; background-size: cover; content: ""; display: block; position: absolute;}
+    .graphic-mobile-btn.active::after{background-image: url("./images/up-arrow.svg");}
+    .graphic-btn-icon{width: 28px;}
+    .graphic-btn-text{width: calc(100% - 48px);}
+    .graphic-btn-icon img{width: 100%; object-fit: cover;}
+    ul.graphic-filters{display: none; padding: 16px; top: 100%; width: 100%; height: auto; position: absolute; background-color: var(--white); box-shadow: 0 2px 1px #D0D0D0; z-index: 2;}
+    ul.graphic-filters > li > a{padding: 23px 20px 25px;}
+    .graphic-text br{display: none;}
 
     .contact-form{padding: 20px;}
 

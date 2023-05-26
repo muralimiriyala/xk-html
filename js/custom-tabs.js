@@ -51,13 +51,27 @@ $(document).ready(function(){
         $(".financial-row").removeClass("current-q").hide();
         $('.financial-row[data-target="' + attrName + '"]').fadeIn(1000);
     });
-    $(".positions-btn").on("click", function(e){
+
+
+    $('ul.graphic-filters li:first a').addClass("active");
+    $(".contact-list:first").addClass("current-g");
+    $('ul.graphic-filters li a').on('click', function(e){
         e.preventDefault();
-        $(this).toggleClass("active");
-        $("ul.positions-links").slideToggle("slow");
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+        var attrName = $(this).attr("data-name");
+        $(".contact-list").removeClass("current-g").hide();
+        $('.contact-list[data-value="' + attrName + '"]').fadeIn(1000);
     });
+
+
     $(window).on("load resize orientationchange", function() {
         if($(window).width() <= 767){
+            $(".positions-btn").on("click", function(e){
+                e.preventDefault();
+                $(this).toggleClass("active");
+                $("ul.positions-links").slideToggle("slow");
+            });
             $('ul.positions-links li a').on('click', function(e){
                 e.preventDefault();
                 $(".positions-btn").removeClass("active");
@@ -66,6 +80,21 @@ $(document).ready(function(){
                 let pimage = $(this).children(".positions-icon").html();
                 $(".positions-btn span").text(ptext);
                 $(".positions-btn-icon").html(pimage);
+            });
+
+            $(".graphic-mobile-btn").on("click", function(e){
+                e.preventDefault();
+                $(this).toggleClass("active");
+                $("ul.graphic-filters").slideToggle("slow");
+            });
+            $('ul.graphic-filters li a').on('click', function(e){
+                e.preventDefault();
+                $(".graphic-mobile-btn").removeClass("active");
+                $("ul.graphic-filters").slideUp();
+                let ptext = $(this).text();
+                let pimage = $(this).children(".graphic-icon").html();
+                $(".graphic-btn-text").text(ptext);
+                $(".graphic-btn-icon").html(pimage);
             });
         }
     });
