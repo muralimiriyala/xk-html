@@ -21,7 +21,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: va
 address{font-size: 12px; line-height: 20px; color: var(--slate-color); margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--midnight-color); cursor: help;}
 b, strong {font-weight: normal; font-family: 'Gotham-Bold', sans-serif;}
-cite, dfn, em, i {font-style: italic;}
+cite, dfn, em, i {font-style: normal; font-family: 'Gotham-Book-Italic', sans-serif;}
 mark, ins {background: #fff9c0; text-decoration: none;}
 p {margin-bottom: 25px;}
 p:last-child{margin-bottom: 0;}
