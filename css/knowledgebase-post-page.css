@@ -47,10 +47,17 @@ padding: 40px;
     .post-note-main{padding: 36px; border: 12px solid var(--light-blue); margin : 80px 0;}
     .post-note-head{margin-bottom: 24px;}
     .post-note-head span{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sans-serif;}
-    .post-note-main p{font-size: 20px; line-height: 32px; letter-spacing: -0.8px; font-family: 'Gotham-Bookitalic',sans-serif; margin-bottom: 24px;}
+    .post-note-main p{font-size: 20px; line-height: 32px; letter-spacing: -0.8px; margin-bottom: 24px;}
    
-   
-    @media only screen and (min-width:1024px){
+   .post-product-main{padding: 80px; margin: 80px 0; background-image: url("images/post-product-background-image.svg");}
+     .post-product-image{border-bottom: 2px solid var(--electric-color);}
+     .post-product-text{background-color: var(--white); padding-top: 48px;}
+     .post-product-text h2{padding-left:0;}
+     .post-product-text h2::before{display: none;}
+     .post-product-text p{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; font-family: 'Gotham-Book',sans-serif;}
+  
+  
+   @media only screen and (min-width:1024px){
         .knowledge-post-main{gap: 80px;}
         .knowledge-post-article{flex: 0 0 calc(100% - 380px);}
         .knowledge-post-aside{flex: 0 0 300px;}
