@@ -1,5 +1,5 @@
 
-.main-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 1800; background-color: var(--white);}
+.main-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 850; background-color: var(--white);}
 .fixed-header{background-color: var(--midnight-color);}
 
 /*-- media css starts here --*/
@@ -45,6 +45,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .navigation{display: none;}
+    .main-content{padding-top: 64px;}
 }
 
 
