@@ -33,9 +33,6 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
 /* media  css starts here */
 @media only screen and (min-width: 768px){
     .contact-sidebar h2{margin-bottom: 22px;}
-    .login-form-main{gap: 20px;}
-    .login-form-text{flex: 0 0 502px;}
-    .login-form-btns{flex: 0 0 calc(100% - 522px);}
 }
 @media only screen and (min-width: 1024px){
     .contact-page-main{gap: 80px;}
@@ -44,6 +41,9 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     ul.graphic-filters{gap: 8px; margin-bottom: 40px;}
     ul.graphic-filters > li{flex: 0 0 calc(25% - 6px);}
     .graphic-text br{display: block;}
+    .login-form-main{gap: 20px;}
+    .login-form-text{flex: 0 0 502px;}
+    .login-form-btns{flex: 0 0 calc(100% - 522px);}
     .locations-row{gap: 32px;}
     .locations-list{flex: 0 0 calc(25% - 24px);}
 }
@@ -55,7 +55,6 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .graphic-text br{display: none;}
     .login-form-main{display: block;}
     .login-form-text{margin-bottom: 40px;}
-
     .locations-row{gap: 20px;}
     .locations-list{flex: 0 0 calc(25% - 15px);}
 }
@@ -64,8 +63,8 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .contact-sidebar{margin-bottom: 40px;}
     ul.graphic-filters{gap: 8px; margin-bottom: 40px;}
     ul.graphic-filters > li{flex: 0 0 calc(50% - 4px);}
-
-
+    .login-form-main{display: block;}
+    .login-form-text{margin-bottom: 40px;}
     .locations-row{gap: 20px;}
     .locations-list{flex: 0 0 calc(50% - 10px);}
 }
@@ -73,7 +72,6 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .contact-page-main{padding: 40px 0; display: block;}
     .contact-sidebar{margin-bottom: 40px;}
     .contact-sidebar h2{font-size: 32px; line-height: 40px; margin-bottom: 22px;}
-
     .graphic-positions-bg{margin-bottom: 40px;}
     .graphic-mobile-btn{gap: 20px; padding: 16px; font-size: 20px; line-height: 24px; background-color: var(--midnight-color); color: var(--white); display: flex; cursor: pointer; position: relative; align-items: center;}
     .graphic-mobile-btn::after{width: 24px; height: 24px; right: 16px; top: 50%; transform: translateY(-50%); background: url("./images/down-arrow.svg") no-repeat; background-size: cover; content: ""; display: block; position: absolute;}
@@ -84,8 +82,10 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     ul.graphic-filters{display: none; padding: 16px; top: 100%; width: 100%; height: auto; position: absolute; background-color: var(--white); box-shadow: 0 2px 1px #D0D0D0; z-index: 2;}
     ul.graphic-filters > li > a{padding: 23px 20px 25px;}
 
-
     .contact-form{padding: 20px;}
+    .login-form-wrap{background-image: url("./images/signup-bg-mobile.svg");}
+    .login-form-main{display: block;}
+    .login-form-text{margin-bottom: 40px;}
 
     .locations-main{padding: 40px 0;}
     .locations-row{display: block;}
