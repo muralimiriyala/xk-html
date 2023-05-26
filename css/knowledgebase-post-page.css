@@ -11,9 +11,8 @@
 .knowledge-post-article h2::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
 .knowledge-post-article p{font-size: 16px; line-height: 32px; letter-spacing: -0.32px; color: var(--slate-color);}
 
-.signup-wrap{padding: 64px 40px; background-image: url("images/signup-background.svg"); margin: 80px 0;}
-.signup-main{background-color: white;
-    padding: 38px 32px;}
+.signup-wrap{padding: 64px 40px; background-image: url("images/signup-bg.svg"); margin: 80px 0;}
+.signup-main{background-color: white; padding: 38px 32px;}
 .signup-text{font-size: 24px; line-height: 28px; letter-spacing: -0.28px; font-family: 'Gotham-Medium',sans-serif;}
 .signup-btns .button{padding: 9.5px 11px;}
 .aside-icon{color: var(--link-color);}
@@ -49,15 +48,32 @@ padding: 40px;
     .post-note-head span{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sans-serif;}
     .post-note-main p{font-size: 20px; line-height: 32px; letter-spacing: -0.8px; margin-bottom: 24px;}
    
-   .post-product-main{padding: 80px; margin: 80px 0; background-image: url("images/post-product-background-image.svg");}
+   .post-product-main{padding: 80px; margin: 80px 0; background-image: url("images/post-product-bg.svg");}
      .post-product-image{border-bottom: 2px solid var(--electric-color);}
-     .post-product-text{background-color: var(--white); padding-top: 48px;}
+     .post-product-text{background-color: var(--white); padding: 48px 0;}
      .post-product-text h2{padding-left:0;}
      .post-product-text h2::before{display: none;}
      .post-product-text p{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; font-family: 'Gotham-Book',sans-serif;}
+    .post-product-text ul li{margin-bottom: 0; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
   
-  
-   @media only screen and (min-width:1024px){
+    .knowledge-post-article .accordion-main{padding: 80px 0;}
+
+    .article-helpful-wrap{background-image: url("images/signup-bg.svg"); padding: 64px 40px; margin: 80px 0;}
+    .article-helpful-main{background-color: var(--white); padding: 33px 32px; }
+    .article-helpful-text{padding-left: 16px; position: relative;}
+    .article-helpful-text::before{content: ""; display: block; width: 1.5px; height: 100%; top: -7px; left: 0; background-color: var(--electric-color); position: absolute;}
+    .article-helpful-text span{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; font-family: 'Gotham-Medium',sans-serif;}
+    .article-helpful-btns{text-align: right; justify-content: flex-end;}
+    .article-helpful-btns .button{color: var(--white); font-size: 24px; padding: 6px 12px 7px;}
+    
+
+    .article-small-main small{display: block; margin-bottom: 16px; font-size: 12px; line-height: 16px; letter-spacing: -0.24px; font-family: 'Gotham-Bold',sans-serif;}
+    .small-para{position: relative; padding-left: 24px;}
+    .small-para p {margin-bottom: 8px; font-size: 12px; line-height: 20px; letter-spacing: -0.24px; font-family: 'Gotham-Book',sans-serif;}
+    .small-para:before{content: ""; display: block; width: 2px; height: 100%; top: 0px; left: 0; background-color: var(--electric-color); position: absolute;}
+    .small-para sup{font-family: 'Gotham-Bold',sans-serif; left: -2px; font-size: 7px; line-height: 20px;}
+    
+    @media only screen and (min-width:1024px){
         .knowledge-post-main{gap: 80px;}
         .knowledge-post-article{flex: 0 0 calc(100% - 380px);}
         .knowledge-post-aside{flex: 0 0 300px;}
@@ -70,12 +86,16 @@ padding: 40px;
         .post-feature-point{left: auto; right: -105px; border-left: 2px solid var(--electric-color); border-right: none;} 
         .post-note-head{gap: 10px;}
         .post-note-icon{flex: 0 0 24px;}
-        .post-note-head span{flex: 0 0 calc(100% - 34px);}
-      
-      
+        .post-note-head {flex: 0 0 calc(100% - 34px);}
+        
+        
         .aside-head{gap: 8px;}
         .aside-icon{flex: 0 0 12px;}
         .aside-text{flex: 0 0 calc(100% - 20px);}
         .breadcrumbs{gap: 34px;}
-
-}
+        
+        .article-helpful-main{gap: 48px;}
+        .article-helpful-text{flex: 0 0 calc(100% - 176px);}
+        .article-helpful-btns{flex: 0 0 128px; gap: 16px;}
+        .article-helpful-btns .button{flex: 0 0 calc(50% - 16px);}
+    }
