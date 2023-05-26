@@ -1,4 +1,5 @@
 
+var $ = jQuery.noConflict();
 $(window).on("load scroll", function(){
     let scroll = $(this).scrollTop();
     scroll > 4 ? $(".main-header").addClass("fixed-header") : $(".main-header").removeClass("fixed-header");

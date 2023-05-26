@@ -1,4 +1,5 @@
 
+var $ = jQuery.noConflict();
 $(document).ready(function(){
     $('ul.partners-links li:first a').addClass("active");
     $(".partners-rows-list:first").addClass("active");

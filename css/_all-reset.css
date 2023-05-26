@@ -18,8 +18,8 @@ h1 span{position: relative; font-family: 'Gotham-Bold', sans-serif;}
 h1 span::after{width: calc(100% + 12px); height: 20px; bottom: -3px; left: -6px; background-color: var(--electric-color); content: ""; display: block; position: absolute; z-index: -1;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--black);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--slate-color);}
-address { margin-bottom: 9px;}
-abbr[title] {border-bottom: 1px dotted #2b2b2b; cursor: help;}
+address{font-size: 12px; line-height: 20px; color: var(--slate-color); margin-bottom: 24px;}
+abbr[title] {border-bottom: 1px dotted var(--midnight-color); cursor: help;}
 b, strong {font-weight: normal; font-family: 'Gotham-Bold', sans-serif;}
 cite, dfn, em, i {font-style: italic;}
 mark, ins {background: #fff9c0; text-decoration: none;}
@@ -111,7 +111,7 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 
 .btn-gray{background: rgba(0, 240, 255, 0.05);}
 
-.text-link{padding-right: 50px; color: var(--midnight-color); font-size: 12px; line-height: 12px; letter-spacing: 0.2em; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif;}
+.text-link{padding-right: 50px; color: var(--midnight-color); font-size: 12px; line-height: 12px; letter-spacing: 0.2em; text-transform: uppercase; display: inline-block; font-family: 'Gotham-Bold', sans-serif; position: relative;}
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('./images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 .text-link:hover{color: var(--electric-color);}
