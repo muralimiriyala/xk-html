@@ -1,0 +1,15 @@
+.more-events-main{padding: 80px 0;}
+.more-events-title{padding-top: 19px;}
+.more-events-row{padding: 80px 0 0;}
+.more-events-text{background-color: var(--white); padding: 32px; box-shadow: 0px 12px 24px rgba(10, 10, 30, 0.1);}
+.more-events-desc{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; font-family: 'Gotham-Book',sans-serif; margin-bottom: 107px;}
+
+/* media css starts */
+.more-events-head{gap: 24px;}
+.more-events-title{flex: 0 0 302px;}
+.more-events-right{flex: 0 0 calc(100% - 326px);}
+.more-events-form{ gap: 40px;}
+.form-field{flex: 0 0 calc(33.33% - 40px);}
+
+.more-events-row{gap: 40px;}
+.more-events-list{flex: 0 0 calc(33.33% - 27px);}
