@@ -115,6 +115,9 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .text-link::before{width: 1px; height: 20px; right: 34px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .text-link::after{width: 20px; height: 21px; right: 0;  top: 50%; transform: translateY(-50%); background-image: url('./images/icon-right.svg'); background-position: center right; background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 .text-link:hover{color: var(--electric-color);}
+.text-link.reverse{padding-left: 50px; padding-right: 0;}
+.text-link.reverse::before{left: 34px; right: auto;}
+.text-link.reverse::after{left: 0; right: auto; background-image: url("./images/icon-left.svg");}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif;}
