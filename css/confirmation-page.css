@@ -20,9 +20,7 @@
     .confirmation-icon{flex: 0 0 24px;}
     .confirmation-head span{flex: 0 0 calc(100% -34px);}
 }
-
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-
     .confirmation-main{gap: 60px;}
     .confirmation-text{flex: 0 0 290px;}
     .confirmation-right{flex: 0 0 calc(100% - 350px);}

@@ -118,23 +118,32 @@
 </header>
 <main class="main-content">
 <section class="home-banner-section pos-relative">
-<div class="home-banner-bg">
-    <picture class="object-fit">
-        <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)">
-        <img src="images/home-banner@2x.jpg" alt="">
-    </picture>
-</div>
+    <div class="home-banner-bg">
+        <picture class="object-fit">
+            <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)">
+            <img src="images/home-banner@2x.jpg" alt="home-banner">
+        </picture>
+    </div>
     <div class="container home-banner-pos">
         <div class="home-banner-main flex">
-            <div class="home-banner-left">
+            <div class="home-banner-left pos-relative">
+                <div class="home-banner-device flex flex-center">
+                    <div class="home-banner-xk"></div>
+                    <div class="home-banner-shape"></div>
+                </div>
                 <div class="home-banner-text">   
-                    <h1 class="f-700">HEALTH IS ON OUR RADAR IN <span>HOSPITALS</span></h1>
-                    <div class="home-sub-heading f-700">Offices <span>Care Facilities</span></div>
+                    <div class="home-banner-desc pos-relative">
+                        <h1 class="f-900">HEALTH IS ON OUR RADAR IN <span>HOSPITALS</span></h1>
+                        <div class="home-sub-heading f-900">
+                            <span>Offices</span> 
+                            <span>Care Facilities</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="home-banner-right">
                 <div class="additional-news-main"> 
-                    <div class="additional-news-list flex">
+                    <div class="additional-news-list flex flex-vcenter">
                         <div class="additional-news-text">
                             <div class="custom-date f-700 flex flex-vcenter">
                                 <span class="date-icon fa-sharp fa-regular fa-calendar"></span>
@@ -142,8 +151,11 @@
                             </div>
                             <p>This is a concise news post title that likely spans two or three lines as needed to fit ut risus nisl gravida nec.</p>
                         </div>
+                        <div class="additional-news-btn">
+                            <a href="#" class="additional-news-arrow"><img src="images/icon-right.svg" alt="icon-right"></a>
+                        </div>
                     </div>
-                    <div class="additional-news-list flex">
+                    <div class="additional-news-list flex flex-vcenter">
                         <div class="additional-news-text">
                             <div class="custom-date f-700 flex flex-vcenter">
                                 <span class="date-icon fa-sharp fa-regular fa-calendar"></span>
@@ -151,14 +163,20 @@
                             </div>
                             <p>This is a concise news post title that likely spans two or three lines as needed to fit ut risus nisl gravida nec.</p>
                         </div>
+                        <div class="additional-news-btn">
+                            <a href="#" class="additional-news-arrow"><img src="images/icon-right.svg" alt="icon-right"></a>
+                        </div>
                     </div>
-                    <div class="additional-news-list flex">
+                    <div class="additional-news-list flex flex-vcenter">
                         <div class="additional-news-text">
                             <div class="custom-date f-700 flex flex-vcenter">
                                 <span class="date-icon fa-sharp fa-regular fa-calendar"></span>
                                 <span class="date-icon-text">MM/DD/YYYY</span>
                             </div>
                             <p>This is a concise news post title that likely spans two or three lines as needed to fit ut risus nisl gravida nec.</p>
+                        </div>
+                        <div class="additional-news-btn">
+                            <a href="#" class="additional-news-arrow"><img src="images/icon-right.svg" alt="icon-right"></a>
                         </div>
                     </div>
                 </div>
@@ -210,7 +228,7 @@
             </div>
         </div>
         <div class="awards-logos-btn">
-            <a href="#" class="button">More Awards</a>
+            <a href="#" class="button btn-full-width">More Awards</a>
         </div>
     </div>
 </div>
@@ -241,11 +259,12 @@
 </div>
 </div>
 </section>
-<section class="healthcare-section">
+<section class="healthcare-section pos-relative">
+<div class="healthcare-bg background-bg"></div>
 <div class="container">
     <div class="healthcare-main">
-    <div class="solutions-btnts flex hide-mobile">
-        <a href="#" class="button">Healthcare</a>
+    <div class="healthcare-btnts flex hide-mobile">
+        <a href="#" class="button electric">Healthcare</a>
         <a href="#" class="button">BUILT ENVIRONMENTs</a>
     </div>
     <div class="healthcare-row flex">
@@ -285,13 +304,11 @@
 </div>
 </div>
 </section>
-
 <section class="big-feature-section">
 <div class="container">
 <div class="big-feature-wrap">
     <div class="big-feature-main pos-relative">
         <div class="feature-point">
-            <div class="big-feature-bg"></div>
             <span class="optional-text">SOLUTION</span>
             <span class="sub-heading">Long Term Care</span>
             <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
@@ -493,16 +510,251 @@
 </div>
 </section>
 
+<section class="big-feature-section big-feature-right">
+<div class="container">
+<div class="big-feature-wrap">
+    <div class="big-feature-main pos-relative">
+        <div class="feature-point">
+            <span class="optional-text">SOLUTION</span>
+            <span class="sub-heading">Long Term Care</span>
+            <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+            <a href="#" class="text-link">MORE</a>
+        </div>
+        <div class="big-feature-image">
+            <picture class="big-feature-thumb object-fit">
+                <source srcset="images/big-feature-one@2x.jpg" media="(min-width: 768px)">
+                <img src="images/big-feature-one@2x.jpg" alt="big-feature-one">
+            </picture>
+        </div>
+    </div>
+</div>
+</div>
+</section><!-- common section -->
 
+<section class="expertise-section">
+<div class="container">
+    <div class="expertise-main">
+        <div class="expertise-head flex">
+            <div class="expertise-title">
+                <h2>A short introduction to statistics, data, and awards that support the company’s expertise claims and core beliefs</h2>
+            </div>
+            <div class="expertise-btn"> 
+                <a href="#" class="button">Optional CTA</a>
+            </div>
+        </div>
+        <div class="expertise-row flex">
+            <div class="expertise-list">
+                <div class="number f-700">10</div>
+                <div class="expertise-text">
+                    <span class="expertise-heading f-500">Years of research</span>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Visit the Knowledge Base</a>
+                </div>
+            </div>
+            <div class="expertise-list">
+                <div class="number f-700">40M</div>
+                <div class="expertise-text">
+                    <span class="expertise-heading f-500">Square feet of coverage</span>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">See how radar works</a>
+                </div>
+            </div>
+            <div class="expertise-list">
+                <div class="number f-700">50</div>
+                <div class="expertise-text">
+                    <span class="expertise-heading f-500">Years of experience</span>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Meet the XK team</a>
+                </div>
+            </div>
+            <div class="expertise-list">
+                <div class="number f-700">25</div>
+                <div class="expertise-text">
+                    <span class="expertise-heading f-500">Journal Publications</span>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">See the evidence</a>
+                </div>
+            </div>
+            <div class="expertise-list">
+                <div class="number f-700">24</div>
+                <div class="expertise-text">
+                    <span class="expertise-heading f-500">Radar tech patents</span>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Invest in our innovation</a>
+                </div>
+            </div>
+            <div class="expertise-list">
+                <div class="number f-700">15</div>
+                <div class="expertise-text">
+                    <span class="expertise-heading f-500">Innovation awards</span>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">View the awards</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
+<section class="big-feature-section">
+<div class="container">
+<div class="big-feature-wrap">
+    <div class="big-feature-main pos-relative">
+        <div class="feature-point">
+            <span class="optional-text">SOLUTION</span>
+            <span class="sub-heading">Long Term Care</span>
+            <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+            <a href="#" class="text-link">MORE</a>
+        </div>
+        <div class="big-feature-image">
+            <picture class="big-feature-thumb object-fit">
+                <source srcset="images/big-feature-one@2x.jpg" media="(min-width: 768px)">
+                <img src="images/big-feature-one@2x.jpg" alt="big-feature-one">
+            </picture>
+        </div>
+    </div>
+</div>
+</div>
+</section><!-- common section -->
+<section class="testimonial-section">
+<div class="container">
+<div class="testimonial-wrap">
+    <div class="testimonial-main flex flex-vcenter">
+        <div class="testimonial-text">
+            <span class="optional-text electric">Customer Results</span>
+            <blockquote>“Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis lorem ut viverra.”</blockquote>
+            <div class="testimonial-desc">
+                    <span class="testimonial-name f-500">Firstname Lastname</span>
+                    <p>Position</p>
+            </div>
+        </div>
+        <div class="testimonial-image pos-relative">
+            <figure class="testimonial-thumb object-fit">
+                <img src="images/testimonial-image@2x.jpg" alt="testimonial-image">
+            </figure>
+            <div class="testimonial-bg-img"></div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
 
+<section class="partners-logos-section">
+<div class="container">
+    <div class="partners-logos-main">
+        <div class="partners-logos-head flex flex-vcenter">
+            <div class="partners-logos-title">
+                <h2>A short introduction to partnerships and partner types appears here with logos</h2>
+            </div>
+            <div class="partners-logos-btn hide-mobile hide-tablet">
+                <a href="#" class="button">OPTIONAL CTA</a>
+            </div>
+        </div>
+        <div class="partners-rows-main">
+            <div class="partners-rows-list" data-target="data-partners-1">
+                <div class="partners-logos-row flex flex-vcenter">
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/leadingAge-logo.svg" alt="leadingAge-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/health-logo.svg" alt="health-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/canada-logo.svg" alt="canada-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/jetro-logo.svg" alt="jetro-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/kibo-logo.svg" alt="kibo-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/sam-logo.svg" alt="sam-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/matter-logo.svg" alt="matter-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/kotra-logo.svg" alt="kotra-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/sme-logo.svg" alt="sme-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/aarp-logo.svg" alt="aarp-logo">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="partners-rows-list" data-target="data-partners-2">
+                <div class="partners-logos-row flex flex-vcenter">
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/leadingAge-logo.svg" alt="leadingAge-logo">
+                        </figure>
+                    </div>
+                    <div class="partners-logos-list">
+                        <figure class="partners-logo-thumb">
+                            <img src="images/health-logo.svg" alt="health-logo">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partners-logos-btn hide-desktop">
+            <a href="#" class="button btn-full-width">OPTIONAL CTA</a>
+        </div>
+    </div>
+</div>
+</section>
 
-
-
-
-
-
-
+<section class="demo-cta-section">
+<div class="container">
+    <div class="demo-cta-wrap">
+        <div class="demo-cta-main pos-relative">
+            <div class="demo-cta-bg pos-relative">
+                <picture class="demo-bg-thumb object-fit">
+                    <source srcset="images/demo-cta@2x.jpg" media="(min-width: 768px)">
+                    <img src="images/demo-cta@2x.jpg" alt="demo-cta">
+                </picture>
+            </div>
+            <div class="demo-cta-pos flex flex-vcenter">
+                <div class="demo-cta-image pos-relative">
+                    <figure class="demo-cta-thumb object-fit">
+                        <img src="images/xk-device.svg" alt="xk-device">
+                    </figure>
+                    <div class="demo-cta-radar"></div>
+                </div>
+                <div class="demo-cta-text">
+                    <span class="optional-text">Demo CTA</span>
+                    <h2>Ready to see how XK can work for you? Let’s schedule a demo.</h2>
+                    <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed fermentum condimentum vestibulum. Amet fermentum integer tristique quam nulla duis volutpat etiam.</p>
+                    <a href="#" class="button">Schedule a demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
 <footer class="footer-main">
 <div class="container">
