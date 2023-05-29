@@ -9,8 +9,9 @@
 .short-intro-desc::after{content: ""; display: block; position: absolute; right: 0px; top: 0; border: 1px solid #00d2e1; height: 100%; min-height: 214px;}
 .short-intro-icon{margin-bottom: 18px; max-width: 24px;}
 .short-intro-icon img{width: 100%; object-fit: cover;}
-.short-intro-text{font-size:14px ; line-height:  22px; letter-spacing: -0.28px;}
+.short-intro-text{font-size:14px; line-height: 22px; color: var(--slate-color);}
 .short-intro-text p:not(:last-child){margin-bottom: 18px;}
+.short-intro-text .text-link{opacity: 0.75;}
 .career-intro .short-intro-main{padding: 40px 0 80px;}
 
 
@@ -21,13 +22,13 @@
     .short-intro-desc{flex: 0 0 calc(100% - 474px);}
     .short-intro-row{gap: 56px;}
     .short-intro-list{flex: 0 0 calc(25% - 42px);}
+    .intro1-of-3 .short-intro-list{flex: 0 0 calc(33.3333% - 38px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){ 
     .short-intro-head{gap: 60px;}
     .short-intro-desc{padding: 0 60px;}
     .short-intro-row {gap: 35px;}
     .short-intro-list{flex: 0 0 calc(25% - 27px);}
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){ 
     .short-intro-main{padding: 40px 0;}

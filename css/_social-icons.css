@@ -30,3 +30,8 @@
     .social-share-icons #st-1.st-animated .st-btn {width: 64px; height: 100%;}
     .social-share-icons #st-1.st-animated .st-btn:last-child{width: 49px; justify-content: flex-end;}
 }
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    .social-share-icons{display: block;}
+    .social-share-icons .share-text{margin-bottom: 20px; display: block;}
+    .social-share-icons #st-1.st-animated{width: 100%;}
+}
