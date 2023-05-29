@@ -10,12 +10,12 @@
     .awards-logos-btn{order: 2; flex: 0 0 50%; text-align: right;}
 }
 @media only screen and (min-width: 1024px){
-    .awards-logos-row{gap: 121px;}
-    .awards-logos-list{flex: 0 0 calc(14.28% - 104px);}
+    .awards-logos-row{gap: 20px 72px;}
+    .awards-logos-list{flex: 0 0 calc(14.28% - 62px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .awards-logos-row{gap: 60px;}
-    .awards-logos-list{flex: 0 0 calc(14.28% - 52px);}
+    .awards-logos-row{gap: 30px;}
+    .awards-logos-list{flex: 0 0 calc(14.28% - 26px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .awards-logos-row{gap: 40px 20px;}
@@ -24,6 +24,6 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .awards-logos-main{padding: 40px 0; display: block;}
     .awards-logos-text{padding-bottom: 18px;}
-    .awards-logos-row{gap: 40px 20px; margin-bottom: 40px;}
-    .awards-logos-list{flex: 0 0 calc(25% - 15px);}
+    .awards-logos-row{gap: 38px 10px; margin-bottom: 40px;}
+    .awards-logos-list{flex: 0 0 calc(25% - 8px);}
 }
