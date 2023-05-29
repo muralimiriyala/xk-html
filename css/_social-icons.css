@@ -23,3 +23,13 @@
 
 
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+   
+
+}
+@media only screen and (max-width: 767px) and (min-width: 375px){
+ .social-share-icons{gap: 18px;}
+
+ .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label { min-width: 64px;}
+ .social-share-icons #st-1.st-animated .st-btn {width: 64px; height: 100%;}
+}
