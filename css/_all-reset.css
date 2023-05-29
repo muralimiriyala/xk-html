@@ -213,12 +213,14 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .container.lg{max-width: 1440px; padding: 0 40px;}
     .container{max-width: 1280px; margin: 0 auto;}
     .container.md{max-width: 1040px;}
     .container.sm{max-width: 884px;}
     .hide-desktop{display: none;}
     .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
+}
+@media only screen and (min-width: 1340px){
+    .container.lg{max-width: 1440px; padding: 0 40px;}
 }
 @media only screen and (max-width: 1339px) and (min-width: 1024px){
     .container{max-width: 100%; padding: 0 30px;}
