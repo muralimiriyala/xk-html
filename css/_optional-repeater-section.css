@@ -3,9 +3,10 @@
 .optional-repeater-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
 .optional-repeater-text h2{margin-bottom: 42px;}
 .optional-repeater-text p{margin-bottom: 24px;}
-ul.optional-list{margin: 0 0 0 32px;}
+ul.optional-list{margin: 0 0 24px 32px; font-size: 14px; line-height: 22px;} 
 ul.optional-list li{margin-bottom: 0;}
 ul.optional-list li::before{top: 10px;}
+ul.optional-list:last-child{margin-bottom: 0;}
 
 .reverse .optional-repeater-main{flex-direction: row-reverse; padding: 40px 0 80px;}
 .reverse .optional-xk-shape{ left: auto; right: -258px; }
