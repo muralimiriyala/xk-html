@@ -3,7 +3,6 @@
 .social-share-icons .share-text{width: 64px; font-size: 14px; line-height: 22px; letter-spacing: 0.2em; opacity: 0.5; text-transform: uppercase;}
 .social-share-icons #st-1.st-animated{width: calc(100% - 84px); display: flex; flex-wrap: wrap; z-index: 1;}
 .social-share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 76px; min-width: 76px; height: 48px; border-left: 1px solid var(--electric-color); font-size: 24px; line-height: normal; border-radius: 0 !important; background-color: transparent !important; color: var(--midnight-color); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center; transition: all 0s ease-in-out !important;}
-.social-share-icons #st-1.st-animated .st-btn:last-child{width: 55px;}
 .social-share-icons #st-1.st-animated .st-btn:hover::before{transform: scale(0.1); opacity: 0;}
 .social-share-icons #st-1.st-animated .st-btn:hover{background: transparent !important; color: var(--electric-color) !important; opacity: 1; top: 0; transition: all 0.5s ease-in-out;}
 .social-share-icons #st-1.st-animated span.st-label{display: none;}
@@ -12,24 +11,22 @@
 .social-share-icons #st-1.st-animated .st-btn[data-network="linkedin"]::after{content: "\f0e1"; }
 .social-share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
 .social-share-icons #st-1.st-animated img{display: none;}
-.social-share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 76px;}
-.social-share-icons #st-1.st-has-labels .st-btn.st-remove-label:last-child{min-width: 55px; justify-content: flex-end;}
+.social-share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: inherit;}
 
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-
-
+    .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label:last-child{min-width: 55px; justify-content: flex-end;}
+    .social-share-icons #st-1.st-animated .st-btn:last-child{width: 55px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-   
 
 }
-@media only screen and (max-width: 767px) and (min-width: 375px){
- .social-share-icons{gap: 18px;}
-
- .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label { min-width: 64px;}
- .social-share-icons #st-1.st-animated .st-btn {width: 64px; height: 100%;}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .social-share-icons{gap: 18px;}
+    .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label { width: 64px;}
+    .social-share-icons #st-1.st-animated .st-btn {width: 64px; height: 100%;}
+    .social-share-icons #st-1.st-animated .st-btn:last-child{width: 49px; justify-content: flex-end;}
 }

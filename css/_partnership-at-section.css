@@ -31,7 +31,7 @@
     .avatar-image{flex: 0 0 88px;}
     .avatar-text{flex: 0 0 calc(100% - 112px); padding-left: 24px;}
 }
-@media only screen and (max-width: 767px) and (min-width: 375px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .partnership-at-main{padding: 40px 0;}
     .partnership-at-image{margin-bottom: 40px;}
     .partnership-at-icon{margin-bottom: 22px;}
