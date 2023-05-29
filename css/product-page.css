@@ -1,0 +1,18 @@
+/* Banner section */
+.product-banner-section{background-color: var(--light-gray-color);}
+.product-banner-text{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; font-family: 'Gotham-Book',sans-serif;}
+.product-banner-text h1{font-family: 'Gotham-Bold',sanserif;}
+.product-banner-thumb img{max-width: 377px;}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+.product-banner-main{gap: 196px;}
+.product-banner-text{flex: 0 0 440px;}
+.product-banner-image{flex: 0 0 calc(100% - 636px);}
+
+
+
+}
