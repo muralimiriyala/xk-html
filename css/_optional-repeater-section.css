@@ -11,6 +11,10 @@ ul.optional-list:last-child{margin-bottom: 0;}
 .reverse .optional-repeater-main{flex-direction: row-reverse; padding: 40px 0 80px;}
 .reverse .optional-xk-shape{ left: auto; right: -258px; }
 
+body.product-page .reverse .optional-repeater-main{padding: 56px 0 80px;}
+body.product-page .optional-repeater-text span{margin-bottom: 38px;}
+body.product-page .optional-repeater-text .button{margin-top: 8px;}
+
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){ 
