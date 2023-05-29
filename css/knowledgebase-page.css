@@ -30,7 +30,7 @@
 .training-list{padding: 18px 20px; position: relative; z-index: 1;}
 .training-list::before{content: ""; display: block; position: absolute; top:0; left: 0; z-index: -1; }
 .training-list::after{background-color: var(--white); width: calc(100% - 68px); left: 68px; height: 100%; content: ""; position: absolute; z-index: -1; top: 0;} 
-.training-content{letter-spacing: -0.36px;}
+.training-content{font-size: 18px; line-height: 26px;}
 .training-content p{margin-bottom: 14px;}
 .training-image img{max-width: 96px;}
 .show-all-btn{padding-left: 42px; font-size: 12px; line-height: 12px; letter-spacing: 0.2em; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; display: inline-block; cursor: pointer; transition: all 0.45s ease;} 

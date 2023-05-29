@@ -10,5 +10,5 @@
 @media only screen and (min-width: 1024px){
     .healthcare-btnts{gap: 20px;}
     .healthcare-row{gap: 32px; margin-bottom: 24px;}
-    .healthcare-list{flex: 0 0 calc(25% - 27px);}
+    .healthcare-list{flex: 0 0 calc(25% - 24px);}
 }
