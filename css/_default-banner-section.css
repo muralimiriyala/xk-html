@@ -9,10 +9,10 @@
 .default-banner-text p:not(:last-child){margin-bottom: 34px;}
 .default-banner-text span.optional-text{margin-bottom: 30px;}
 
-
-
-
 /* media css starts here */
+@media only screen and (min-width: 768px){
+    body.page-template-solutions .default-banner-text h1{font-size: 32px; line-height: 40px;}
+}
 @media only screen and (min-width: 1024px){
     .product-xk-main{top: 50%; transform: translateY(-50%); right: -206px; width: 590px; height: 590px;}
     .default-banner-bg img{max-height: 810px;}
