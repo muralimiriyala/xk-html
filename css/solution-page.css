@@ -17,10 +17,14 @@
 .trusted-logos-main{padding: 40px 0 56px;}
 
 .stats-section{background-color: var(--light-gray-color);}
-.stats-main{padding: 80px 0;}
+.stats-main{padding: 80px 0 80px;}
+.stats-head{margin-bottom: 80px;}
 .stats-title{font-size: 18px; line-height: 26px;}
 .stats-title h2{margin-bottom: 16px;}
 .stats-post-text{padding: 40px; background-color: var(--white);}
+.stats-post-text h2{font-size: 32px; line-height: 40px;}
+.stats-post-main{margin-bottom: 80px;}
+body.page-template-solutions .training-row{margin-bottom: 0;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
@@ -42,8 +46,9 @@
     .stats-head{gap: 80px 194px;}
     .stats-title{flex: 0 0 calc(100% - 444px);}
     .stats-btn{flex: 0 0 250px; text-align: right;}
+    .stats-post-main{flex-wrap: nowrap;}
     .stats-post-image{flex: 0 0 680px;}
-    .stats-post-text{flex: 0 0 calc(100% - 680px);}
+    .stats-post-text{flex: 0 0 calc(100% - 680px); min-width: 680px; transform: translateX(-80px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .trusted-logos-row{gap: 30px;}
