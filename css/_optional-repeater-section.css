@@ -15,6 +15,7 @@ body.product-page .reverse .optional-repeater-main{padding: 56px 0 80px;}
 body.product-page .optional-repeater-text span{margin-bottom: 38px;}
 body.product-page .optional-repeater-text .button{margin-top: 8px;}
 
+body.product-page  .optional-repeater-main{padding: 56px 0 80px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){ 
