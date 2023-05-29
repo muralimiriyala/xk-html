@@ -72,6 +72,7 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .training-right{flex: 50%;}
     .training-row{display: block; margin-bottom: 45px;}
     .training-list{margin-bottom: 30px;}
+    .training-list::before{content: ""; display: block; background-image: url("./images/training-edu-image.svg");  width: 68px; height: 132px; position: absolute; top:0; left: 0; z-index: -1; }
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
 }
@@ -92,6 +93,4 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
     .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
     .tag-links-main{margin-bottom: 10px;}
-    
-
 }

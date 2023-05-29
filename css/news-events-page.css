@@ -27,12 +27,18 @@
     .more-events-right{flex: 0 0 calc(100% - 224px);}
     .more-events-form{ gap: 14px;}
     .events-form-field{flex: 0 0 calc(33.33% - 15px);}
-    .more-events-list{margin-bottom: 35px;}
+    .more-events-row{gap: 40px; padding: 40px 0;}
+    .more-events-list{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 375px){
     .more-events-main{padding: 40px 0;}
+    .more-events-head{display: block;}
+    .more-events-title{margin-bottom: 20px;}
     .more-events-form{display: block;}
-    .events-form-field{ margin-bottom: 20px;}
-
+    .events-form-field{ margin-bottom: 18px;}
+    .events-form-field:last-child{margin-bottom: 0;}
+    .more-events-row{padding: 40px 0 0; }
+    .more-events-list{margin-bottom: 40px;}
+    .more-events-list:last-child{margin-bottom: 0;}
 
 }
