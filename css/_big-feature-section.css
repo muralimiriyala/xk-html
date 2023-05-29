@@ -21,7 +21,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){ 
     .big-feature-wrap{padding: 40px 0;}
 }
-@media only screen and (max-width: 767px) and (min-width: 375px){ 
+@media only screen and (max-width: 767px) and (min-width: 200px){ 
     .big-feature-wrap {padding: 40px 0;}
     .big-feature-right .big-feature-main {padding-right: 0; padding-left: 0;}
     .big-feature-right .feature-point{position: relative; transform: none; margin-top: -30px; width: calc(100% - 32px); left: 16px; padding: 20px;}

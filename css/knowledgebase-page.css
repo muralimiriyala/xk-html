@@ -76,7 +76,7 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
 }
-@media only screen and (max-width: 767px) and (min-width: 375px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .knowledgebase-main{padding: 120px 20px 95px;}
     .knowledgebase-text h1 {font-size: 40px; font-weight: 500; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 24px;}
     .knowledgebase-text p{margin-bottom: 30px;}

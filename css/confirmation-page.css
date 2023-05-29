@@ -31,7 +31,7 @@
     .confirmation-icon{flex: 0 0 24px;}
     .confirmation-head span{flex: 0 0 calc(100% -34px);}
 }
-@media only screen and (max-width: 767px) and (min-width: 375px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .confirmation-main{padding: 40px 0;}
     .confirmation-text{margin-bottom: 40px;}
     .confirmation-head{gap: 10px;}
