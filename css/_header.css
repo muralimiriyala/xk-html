@@ -10,6 +10,7 @@
     .logo{flex: 0 0 295px; min-height: 32px; z-index: 1;}
     .logo a{width: 100%; height: auto; display: block;}
     .logo img{width: 100%; object-fit: contain;}
+    .mobile-logo{display: none;}
     .sticky-logo{opacity: 0; visibility: hidden; z-index: -1; left: 0; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; display: block; position: absolute; transition: all 0.45s ease-in-out;}
     .fixed-header .logo{flex: 0 0 32px;}
     .fixed-header .sticky-logo{opacity: 1; visibility: visible;}
@@ -33,7 +34,7 @@
 
 
 
-    .nav-right{flex: 0 0 200px; gap: 32px;}
+    .nav-right{flex: 0 0 95px; gap: 32px;}
     .nav-rule{width: 1px; height: 30px; transform: rotate(-26deg); background-color: var(--electric-color); transition: all 0.45s linear;}
     ul.nav-users{gap: 32px; flex: 1; margin: 0;}
     ul.nav-users li::before{display: none;}
@@ -44,7 +45,11 @@
     .fixed-header ul.nav-users li a{color: var(--white);}
     .main-content{padding-top: 88px;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .header{gap: 12px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 200px){
+    .header{padding: 12px 0; transition: padding 0.45s ease-in-out;}
     .navigation{display: none;}
     .main-content{padding-top: 64px;}
 }

@@ -23,7 +23,10 @@
 <div class="header flex flex-vcenter">
     <div class="logo pos-relative">
         <a href="index.html">
-            <span class="normal-logo"><img src="images/logo.svg" alt="logo"></span>
+            <span class="normal-logo">
+                <img class="hide-mobile" src="images/logo.svg" alt="logo">
+                <img class="hide-desktop hide-tablet" src="images/logo-mobile.svg" alt="logo-mobile">
+            </span>
             <span class="sticky-logo"><img src="images/mark.svg" alt="mark"></span>
         </a>
     </div>
@@ -51,10 +54,10 @@
 <div class="default-banner-bg">
     <picture class="object-fit">
         <source srcset="images/team-banner@2x.jpg" media="(min-width: 768px)">
-        <img src="images/home-banner@2x.jpg" alt="">
+        <img src="images/team-banner-mobile@2x.jpg" alt="team-banner-mobile">
     </picture>
 </div>
-<div class="product-xk-main">
+<div class="product-xk-main flex flex-center">
     <div class="product-waves"></div>
     <div class="xk-device"></div>
 </div>
@@ -65,7 +68,7 @@
             <span class="optional-text">PREHEADER</span>
             <h1>A short headline with one <span>highlight</span> word shows here</h1>
             <p>A short excerpt can optionally appear here to introduce the page euismod cras porttitor felis malesuada quam aliquet porttitor.</p>
-            <a href="#" class="button electric">Optional CTA</a>
+            <a href="#" class="button electric btn-full-width">Optional CTA</a>
         </div>
     </div>
 </div>
