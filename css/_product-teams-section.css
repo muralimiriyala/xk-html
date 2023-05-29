@@ -1,0 +1,51 @@
+
+
+.product-teams-wrap{padding: 80px 0;}
+.product-teams-main{padding: 96px 80px 80px; background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
+.product-teams-row{margin-bottom: 48px;}
+.product-teams-list{background-color: var(--white);}
+.product-teams-text{padding: 32px;}
+.product-teams-desc{padding: 20px 0; border-top: 1px solid var(--electric-color);}
+
+.product-detail-main{background-color: var(--white);}
+.product-detail-text{padding: 48px;}
+
+/* media css starts here */
+@media only screen and (min-width: 768px){
+    .product-teams-main{background-image: url("./images/xk-radar-gray-bg.svg");}
+    .product-teams-head h2{font-size: 32px; line-height: 40px;}
+}
+@media only screen and (min-width: 1024px){ 
+    .product-teams-row{gap: 32px;}
+    .product-teams-list{flex: 0 0 calc(33.3333% - 32px);}
+    .product-detail-image{flex: 0 0 560px;}
+    .product-detail-text{flex: 0 0 calc(100% - 560px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

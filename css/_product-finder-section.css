@@ -1,0 +1,33 @@
+
+
+.product-finder-wrap{padding: 80px 0;}
+.product-finder-main{padding: 96px 0 80px; background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
+.product-finder-list{padding: 17px 16px; background-color: var(--white);}
+.product-finder-text{border-left: 1px solid var(--electric-color); padding-left: 16px;}
+.product-finder-text .sub-heading{margin-bottom: 0;}
+.product-finder-btns .button{width: 48px; height: 48px; padding: 0; font-size: 24px; line-height: 28px; color: var(--white);}
+
+
+/* media css starts here */
+@media only screen and (min-width: 768px){
+    .product-finder-main{background-image: url("./images/xk-radar-gray-bg.svg");}
+    .product-finder-head h2{font-size: 32px; line-height: 40px;}
+}
+@media only screen and (min-width: 1024px){ 
+    .product-finder-head{max-width: 960px; margin: 0 auto;}
+    .product-finder-list{gap: 48px; margin-bottom: 20px;}
+    .product-finder-text{flex: 0 0 calc(100% - 248px);}
+    .product-finder-btns{gap: 16px; flex: 0 0 200px; justify-content: flex-end;}
+    .product-finder-row{max-width: 960px; margin: 0 auto;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
+
+
+
+
+
