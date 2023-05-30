@@ -51,7 +51,7 @@
 
 .footnotes-main{padding: 0 0 71px;}
 .footnotes small{display: block; margin-bottom: 16px; font-size: 12px; line-height: 16px; letter-spacing: -0.24px; color: var(--slate-color);}
-.footnotes-desc{position: relative; padding-left: 24px;}
+.footnotes-desc{position: relative; padding-left: 32px;}
 .footnotes-desc:before{content: ""; display: block; width: 2px; height: 100%; top: 0px; left: 0; background-color: var(--electric-color); position: absolute;}
 .footnotes-desc p{margin-bottom: 8px; font-size: 12px; line-height: 20px; letter-spacing: -0.24px; font-family: 'Gotham-Book',sans-serif;}
 .footnotes-desc sup{font-family: 'Gotham-Bold', sans-serif; left: -7px; font-size: 8px; line-height: 20px; color: var(--midnight-color);}
