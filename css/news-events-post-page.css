@@ -7,10 +7,15 @@
 
 .post-default-right .para{ font-size: 24px; line-height: 36px; letter-spacing: -.48px; margin-bottom: 56px;}
 .post-default-right h2{padding-left: 16px; position: relative; font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
-.post-default-right h2::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}}
+.post-default-right h2::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
 .post-default-right p{font-size: 16px; line-height: 32px; letter-spacing: -0.32px; color: var(--slate-color);}
+
+
+body.news-events-post-page .newsletter-bg{background-image: url("images/newsletter-post-bg.svg"); padding: 80px 0;}
+body.news-events-post-page .newsletter-main{padding: 60px;}
+body.news-events-post-page .newsletter-main{background-color: var(--white);}
 @media only screen and (min-width: 1024px){
-    .post-default-main{gap: 136px;}
+    
     .post-banner-left{flex: 0 0 64px}
 
     
