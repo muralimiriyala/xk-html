@@ -10,6 +10,7 @@
 .knowledge-srch-btn{width: 24px; height: 24px; right: 16px; top: 50%; transform: translateY(-50%); position: absolute; cursor: pointer;}
 .knowledgebase-form span.search-icon{width: 24px; height: 24px; background: url('./images/search.svg') no-repeat; background-size: contain; display: block;}
 
+
 /* Browse logos section */
 .browse-bg{background-image: url("./images/browse-bg@2x.png"); background-repeat: no-repeat; background-size: cover;}
 .browse-logos-main{padding: 80px 0;}
@@ -21,7 +22,7 @@
 
 /* Training section */
 .training-section{background-color: var(--light-gray-color);}
-.training-main{padding: 50px 0 53px; border-bottom: 4px solid var(--white);}
+.training-main{padding: 40px 0 53px; border-bottom: 4px solid var(--white);}
 .training-section:last-child .training-main{border-bottom: none;}
 .training-head{margin-bottom: 34px;}
 .training-right{text-align: right;}
@@ -45,7 +46,10 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
 .tag-link-btn{flex: 0 0 24px; width: 24px;}
 .tag-link-btn a{font-size: 22px; color: var(--electric-color);}
 .tag-link-btn a:hover{color: var(--midnight-color);}
+ .training-border{border-bottom: none;}
 
+
+body.myxk-tech-page .training-border{border-bottom: none;}
 /* media starts here */
 @media only screen and (min-width: 1024px){
     .knowledgebase-text{width: 768px;}
