@@ -16,15 +16,26 @@
 .additional-news-text{width: calc(100% - 36px); padding-right: 12px; border-right: 1px solid var(--electric-color); font-size: 12px; line-height: 20px;}
 .additional-news-text.no_btn{border-right: none;}
 .additional-news-btn{width: 24px;}
-.additional-news-arrow{width: 100%; max-width: 24px;}
+.additional-news-arrow{width: 100%; max-width: 24px; font-size: 22px; display: inline-block;}
 .additional-news-arrow:hover{transform: translateX(10px);}
 .additional-news-arrow img{width: 100%; object-fit: cover;}
+
+.overlay-sign-in{width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 1850; display: none;}
+.overlay-sign-bg{width: 100%; height: 100%; top: 0; left: 0; opacity: 0.8; position: fixed; background-color: var(--midnight-color); z-index: 1800;}
+.overlay-sign-wrap{width: 100%; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1850;}
+.overlay-sign{max-width: 456px; margin: 0 auto; padding: 36px; border: 12px solid rgba(0, 210, 225, 0.5);}
+.overlay-sign-text{padding: 39px 40px 20px; background-color: var(--white);}
+.overlay-close{top: 40px; right: 39px; position: absolute; cursor: pointer; font-size: 24px; line-height: 24px; color: var(--slate-color); opacity: 0.5; transition: all 0.45s ease;}
+.overlay-close:hover{color: var(--electric-color); opacity: 1;}
+span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .home-banner-desc h1{font-size: 40px; line-height: 48px; margin-bottom: 4px; letter-spacing: 0.02em;}
 }
 @media only screen and (min-width: 1024px){
+    .home-banner-bg{min-height: 810px;}
+    .home-banner-bg img{max-height: 810px;}
     .home-banner-pos { left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute; }
     .home-banner-main{gap: 160px;}
     .home-banner-left{flex: 0 0 calc(100% - 495px);}

@@ -5,8 +5,9 @@
 .short-intro-title h2:last-child{margin-bottom: 0;}
 .short-intro-desc p{padding: 11px 0;}
 .short-intro-desc{padding: 0 80px;}
-.short-intro-desc::before{content: ""; display: block; position: absolute; left: 0px; border: 1px solid #00d2e1; height: 100%; min-height: 214px;}
-.short-intro-desc::after{content: ""; display: block; position: absolute; right: 0px; top: 0; border: 1px solid #00d2e1; height: 100%; min-height: 214px;}
+.short-intro-desc::before, .short-intro-desc::after{width: 1px; height: 100%; top: 0; content: ""; display: block; position: absolute; background-color: var(--electric-color);}
+.short-intro-desc::before{left: 0px; }
+.short-intro-desc::after{right: 0px;}
 .short-intro-icon{margin-bottom: 18px; max-width: 24px;}
 .short-intro-icon img{width: 100%; object-fit: cover;}
 .short-intro-text{font-size:14px; line-height: 22px; color: var(--slate-color);}
