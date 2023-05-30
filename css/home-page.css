@@ -35,7 +35,7 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
 }
 @media only screen and (min-width: 1024px){
     .home-banner-bg{min-height: 810px;}
-    .home-banner-bg img{max-height: 810px;}
+    .home-banner-bg img{max-height: 810px; overflow: hidden;}
     .home-banner-pos { left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute; }
     .home-banner-main{gap: 160px;}
     .home-banner-left{flex: 0 0 calc(100% - 495px);}

@@ -16,7 +16,7 @@
 @media only screen and (min-width: 1024px){
     .product-xk-main{top: 50%; transform: translateY(-50%); right: -206px; width: 590px; height: 590px;}
     .default-banner-bg{min-height: 810px;}
-    .default-banner-bg img{max-height: 810px;}
+    .default-banner-bg img{max-height: 810px; overflow: hidden;} 
     .default-banner-pos{ left: 0; right: 0; top: 50%; width: 100%; position: absolute; transform: translateY(-50%); }
     .default-banner-main{padding: 87px 0;}
     .default-banner-line{width: 1px; height: 100%; left: -23px; bottom: 0;}
