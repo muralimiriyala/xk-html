@@ -1,6 +1,4 @@
-/* Banner section */
 .product-banner-section::after{background-color: var(--light-gray-color); width: 100%; height: calc(100% - 68px); content: ""; position: absolute; top: 0; left: 0; z-index: -1;}
-
 .product-banner-main{padding-top: 14px;}
 .product-banner-text{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; font-family: 'Gotham-Book',sans-serif;}
 .product-banner-text h1{font-family: 'Gotham-Bold',sanserif;}
