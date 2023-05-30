@@ -23,8 +23,8 @@
     ul.main-menu > li > a{color: var(--midnight-color); font-size: 14px; line-height: 22px; font-family: 'Gotham-Medium', sans-serif; display: inline-block; display: inline-block; position: relative;}
     ul.main-menu > li > a::after{width: 0%; height: 2px; bottom: -7px; left: 0; background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: width 0.45s ease-in-out;}
     ul.main-menu > li:hover > a::after{width: 100%;}
-    ul.main-menu > li > ul{margin: 0; top: 0; left: 0; width: 100%; opacity: 0; visibility: hidden; background-color: var(--light-gray-color); position: absolute;}
-    ul.main-menu > li:hover > ul{opacity: 1; visibility: visible;}
+    ul.main-menu > li > ul{margin: 0; top: 0; left: 0; width: 100%; opacity: 1; visibility: visible; background-color: var(--light-gray-color); position: absolute;}
+    /* ul.main-menu > li:hover > ul{opacity: 1; visibility: visible;} */
 
     /*-- solutions nav --*/
     ul.main-menu > li.solutions-nav-item > ul{width: 100vw; left: calc(50px - 50vw); top: 100%; max-width: 1440px; display: flex; flex-wrap: wrap;}
