@@ -1,0 +1,55 @@
+
+
+.product-teams-wrap{padding: 80px 0 0;}
+.product-teams-main{padding: 77px 80px 82px; background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
+.product-teams-row{padding: 26px 0 48px;}
+.product-teams-list{background-color: var(--white);}
+.product-teams-text{padding: 0 32px;}
+.product-teams-desc{padding: 30px 0 31px; border-top: 1px solid var(--electric-color);}
+.product-teams-desc .sub-heading{margin-bottom: 0; width: calc(100% - 24px);}
+.product-teams-btn{width: 24px;}
+.product-teams-btn img{width: 100%; object-fit: cover;}
+
+.product-detail-main{margin-bottom: 80px; background-color: var(--white);}
+.product-detail-text{padding: 48px; font-size: 14px; line-height: 22px;}
+.product-detail-text h2{font-size: 32px; line-height: 40px; }
+
+/* media css starts here */
+@media only screen and (min-width: 768px){
+    .product-teams-main{background-image: url("./images/xk-radar-gray-bg.svg");}
+    .product-teams-head h2{font-size: 32px; line-height: 40px;}
+}
+@media only screen and (min-width: 1024px){ 
+    .product-teams-row{gap: 40px;}
+    .product-teams-list{flex: 0 0 calc(33.3333% - 32px);}
+    .product-detail-image{flex: 0 0 560px;}
+    .product-detail-text{flex: 0 0 calc(100% - 560px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,7 @@
 
 .newsletter-section{background-color: var(--light-gray-color);}
 .newsletter-main{padding: 67px 0 83px; border-top: 4px solid var(--white);}
+.product-teams-main .newsletter-main{padding-bottom: 0;}
 .newsletter-text span.optional-text{margin-bottom: 7px;}
 .newsletter-text h3{margin-bottom: 0;}
 
