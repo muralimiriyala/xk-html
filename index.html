@@ -23,16 +23,23 @@
 <div class="header flex flex-vcenter">
     <div class="logo pos-relative">
         <a href="index.html">
-            <span class="normal-logo"><img src="images/logo.svg" alt="logo"></span>
+            <span class="normal-logo">
+                <img class="hide-mobile" src="images/logo.svg" alt="logo">
+                <img class="hide-desktop hide-tablet" src="images/logo-mobile.svg" alt="logo-mobile">
+            </span>
             <span class="sticky-logo"><img src="images/mark.svg" alt="mark"></span>
         </a>
     </div>
+    <div class="toggle_bar flex">
+        <span class="nav-rule"></span>
+        <div class="toggle_icon" aria-hidden="false"><span class="fa-sharp fa-regular fa-bars"></span></div>
+    </div>
     <nav class="navigation flex">
         <ul class="main-menu flex">
-            <li class="solutions-nav-item"><a href="">Solutions</a>
+            <li class="solutions-nav-item menu-item-has-children"><a href="">Solutions</a>
                 <ul class="sub-menu">
-                    <li>
-                        <a href="#">Health Care</a>
+                    <li class="menu-item-has-children">
+                        <a href="#" class="no_link">Health Care</a>
                         <ul>
                             <li>
                                 <a href="#">
@@ -81,7 +88,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">BUILT ENVIRONMENT</a>
+                        <a href="#" class="no_link">BUILT ENVIRONMENT</a>
                         <ul>
                             <li>
                                 <a href="#">
@@ -131,23 +138,22 @@
             <li><a href="">About</a></li>
         </ul>
         <div class="nav-right flex flex-vcenter">
-        <span class="nav-rule"></span>
-            <ul class="nav-users flex flex-content-center">
-                <li><a href="#"><span class="fa-sharp fa-regular fa-at"></span></a></li>
-                <li><a href="#"><span class="fa-regular fa-user fa-sharp"></span></a></li>
+            <span class="nav-rule hide-mobile"></span>
+            <ul class="nav-users flex flex-center">
+                <li><a href="#">CONTACT <span class="fa-sharp fa-regular fa-at"></span></a></li>
+                <li><a href="#">MY XK <span class="fa-regular fa-user fa-sharp"></span></a></li>
             </ul>
         </div>
     </nav>
 </div>
 </div>
 </header>
-
 <main class="main-content">
 <section class="home-banner-section pos-relative">
     <div class="home-banner-bg">
         <picture class="object-fit">
             <source srcset="images/home-banner@2x.jpg" media="(min-width: 768px)">
-            <img src="images/home-banner@2x.jpg" alt="home-banner">
+            <img src="images/home-banner-mobile@2x.jpg" alt="home-banner-mobile">
         </picture>
     </div>
     <div class="container home-banner-pos">
