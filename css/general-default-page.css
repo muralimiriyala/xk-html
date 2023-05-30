@@ -1,5 +1,5 @@
 
-.general-default-main{padding: 0 0 48px; font-size: 16px; line-height: 32px; color: var(--slate-color);}
+.general-default-main{padding: 76px 0 48px; font-size: 16px; line-height: 32px; color: var(--slate-color);}
 .general-default-main h3{padding-left: 18px; position: relative;}
 .general-default-main h3::before{width: 2px; height: 100%; top: 3px; left: 0; content: ""; display: block; position: absolute; background-color: var(--electric-color); position: absolute;}
 .general-default-main h4{padding-left: 18px; position: relative;}
@@ -13,7 +13,6 @@
 .general-product-text ul{margin-bottom: 24px;}
 .general-product-text ul li{margin-bottom: 0;}
 .general-product-text ul li::before{top: 10px;}
-
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

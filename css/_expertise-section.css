@@ -2,7 +2,7 @@
 
 .expertise-main{padding: 80px 0;}
 .expertise-text{font-size: 14px; line-height: 22px; color: var(--midnight-color);}
-.number{margin-bottom: 21px; font-size: 96px; line-height: 96px; text-shadow: 2px 2px 0 #00f0ff; color: var(--white); -webkit-text-stroke-color: var(--midnight-color); -webkit-text-stroke-width: 1px; display: block; }
+.number{margin-bottom: 21px; font-size: 96px; line-height: 96px; filter: drop-shadow(2px 2px 0 #00f0ff); color: transparent; -webkit-text-stroke-color: var(--midnight-color); -webkit-text-stroke-width: 1px; display: block; }
 .expertise-heading{margin-bottom: 16px; font-size: 24px; line-height: 28px; color: var(--midnight-color); display: block;}
 .expertise-text p{margin-bottom: 14px;}
 
