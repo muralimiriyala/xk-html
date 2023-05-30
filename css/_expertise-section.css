@@ -6,6 +6,7 @@
 .expertise-heading{margin-bottom: 16px; font-size: 24px; line-height: 28px; color: var(--midnight-color); display: block;}
 .expertise-text p{margin-bottom: 14px;}
 
+body.product-page .expertise-section{background-color: var(--light-gray-color);}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .expertise-head{gap: 250px; margin-bottom: 52px;}
@@ -13,6 +14,10 @@
     .expertise-btn{flex: 0 0 185px; padding-top: 3px; text-align: right;}
     .expertise-row{gap: 72px 32px;}
     .expertise-list{flex: 0 0 calc(33.3333% - 22px);}
+
+    body.product-page .expertise-head{gap: 220px;}
+    body.product-page .expertise-title{flex: 0 0 calc(100% - 414px);}
+    body.product-page .expertise-btn{flex: 0 0 194px;}
 }
 
 

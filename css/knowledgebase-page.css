@@ -58,6 +58,10 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
     .training-list::before{content: ""; display: block; background-image: url("images/training-edu-image.svg");  width: 68px; height: 132px; position: absolute; top:0; left: 0; z-index: -1; }
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
+
+    body.product-page .training-main{padding: 0;}
+    body.product-page .training-row{margin-bottom: 80px;}
+
 }
 
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
