@@ -22,7 +22,8 @@
 
 /* Training section */
 .training-section{background-color: var(--light-gray-color);}
-.training-main{padding: 40px 0 53px; border-bottom: 4px solid var(--white);}
+ .training-main.training-spac{padding: 40px 0 53px;}
+.training-main{padding: 50px 0 53px; border-bottom: 4px solid var(--white);}
 .training-section:last-child .training-main{border-bottom: none;}
 .training-head{margin-bottom: 34px;}
 .training-right{text-align: right;}
@@ -46,10 +47,10 @@ ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12p
 .tag-link-btn{flex: 0 0 24px; width: 24px;}
 .tag-link-btn a{font-size: 22px; color: var(--electric-color);}
 .tag-link-btn a:hover{color: var(--midnight-color);}
- .training-border{border-bottom: none;}
+ .training-border{border-bottom: none; padding: 50px 0 40px;}
 
 
-body.myxk-tech-page .training-border{border-bottom: none;}
+body.myxk-tech-page .training-border{padding: 50px 0 80px;}
 /* media starts here */
 @media only screen and (min-width: 1024px){
     .knowledgebase-text{width: 768px;}

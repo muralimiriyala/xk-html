@@ -13,6 +13,7 @@ ul.custom-form-links li a:hover{color: var(--electric-color);}
 .custom-author-text{flex: 0 0 calc(100% - 32px);}
 
 
+body.myxk-tech-page .common-form-wrap{padding: 80px 0;}
 /* media css starts here */
 @media screen and (min-width: 768px){
     .general-default-page .common-form-wrap{padding-top: 80px;}
@@ -20,6 +21,8 @@ ul.custom-form-links li a:hover{color: var(--electric-color);}
     .common-person-details{gap: 24px; margin-top: 57px;}
     .common-person-image{width: 88px;}
     .common-person-text{width: calc(100% - 113px); padding-left: 24px; border-left: 1px solid var(--electric-color);}
+
+    
 }
 @media screen and (min-width: 1024px) {
     .common-form-text{flex: 0 0 352px; margin-right: 80px;}
