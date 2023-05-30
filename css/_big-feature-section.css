@@ -1,7 +1,4 @@
 
-
-
-
 .big-feature-wrap{padding: 80px 0;}
 .big-feature-main{padding-left: 95px;}
 .feature-point{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; color: var(--slate-color); padding: 40px; left: 0; top: 50%; transform: translateY(-50%); max-width: 335px; position: absolute; border-left: 2px solid var(--electric-color); background-color: var(--white-70); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 1;}
@@ -15,6 +12,7 @@
 
 body.product-page .big-feature-wrap{padding: 56px 0;}
 body.product-page .big-feature-right .big-feature-wrap{padding: 80px 0 56px;}
+
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
