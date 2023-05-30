@@ -1,5 +1,5 @@
 
-.property-main{padding: 80px 0 80px;}
+.property-wrap{padding: 80px 0 80px;}
 .property-image{margin-bottom: 44px;}
 .property-text hr{max-width: 112px;}
 ul.property-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif;}
@@ -13,7 +13,10 @@ ul.property-links > li::before{display: none;}
     ul.property-links > li{flex: 0 0 calc(50% - 12px);}
 }
 @media only screen and (min-width: 1024px){
-    .property-main{gap: 80px;}
+    .property-title{order: 1; flex: 1; padding-bottom: 83px;}
+    .property-title h2{margin-bottom: 0;}
+    .property-btn{order: 2; flex: 0 0 300px; padding-top: 7px; text-align: right;}
+    .property-main{gap: 80px; order: 3;}
     .property-list{flex: 0 0 calc(50% - 40px);}
 }
 
