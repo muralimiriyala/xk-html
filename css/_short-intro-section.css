@@ -24,6 +24,8 @@
     .short-intro-row{gap: 56px;}
     .short-intro-list{flex: 0 0 calc(25% - 42px);}
     .intro1-of-3 .short-intro-list{flex: 0 0 calc(33.3333% - 38px);}
+
+    body.product-page .short-intro-main{padding: 12px 0 56px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){ 
     .short-intro-head{gap: 60px;}

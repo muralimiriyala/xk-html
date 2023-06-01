@@ -19,6 +19,14 @@ body.product-page .expertise-section{background-color: var(--light-gray-color);}
     body.product-page .expertise-title{flex: 0 0 calc(100% - 414px);}
     body.product-page .expertise-btn{flex: 0 0 194px;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px){ 
+
+     .expertise-btn{margin-bottom: 64px;}
+     .expertise-row{gap: 72px 32px;}
+     .expertise-list{flex: 0 0 calc(50% - 16px);}
+     .expertise-title h2{margin-bottom: 40px;}
+
+}
 
 
 

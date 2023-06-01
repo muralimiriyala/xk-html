@@ -38,6 +38,53 @@
     .news-events-row:nth-child(odd) .big-post-text{transform: translateX(80px);}
 
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    /* .container{padding: 0 20px;} */
+    .news-events-row{gap: 30px; margin-bottom: 30px;}
+    .news-events-row:last-child{margin-bottom: 0;}
+    .big-post-list{flex: 0 0 calc(100% - 330px);}
+    .small-post-list{flex: 0 0 300px;}
+
+    .big-post-text{flex: 0 0 318px; padding: 20px;}
+    .big-post-text{transform: translateX(-130px);}
+    .news-events-row:nth-child(2n+1) .big-post-text{transform: translateX(130px);}
+    .small-post-bg{margin-bottom: 30px;}
+    .small-post-bg:last-child{margin-bottom: 0;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .news-events-row{display: block;}
+    .big-post-main.flex.flex-vcenter{display: block;}
+    .big-post-list{position: relative; margin-bottom: 20px;}
+    .big-post-text{max-width: 100%; margin: 0 auto; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;   position: relative; margin-top: -40px;}
+    .big-post-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
+    
+    .small-post-text{padding: 24px;}
+    .small-post-list{margin-bottom: 40px;}
+    .newsletter-text h3{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+
+    .small-post-bg{margin-bottom: 20px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .news-events-row{display: block;}
+    .big-post-main.flex.flex-vcenter{display: block;}
+    .big-post-list{position: relative; margin-bottom: 20px;}
+    .big-post-text{max-width: 295px; margin: 0 auto; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;   position: relative; margin-top: -40px;}
+    .big-post-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
+    
+    .small-post-text{padding: 24px;}
+    .small-post-list{margin-bottom: 40px;}
+    .newsletter-text h3{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+
+    .small-post-bg{margin-bottom: 20px;}
+
+
+}
+
+
+
+
 
 
 

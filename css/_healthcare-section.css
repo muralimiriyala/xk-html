@@ -13,3 +13,13 @@ body.product-page .healthcare-row{padding: 0;}
     .healthcare-row{gap: 32px; margin-bottom: 24px;}
     .healthcare-list{flex: 0 0 calc(25% - 24px);}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    body.product-page .healthcare-row{gap: 8px;}
+    body.product-page .healthcare-list{flex: 0 0 calc(25% - 8px);}
+
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    body.product-page .healthcare-row{gap: 20px;}
+    body.product-page .healthcare-list{flex: 0 0 calc(50% - 10px);}
+}

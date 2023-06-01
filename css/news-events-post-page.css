@@ -1,22 +1,63 @@
 /* Banner section */
-.post-banner-wrap{padding: 32px 0;}
-.post-banner-main{padding-left: 280px;}
-.post-banner-point{color: var(--slate-color); padding: 80px 64px; left: 0; top: 50%; transform: translateY(-50%); max-width: 520px; position: absolute;  background-color: var(--white-70); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 1;}
-.post-banner-point h1{font-size: 40px; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 0;}
+.events-post-banner-wrap{padding: 32px 0;}
+.events-post-banner-main{padding-left: 280px;}
+.events-post-banner-point{color: var(--slate-color); padding: 80px 64px; left: 0; top: 50%; transform: translateY(-50%); max-width: 520px; position: absolute;  background-color: var(--white-70); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 1;}
+.events-post-banner-point h1{font-size: 40px; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 0;}
 
 
 .post-default-right .para{ font-size: 24px; line-height: 36px; letter-spacing: -.48px; margin-bottom: 56px;}
 .post-default-right h2{padding-left: 16px; position: relative; font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
 .post-default-right h2::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
-.post-default-right p{font-size: 16px; line-height: 32px; letter-spacing: -0.32px; color: var(--slate-color);}
+.post-default-right{font-size: 16px; line-height: 32px; letter-spacing: -0.32px; color: var(--slate-color);}
+.post-default-right h3{padding-left: 16px; position: relative; font-size: 24px; line-height: 28px; letter-spacing: -0.8px;}
+.post-default-right h3::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
 
+ .blue-bg{background-image: url("images/newsletter-post-bg.svg"); padding: 80px 0;}
+ .events-post{padding: 60px; background-color: var(--white);} 
 
-body.news-events-post-page .newsletter-bg{background-image: url("images/newsletter-post-bg.svg"); padding: 80px 0;}
-body.news-events-post-page .newsletter-main{padding: 60px;}
-body.news-events-post-page .newsletter-main{background-color: var(--white);}
+.events-post-feature-wrap{padding: 55px 0 80px;}
+.events-post-feature-point{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;  color: var(--slate-color); padding: 40px; left: -104px; top: 50%; transform: translateY(-50%); max-width: 335px; position: absolute;  background-color: var(--white-70); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 1; border-left: 2px solid var(--electric-color);}
+
+.post-testimonial-wrap{padding: 80px 0;}
+.post-testimonial-main{border: 12px solid var(--light-blue);}
+.post-testimonial-text{padding: 30px  0 40px 30px;}
+.post-testimonial-text blockquote:not(span.optional-text) {font-size: 24px; line-height: 28px; font-style: normal; position: relative; letter-spacing: -0.8px; border-radius: 0; margin: 0; font-family: Gotham-Medium,sans-serif;
+  }
+  .post-testimonial-desc{font-size: 16px; line-height: 20px; color: var(--dark-color-500);}
+  .post-testimonial-desc .testimonial-name{margin-bottom: 6px;}
+  .post-testimonial-image{z-index: 1;}
+.post-testimonial-thumb {
+    border: 12px solid var(--white);
+    border-radius: 50%;
+  }
+  .post-testimonial-bg-img {
+    width: 419px;
+    height: 420px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    background-image: url("./images/radar-art.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  }
+
+  .post-default-right .accordion-main{padding: 55px 0 80px;}
+
+  body.news-events-post-page  .more-blogs-text p{margin-bottom: 107px;}
+  body.news-events-post-page  .more-blogs-section{margin-top: 110px;}
 @media only screen and (min-width: 1024px){
     
-    .post-banner-left{flex: 0 0 64px}
-
+    .events-post-banner-left{flex: 0 0 64px}
     
+    
+    .post-testimonial-text { flex: 0 0 50%;}
+    .post-testimonial-image {flex: 0 0 50%;}
+    figure.post-testimonial-thumb {
+        width: 274px;
+        height: 273px;
+        margin: 0 auto;
+        display: block;
+      }
 }
