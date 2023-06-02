@@ -14,7 +14,7 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
 .graphic-text br{display: none;}
 
 .contact-form{padding: 36px; border: 12px solid var(--light-blue);}
-
+.contact-form-list.current-g{display: block;}
 .locations-section{background-color: var(--gray-color);}
 .locations-main{padding: 80px 0;}
 .locations-map:not(:last-child){padding-bottom: 35px;}
