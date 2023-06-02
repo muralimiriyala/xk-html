@@ -39,4 +39,8 @@ body.product-page  .optional-repeater-main{padding: 56px 0 80px;}
   .optional-xk-shape { width: 310.93px; height: 383.17px; left: -157px; top: 41px; }
   .optional-repeater-image{margin-bottom: 40px;}
   .reverse .optional-repeater-main{padding: 40px 0;}
+  body.product-page .reverse .optional-repeater-main {padding: 40px 0;}
+  body.product-page .optional-repeater-text .button {margin-top: 8px; width: 100%;}
+  body.product-page .optional-repeater-main {padding: 40px 0;}
+  
 }

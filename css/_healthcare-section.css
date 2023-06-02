@@ -23,3 +23,6 @@ body.product-page .healthcare-row{padding: 0;}
     body.product-page .healthcare-row{gap: 20px;}
     body.product-page .healthcare-list{flex: 0 0 calc(50% - 10px);}
 }
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .healthcare-main {padding: 40px 0;}
+}

@@ -27,6 +27,13 @@ body.product-page .expertise-section{background-color: var(--light-gray-color);}
      .expertise-title h2{margin-bottom: 40px;}
 
 }
+@media only screen and (max-width: 767px) and (min-width: 200px){ 
+    .expertise-main{padding: 40px 0;}
+    .expertise-title h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 40px;}
+    .expertise-head{margin-bottom: 64px;}
+    .expertise-list{margin-bottom: 32px;}
+    .expertise-list:last-child{margin-bottom: 0;}
+}
 
 
 
