@@ -55,6 +55,7 @@ $(document).ready(function(){
 
     $('ul.graphic-filters li:first a').addClass("active");
     $(".contact-list:first").addClass("current-g");
+    $(".contact-form-list:first").addClass("current-g");
     $('ul.graphic-filters li a').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().find('a').removeClass('active');
@@ -62,6 +63,8 @@ $(document).ready(function(){
         var attrName = $(this).attr("data-name");
         $(".contact-list").removeClass("current-g").hide();
         $('.contact-list[data-value="' + attrName + '"]').fadeIn(1000);
+        $(".contact-form-list").removeClass("current-g").hide();
+        $('.contact-form-list[data-value="' + attrName + '"]').fadeIn(1000);
     });
 
 

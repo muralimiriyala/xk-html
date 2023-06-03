@@ -19,4 +19,22 @@ ul.property-links > li::before{display: none;}
     .property-main{gap: 80px; order: 3;}
     .property-list{flex: 0 0 calc(50% - 40px);}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .property-wrap{padding: 40px 0;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 767px){
+    .property-main{display: block;}
+    .property-wrap{padding-bottom: 0;}
+    .property-list{margin-bottom: 40px;}
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .property-wrap{padding: 40px 0 0;}
+    .property-image {margin-bottom: 30px;}
+    .property-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+    .property-text .property-links{margin: 0 0 38px;}
+    ul.property-links > li{margin-bottom: 16px;}
+    ul.property-links li:last-child{margin-bottom: 0;}
+}
 

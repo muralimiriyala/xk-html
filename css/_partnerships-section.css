@@ -21,6 +21,26 @@ ul.partnerships-links > li::before{display: none;}
     .partnerships-logos{flex: 0 0 calc(100% - 640px); padding-left: 80px; gap: 36px 56px; border-left: 2px solid var(--electric-color);}
     .partnerships-logo{flex: 0 0 calc(33.3333% - 38px);}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .partnerships-main{padding: 40px 0; gap: 40px;}
+    .partnerships-text{flex: 0 0 450px;}
+    .partnerships-logos{flex: 0 0 calc(100% - 490px); padding-left: 40px; gap: 36px 56px; border-left: 2px solid var(--electric-color);}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 767px){
+    .partnerships-main{padding: 40px 0; display: block;}
+    .partnerships-text{padding-bottom: 40px;}
+    .partnerships-logos{gap: 36px 56px;}
+    .partnerships-logo{flex: 0 0 calc(33.3333% - 38px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .partnerships-links{gap: 24px;}
+    ul.partnerships-links{margin: 0;}
+    ul.partnerships-links li{flex: 0 0 calc(50% - 12px);}
+    .partnerships-logos{gap: 24px;}
+    .partnerships-logo{flex: 0 0 calc(50% - 12px);}
+    .partnerships-text .button {width: 100%}
+}
 
 
 
