@@ -50,4 +50,8 @@
     .short-intro-list:last-child{margin-bottom: 0;}
     .short-intro-icon{margin-bottom: 15px;}
 
+    body.page-template-solutions .short-intro-desc{margin-bottom: 40px;}
+    body.page-template-solutions .short-intro-title h2{margin-bottom: 0;}
+    body.page-template-solutions .short-intro-title{margin-bottom: 40px;}
+    
 }

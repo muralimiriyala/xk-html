@@ -34,6 +34,7 @@ blockquote:not(span.optional-text){padding: 13px 0 41px; font-size: 32px; line-h
 .blockquote-icon{width: 74px; height: 64px; background-image: url("./images/quote-icon.svg"); background-repeat: no-repeat; background-size: contain; content: ""; display: block;}
 blockquote p span{color: var(--tech-color); background-image: linear-gradient(to top, rgb(36 45 56 / 50%) 20px, transparent 0px); background-position: 0 0px;}
 blockquote p::after{top: 0ex; content: "”"; display: inline; color: var(--tech-color); position: relative;}
+blockquote p::before{top: 0ex; content: "“"; display: inline; color: var(--tech-color); position: relative;}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
 small {font-size: 14px; line-height: 20px;}
@@ -232,4 +233,5 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
     .btn-full-width{width: 100%;}
     .play-btn-main .play-btn{width: 48px; height: 48px;}
     .play-btn-bg > span.square::after{font-size: 24px; line-height: 28px;}
+    blockquote:not(span.optional-text){font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
 }

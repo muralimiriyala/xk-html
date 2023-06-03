@@ -33,6 +33,9 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
     ul.partners-links > li{flex: 0 0 calc(33.3333% - 27px);}
     .partners-logos-row{gap: 20px 25px;}
     .partners-logos-list{flex: 0 0 calc(33.33% - 17px);}
+    .partners-logos-btn{margin-bottom: 40px;}
+    .partners-logos-btn.hide-desktop {text-align: center; margin-top: 40px;}
+    .partners-logos-title h2 {margin-bottom: 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .partners-logos-main{padding: 40px 0 26px;}

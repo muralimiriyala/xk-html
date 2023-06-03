@@ -22,12 +22,23 @@ ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-siz
     .leadership-row{gap: 48px;}
     .leadership-list{flex: 0 0 calc(33.33% - 32px);}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .leadership-pos span{font-size: 17px; line-height: 22px;}
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .leadership-row{gap: 48px;}
     .leadership-list{flex: 0 0 calc(50% - 24px);}
+    .leadership-head{gap: 60px;}
+    .leadership-title h2{font-size: 30px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .leadership-main{padding-bottom: 0;}
+    .leadership-repeater-list{padding-bottom: 40px;}
     .leadership-row{display: block;}
+    .leadership-head{margin-bottom: 40px; display: block;}
+    .leadership-head h2{margin-bottom: 0;}
+    .leadership-btn {margin-top: 40px;}
     .leadership-list{margin-bottom: 40px;}
     .leadership-text{width: calc(100% - 52px);}
 }

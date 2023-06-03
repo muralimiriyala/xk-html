@@ -38,5 +38,6 @@ span.right-arrow{margin-left: 6px; color: var(--white);}
     .financial-list-heading{flex: 0 0 calc(100% - 118px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .financial-main{display: block;}
+    .financial-main{display: block; padding: 40px 0;}
+
 }

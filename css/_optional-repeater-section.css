@@ -42,5 +42,5 @@ body.product-page  .optional-repeater-main{padding: 56px 0 80px;}
   body.product-page .reverse .optional-repeater-main {padding: 40px 0;}
   body.product-page .optional-repeater-text .button {margin-top: 8px; width: 100%;}
   body.product-page .optional-repeater-main {padding: 40px 0;}
-  
+  .reverse .optional-xk-shape {left: auto; right: -155px;}
 }
