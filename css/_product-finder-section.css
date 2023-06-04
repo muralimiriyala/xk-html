@@ -20,7 +20,7 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
     .product-finder-main{background-image: url("./images/xk-radar-gray-bg.svg");}
     .product-finder-head h2{font-size: 32px; line-height: 40px; margin-top: 39px;}
 }
-@media only screen and (min-width: 1024px){ 
+    @media only screen and (min-width: 1024px){ 
     .product-finder-head{max-width: 960px; margin: 0 auto;}
     .product-finder-list{gap: 48px; margin-bottom: 20px;}
     .product-finder-text{flex: 0 0 calc(100% - 248px);}
@@ -29,13 +29,14 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
 
     body.product-page .product-finder-text{flex: 0 0 calc(100% - 308px);}
     body.product-page .product-finder-btns{gap: 48px; flex: 0 0 260px;}
-body.product-page .product-finder-wrap{padding-bottom: 0}
+    body.product-page .product-finder-wrap{padding-bottom: 0}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
+    .product-finder-main{padding: 32px 20px 40px;}
+    .product-finder-head h2{font-size: 20px; line-height: 24px;}
 }
 
 

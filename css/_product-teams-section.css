@@ -34,11 +34,12 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .product-teams-wrap {padding: 40px 0 0;}
     .product-teams-list {margin-bottom: 40px;}
-    
-    
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
+    .product-teams-main{padding: 77px 30px 82px;}
+    .product-teams-row{display: block;}
+    .product-teams-head h2{font-size: 24px; line-height: 28px;}
+    .product-teams-list{margin-bottom: 24px;}
 }
 
 
