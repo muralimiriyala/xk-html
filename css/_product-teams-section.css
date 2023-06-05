@@ -1,7 +1,6 @@
 
-
 .product-teams-wrap{padding: 80px 0 0;}
-.product-teams-main{padding: 77px 80px 82px; background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
+.product-teams-main{background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
 .product-teams-row{padding: 26px 0 48px;}
 .product-teams-list{background-color: var(--white);}
 .product-teams-text{padding: 0 32px;}
@@ -20,6 +19,7 @@
     .product-teams-head h2{font-size: 32px; line-height: 40px;}
 }
 @media only screen and (min-width: 1024px){ 
+    .product-teams-main{padding: 77px 80px 82px;}
     .product-teams-row{gap: 40px;}
     .product-teams-list{flex: 0 0 calc(33.3333% - 32px);}
     .product-detail-image{flex: 0 0 560px;}
@@ -29,11 +29,12 @@
     .product-detail-image{flex: 0 0 460px;}
     .product-detail-text {flex: 0 0 calc(100% - 460px);}
     .product-detail-text {padding: 30px;}
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .product-teams-wrap {padding: 40px 0 0;}
-    .product-teams-list {margin-bottom: 40px;}
+    .product-teams-main{padding: 77px 20px 82px;}
+    .product-teams-row{gap: 20px;}
+    .product-teams-list{flex: 0 0 calc(33.3333% - 14px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .product-teams-wrap{padding: 40px 0;}
