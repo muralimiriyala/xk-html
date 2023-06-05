@@ -42,7 +42,13 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
     .home-banner-right{flex: 0 0 335px;}
     .home-banner-text{min-height: 376px;}
 }
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .home-banner-device{
+        top: -92px;
+        right: -134px;
+        width: 332px;
+        height: 332px;
+    }
 }
 
 
