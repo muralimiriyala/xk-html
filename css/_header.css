@@ -42,7 +42,7 @@
     ul.main-menu > li.nav-item{position: static;}
     ul.main-menu > li.nav-item > ul{width: 100vw; left: 0; right: 0; top: 100%; max-width: 1440px; margin: 0 auto; padding: 0; display: flex; flex-wrap: wrap; }
     ul.main-menu > li.nav-item > ul > li::before{display: none;}
-    ul.main-menu > li.nav-item > ul > li{width: 33.3333%; padding: 64px 47px 49px 47px;}
+    ul.main-menu > li.nav-item > ul > li{width: 33.3333%; padding: 64px 47px 49px;}
     ul.main-menu > li.nav-item > ul > li:last-child{padding: 0;}
     ul.main-menu > li.nav-item > ul > li:first-child::after{width: 1px; height: calc(100% - 128px); right: 0; top: 64px; background-color: var(--electric-color); content: ""; display: block; position: absolute;}
     ul.main-menu > li.nav-item > ul > li > a{margin: 0 16px 16px; padding: 0; color: var(--midnight-color); font-size: 14px; line-height: 22px; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
@@ -60,6 +60,12 @@
     .nav-image{width: 100%; height: 100%;}
     .nav-image img{mix-blend-mode: multiply;}
     .product-nav-item .nav-image img{object-fit: contain;}
+    .menu-item-pos{height: 100%;}
+    ul.main-menu > li.about-nav-item > ul > li:last-child{padding: 64px 47px 49px 47px;}
+    ul.main-menu > li.about-nav-item > ul > li:last-child::before{width: 1px; height: calc(100% - 128px); left: 0; top: 64px; background-color: var(--electric-color); content: ""; display: block; position: absolute;}
+    .menu-item-text{max-width: 300px;}
+    span.optional-text{margin-bottom: 18px;}
+    .menu-item-text .heading-three{margin-bottom: 23px;}
     /*-- nav items nav --*/
 
     .nav-right{flex: 0 0 100px; gap: 32px;}
@@ -68,11 +74,13 @@
     ul.nav-users li::before{display: none;}
     ul.nav-users > li{margin-bottom: 0;}
     ul.nav-users li a{font-size: 0; line-height: 0; color: var(--midnight-color);}
+    ul.nav-users li a:hover{color: var(--link-color);}
     ul.nav-users li a span{font-size: 16px; line-height: 16px;}
 
     .fixed-header ul.main-menu > li > a{color: var(--white);}
     .fixed-header .nav-rule{background-color: var(--white);}
     .fixed-header ul.nav-users li a{color: var(--white);}
+    .fixed-header ul.nav-users li a:hover{color: var(--electric-color);}
     .main-content{padding-top: 88px;}
     .toggle_bar{display: none;}
 }
@@ -86,6 +94,7 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .header{gap: 12px;}
     .logo{flex: 0 0 245px;}
+    ul.main-menu > li.nav-item > ul > li{width: 33.3333%; padding: 64px 30px 49px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .header{padding: 12px 0; min-height: 64px; transition: padding 0.45s ease-in-out;}
@@ -100,10 +109,12 @@
     .fixed-header .toggle_icon{color: var(--white);}
     .toggle_icon.open span::before{content: "\f00d";}
 
-    .navigation{display: block;  width: 100%; height: auto; min-height: 100vh; top: 64px; right: -100%; position: fixed; background-color: var(--white); transition: right 0.45s ease; overflow-y: auto; -webkit-overflow-scrolling: touch;}
-    .navigation.open{right: 0;}
+    nav.navigation{display: block; margin-top: 64px; width: 100%; height: 100%; min-height: 100vh; top: 0; left: 0; visibility: hidden;
+        opacity: 0;
+        transform: scale(1.05); position: fixed; background-color: var(--white); transition: all 0.45s ease-in-out; overflow-y: auto; -webkit-overflow-scrolling: touch;}
+    nav.navigation.open{visibility: visible; opacity: 1; transform: scale(1);}
 
-    ul.main-menu{margin: 0; display: block;}
+    ul.main-menu{margin: 0 0 20px; display: block;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li > a{padding: 18px 21px 22px;  color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif; display: block; position: relative;}
@@ -131,8 +142,8 @@
     ul.nav-users > li::before{display: none;}
     ul.nav-users > li{margin: 0; flex: 0 0 calc(50% - 12px);}
     ul.nav-users > li > a{padding: 8px 16px; align-items: center; display: flex; justify-content: space-between; background-color: var(--midnight-color); font-family: "Gotham-Bold", sans-serif;}
-    ul.nav-users > li > a:hover{background-color: var(--electric-color);}
-
+    ul.nav-users > li > a.electric, ul.nav-users > li > a:hover{background-color: var(--electric-color); color: var(--midnight-color);}
+    ul.nav-users > li > a.electric:hover{background-color: var(--midnight-color); color: var(--electric-color);} 
     .main-content{padding-top: 64px;}
 }
 
