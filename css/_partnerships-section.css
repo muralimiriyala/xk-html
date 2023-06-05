@@ -44,7 +44,7 @@ ul.partnerships-links > li::before{display: none;}
     .partnerships-logo{flex: 0 0 calc(50% - 12px);}
     .partnerships-text .button {width: 100%; }
     .partnerships-text{margin-bottom: 40px;}
-    .partnerships-main .button {width: 100%;}
+
 }
 
 
