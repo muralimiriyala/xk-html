@@ -41,7 +41,7 @@
     .short-intro-list{flex: 0 0 calc(50% - 21px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .short-intro-main{padding: 40px 0 28px;}
+    .short-intro-main{padding: 40px 0;}
     .short-intro-head{margin-bottom: 35px;}
     .short-intro-title{margin-bottom: 43px;}
     .short-intro-title span{margin-bottom: 22px;}
@@ -50,7 +50,7 @@
     .short-intro-list:last-child{margin-bottom: 0;}
     .short-intro-icon{margin-bottom: 15px;}
 
-    body.page-template-careers .short-intro-main{padding: 40px 0;}
+    
     body.page-template-solutions .short-intro-desc{margin-bottom: 40px;}
     body.page-template-solutions .short-intro-title h2{margin-bottom: 0;}
     body.page-template-solutions .short-intro-title{margin-bottom: 40px;}
