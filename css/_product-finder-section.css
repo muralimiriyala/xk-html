@@ -1,6 +1,5 @@
 
 
-.product-finder-wrap{padding: 78px 0;}
 .product-finder-main{padding: 96px 0 80px; background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
 .product-finder-list{padding: 17px 16px; background-color: var(--white);}
 .product-finder-text{border-left: 1px solid var(--electric-color); padding-left: 16px; font-size: 14px; line-height: 22px; color: var(--slate-color);}
@@ -20,7 +19,8 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
     .product-finder-main{background-image: url("./images/xk-radar-gray-bg.svg");}
     .product-finder-head h2{font-size: 32px; line-height: 40px; margin-top: 39px;}
 }
-    @media only screen and (min-width: 1024px){ 
+@media only screen and (min-width: 1024px){ 
+    .product-finder-wrap{padding: 78px 0;}
     .product-finder-head{max-width: 960px; margin: 0 auto;}
     .product-finder-list{gap: 48px; margin-bottom: 20px;}
     .product-finder-text{flex: 0 0 calc(100% - 248px);}
@@ -41,7 +41,8 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
     .product-finder-btns{gap: 16px; flex: 0 0 200px; justify-content: flex-end;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .product-finder-main{padding: 32px 20px 40px;}
+    .product-finder-wrap{padding: 40px 0 40px;}
+    .product-finder-main{padding: 32px 20px 40px; background-image: url("./images/xk-radar-gray-mobile-bg.svg");}
     .product-finder-head h2{font-size: 20px; line-height: 24px;}
     .product-finder-row{padding-bottom: 30px;}
     .product-finder-list{display: block; margin-bottom: 20px;}
@@ -49,8 +50,6 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
     .product-finder-text{margin-bottom: 19px;}
     .product-finder-btns{gap: 16px;}
 }
-
-
 
 
 
