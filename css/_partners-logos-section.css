@@ -31,6 +31,7 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     ul.partners-links{gap: 40px;}
     ul.partners-links > li{flex: 0 0 calc(33.3333% - 27px);}
+    .partners-logos-main{padding: 80px 0 0;}
     .partners-logos-row{gap: 20px 25px;}
     .partners-logos-list{flex: 0 0 calc(33.33% - 17px);}
     .partners-logos-btn{margin-bottom: 40px;}
@@ -39,7 +40,7 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .partners-logos-main{padding: 40px 0 26px;}
-    .partners-logos-head{display: block; margin-bottom: 35px;}
+    .partners-logos-head{display: block; margin-bottom: 40px;}
     .tab-partners-bg{padding: 20px; margin-bottom: 40px; background-image: url("./images/tabs-bg-mobile.svg");}
     .partners-btn{gap: 20px; padding: 16px; font-size: 20px; line-height: 24px; background-color: var(--midnight-color); color: var(--white); display: flex; cursor: pointer; position: relative; align-items: center;}
     .partners-btn-icon{width: 28px;}
