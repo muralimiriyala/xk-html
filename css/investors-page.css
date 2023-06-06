@@ -43,5 +43,8 @@ span.right-arrow{margin-left: 6px; color: var(--white);}
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .financial-main{display: block; padding: 40px 0;}
-
+    .financial-text{margin-bottom: 40px;}
+    .financial-list{padding: 16px 24px;}
+    .open-positions-bg{margin-bottom: 24px;}
+    .financial-category-main {display: block;}
 }

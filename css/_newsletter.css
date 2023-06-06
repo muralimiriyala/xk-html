@@ -22,14 +22,12 @@
     .newsletter-list{flex: 0 0 calc(50% - 32px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .newsletter-main {gap: 17px;}
+    .newsletter-main {gap: 17px; padding: 60px 0 40px;}
     .newsletter-list {flex: 0 0 calc(50% - 9px);}
-
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px){
     .newsletter-text{margin-bottom: 40px;}
 }
-
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .newsletter-main {padding: 54px 0 40px;}
     .newsletter-text{margin-bottom: 40px;}
