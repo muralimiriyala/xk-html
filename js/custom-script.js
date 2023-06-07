@@ -27,7 +27,8 @@ $(window).on("load resize orientationchange", function() {
 $(".toggle_icon").on("click", function(event){
     event.preventDefault();
     $(this).toggleClass("open");
-    $("body").addClass("nav-open");
+    $("html, body").toggleClass("nav-overlay-open");
+    $(".main-header").removeClass("fixed-header");
     $(".navigation").toggleClass("open");
 });
 $(document).on("load ready", function() {

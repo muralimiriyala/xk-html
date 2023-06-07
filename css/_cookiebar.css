@@ -1,4 +1,4 @@
-body .cky-consent-container .cky-consent-bar{border-radius: 0; border: none; box-shadow: none;}
+body .cky-consent-container .cky-consent-bar{border-radius: 0; box-shadow: none;}
 body .cky-consent-container{left: auto; right: 40px;}
 body .cky-notice .cky-title{font-family: 'Gotham-Bold', sans-serif; font-weight: normal; color: var(--midnight-color);}
 body .cky-consent-bar .cky-notice-des p, body .cky-gpc-wrapper .cky-gpc-desc p, body .cky-preference-body-wrapper .cky-preference-content-wrapper p, body .cky-accordion-header-wrapper .cky-accordion-header-des p, body .cky-cookie-des-table li div:last-child p{font-family: 'Gotham-Book', sans-serif; color: var(--black); font-size: 1rem; line-height: 1.5; font-weight: normal; }
