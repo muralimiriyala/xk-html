@@ -16,7 +16,8 @@ $(document).ready(function(){
         $(this).toggleClass("active");
         $("ul.partners-links").slideToggle("slow");
     });
-    $(window).on("load resize orientationchange", function() {
+
+    $(window).on("load orientationchange", function() {
         if($(window).width() <= 767){
             $('ul.partners-links li a').on('click', function(e){
                 e.preventDefault();
@@ -67,8 +68,7 @@ $(document).ready(function(){
         $('.contact-form-list[data-value="' + attrName + '"]').fadeIn(1000);
     });
 
-
-    $(window).on("load resize orientationchange", function() {
+    $(window).on("load orientationchange", function() {
         if($(window).width() <= 767){
             $(".positions-btn").on("click", function(e){
                 e.preventDefault();
@@ -84,7 +84,6 @@ $(document).ready(function(){
                 $(".positions-btn span").text(ptext);
                 $(".positions-btn-icon").html(pimage);
             });
-
             $(".graphic-mobile-btn").on("click", function(e){
                 e.preventDefault();
                 $(this).toggleClass("active");
