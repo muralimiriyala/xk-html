@@ -10,7 +10,7 @@
 .doc-repository-head span{font-size: 10px; line-height: 12px; letter-spacing: 2px; margin-bottom: 0; font-family: 'Gotham-Bold',sans-serif;}
 
 .doc-repository-text{padding: 36px; border: 12px solid var(--light-blue);}
-.doc-repository-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
 
 .financial-section{padding: 40px;}
 
