@@ -27,6 +27,8 @@ body.myxk-tech-page .common-form-wrap{padding: 80px 0;}
 @media screen and (min-width: 1024px) {
     .common-form-text{flex: 0 0 352px; margin-right: 80px;}
     .common-form-right{flex: 0 0 calc(100% - 432px);}
+
+    body.page-template-investors .common-form-wrap {padding: 80px 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .common-form-main{display: block;}

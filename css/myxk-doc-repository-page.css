@@ -1,0 +1,30 @@
+.doc-repository-main{padding: 90px 0;}
+
+.doc-repository-left span{margin-bottom: 28px;}
+.doc-repository-left h1{font-family: 'Gotham-Bold',sans-serif;}
+.doc-repository-left hr{width: 112px; height: 1px; margin: 34px 0 34px;}
+.doc-repository-left .para{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; margin-bottom: 34px;}
+
+.doc-repository-head{margin-bottom: 24px;}
+.doc-repository-icon img{width: 12px; height: 12px;}
+.doc-repository-head span{font-size: 10px; line-height: 12px; letter-spacing: 2px; margin-bottom: 0; font-family: 'Gotham-Bold',sans-serif;}
+
+.doc-repository-text{padding: 36px; border: 12px solid var(--light-blue);}
+.doc-repository-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+
+.financial-section{padding: 40px;}
+
+
+
+/* media  css starts here */
+@media only screen and (min-width:1024px){
+    .doc-repository-main{gap: 80px;}
+    .doc-repository-left{flex: 0 0 352px;}
+    .doc-repository-right{flex: 0 0 calc(100% - 432px);}
+    
+
+    .doc-repository-head{gap: 8px;}
+
+
+
+}
