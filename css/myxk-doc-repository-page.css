@@ -15,16 +15,30 @@
 .financial-section{padding: 40px; margin-bottom: 40px;}
 
 .doc-repos-section{background-color: var(--light-gray-color); padding: 40px ;}
+.doc-repos-lists{border-left: 1px solid red;}
+.doc-repos-list{background-color: var(--white); padding: 16px 24px; }
+.doc-repos-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+.doc-repos-text .sub-heading{margin-bottom: 16px;}
+.doc-repos-text p{margin-bottom: 16px;}
+.doc-repos-image{border-left: 1px solid var(--electric-color); padding-left: 23px;}
+.doc-repos{background-color: var(--black); padding: 7px 12px 9px;color: var(--white);}
+.doc-mb{font-size: 12px; line-height: 20px; letter-spacing: -0.24px;}
+.doc-mb span{opacity: 0.75;}
+.doc-mb span.fa-download{opacity: 1; color: var(--electric-color); font-size: 18px;}
 
 /* media  css starts here */
 @media only screen and (min-width:1024px){
     .doc-repository-main{gap: 80px;}
     .doc-repository-left{flex: 0 0 352px;}
     .doc-repository-right{flex: 0 0 calc(100% - 432px);}
-    
-
     .doc-repository-head{gap: 8px;}
 
-
+    .doc-repos-list{gap: 48px; flex-direction: row-reverse;}
+    .doc-repos-image {flex: 0 0 257px;}
+    .doc-repos-text{flex: 0 0 calc(100% - 305px);}
+    .doc-repos-main{gap: 16px;}
+    .doc-repos{flex: 0 0 calc(50% - 16px); gap:12px;}
+    .doc-print{flex: 1;}
+    .doc-mb{flex: 0 0 105px; gap: 10px;}
 
 }
