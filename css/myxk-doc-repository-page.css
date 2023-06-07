@@ -10,11 +10,11 @@
 .doc-repository-head span{font-size: 10px; line-height: 12px; letter-spacing: 2px; margin-bottom: 0; font-family: 'Gotham-Bold',sans-serif;}
 
 .doc-repository-text{padding: 36px; border: 12px solid var(--light-blue);}
-h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+ h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
 
-.financial-section{padding: 40px;}
+.financial-section{padding: 40px; margin-bottom: 40px;}
 
-
+.doc-repos-section{background-color: var(--light-gray-color); padding: 40px ;}
 
 /* media  css starts here */
 @media only screen and (min-width:1024px){
