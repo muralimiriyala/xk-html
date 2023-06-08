@@ -38,10 +38,13 @@ span.right-arrow{margin-left: 6px;}
     .financial-list-heading{flex: 0 0 calc(100% - 118px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .financial-section{margin-bottom: 0;}
+    .financial-main{display: block;}
     .financial-list{gap: 20px;}
     .financial-list-heading{flex: 0 0 calc(100% - 140px);}
     .financial-list-btn{flex: 0 0 120px;}
-
+    .financial-date {flex: 0 0 95px;}
+    .financial-qlinks.flex {flex: 0 0  calc(100% - 96px);}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
@@ -54,4 +57,5 @@ span.right-arrow{margin-left: 6px;}
     .open-positions-bg{margin-bottom: 24px;}
     .financial-category-main {display: block;}
     .financial-category-main li{padding-left: 0; border-left: none; margin-bottom: 4px;}
+    .financial-date {width: 100%; margin-bottom: 24px;}
 }

@@ -33,7 +33,8 @@
     .investment-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 24px;}
     .investment-text ul {margin-bottom: 24px;}
     .investment-text .button{width: 100%;}
-
+  body.page-template-investors  .investment-xk-shape {left: 180px;}
+  .invest-btn {text-align: center;}
 }
 
 
