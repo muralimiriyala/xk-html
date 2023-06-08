@@ -26,7 +26,7 @@
 .financial-category-main li:first-child{padding-left: 0; border-left: none;}
 span.right-arrow{margin-left: 6px;}
 
-
+body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {

@@ -10,7 +10,7 @@
 .doc-repository-head span{font-size: 10px; line-height: 12px; letter-spacing: 2px; margin-bottom: 0; font-family: 'Gotham-Bold',sans-serif;}
 
 .doc-repository-text{padding: 36px; border: 12px solid var(--light-blue);}
- h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+ .doc-repository-text{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
 
 .doc-financial-section{padding: 40px; margin-bottom: 40px; background-color: var(--light-gray-color);}
 
@@ -20,6 +20,7 @@
 .doc-repos-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
 .doc-repos-text .sub-heading{margin-bottom: 16px;}
 .doc-repos-text p{margin-bottom: 16px;}
+.doc-print{font-size: 12px; line-height: 20px; letter-spacing: -0.24px;}
 .doc-repos-image{padding-left: 23px;}
 .doc-repos-thumb::before{width: 1px; height: 100%; left: -23px; background-color: var(--electric-color); content: ""; position: absolute;}
 .doc-repos{background-color: var(--black); padding: 7px 12px 9px;color: var(--white);}
@@ -27,6 +28,13 @@
 .doc-mb span{opacity: 0.75;}
 .doc-mb span.fa-download{opacity: 1; color: var(--electric-color); font-size: 18px;}
 
+.doc-file-section{background-color: var(--light-gray-color); padding: 40px;}
+.doc-file-list{background-color: var(--white); padding: 16px 16px 24px; border-bottom: 1px solid var(--electric-color);}
+.doc-file-image{margin-bottom: 16px;}
+.doc-file-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+.doc-file-text .sub-heading{margin-bottom: 12px;}
+.doc-file-text p{margin-bottom: 12px;}
+.doc-use{margin-bottom: 16px;}
 /* media  css starts here */
 @media only screen and (min-width:1024px){
     .doc-repository-main{gap: 80px;}
@@ -42,4 +50,6 @@
     .doc-print{flex: 1;}
     .doc-mb{flex: 0 0 105px; gap: 10px;}
 
+    .doc-file-lists{gap: 24px;}
+    .doc-file-list{flex: 0 0 calc(33.33% - 16px);}
 }

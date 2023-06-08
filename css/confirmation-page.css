@@ -10,7 +10,7 @@
 .confirmation-text hr{margin: 23px 0 23px;}
 .confirmation-text p{margin-bottom: 24px;}
 .confirmation-text a span{color : var(--white);}
-.confirmation-right h2{margin-bottom: 88px;}
+.confirmation-right h2{margin-bottom: 88px; font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .confirmation-main{gap: 96px;}
@@ -34,11 +34,12 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .confirmation-main{padding: 40px 0;}
     .confirmation-text{margin-bottom: 40px;}
-    .confirmation-head{gap: 10px;}
+    .confirmation-head{gap: 10px; margin-bottom: 23px;}
     .confirmation-icon{flex: 0 0 24px;}
     .confirmation-head span{flex: 0 0 calc(100% -34px);}
     .confirmation-right{padding: 20px;}
-    .confirmation-right h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+    .confirmation-right h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 44px;}
+    .confirmation-image{margin-bottom: 22px;}
     .confirmation-image img{width: 100%;}
 
 }
