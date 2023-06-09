@@ -55,3 +55,7 @@
     .doc-file-lists{gap: 24px;}
     .doc-file-list{flex: 0 0 calc(33.33% - 16px);}
 }
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .doc-repository-main{padding: 39px 0 40px; display: block;}
+    .doc-repository-left h1{font-size: 40px; line-height: 48px;}
+}
