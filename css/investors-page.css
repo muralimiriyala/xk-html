@@ -18,13 +18,12 @@
 .financial-list{background-color: var(--white); margin-bottom: 24px; padding: 14px 16px 15px 24px; border-left: solid 1px var(--electric-color);}
 .financial-list:last-child{margin-bottom:0;}
 .financial-list-heading h5{margin-bottom: 10px;}
-.financial-category-main{margin: 0;}
-.financial-category-main li{font-size: 12px; font-weight: 500; line-height: 1.33;font-family: 'Gotham-Medium',sanserif; letter-spacing: 1.2px; border-left: solid 1px var(--electric-color); padding: 0 11px; text-transform: uppercase; margin-bottom: 0;}
-.financial-category-main li:before{display: none;}
-.financial-category-main li > a{color: #3c3c46;}
-.financial-category-main li > a:hover{color: var(--electric-color);}
-.financial-category-main li:first-child{padding-left: 0; border-left: none;}
-span.right-arrow{margin-left: 6px;}
+ul.category-links{margin: 0; gap: 22px;}
+ul.category-links li{font-size: 12px; line-height: 16px; color: var(--slate-color); font-family: 'Gotham-Medium', sanserif; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0;}
+ul.category-links li:before{width: 1px; height: 100%; top: 0; left: -12px; background-color: var(--electric-color); border-radius: 0;}
+ul.category-links li:first-child::before{display: none;}
+ul.category-links li > a{color: var(--slate-color);}
+ul.category-links li > a:hover{color: var(--electric-color);}
 
 body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
 
@@ -55,7 +54,7 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     .financial-list-btn{flex: 0 0 40px;}
     .financial-list-btn .button{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 16px; line-height: 24px; display: flex; align-items: center; justify-content: center;}
     .open-positions-bg{margin-bottom: 24px;}
-    .financial-category-main {display: block;}
-    .financial-category-main li{padding-left: 0; border-left: none; margin-bottom: 4px;}
+    ul.category-links {display: block;}
+    ul.category-links li{padding-left: 0; border-left: none; margin-bottom: 4px;}
     .financial-date {width: 100%; margin-bottom: 24px;}
 }
