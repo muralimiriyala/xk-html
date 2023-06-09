@@ -22,7 +22,6 @@
 .doc-repos-text p{margin-bottom: 16px;}
 .doc-print{font-size: 12px; line-height: 20px; letter-spacing: -0.24px;}
 .doc-repos-image{padding-left: 23px;}
-.doc-repos-thumb::before{width: 1px; height: 100%; left: -23px; background-color: var(--electric-color); content: ""; position: absolute;}
 .doc-repos{background-color: var(--black); padding: 7px 12px 9px;color: var(--white);}
 .doc-mb{font-size: 12px; line-height: 20px; letter-spacing: -0.24px;}
 .doc-mb span{opacity: 0.75; flex: 1;}
@@ -43,9 +42,10 @@
     .doc-repository-left{flex: 0 0 352px;}
     .doc-repository-right{flex: 0 0 calc(100% - 432px);}
     .doc-repository-head{gap: 8px;}
-
+    
     .doc-repos-list{gap: 24px; flex-direction: row-reverse;}
     .doc-repos-image {flex: 0 0 257px;}
+    .doc-repos-thumb::before{width: 1px; height: 100%; left: -23px; background-color: var(--electric-color); content: ""; position: absolute;}
     .doc-repos-text{flex: 0 0 calc(100% - 281px);}
     .doc-repos-main{gap: 16px;}
     .doc-repos{flex: 0 0 calc(50% - 8px); gap:12px;}
@@ -58,4 +58,15 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .doc-repository-main{padding: 39px 0 40px; display: block;}
     .doc-repository-left h1{font-size: 40px; line-height: 48px;}
+
+    .doc-financial-section{padding: 16px;}
+    .doc-repos-section{padding: 16px;}
+    .doc-repos-image{padding-left: 0; margin-bottom: 16px;}
+    .doc-repos{margin-bottom: 16px;}
+
+    .doc-file-section{padding: 16px;}
+    .doc-file-list{margin-bottom: 24px;}
+
+    .doc-repository-text{padding: 20px;}
+    .doc-repository-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
 }
