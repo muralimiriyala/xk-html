@@ -1,4 +1,5 @@
 
+.home-banner-bg iframe{width: 100%; height: 100%;}
 .home-banner-bg.no_image{background-color: var(--slate-color);}
 .home-banner-device{position: absolute; z-index: 1;}
 .home-banner-xk{width: 328px; height: 324px; margin: 0 auto; background-image: url("./images/xk-device.svg"); background-repeat: no-repeat; background-size: contain; filter: drop-shadow(-31.3043px 31.3043px 31.3043px rgba(10, 10, 30, 0.25));}
@@ -35,6 +36,7 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
 }
 @media only screen and (min-width: 1024px){
     .home-banner-bg{min-height: 810px;}
+    .home-banner-bg iframe{min-height: 810px;}
     .home-banner-bg img{max-height: 810px; overflow: hidden;}
     .home-banner-pos { left: 0; right: 0; top: 50%; transform: translateY(-50%); width: 100%; position: absolute; }
     .home-banner-main{gap: 160px;}
