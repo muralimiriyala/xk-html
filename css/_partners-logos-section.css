@@ -56,7 +56,9 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
     .partners-logos-title h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
     .partners-logos-row{gap: 15px 50px;}
     .partners-logos-list{flex: 0 0 calc(50% - 25px); margin-bottom: 8px;}
+
     body.page-template-investors .partners-logos-row{margin-bottom: 40px;}
+    body.general-default-page .partners-logos-main {padding: 40px 0 ;}
 }
 
 

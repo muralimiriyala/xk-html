@@ -28,7 +28,14 @@
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-.accordion-main {margin-bottom: 40px;}
+    .accordion-main {margin-bottom: 40px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .faqs-wrap{padding: 40px 0;}
+    .faqs-main {padding: 0 0; border: none; display: block;}
+    .faqs-desc{margin-bottom: 24px;}
+    .accordion-main{margin-bottom: 24px;}
+    .accordion-header{padding: 16px;}
 }
 
 

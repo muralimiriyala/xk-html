@@ -67,6 +67,8 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .news-events-main {padding: 40px 0; display: block;}
+    .news-events-bg{background-image: url("./images/news-events-mobile-bg.svg");}
     .news-events-row{display: block;}
     .big-post-main.flex.flex-vcenter{display: block;}
     .big-post-list{position: relative; margin-bottom: 20px;}
@@ -78,9 +80,8 @@
     .newsletter-text h3{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
 
     .small-post-bg{margin-bottom: 20px;}
-
-
-}
+    }
+    
 
 
 
