@@ -30,7 +30,7 @@ ul.property-links > li::before{display: none;}
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .property-wrap{padding: 40px 0 0;}
+    .property-wrap{padding: 40px 0 0; display: block;}
     .property-image {margin-bottom: 30px;}
     .property-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
     .property-text .property-links{margin: 0 0 38px;}
