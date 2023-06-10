@@ -44,6 +44,7 @@ $(document).ready(function(){
 
     $('ul.positions-links li:first a').addClass("active");
     $(".positions-rows-list:first").addClass("current-q");
+    $(".doc-repos-lists:first").addClass("current-q");
     $('ul.positions-links li a').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().find('a').removeClass('active');

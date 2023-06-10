@@ -25,6 +25,8 @@ ul.doc-repository-links li a::before{width: 10px; height: 10px; left: 10px; top:
 .doc-repository-right h2{font-size: 32px; line-height: 40px;}
 .doc-financial-section{padding: 37px 40px 40px; margin-bottom: 40px; background-color: var(--light-gray-color);}
 .doc-repos-section{background-color: var(--light-gray-color); padding: 40px ; margin-bottom: 40px;}
+.doc-repos-lists{display: none;}
+.doc-repos-lists.current-q{display: block;}
 .doc-repos-list{background-color: var(--white); border-left: 1px solid var(--electric-color); padding: 16px 24px; margin-bottom: 24px;}
 .doc-repos-list:last-child{margin-bottom: 0;}
 .doc-repos-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}

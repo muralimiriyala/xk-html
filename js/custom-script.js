@@ -93,6 +93,26 @@ $(document).ready(function(){
             }
         }
     });  
+
+    $("ul.doc-repository-links > li > a").on("click", function(e){
+        e.preventDefault();
+        $(this).addClass("active");
+        $(this).parent().siblings().find('a').removeClass("active");
+    });
+    let headerHeight = $(".main-header").outerHeight(true);
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top - headerHeight
+            }, 1000);
+            return false;
+            }
+        }
+    });
+
 });
 
 
