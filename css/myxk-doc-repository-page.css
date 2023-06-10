@@ -5,13 +5,13 @@
 .doc-repository-left hr{width: 112px; height: 1px; margin: 34px 0 34px;}
 .doc-repository-left .para{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; margin-bottom: 34px;}
 
-ul.doc-repository-links{margin: 0;}
-ul.doc-repository-links li{margin-bottom: 10px;}
+ul.doc-repository-links{margin: 0 0 48px;}
+ul.doc-repository-links li{margin-bottom: 16px; width: 300px;}
 ul.doc-repository-links li::before{display: none;}
-ul.doc-repository-links li a{padding: 10px 10px 10px 40px; display: block; background-color: transparent; color: var(--midnight-color);}
+ul.doc-repository-links li a{padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -0.36px; font-family: Gotham-Medium;}
 ul.doc-repository-links li a.active{background-color: var(--electric-color);}
 ul.doc-repository-links li a.active::before{border-color: var(--white);}
-ul.doc-repository-links li a::before{width: 10px; height: 10px; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
+ul.doc-repository-links li a::before{width: 8px; height: 8px; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
 
 
 
