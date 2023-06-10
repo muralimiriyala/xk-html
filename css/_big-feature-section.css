@@ -6,6 +6,7 @@
 .feature-point .sub-heading{margin-bottom: 22px;}
 .feature-point .text-link{opacity: 0.75;}
 .feature-point-line{background-color: var(--electric-color); width: 1px; height: 0; left: 0; bottom: 0; position: absolute;}
+.big-feature-right .feature-point-line{left: auto; right: 0;}
 .big-feature-image{margin-left: auto;}
 
 .big-feature-right .big-feature-main{padding-right: 95px; padding-left: 0;}
@@ -17,14 +18,14 @@ body.product-page .big-feature-right .big-feature-wrap{padding: 80px 0 56px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .big-feature-right .feature-point{left: auto; right: 0; border-right: 2px solid var(--electric-color); border-left: none;}
+    .big-feature-right .feature-point{left: auto; right: 0;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){ 
     .big-feature-wrap{padding: 40px 0;}
 
     body.product-page .feature-point{padding: 20px; max-width: 275px;}
-    .big-feature-right .feature-point{left: auto; right: 0; border-right: 2px solid var(--electric-color); border-left: none;}
+    .big-feature-right .feature-point{left: auto; right: 0;}
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){ 
