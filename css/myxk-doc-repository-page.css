@@ -13,8 +13,6 @@ ul.doc-repository-links li a.active{background-color: var(--electric-color);}
 ul.doc-repository-links li a.active::before{border-color: var(--white);}
 ul.doc-repository-links li a::before{width: 8px; height: 8px; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
 
-
-
 .doc-repository-head{margin-bottom: 24px;}
 .doc-repository-icon img{width: 12px; height: 12px;}
 .doc-repository-head span{font-size: 10px; line-height: 12px; letter-spacing: 2px; margin-bottom: 0; font-family: 'Gotham-Bold',sans-serif;}
@@ -23,6 +21,14 @@ ul.doc-repository-links li a::before{width: 8px; height: 8px; left: 10px; top: 5
 .doc-repository-text h2{font-size: 32px; line-height: 40px;}
 
 .doc-repository-right h2{font-size: 32px; line-height: 40px;}
+ul.tab-links{margin: 0;}
+ul.tab-links > li{margin: 0;}
+ul.tab-links > li::before{display: none;}
+ul.tab-links > li > a {gap: 20px; padding: 10px 15px; align-items: center; color: var(--midnight-color); background-color: var(--light-gray-color); font-size: 18px; line-height: 22px; font-family: 'Gotham-Medium', sans-serif; }
+ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(--midnight-color); color: var(--white);}
+.tab-links-icon{flex: 0 0 24px;}
+.tab-links-text{flex: 0 0 calc(100% - 44px);}
+
 .doc-financial-section{padding: 37px 40px 40px; margin-bottom: 40px; background-color: var(--light-gray-color);}
 .doc-repos-section{background-color: var(--light-gray-color); padding: 40px ; margin-bottom: 40px;}
 .doc-repos-lists{display: none;}
@@ -40,6 +46,8 @@ ul.doc-repository-links li a::before{width: 8px; height: 8px; left: 10px; top: 5
 .doc-mb span.fa-download{opacity: 1; flex: 0 0 20px; color: var(--electric-color); font-size: 18px; line-height: 18px;}
 
 .doc-file-section{background-color: var(--light-gray-color); padding: 40px;}
+.doc-file-row{display: none;}
+.doc-file-row.current-q{display: block;}
 .doc-file-list{background-color: var(--white); padding: 16px 16px 24px; border-bottom: 1px solid var(--electric-color);}
 .doc-file-image{margin-bottom: 16px;}
 .doc-file-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}

@@ -44,7 +44,6 @@ $(document).ready(function(){
 
     $('ul.positions-links li:first a').addClass("active");
     $(".positions-rows-list:first").addClass("current-q");
-    $(".doc-repos-lists:first").addClass("current-q");
     $('ul.positions-links li a').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().find('a').removeClass('active');
@@ -67,6 +66,40 @@ $(document).ready(function(){
         $('.contact-list[data-value="' + attrName + '"]').fadeIn(1000);
         $(".contact-form-list").removeClass("current-g").hide();
         $('.contact-form-list[data-value="' + attrName + '"]').fadeIn(1000);
+    });
+
+
+    $('ul.doc-tabs-link-1 li:first a').addClass("active");
+    $('ul.doc-tabs-link-1 li a').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+        var attrName = $(this).attr("data-value");
+        $(".financial-row").removeClass("current-q").hide();
+        $('.financial-row[data-target="' + attrName + '"]').fadeIn(1000);
+    });
+
+    $('ul.doc-tabs-link-2 li:first a').addClass("active");
+    $(".doc-repos-lists:first").addClass("current-q");
+    $('ul.doc-tabs-link-2 li a').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+        var attrName = $(this).attr("data-value");
+        $(".doc-repos-lists").removeClass("current-q").hide();
+        $('.doc-repos-lists[data-target="' + attrName + '"]').fadeIn(1000);
+    });
+
+
+    $('ul.doc-tabs-link-3 li:first a').addClass("active");
+    $(".doc-file-row:first").addClass("current-q");
+    $('ul.doc-tabs-link-3 li a').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+        var attrName = $(this).attr("data-value");
+        $(".doc-file-row").removeClass("current-q").hide();
+        $('.doc-file-row[data-target="' + attrName + '"]').fadeIn(1000);
     });
 
     $(window).on("load orientationchange", function() {
