@@ -10,8 +10,8 @@ ul.doc-repository-links li{margin-bottom: 16px; width: 300px;}
 ul.doc-repository-links li::before{display: none;}
 ul.doc-repository-links li a{padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -0.36px; font-family: Gotham-Medium;}
 ul.doc-repository-links li a.active{background-color: var(--electric-color);}
-ul.doc-repository-links li a.active::before{border-color: var(--white);}
-ul.doc-repository-links li a::before{width: 8px; height: 8px; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
+ul.doc-repository-links li a.active::before{border-color: var(--white); opacity: 1;}
+ul.doc-repository-links li a::before{width: 8px; height: 8px; opacity: 0.25; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
 
 .doc-repository-head{margin-bottom: 24px;}
 .doc-repository-icon img{width: 12px; height: 12px;}
@@ -21,7 +21,7 @@ ul.doc-repository-links li a::before{width: 8px; height: 8px; left: 10px; top: 5
 .doc-repository-text h2{font-size: 32px; line-height: 40px;}
 
 .doc-repository-right h2{font-size: 32px; line-height: 40px;}
-ul.tab-links{margin: 0;}
+ul.tab-links{margin: 0; gap: 40px;}
 ul.tab-links > li{margin: 0;}
 ul.tab-links > li::before{display: none;}
 ul.tab-links > li > a {gap: 20px; padding: 10px 15px; align-items: center; color: var(--midnight-color); background-color: var(--light-gray-color); font-size: 18px; line-height: 22px; font-family: 'Gotham-Medium', sans-serif; }
