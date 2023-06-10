@@ -108,11 +108,13 @@ $(document).ready(function(){
                 e.preventDefault();
                 $(this).toggleClass("active");
                 $("ul.positions-links").slideToggle("slow");
+                $("ul.tab-links").slideToggle("slow");
             });
-            $('ul.positions-links li a').on('click', function(e){
+            $('ul.positions-links li a, ul.tab-links a').on('click', function(e){
                 e.preventDefault();
                 $(".positions-btn").removeClass("active");
                 $("ul.positions-links").slideUp();
+                $("ul.tab-links").slideUp();
                 let ptext = $(this).text();
                 let pimage = $(this).children(".positions-icon").html();
                 $(".positions-btn span").text(ptext);
