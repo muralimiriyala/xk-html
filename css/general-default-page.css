@@ -9,7 +9,8 @@
 .general-product-main{background-color: var(--white);}
 .general-product-list h3{padding-left: 0;}
 .general-product-list h3::before{display: none;}
-.general-product-text{font-size: 14px; line-height: 22px;   letter-spacing: -0.28px; padding: 0 20px;}
+.general-product-text{font-size: 14px; line-height: 22px; padding: 0 20px;}
+.general-product-text h2{font-size: 32px; line-height: 40px;}
 .general-product-text ul{margin-bottom: 24px;}
 .general-product-text ul li{margin-bottom: 0;}
 .general-product-text ul li::before{top: 10px;}

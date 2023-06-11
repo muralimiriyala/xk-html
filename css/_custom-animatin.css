@@ -45,7 +45,7 @@
 
 .zoom-image{animation-name: zoom-out; animation-delay: 0.15s; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
 @keyframes zoom-out { 0% {transform: scale(1.25) rotate(360deg); border-color: var(--electric-color);} 100% {transform: scale(1) rotate(360deg); border-color: var(--white); } }
-.fade-radar-art{animation-name: fade-radar-art; animation-delay: 0.15s; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
+.fade-radar-art{animation-name: fade-radar-art; animation-delay: 0s; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
 @keyframes fade-radar-art{ 0% {transform: translate(-50%,-50%) scale(0);} 100% {transform: translate(-50%,-50%) scale(1); } }
 
 .bottom-0-to-100{animation-name: bottom-0-to-100;}
