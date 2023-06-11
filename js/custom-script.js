@@ -94,7 +94,8 @@ $(document).ready(function(){
         }
     });  
 
-    $("ul.doc-repository-links > li > a").on("click", function(e){
+    $("ul.tab-scroll-links > li:first > a").addClass("active");
+    $("ul.tab-scroll-links > li > a").on("click", function(e){
         e.preventDefault();
         $(this).addClass("active");
         $(this).parent().siblings().find('a').removeClass("active");
