@@ -25,7 +25,7 @@
     .short-intro-list{flex: 0 0 calc(25% - 42px);}
     .intro1-of-3 .short-intro-list{flex: 0 0 calc(33.3333% - 38px);}
 
-    body.product-page .short-intro-main{padding: 12px 0 56px;}
+    body.page-template-product .short-intro-main{padding: 12px 0 56px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){ 
     .short-intro-head{gap: 60px;}
@@ -55,5 +55,6 @@
     body.page-template-solutions .short-intro-desc{margin-bottom: 40px;}
     body.page-template-solutions .short-intro-title h2{margin-bottom: 0;}
     body.page-template-solutions .short-intro-title{margin-bottom: 40px;}
+    body.page-template-product .short-intro-title{margin-bottom: 0;}
     
 }
