@@ -7,13 +7,9 @@
 .insights-page .news-events-main{padding-top: 17px;}
 .news-events-title h2{font-size: 32px; line-height: 40px;}
 
-.big-post-text{padding: 48px; font-size: 18px; line-height: 26px; background-color: var(--white);}
-.big-post-text h2{font-size: 32px; line-height: 40px;}
-
-.small-post-bg{display: flex; flex-direction: column; background-color: var(--white); height: 100%; margin-bottom: 48px;}
+.big-post-text{background-color: var(--white);}
 .no_post_image.small-post-bg{height: auto;}
 .small-post-bg:last-child{margin-bottom: 0;}
-.small-post-text{padding: 32px; font-size: 20px; line-height: 32px; height: 100%; display: flex; flex-direction: column;}
 .small-post-text .custom-date{margin-bottom: 24px;}
 .small-post-desc{margin-bottom: 18px;}
 .small-post-text .tag-links-main{margin-top: auto;}
@@ -22,6 +18,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
     .news-events-bg{background-image: url("./images/news-events-bg.svg");}
+    .big-post-text h2{font-size: 32px; line-height: 40px;}
 }
 @media only screen and (min-width: 1024px){
     .news-events-title{flex: 0 0 50%; order: 1;}
@@ -31,15 +28,15 @@
     .news-events-row:nth-child(even){flex-direction: row-reverse;}
     .big-post-list{flex: 0 0 calc(100% - 468px);}
     .small-post-list{flex: 0 0 420px;}
+    .small-post-bg{margin-bottom: 48px;  height: 100%; display: flex; flex-direction: column; background-color: var(--white);}
+    .small-post-text{padding: 32px; font-size: 20px; line-height: 32px; height: 100%; display: flex; flex-direction: column;}
     .big-post-main{flex-wrap: nowrap;}
     .big-post-image{flex: 0 0 calc(100% - 446px); min-width: 446px;}
-    .big-post-text{flex: 0 0 446px; transform: translateX(-81px);}
+    .big-post-text{flex: 0 0 446px; transform: translateX(-81px); padding: 48px; font-size: 18px; line-height: 26px;}
     .news-events-row:nth-child(odd) .big-post-main{flex-direction: row-reverse;}
     .news-events-row:nth-child(odd) .big-post-text{transform: translateX(80px);}
-
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    /* .container{padding: 0 20px;} */
     .news-events-row{gap: 30px; margin-bottom: 30px;}
     .news-events-row:last-child{margin-bottom: 0;}
     .big-post-list{flex: 0 0 calc(100% - 330px);}
@@ -54,18 +51,19 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .news-events-row{display: block;}
-    .big-post-main.flex.flex-vcenter{display: block;}
-    .big-post-list{position: relative; margin-bottom: 20px;}
-    .big-post-text{max-width: 100%; margin: 0 auto; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;   position: relative; margin-top: -40px;}
-    .big-post-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
+    .big-post-main{display: block;}
+    .big-post-image{max-height: 400px; overflow: hidden;}
+    .big-post-list{position: relative; margin-bottom: 40px;}
+    .big-post-text{width: calc(100% - 40px); margin: -40px auto 0; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;position: relative; z-index: 1;}
     
-    .small-post-text{padding: 24px;}
+    .small-post-text{padding: 24px; width: calc(100% - 40px); margin: -40px auto 0; background-color: var(--white); position: relative;}
     .small-post-list{margin-bottom: 40px;}
+    
+    .news-events-row:last-child .small-post-list{gap: 20px; width: 100%; display: flex; flex-wrap: wrap;}
+    .news-events-row:last-child .small-post-bg{flex: 0 0 calc(50% - 10px);}
+    .news-events-row:last-child .small-post-text{margin: 0; width: 100%;}
     .newsletter-text h3{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
-
-    .small-post-bg{margin-bottom: 20px;}
 }
-
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .news-events-main {padding: 40px 0; display: block;}
     .news-events-bg{background-image: url("./images/news-events-mobile-bg.svg");}
@@ -75,13 +73,12 @@
     .big-post-text{max-width: 295px; margin: 0 auto; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;   position: relative; margin-top: -40px;}
     .big-post-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
     
-    .small-post-text{padding: 24px;}
+    .small-post-text{padding: 24px; background-color: var(--white);}
     .small-post-list{margin-bottom: 40px;}
     .newsletter-text h3{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
 
     .small-post-bg{margin-bottom: 20px;}
-    }
-    
+}
 
 
 
