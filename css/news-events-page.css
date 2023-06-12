@@ -9,7 +9,9 @@
 .load-more-btn::before{ width: 100%; height: 1px; left: 0; top: 50%; transform: translateY(-50%); background-color: var(--light-gray); content: ""; display: block; position: absolute; z-index: -1;}
 .load-btn-wrap{padding: 0 8px; background-color: var(--white);}
 .more-events-text .tag-links-main{margin-top: auto;}
-
+.events-form-field{position: relative;}
+.events-form-field button.events-search{padding: 0; right: 20px; top: 21px; background: none; position: absolute;}
+.events-form-field button.events-search:hover{color: var(--midnight-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
