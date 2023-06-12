@@ -6,7 +6,9 @@
 .newsletter-text h3{margin-bottom: 0;}
 .newsletter-form .frm_forms .frm_form_fields .frm_fields_container{position: relative;}
 .newsletter-form .frm_forms .frm_form_fields .frm_form_field{margin: 0;}
-.newsletter-form .frm_forms .frm_form_fields .frm_form_field input { font-size: 14px; padding: 16px 40px 15px 48px; line-height: 22px; background-position: 16px 13px; background-image: url('./images/email-icon.svg'); background-repeat: no-repeat; background-size: 24px 24px; }
+.newsletter-form .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {display: none;}
+body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input { font-size: 14px; padding: 16px 40px 15px 48px; line-height: 22px; background-position: 16px 13px; background-image: url('./images/email-icon.svg'); background-repeat: no-repeat; background-size: 24px 24px; }
+body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input:focus{border-width: 2px; border-color: transparent; border-bottom-color: var(--electric-color);}
 .newsletter-form  .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder {color: var(--midnight-color); font-family: 'Gotham-Book', sans-serif;}
 .newsletter-form  .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder {color: var(--midnight-color); font-family: 'Gotham-Book', sans-serif; opacity: 1; }
 .newsletter-form  .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder {color: var(--midnight-color); font-family: 'Gotham-Book', sans-serif; opacity: 1;}
