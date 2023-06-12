@@ -21,15 +21,21 @@
     .more-events-row{gap: 40px;}
     .more-events-list{flex: 0 0 calc(33.33% - 27px);}
 }
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .more-events-head { gap: 30px; } 
+    .more-events-right { flex: 0 0 calc(100% - 332px); } 
+    .more-events-form { gap: 30px; } 
+    .events-form-field { flex: 0 0 calc(33.33% - 20px); }
+    .more-events-row{gap: 30px;}
+    .more-events-list { flex: 0 0 calc(33.33% - 20px); }
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .more-events-head{gap: 24px;}
-    .more-events-title{flex: 0 0 200px;}
-    .more-events-right{flex: 0 0 calc(100% - 224px);}
-    .more-events-form{ gap: 14px;}
-    .events-form-field{flex: 0 0 calc(33.33% - 15px);}
-    .more-events-row{gap: 40px; padding: 40px 0;}
-    .more-events-list{flex: 0 0 calc(50% - 20px);}
+    .more-events-head{display: block;}
+    .more-events-title{margin-bottom: 24px;}
+    .more-events-form{ gap: 20px;}
+    .events-form-field{flex: 0 0 calc(33.33333% - 14px);}
+    .more-events-row{gap: 30px; padding: 40px 0;}
+    .more-events-list{flex: 0 0 calc(50% - 15px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .more-events-main{padding: 40px 0;}
