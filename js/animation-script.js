@@ -22,4 +22,4 @@ function check_if_in_view() {
   });
 }
 $window.on('scroll load', check_if_in_view);
-$window.trigger('scroll load');
+$window.trigger('scroll load', check_if_in_view);
