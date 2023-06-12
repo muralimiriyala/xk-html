@@ -20,7 +20,7 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
     .product-finder-head h2{font-size: 32px; line-height: 40px; margin-top: 39px;}
 }
 @media only screen and (min-width: 1024px){ 
-    .product-finder-wrap{padding: 78px 0;}
+    .product-finder-wrap{padding: 78px 0 40px;}
     .product-finder-head{max-width: 960px; margin: 0 auto;}
     .product-finder-list{gap: 48px; margin-bottom: 20px;}
     .product-finder-text{flex: 0 0 calc(100% - 248px);}
