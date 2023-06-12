@@ -17,7 +17,11 @@
 .small-post-text .custom-date{margin-bottom: 24px;}
 .small-post-desc{margin-bottom: 18px;}
 .small-post-text .tag-links-main{margin-top: auto;}
+.small-post-desc p > a{color: var(--dark-color);}
+.small-post-desc p > a:hover{color: var(--electric-color);}
 
+.more-events-desc p > a{color: var(--dark-color);}
+.more-evenys-desc p > a:hover{color: var(--electric-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
