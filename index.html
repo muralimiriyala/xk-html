@@ -446,7 +446,7 @@
 <div class="container">
 <div class="solutions-main">
     <div class="solutions-intro flex">
-        <div class="solutions-text">
+        <div class="solutions-text" data-animation="fade-in-left">
             <span class="optional-text">Solutions</span>
             <h2>Intro about XK radar solutions for this different verticals here</h2>
             <p>Augue arcu congue porttitor mauris lorem eget vulputate enim fermentum morbi feugiat tincidunt aenean accu msan integer dui aliquet netus.</p>
@@ -478,7 +478,7 @@
     </div>
     <div class="healthcare-row flex">
         <div class="healthcare-list">
-            <figure class="healthcare-thumb">
+            <figure class="healthcare-thumb" data-animation="fade-in-up">
                 <img src="images/long-term-icon.svg" alt="long-term-icon">
             </figure>
             <span class="sub-heading">Long term care</span>
@@ -486,7 +486,7 @@
             <a href="#" class="text-link">More</a>
         </div>
         <div class="healthcare-list">
-            <figure class="healthcare-thumb">
+            <figure class="healthcare-thumb" data-animation="fade-in-up">
                 <img src="images/accurate-icon.svg" alt="accurate-icon">
             </figure>
             <span class="sub-heading">Acute care</span>
@@ -494,7 +494,7 @@
             <a href="#" class="text-link">More</a>
         </div>
         <div class="healthcare-list">
-            <figure class="healthcare-thumb">
+            <figure class="healthcare-thumb" data-animation="fade-in-up">
                 <img src="images/home-icon.svg" alt="home-icon">
             </figure>
             <span class="sub-heading">Home healthcare</span>
@@ -502,7 +502,7 @@
             <a href="#" class="text-link">More</a>
         </div>
         <div class="healthcare-list">
-            <figure class="healthcare-thumb">
+            <figure class="healthcare-thumb" data-animation="fade-in-up">
                 <img src="images/home-icon.svg" alt="home-icon">
             </figure>
             <span class="sub-heading">Home healthcare</span>
@@ -543,7 +543,7 @@
                 <h2>A short intro about radar for healthcare and property</h2>
                 <a href="#" class="button">Knowledge Base</a>
             </div>
-            <div class="short-intro-desc pos-relative flex flex-vcenter">
+            <div class="short-intro-desc pos-relative flex flex-vcenter" data-animation="fade-in">
                 <div class="short-intro-pos">
                     <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat velit consectetur volutpat massa est faucibus. Cras in urna enim ut sem. Nec in odio in vestibulum praesent adipiscing et quam amet velit arcu est orci nulla hendrerit.</p>
                 </div>
@@ -985,6 +985,10 @@
     <div class="demo-cta-wrap">
         <div class="demo-cta-main pos-relative">
             <div class="demo-cta-bg pos-relative">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QLQosf2lW50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                <!-- <video autoplay muted>
+                <source src="https://www.dropbox.com/s/oxrbxi4b9dwv7yj/AmyCuddy_2012G-480p.mp4?dl=1" type="video/mp4">
+                </video> -->
                 <picture class="demo-bg-thumb object-fit">
                     <source srcset="images/demo-cta@2x.jpg" media="(min-width: 768px)">
                     <img src="images/demo-cta-mobile@2x.jpg" alt="demo-cta-mobile">
@@ -992,9 +996,10 @@
             </div>
             <div class="demo-cta-pos flex flex-vcenter">
                 <div class="demo-cta-image pos-relative">
-                    <figure class="demo-cta-thumb object-fit">
-                        <img src="images/xk-device.svg" alt="xk-device">
-                    </figure>
+                    <div class="demo-cta-thumb pos-relative">
+                        <div class="demo-cta-device cta-device-1" style="background-image: url('./images/xk-device.svg');"></div>
+                        <div class="demo-cta-device cta-device-2" style="background-image: url('./images/xk-device-inside.svg');"></div>
+                    </div>
                     <div class="demo-cta-radar"></div>
                 </div>
                 <div class="demo-cta-text">
