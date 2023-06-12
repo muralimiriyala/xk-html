@@ -105,4 +105,5 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
     .knowledge-post-top{margin-bottom: 40px; font-size: 20px; line-height: 32px;}
     .knowledge-post-top h1{font-size: 32px; line-height: 40px;}
     .knowledge-post-main{display: block;}
+    .footnotes-main {padding: 40px 0 40px;}
 }

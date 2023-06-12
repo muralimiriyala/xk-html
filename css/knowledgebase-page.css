@@ -105,6 +105,7 @@ body.product-page .training-main{border-bottom: none;}
     .training-list:last-child{margin-bottom: 28px;}
     .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
     .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
+   .training-content{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
     .tag-links-main{margin-bottom: 10px;}
 
     body.product-page .training-main{padding-bottom: 0;}
