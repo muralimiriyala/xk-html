@@ -11,11 +11,10 @@ ul.optional-list:last-child{margin-bottom: 0;}
 .reverse .optional-repeater-main{flex-direction: row-reverse; padding: 40px 0 80px;}
 .reverse .optional-xk-shape{ left: auto; right: -258px; }
 
-body.product-page .reverse .optional-repeater-main{padding: 56px 0 80px;}
-body.product-page .optional-repeater-text span{margin-bottom: 38px;}
-body.product-page .optional-repeater-text .button{margin-top: 8px;}
-
-body.product-page  .optional-repeater-main{padding: 56px 0 80px;}
+body.page-template-product .reverse .optional-repeater-main{padding: 56px 0 80px;}
+body.page-template-product .optional-repeater-text span{margin-bottom: 38px;}
+body.page-template-product .optional-repeater-text .button{margin-top: 8px;}
+body.page-template-product  .optional-repeater-main{padding: 56px 0 80px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){ 
@@ -39,8 +38,9 @@ body.product-page  .optional-repeater-main{padding: 56px 0 80px;}
   .optional-xk-shape { width: 307.93px; height: 320.17px; left: -154px; top: 22px; }
   .optional-repeater-image{margin-bottom: 40px;}
   .reverse .optional-repeater-main{padding: 40px 0;}
-  body.product-page .reverse .optional-repeater-main {padding: 40px 0;}
-  body.product-page .optional-repeater-text .button {margin-top: 8px; width: 100%;}
-  body.product-page .optional-repeater-main {padding: 40px 0;}
+  body.page-template-product .reverse .optional-repeater-main {padding: 40px 0;}
+  body.page-template-product .optional-repeater-text .button {margin-top: 8px; width: 100%;}
+  body.page-template-product .optional-repeater-text span {margin-bottom: 24px;}
+  body.page-template-product .optional-repeater-main {padding: 40px 0;}
   .reverse .optional-xk-shape {left: auto; right: -155px; top: 41px;}
 }

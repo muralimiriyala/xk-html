@@ -9,9 +9,9 @@
 .product-finder-btns .button.electric:hover{color: var(--white);}
 .product-finder-btns .button span{padding-left: 5px;}
 
-body.product-page .product-finder-btns .product-xk300{font-size: 12px; line-height: 20px; letter-spacing: -0.28px; color: var(--slate-color); border-left: 2px solid var(--electric-color); border-right: 2px solid var(--electric-color); padding: 0 14px;}
-body.product-page .product-finder-btns .product-xk300 p{margin-bottom: 0;}
-body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-height: 22px; letter-spacing: -0.36px; font-family: 'Gotham-Medium',sanserif;}
+body.page-template-product .product-finder-btns .product-xk300{font-size: 12px; line-height: 20px; letter-spacing: -0.28px; color: var(--slate-color); border-left: 2px solid var(--electric-color); border-right: 2px solid var(--electric-color); padding: 0 14px;}
+body.page-template-product .product-finder-btns .product-xk300 p{margin-bottom: 0;}
+body.page-template-product .product-finder-btns .prod-find-heading{font-size: 18px; line-height: 22px; letter-spacing: -0.36px; font-family: 'Gotham-Medium',sanserif;}
 
 
 /* media css starts here */
@@ -27,9 +27,9 @@ body.product-page .product-finder-btns .prod-find-heading{font-size: 18px; line-
     .product-finder-btns{gap: 16px; flex: 0 0 200px; justify-content: flex-end;}
     .product-finder-row{max-width: 960px; margin: 0 auto; padding: 19px 0 20px;}
 
-    body.product-page .product-finder-text{flex: 0 0 calc(100% - 308px);}
-    body.product-page .product-finder-btns{gap: 48px; flex: 0 0 260px;}
-    body.product-page .product-finder-wrap{padding-bottom: 0}
+    body.page-template-product .product-finder-text{flex: 0 0 calc(100% - 308px);}
+    body.page-template-product .product-finder-btns{gap: 48px; flex: 0 0 260px;}
+    body.page-template-product .product-finder-wrap{padding-bottom: 0}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .product-finder-wrap{padding: 78px 0 40px;}

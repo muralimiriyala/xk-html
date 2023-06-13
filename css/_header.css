@@ -3,7 +3,7 @@
 .fixed-header{background-color: var(--midnight-color);}
 .logo a{width: 100%; display: block;}
 .insights-page .main-header:not(.fixed-header){background-color: var(--light-gray-color);}
-.product-page .main-header:not(.fixed-header) {background-color: var(--light-gray-color); }
+body.page-template-product .main-header:not(.fixed-header) {background-color: var(--light-gray-color); }
 
 
 /*-- media css starts here --*/

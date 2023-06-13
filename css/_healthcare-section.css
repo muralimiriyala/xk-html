@@ -1,7 +1,7 @@
 
 .healthcare-bg{background-image: url("./images/xk-radar-bg.svg"); background-repeat: no-repeat; background-size: cover;}
 .healthcare-main{padding: 80px 0 80px;}
-body.product-page .healthcare-row{padding: 0;}
+body.page-template-product .healthcare-row{padding: 0;}
 .healthcare-list{padding: 32px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px; color: var(--slate-color); background-color: var(--white);}
 .healthcare-thumb{margin-bottom: 20px;}
 .healthcare-list p{margin-bottom: 20px;}
@@ -13,8 +13,8 @@ body.product-page .healthcare-row{padding: 0;}
     .healthcare-list{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    body.product-page .healthcare-row{gap: 8px;}
-    body.product-page .healthcare-list{flex: 0 0 calc(25% - 8px);}
+    body.page-template-product .healthcare-row{gap: 8px;}
+    body.page-template-product .healthcare-list{flex: 0 0 calc(25% - 8px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .healthcare-row{gap: 0 20px;}
