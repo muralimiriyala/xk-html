@@ -9,7 +9,7 @@ ul.property-links > li::before{display: none;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
-    ul.property-links{margin: 0; gap: 24px;}
+    ul.property-links{margin: 0; gap: 11px 24px;}
     ul.property-links > li{flex: 0 0 calc(50% - 12px);}
 }
 @media only screen and (min-width: 1024px){
