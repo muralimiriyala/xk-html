@@ -2,7 +2,11 @@
 .home-banner-bg iframe, .home-banner-bg video{width: 100%; height: 100%; object-fit: cover;}
 .home-banner-bg.no_image{background-color: var(--slate-color);}
 .home-banner-device{position: absolute; z-index: 1;}
-.home-banner-xk{width: 328px; height: 324px; margin: 0 auto; background-image: url("./images/xk-device.svg"); background-repeat: no-repeat; background-size: contain; filter: drop-shadow(-31.3043px 31.3043px 31.3043px rgba(10, 10, 30, 0.25));}
+.home-banner-xk{width: 328px; height: 324px; margin: 0 auto; background-repeat: no-repeat; background-size: contain; filter: drop-shadow(-31.3043px 31.3043px 31.3043px rgba(10, 10, 30, 0.25)); transition: opacity 0.45s linear; }
+.home-banner-xk-2{top: 50%; left: 50%; transform: translate(-50%,-50%); opacity: 0; position: absolute;}
+.home-banner-device:hover .home-banner-xk-2{opacity: 1;}
+.home-banner-device:hover .home-banner-xk-1{opacity: 0;}
+
 .home-banner-shape{width: 100%; height: 100%; top: 0; left: 0; background-image: url("images/xk-radar-sphere.svg"); background-repeat: no-repeat; background-size: contain; position: absolute;}
 .home-banner-text{font-size: 18px; line-height: 26px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color); }
 .home-banner-vline{background-color: var(--electric-color); content: ""; display: block; position: absolute;}
