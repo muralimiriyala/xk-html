@@ -7,6 +7,7 @@
 .expertise-text p{margin-bottom: 14px;}
 
 body.page-template-product .expertise-section{background-color: var(--light-gray-color);}
+body.page-template-company .expertise-main{padding: 75px 0 80px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -34,6 +35,7 @@ body.page-template-product .expertise-section{background-color: var(--light-gray
     .expertise-head{margin-bottom: 64px;}
     .expertise-list{margin-bottom: 24px;}
     .expertise-list:last-child{margin-bottom: 0;}
+    body.page-template-company .expertise-main{padding: 40px 0;}
 }
 
 

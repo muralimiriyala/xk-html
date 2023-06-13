@@ -10,7 +10,7 @@
 .additional-news-text .custom-date{margin-bottom: 8px;}
 .date-icon{color: var(--electric-color); font-size: 12px;}
 .date-icon-text{color: var(--slate-color);}
-
+ body.page-template-company .more-blogs-title span.optional-text.black{margin-bottom: 56px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .more-blogs-main{padding: 80px 0 56px;}
