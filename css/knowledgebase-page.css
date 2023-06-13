@@ -52,7 +52,7 @@ ul.tag-links > li > a:hover{background-color: var(--midnight-color); color: var(
 
 
 body.myxk-tech-page .training-border{padding: 50px 0 80px;}
-body.product-page .training-main{border-bottom: none;}
+body.page-template-product .training-main{border-bottom: none;}
 /* media starts here */
 @media only screen and (min-width: 1024px){
     .knowledgebase-text{width: 768px;}
@@ -66,8 +66,8 @@ body.product-page .training-main{border-bottom: none;}
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
 
-    body.product-page .training-main{padding:0 0 40px}
-    body.product-page .training-row{margin-bottom: 40px;}
+    body.page-template-product .training-main{padding:0 0 40px}
+    body.page-template-product .training-row{margin-bottom: 40px;}
 
 }
 
@@ -87,7 +87,7 @@ body.product-page .training-main{border-bottom: none;}
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
 
-    body.product-page .training-main{padding-top: 0; }
+    body.page-template-product .training-main{padding-top: 0; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .knowledgebase-main{padding: 120px 20px 95px;}
@@ -105,8 +105,9 @@ body.product-page .training-main{border-bottom: none;}
     .training-list:last-child{margin-bottom: 28px;}
     .training-list::before{background-image: url("images/training-edu-mobile-image.svg"); width: 132px; height: 68px;}
     .training-list::after {width: 100%; left: 0px; top: 68px; height: calc(100% - 76px);}
+   .training-content{font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
     .tag-links-main{margin-bottom: 10px;}
 
-    body.product-page .training-main{padding-bottom: 0;}
+    body.page-template-product .training-main{padding-bottom: 0;}
    
 }

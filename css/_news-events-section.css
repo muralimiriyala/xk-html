@@ -13,7 +13,11 @@
 .small-post-text .custom-date{margin-bottom: 24px;}
 .small-post-desc{margin-bottom: 18px;}
 .small-post-text .tag-links-main{margin-top: auto;}
+.small-post-desc p > a{color: var(--dark-color);}
+.small-post-desc p > a:hover{color: var(--electric-color);}
 
+.more-events-desc p > a{color: var(--dark-color);}
+.more-evenys-desc p > a:hover{color: var(--electric-color);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
@@ -68,6 +72,8 @@
     .news-events-main {padding: 40px 0; display: block;}
     .news-events-bg{background-image: url("./images/news-events-mobile-bg.svg");}
     .news-events-row{display: block;}
+    .news-events-row:last-child{display: flex; flex-direction: column-reverse;}
+    .news-events-btn{margin-top: 52px;}
     .big-post-main.flex.flex-vcenter{display: block;}
     .big-post-list{position: relative; margin-bottom: 20px;}
     .big-post-text{max-width: 295px; margin: 0 auto; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;   position: relative; margin-top: -40px;}
