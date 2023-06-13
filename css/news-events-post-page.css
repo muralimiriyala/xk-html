@@ -2,7 +2,6 @@
 .events-post-banner-wrap{padding: 32px 0;}
 .events-post-banner-point h1{font-size: 40px; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 0;}
 .post-banner-line{background-color: var(--electric-color); position: absolute;}
-span.share-text{margin-bottom: 25px; font-size: 14px; line-height: 22px; letter-spacing: 0.2em; color: var(--midnight-50); text-transform: uppercase; display: block;}
 
 .post-default-content{font-size: 16px; line-height: 32px; color: var(--slate-color);}
 .post-default-content p:nth-child(2) span{font-size: 24px; line-height: 36px; margin-bottom: 56px; color: var(--midnight-color); display: block;}
@@ -38,12 +37,11 @@ span.share-text{margin-bottom: 25px; font-size: 14px; line-height: 22px; letter-
 }
 @media only screen and (min-width: 1024px){
     .post-default-main{padding: 80px 0 104px;}
-    .post-default-left{left: -100px; position: absolute;}
+    .post-default-left{left: -200px; top: 149px; position: absolute;}
     .events-post-banner-left{flex: 0 0 64px}
     .events-post-banner-point{padding: 80px 64px; max-width: 520px;}
     
-    .events-post-feature-point{padding: 40px; left: -104px; top: 50%; transform: translateY(-50%); max-width: 335px; z-index: 1;}
-
+    .events-post-feature-point{padding: 40px; left: -104px; top: 50%; transform: translateY(-50%); max-width: 335px; z-index: 1; position: absolute;}
     .events-newsletter-main{gap: 64px;}
     .events-newsletter-text{flex: 0 0 552px;}
     .events-newsletter-form{flex: 0 0 calc(100% - 616px);}
@@ -53,7 +51,10 @@ span.share-text{margin-bottom: 25px; font-size: 14px; line-height: 22px; letter-
     .post-testimonial-thumb { width: 274px; height: 273px; margin: 0 auto; display: block; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-
+    .events-post-banner-point{padding: 60px 30px; max-width: 470px;}
+    .events-newsletter-main{gap: 30px; padding: 30px;}
+    .events-newsletter-text{flex: 0 0 500px;}
+    .events-newsletter-form{flex: 0 0 calc(100% - 530px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .events-post-banner-point{padding: 60px 20px; max-width: 470px;}
