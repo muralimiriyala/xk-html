@@ -34,17 +34,17 @@ ul.partnerships-links > li::before{display: none;}
     .partnerships-logo{flex: 0 0 calc(33.3333% - 38px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .partnerships-links{gap: 24px;}
+    .partnerships-links{gap: 14px 24px;}
     ul.partnerships-links{margin: 0;}
     ul.partnerships-links li{flex: 0 0 calc(50% - 12px);}
 
     .partnerships-main{padding: 80px 0 40px; display: block;}
 
-    .partnerships-logos{gap: 24px; padding: 40px 0; border-top: 2px solid var(--electric-color);}
+    .partnerships-logos{gap: 24px; padding: 40px 0 54px; border-top: 2px solid var(--electric-color);}
     .partnerships-logo{flex: 0 0 calc(50% - 12px);}
     .partnerships-text .button {width: 100%; }
     .partnerships-text{margin-bottom: 40px;}
-    
+    .partnerships-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px; margin-bottom: 40px;}
    
 }
 

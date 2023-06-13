@@ -35,7 +35,8 @@ body.page-template-company .expertise-main{padding: 75px 0 80px;}
     .expertise-head{margin-bottom: 64px;}
     .expertise-list{margin-bottom: 24px;}
     .expertise-list:last-child{margin-bottom: 0;}
-    body.page-template-company .expertise-main{padding: 40px 0;}
+    body.page-template-company .expertise-main{padding: 40px 0 60px;}
+    body.page-template-company .expertise-head{margin-bottom: 55px;}
 }
 
 
