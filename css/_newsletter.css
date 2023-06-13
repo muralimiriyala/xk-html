@@ -34,7 +34,7 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .newsletter-main {padding: 54px 0 40px;}
     .newsletter-text{margin-bottom: 40px;}
-    .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {background-position: 0; padding: 16px 40px 15px 34px;}
+    body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {background-image: none; padding: 16px 110px 15px 15px;}
 }
 
 
