@@ -6,6 +6,8 @@
 .investment-text h2{margin-bottom: 42px;}
 .investment-text ul{margin-bottom: 41px;}
 .investment-text ul li{margin-bottom: 0;}
+.investment-text ul li::before{top: 9px;}
+.investment-text ol li::before{left: -20px; top: 0;}
 .investment-thumb{z-index: 0;}
 .investment-xk-shape { width: 515.93px; height: 396.17px; left: -260px; bottom: -68px; background-image: url('./images/xk-shape.svg'); background-repeat: no-repeat; background-size: contain; position: absolute; z-index: 1; }
 
