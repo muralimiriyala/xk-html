@@ -19,7 +19,7 @@
     .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 64px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-
+    .social-share-icons #st-1.st-animated{display: flex; flex-wrap: wrap;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .social-share-icons{gap: 18px;}
