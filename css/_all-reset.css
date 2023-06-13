@@ -98,7 +98,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 14px; line-height: 1.5; letter-spacing: 0.2em; padding: 9px 17px 10px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Medium', sans-serif; text-transform: uppercase; transition: all 0.45s ease-in-out;}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{ background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 14px; line-height: 18px; letter-spacing: 0.2em; padding: 11px 17px 11px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Medium', sans-serif; text-transform: uppercase; transition: all 0.45s ease-in-out;}
 button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--electric-color); color: var(--white);}
 
 .button.btn-transparent{padding: 6px 10px; background-color: transparent; border: 2px solid var(--health-color); color: var(--slate-color);}

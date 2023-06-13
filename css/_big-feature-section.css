@@ -7,13 +7,29 @@
 .feature-point .text-link{opacity: 0.75;}
 .feature-point-line{background-color: var(--electric-color); width: 1px; height: 0; left: 0; bottom: 0; position: absolute;}
 .big-feature-right .feature-point-line{left: auto; right: 0;}
-.big-feature-image{margin-left: auto;}
+.big-feature-image{margin-left: auto; overflow: hidden;}
 
 .big-feature-right .big-feature-main{padding-right: 95px; padding-left: 0;}
 .big-feature-right .big-feature-image{margin-right: auto; margin-left: 0;}
 
 body.page-template-product .big-feature-wrap{padding: 56px 0;}
 body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 56px;}
+
+
+
+.big-feature-svg { width: 521px; height: 424px; top: 160px; right: -33px; transform: rotate(194deg); position: absolute; }
+.big-feature-svg svg{width: 100%; height: 100%;}
+.big-feature-right .big-feature-svg{left: -26px; right: auto; transform: none;}
+
+.big-feature-estate-svg {
+	width: 512px;
+	height: 542px;
+	top: -15px;
+	right: 108px;
+	position: absolute;
+	transform: rotate(-38deg);
+}
+.big-feature-estate-svg svg{width: 100%; height: 100%;}
 
 
 /* media css starts here */
