@@ -15,7 +15,7 @@ body.page-template-product .reverse .optional-repeater-main{padding: 56px 0 80px
 body.page-template-product .optional-repeater-text span{margin-bottom: 38px;}
 body.page-template-product .optional-repeater-text .button{margin-top: 8px;}
 body.page-template-product  .optional-repeater-main{padding: 56px 0 80px;}
-
+body.page-template-careers .reverse .optional-repeater-main{padding: 70px 0 110px;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){ 
   .optional-repeater-main{gap: 80px;}
