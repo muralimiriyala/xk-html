@@ -35,7 +35,8 @@
     .more-blogs-text p{margin-bottom: 42px;}
     .more-blogs-text .tag-links-main{margin-bottom: 0;}
     .more-blogs-list:last-child{margin-bottom: 45px;}
-    
+    .more-blogs-text p:not(:last-child) {margin-bottom: 46px;}
+    .more-blogs-btn{text-align: center;}
 
 }
 
