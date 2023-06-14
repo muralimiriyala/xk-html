@@ -19,8 +19,10 @@ $(window).on("load resize orientationchange", function() {
     }
     else{
         $(".leadership-text").on("click", function() {
-            $(this).parents().siblings().find(".leadership-desc").slideUp(2000);
-            $(this).children(".leadership-desc").slideToggle(2000);
+            $(this).parent().siblings(".leadership-list").find(".leadership-text").removeClass('expand');
+            $(this).toggleClass('expand');
+            $(this).parents().siblings().find(".leadership-desc").slideUp();
+            $(this).children(".leadership-desc").fadeToggle();
         });
     }
 });
