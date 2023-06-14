@@ -31,8 +31,8 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     .financial-content{flex: 0 0 calc( 100% - 432px);}
     .financial-date{flex: 0 0 180px;}
     .financial-qlinks{flex: 0 0 calc(100% - 180px);}
-    .financial-list-btn{flex: 0 0 118px;}
-    .financial-list-heading{flex: 0 0 calc(100% - 118px);}
+    .financial-list-btn{flex: 0 0 121px;}
+    .financial-list-heading{flex: 0 0 calc(100% - 121px);}
 
     ul.category-links{gap: 22px;}
     ul.category-links li:before{width: 1px; height: 100%; top: 0; left: -12px; background-color: var(--electric-color); border-radius: 0;}
