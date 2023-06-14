@@ -93,8 +93,11 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     .locations-list:not(:last-child){margin-bottom: 20px;}
     .locations-text { padding: 7px 24px 7px; }
 }
-
-
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    .login-form-main{padding: 20px;}
+    .login-form-btns{gap: 10px;}
+    .login-form-btns .button{min-width: 92px;}
+}
 
 
 

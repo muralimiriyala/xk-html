@@ -10,7 +10,7 @@ ul.leadership-tags > li::before{display: none;}
 ul.leadership-tags > li{margin: 0;}
 ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12px; line-height: 12px; padding: 5px 8px 7px 8px; font-weight: 500; font-family: 'Gotham-Medium', sans-serif; text-transform: capitalize; color: #0a0a1e; display: inline-block; vertical-align: top;}
 
-.leadership-text { width: calc(100% - 64px); height: auto; bottom: 0; left: 0; right: 0; margin: 0 auto; padding: 22px 32px; max-height: calc(100% - 30px); background-color: var(--white-80); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px var(--electric-color); position: absolute; z-index: 1; overflow-y: auto; -webkit-overflow-scrolling: touch;}
+.leadership-text {width: calc(100% - 64px); height: auto; bottom: 0; left: 0; right: 0; margin: 0 auto; padding: 22px 32px; max-height: calc(100% - 30px); background-color: var(--white-80); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: solid 1px var(--electric-color); position: absolute; z-index: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: all 0.45s ease-in-out;}
 .leadership-desc{display: none; padding-top: 21px; font-size: 14px; line-height: 22px;}
 .leadership-pos h4{letter-spacing: -0.48px; margin-bottom: 4px;}
 .leadership-pos span{display: block; font-size: 20px; line-height: 32px; letter-spacing: -0.4px; opacity: 0.5; margin-bottom: 4px;}
@@ -39,7 +39,8 @@ ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-siz
     .leadership-head h2{margin-bottom: 0;}
     .leadership-btn {margin-top: 40px;}
     .leadership-list{margin-bottom: 40px;}
-    .leadership-text{width: calc(100% - 52px);}
+    .leadership-text{width: calc(100% - 52px); max-height: 99px; overflow: hidden; cursor: pointer;}
+    .leadership-text.expand{max-height: 320px; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: none; }
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
     .leadership-text{width: calc(100% - 40px); padding: 20px 20px 10px;}
