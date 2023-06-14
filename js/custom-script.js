@@ -5,7 +5,14 @@ $(window).on("load scroll", function(){
     scroll > 4 ? $(".main-header").addClass("fixed-header") : $(".main-header").removeClass("fixed-header");
 });
 
-$(window).on("load resize orientationchange", function() {
+$(".toggle_icon").on("click", function(event){
+    event.preventDefault();
+    $(this).toggleClass("open");
+    $("html, body").toggleClass("nav-overlay-open");
+    $(".main-header").removeClass("fixed-header");
+    $(".navigation").toggleClass("open");
+});
+$(document).on("load ready", function() {
     if($(window).width() >= 768){
         $(".leadership-list").each(function() {
             let $this = $(this).children('.leadership-text');
@@ -17,23 +24,6 @@ $(window).on("load resize orientationchange", function() {
             });
         });
     }
-    else{
-        $(".leadership-text").on("click", function() {
-            $(this).parent().siblings(".leadership-list").find(".leadership-text").removeClass('expand');
-            $(this).toggleClass('expand');
-            $(this).parents().siblings().find(".leadership-desc").slideUp();
-            $(this).children(".leadership-desc").fadeToggle();
-        });
-    }
-});
-$(".toggle_icon").on("click", function(event){
-    event.preventDefault();
-    $(this).toggleClass("open");
-    $("html, body").toggleClass("nav-overlay-open");
-    $(".main-header").removeClass("fixed-header");
-    $(".navigation").toggleClass("open");
-});
-$(document).on("load ready", function() {
     if($(window).width() <= 1023){
         let level1 = $("ul.main-menu > li.menu-item-has-children > a");
         level1.on("click", function(e){
@@ -48,6 +38,14 @@ $(document).on("load ready", function() {
         //     $(this).parent().siblings("li.menu-item-has-children").find("ul").slideUp();
         //     $(this).siblings("ul").slideToggle();
         // });
+    }
+    if($(window).width() <= 767){
+        $(".leadership-text").on("click", function() {
+            $(this).parent().siblings(".leadership-list").find(".leadership-text").removeClass('expand');
+            $(this).toggleClass('expand');
+            $(this).parents().siblings().find(".leadership-desc").slideUp();
+            $(this).children(".leadership-desc").fadeToggle();
+        });
     }
 });
 $(document).ready(function(){
