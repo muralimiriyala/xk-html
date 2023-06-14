@@ -11,7 +11,8 @@
 .home-banner-text{font-size: 18px; line-height: 26px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color); }
 .home-banner-vline{background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .home-banner-desc{z-index: 2;}
-.home-banner-desc h1 span{font-family: 'Gotham-Black', sans-serif;}
+.home-banner-desc h1{text-transform: uppercase;}
+.home-banner-desc h1 span{font-family: 'Gotham-Black', sans-serif; display: inline-block;}
 .home-sub-heading{color: var(--midnight-color); font-size: 40px; line-height: 48px; text-transform: uppercase;}
 .home-sub-heading span{opacity: 0.25;}
 .home-sub-heading span:last-child{opacity: 0.12; display: block; padding-top: 4px;}
@@ -49,7 +50,7 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
     .home-banner-right{flex: 0 0 335px;}
     .home-banner-text{min-height: 376px; max-width: 612px; padding: 61px 64px 67px;}
     .home-banner-vline{width: 2px; height: 100%; right: -30px; top: 0; }
-    .home-banner-desc{max-width: 364px;}
+    .home-banner-desc{max-width: 370px;}
     .home-banner-device{width: 462px; height: 462px; top: calc(50% - 0px); transform: translateY(-50%); right: -87px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
