@@ -59,7 +59,7 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     .financial-links-left{flex: 0 0 calc(100% - 40px);}
     .financial-list-btn{flex: 0 0 40px;}
     .financial-list-btn .button{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 16px; line-height: 24px; display: flex; align-items: center; justify-content: center;}
-    .open-positions-bg{margin-bottom: 24px;}
+    
     ul.category-links {display: block;}
     ul.category-links li{padding-left: 0; border-left: none; margin-bottom: 4px;}
     ul.category-links li:before{display: none;}
