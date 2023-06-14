@@ -10,17 +10,17 @@ $(window).on("load resize orientationchange", function() {
         $(".leadership-list").each(function() {
             let $this = $(this).children('.leadership-text');
             let descItem = $this.find(".leadership-desc");
-            $this.hover(function() {
-                descItem.slideDown(1000);
-            }, function() {
-                descItem.slideUp(1000);
+            $this.mouseenter(function() {
+                descItem.stop(true, false).slideDown(1000);
+            }).mouseleave(function() {
+                descItem.stop(true, false).slideUp(1000);
             });
         });
     }
     else{
         $(".leadership-text").on("click", function() {
-            $(this).parents().siblings().find(".leadership-desc").slideUp(1000);
-            $(this).children(".leadership-desc").slideToggle(1000);
+            $(this).parents().siblings().find(".leadership-desc").slideUp(2000);
+            $(this).children(".leadership-desc").slideToggle(2000);
         });
     }
 });

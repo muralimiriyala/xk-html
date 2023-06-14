@@ -24,7 +24,6 @@ ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-siz
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .leadership-pos span{font-size: 17px; line-height: 22px;}
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .leadership-row{gap: 48px;}
@@ -41,4 +40,7 @@ ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-siz
     .leadership-btn {margin-top: 40px;}
     .leadership-list{margin-bottom: 40px;}
     .leadership-text{width: calc(100% - 52px);}
+}
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    .leadership-text{width: calc(100% - 40px); padding: 20px 20px 10px;}
 }
