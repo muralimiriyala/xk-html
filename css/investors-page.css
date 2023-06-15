@@ -3,7 +3,7 @@
 .financial-main{padding: 78px 0 80px;}
 .financial-text h2{font-size: 32px; font-weight: 500; line-height: 1.25; letter-spacing: -0.64px;}
 .financial-text p{line-height: 1.5; letter-spacing: -0.32px; color: var(--midnight-color);}
-.financial-form-field{margin-bottom: 24px;}
+.financial-form-field{margin-bottom: 20px;}
 
 .financial-qyears{padding: 24px; margin-bottom: 24px; background-image: url('./images/financial-tab-bg.svg'); background-size: cover;}
 .financial-qlinks{margin: 0; justify-content: flex-end; align-items: center; gap: 20px;}
@@ -55,7 +55,7 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .financial-main{display: block; padding: 40px 0;}
     .financial-text{margin-bottom: 40px;}
-    .financial-list{padding: 16px 24px;}
+    .financial-list{padding: 14px 24px;}
     .financial-links-left{flex: 0 0 calc(100% - 40px);}
     .financial-list-btn{flex: 0 0 40px;}
     .financial-list-btn .button{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 16px; line-height: 24px; display: flex; align-items: center; justify-content: center;}
