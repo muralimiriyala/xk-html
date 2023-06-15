@@ -34,6 +34,8 @@
 .training-list::after{background-color: var(--white); width: calc(100% - 68px); left: 68px; height: 100%; content: ""; position: absolute; z-index: -1; top: 0;} 
 .training-content{font-size: 18px; line-height: 26px;}
 .training-content p{margin-bottom: 14px;}
+.training-content p a{color: var(--midnight-color);}
+.training-content p a:hover{color: var(--electric-color);}
 .training-image img{max-width: 96px;}
 .show-all-btn{padding-left: 42px; font-size: 12px; line-height: 12px; letter-spacing: 0.2em; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; display: inline-block; cursor: pointer; transition: all 0.45s ease;} 
 .show-all-btn::before{font-size: 18px; line-height: 22px; left: 0; top: calc(50% + 2px); transform: translateY(-50%); color: var(--electric-color); content: "\f107"; font-family: "Font Awesome 6 Pro"; font-weight: 400; position: absolute;}
@@ -48,11 +50,11 @@ ul.tag-links > li > a:hover{background-color: var(--midnight-color); color: var(
 .tag-link-btn{flex: 0 0 24px; width: 24px;}
 .tag-link-btn a{font-size: 22px; color: var(--electric-color);}
 .tag-link-btn a:hover{color: var(--midnight-color);}
- .training-border{border-bottom: none; padding: 50px 0 40px;}
-
+.training-border{border-bottom: none; padding: 50px 0 40px;}
 
 body.myxk-tech-page .training-border{padding: 50px 0 80px;}
 body.page-template-product .training-main{border-bottom: none;}
+
 /* media starts here */
 @media only screen and (min-width: 1024px){
     .knowledgebase-text{width: 768px;}
@@ -68,9 +70,7 @@ body.page-template-product .training-main{border-bottom: none;}
 
     body.page-template-product .training-main{padding:0 0 40px}
     body.page-template-product .training-row{margin-bottom: 40px;}
-
 }
-
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .browse-logos-row {gap: 24px; }
     .browse-logos-list {flex: 0 0 calc(20% - 20px); gap: 10px;padding: 35px 10px;}
