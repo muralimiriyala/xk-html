@@ -11,11 +11,14 @@
 .home-banner-text{font-size: 18px; line-height: 26px; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color); }
 .home-banner-vline{background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .home-banner-desc{z-index: 2;}
+.animated-headlines{height: 150px; overflow: hidden;}
+.animated-headlines .slick-list{overflow: visible;}
 .home-banner-desc h1{text-transform: uppercase;}
-.home-banner-desc h1 span{font-family: 'Gotham-Black', sans-serif; display: inline-block;}
-.home-sub-heading{color: var(--midnight-color); font-size: 40px; line-height: 48px; text-transform: uppercase;}
-.home-sub-heading span{opacity: 0.25;}
-.home-sub-heading span:last-child{opacity: 0.12; display: block; padding-top: 4px;}
+.home-banner-desc h1 span{opacity: 0.25; margin-bottom: 3px; white-space: nowrap; transition: all 0.45s ease-in-out; font-family: 'Gotham-Black', sans-serif; display: inline-block;}
+.home-banner-desc h1 span.slick-current{opacity: 1; color: var(--midnight-color);}
+.home-banner-desc h1 span::after{display: none;}
+.home-banner-desc h1 span.slick-current::after{display: inline-block;}
+.home-banner-desc h1 span:last-child{opacity: 0.12;}
 .home-banner-right{z-index: 1;}
 .additional-news-main{padding: 32px; background-color: var(--white-80);}
 .additional-news-list{gap: 12px; margin-bottom: 32px;}
@@ -69,7 +72,6 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
     .home-banner-text { margin-top: -64px; padding: 20px 20px 63px; }
     .home-banner-vline{width: 100%; height: 2px; top: -20px; left: 0; }
     .home-banner-desc h1{font-size: 32px; line-height: 40px; margin-bottom: 4px; letter-spacing: 0.02em;}
-    .home-sub-heading{font-size: 32px; line-height: 40px; }
     .additional-news-main{padding: 0;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
@@ -80,7 +82,6 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
     .home-banner-text { margin-top: -64px; padding: 20px 20px 63px; }
     .home-banner-vline{width: 100%; height: 2px; top: -20px; left: 0; }
     .home-banner-desc h1{font-size: 32px; line-height: 40px; margin-bottom: 4px; letter-spacing: 0.02em;}
-    .home-sub-heading{font-size: 32px; line-height: 40px; }
     .additional-news-main{padding: 0;}
 }
 
