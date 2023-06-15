@@ -19,6 +19,8 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .general-default-main{padding: 76px 0 48px;}
+    body.single-news_events .general-default-main{padding: 46px 0 75px;}
+    body.single-news_events .general-default-main .general-product-bg{margin: 0;}
     .general-product-bg{padding: 80px 0; margin: 48px 0; }
     .general-product-list{flex: 0 0 50%;}
     .general-product-text{padding: 44px 48px 48px; border-left: 2px solid var(--electric-color);} 
@@ -33,6 +35,8 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .general-product-bg .container{padding: 0;}
+    body.single-news_events .general-product-bg .container{padding: 0 20px;}
+    body.single-news_events .general-product-bg{padding: 40px 0 92px;}
     .general-product-bg {background-image: url("./images/general-product-mobile-bg.svg"); padding: 40px 0;}
     .general-product-image {border-bottom: 1px solid var(--electric-color); margin-bottom: 20px;}
     .general-product-text{padding: 0 20px;}

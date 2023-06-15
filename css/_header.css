@@ -64,7 +64,7 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     ul.main-menu > li.about-nav-item > ul > li:last-child{padding: 64px 47px 49px 47px;}
     ul.main-menu > li.about-nav-item > ul > li:last-child::before{width: 1px; height: calc(100% - 128px); left: 0; top: 64px; background-color: var(--electric-color); content: ""; display: block; position: absolute;}
     .menu-item-text{max-width: 300px;}
-    span.optional-text{margin-bottom: 18px;}
+    .menu-item-text span.optional-text{margin-bottom: 18px;}
     .menu-item-text .heading-three{margin-bottom: 23px;}
     /*-- nav items nav --*/
 

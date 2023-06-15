@@ -34,14 +34,13 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .newsletter-main {padding: 54px 0 40px;}
     .newsletter-text{margin-bottom: 40px;}
-<<<<<<< HEAD
     body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input {background-image: none; padding: 16px 110px 15px 15px;}
-=======
     body.newsletter-form .frm_forms .frm_form_fields .frm_form_field input {background-position: 0; padding: 16px 40px 15px 34px;}
->>>>>>> 1861ae21428ed1f2db506ec1e323ccf9a60dd7ee
 }
-
-
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input{padding: 16px;}
+    .newsletter-form .frm_forms .frm_form_fields .frm_submit{margin-top: 15px; position: static;}
+}
 
 
 

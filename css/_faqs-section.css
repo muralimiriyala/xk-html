@@ -35,7 +35,7 @@
     .faqs-main {padding: 0 0; border: none; display: block;}
     .faqs-desc{margin-bottom: 24px;}
     .accordion-main{margin-bottom: 24px;}
-    .accordion-header{padding: 16px;}
+    .accordion-header{padding: 16px; padding-right: 52px;}
 }
 
 

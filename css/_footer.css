@@ -1,6 +1,8 @@
 
 .footer-main{background-color: var(--midnight-color); color: var(--white);}
 .footer{padding: 80px 0;}
+.footer-logo a{width: 100%; display: inline-block;}
+.footer-logo a{max-width: 297px; width: 100%; object-fit: cover;}
 .footer-desc{font-size: 20px; line-height: 32px;}
 ul.copyright-links{margin: 0;}
 ul.copyright-links li{margin: 0;}
@@ -16,7 +18,7 @@ ul.footer-links > li > a{color: var(--white); font-size: 1rem; line-height: 1.5;
 ul.footer-links > li > a:hover{color: var(--electric-color);}
 ul.footer-links > li span{flex: 1;}
 .footer-icon{width: 25px; flex: 0 0 25px; margin-right: 16px;}
-
+.footer-list span.optional-text{font-size: 12px; line-height: 14px; margin-bottom: 27px;} 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
@@ -24,7 +26,7 @@ ul.footer-links > li span{flex: 1;}
     .footer-left{flex: 0 0 600px;}
     .footer-right{flex: 0 0 calc(100% - 736px); gap: 17px;}
     .footer-list{flex: 0 0 calc(50% - 20px);}
-    .footer-logo{margin-bottom: 80px;}
+    .footer-logo{margin-bottom: 77px;}
     .footer-desc{margin-bottom: 80px; font-size: 24px; line-height: 36px;}
     ul.copyright-links{margin: 0 0 80px; gap: 20px 49px;}
 }

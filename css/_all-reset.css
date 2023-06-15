@@ -170,7 +170,7 @@ img.aligncenter{margin: 25px 0;}
 
 body{font-size: 16px; line-height: 24px; letter-spacing: -0.02em; font-family: 'Gotham-Book'; overflow: hidden; color: var(--midnight-color); background-color: transparent;}
 span.optional-text{margin-bottom: 22px; color: var(--midnight-50); font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
-span.optional-text.black{margin-bottom: 46px; padding-right: 80px; color: var(--slate-color);}
+span.optional-text.black{color: var(--slate-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--midnight-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
 .sub-heading a{color: var(--midnight-color);}
 .sub-heading a:hover{color: var(--electric-color);}
