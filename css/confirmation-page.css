@@ -26,6 +26,7 @@
     .confirmation-right{flex: 0 0 calc(100% - 350px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .confirmation-main { padding: 57px 0 80px; }
     .confirmation-text{margin-bottom: 50px;}
     .confirmation-head{gap: 10px;}
     .confirmation-icon{flex: 0 0 24px;}

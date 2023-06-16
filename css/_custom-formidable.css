@@ -54,7 +54,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{ma
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .frm_form_field_wrapper{width: 100%; padding-top: 13px; align-items: center; display: flex; flex-wrap: wrap;}
+    .frm_form_field_wrapper{width: 100%; padding-top: 3px; align-items: center; display: flex; flex-wrap: wrap;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .frm_form_field_wrapper .frm_submit{width: 110px;}
     body .frm_forms .frm_form_fields .frm_field_wrapper .frm_form_field{margin-bottom: 0;}
@@ -89,7 +89,8 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{ma
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .frm_field_wrapper{margin-top: 38px; flex-direction: column-reverse;}
-    body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 23px;}
+    body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 16px;}
+    body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 30px;}
     body .frm_forms .frm_form_fields .frm_submit{margin-bottom: 34px;}
     body.page-template-stock-performance .with_frm_style .frm_form_field.frm_html_container#frm_field_56_container{padding-top: 15px;}
 }
