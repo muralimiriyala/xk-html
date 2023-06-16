@@ -248,4 +248,5 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
     .play-btn-bg > span.square::after{font-size: 32px; line-height: 28px;}
     blockquote:not(span.optional-text){font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
     .page-not-main{max-width: 668px; padding: 28px 0 110px;}
+    .button span.right-arrow{color: var(--electric-color);}
 }
