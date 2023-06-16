@@ -25,4 +25,5 @@ body .cky-revisit-bottom-left::before, body .cky-revisit-bottom-left::after{disp
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
     body .cky-notice-btn-wrapper{flex-direction: column;}
+    body .cky-notice-btn-wrapper .cky-btn{width: 100%;}
 }
