@@ -35,7 +35,7 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
     ul.partners-links{gap: 40px;}
     ul.partners-links > li{flex: 0 0 calc(33.3333% - 27px);}
     .partners-logos-main{padding: 80px 0 0;}
-    .partners-logos-row{gap: 20px 25px;}
+    .partners-logos-row{gap: 20px 25px; margin-bottom: 50px;}
     .partners-logos-list{flex: 0 0 calc(33.33% - 17px);}
     .partners-logos-btn{margin-bottom: 40px;}
     .partners-logos-btn.hide-desktop {text-align: center; margin-top: 40px;}
