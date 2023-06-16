@@ -41,11 +41,14 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .financial-section{margin-bottom: 0;}
     .financial-main{display: block;}
+    .financial-form { gap: 0 20px; width: 100%; display: flex; flex-wrap: wrap; }
+    .financial-form-field { flex: 0 0 calc(50% - 10px); }
     .financial-list{gap: 20px;}
     .financial-list-heading{flex: 0 0 calc(100% - 140px);}
     .financial-list-btn{flex: 0 0 120px;}
-    .financial-date {flex: 0 0 95px;}
-    .financial-qlinks.flex {flex: 0 0  calc(100% - 96px);}
+    .financial-qyears{gap: 20px;}
+    .financial-date {flex: 0 0 calc(50% - 10px);}
+    .financial-qlinks.flex {flex: 0 0  calc(50% - 10px);}
 
     ul.category-links{gap: 20px;}
     ul.category-links li:before{width: 1px; height: 100%; top: 0; left: -10px; background-color: var(--electric-color); border-radius: 0;}
@@ -63,5 +66,7 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     ul.category-links {display: block;}
     ul.category-links li{padding-left: 0; border-left: none; margin-bottom: 4px;}
     ul.category-links li:before{display: none;}
+    .financial-qyears{display: block;}
     .financial-date {width: 100%; margin-bottom: 24px;}
+    .financial-qlinks{justify-content: flex-start;}
 }
