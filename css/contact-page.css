@@ -43,8 +43,8 @@ ul.graphic-filters > li > a.active, ul.graphic-filters > li > a:hover{background
     ul.graphic-filters > li{flex: 0 0 calc(25% - 6px);}
     .graphic-text br{display: block;}
     .login-form-main{gap: 20px;}
-    .login-form-text{flex: 0 0 502px;}
-    .login-form-btns{flex: 0 0 calc(100% - 522px);}
+    .login-form-text{flex: 0 0 442px;}
+    .login-form-btns{flex: 0 0 calc(100% - 462px); justify-content: flex-end;}
     .locations-row{gap: 32px;}
     .locations-list{flex: 0 0 calc(25% - 24px);}
 }
