@@ -18,6 +18,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .general-default-page .general-default-main{padding: 0 0 48px;}
     body.single-news_events .general-default-main{padding: 46px 0 75px;}
     body.single-news_events .general-default-main .general-product-bg{margin: 0; padding: 80px 0;}
     .general-product-bg{padding: 80px 0 112px; margin: 48px 0; }

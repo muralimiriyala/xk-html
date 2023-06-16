@@ -3,6 +3,8 @@
 .optional-repeater-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
 .optional-repeater-text h2{margin-bottom: 42px;}
 .optional-repeater-text p{margin-bottom: 24px;}
+.optional-repeater-text ul{margin-bottom: 42px;}
+.optional-repeater-text ul li::before{top: 10px; left: -12px;}
 ul.optional-list{margin: 0 0 24px 32px; font-size: 14px; line-height: 22px;} 
 ul.optional-list li{margin-bottom: 0;}
 ul.optional-list li::before{top: 10px;}
