@@ -25,6 +25,8 @@
 .additional-news-list:last-child{margin-bottom: 0;}
 .additional-news-text{width: calc(100% - 36px); padding-right: 12px; border-right: 1px solid var(--electric-color); font-size: 12px; line-height: 20px;}
 .additional-news-text.no_btn{border-right: none;}
+.additional-news-text p a{color: var(--midnight-color);}
+.additional-news-text p a:hover{color: var(--electric-color);}
 .additional-news-btn{width: 24px;}
 .additional-news-arrow{width: 100%; max-width: 24px; font-size: 22px; display: inline-block;}
 .additional-news-arrow:hover{transform: translateX(10px);}
