@@ -1,6 +1,4 @@
 
-
-.investment-main{padding: 80px 0;}
 .investment-text{font-size: 14px; line-height: 22px; color: var(--midnight-color);}
 .investment-text span.optional-text{margin-bottom: 38px;}
 .investment-text h2{margin-bottom: 42px;}
@@ -13,7 +11,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .investment-main{gap: 80px;}
+    .investment-main{gap: 80px; padding: 77px 0 80px;}
     .investment-image{flex: 0 0 600px;}
     .investment-text{flex: 0 0 calc(100% - 680px);}
 }
@@ -28,15 +26,14 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .investment-xk-shape { width: 310.93px; height: 383.17px; left: -157px; top: 41px; }
-
     .investment-main {padding: 40px 0}
     .investment-image{margin-bottom: 38px;}
     .investment-text span.optional-text {margin-bottom: 18px;}
     .investment-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 24px;}
     .investment-text ul {margin-bottom: 24px;}
     .investment-text .button{width: 100%;}
-  body.page-template-investors  .investment-xk-shape {left: 180px;}
-  .invest-btn {text-align: center;}
+    body.page-template-investors  .investment-xk-shape {left: 180px;}
+    .invest-btn {text-align: center;}
 }
 
 

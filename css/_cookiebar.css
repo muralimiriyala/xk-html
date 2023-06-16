@@ -20,5 +20,9 @@ body .cky-revisit-bottom-left::before, body .cky-revisit-bottom-left::after{disp
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body .cky-consent-container {right: 0; padding: 0 20px;}
-    body .cky-notice-btn-wrapper{ margin-top: 20px;}
+    body .cky-notice-btn-wrapper{ margin-top: 20px; flex-direction: row;}
+    body .cky-notice-btn-wrapper .cky-btn{width: auto; padding: 8px 10px 9px; letter-spacing: 0.15em;}
+}
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    body .cky-notice-btn-wrapper{flex-direction: column;}
 }
