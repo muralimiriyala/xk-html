@@ -43,8 +43,6 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 .post-product-text p{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; font-family: 'Gotham-Book',sans-serif;}
 .post-product-text ul li{margin-bottom: 0; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
 
-.knowledge-post-article .accordion-main{padding: 48px 0 78px;}
-
 .article-helpful-wrap{background-image: url("./images/signup-bg.svg"); padding: 64px 40px; margin: 80px 0;}
 .article-helpful-main{background-color: var(--white); padding: 33px 32px; }
 .article-helpful-text{padding-left: 16px; position: relative;}
