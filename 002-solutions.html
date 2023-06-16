@@ -327,7 +327,13 @@
 <main class="main-content">
 <section class="default-banner-section pos-relative">
 <div class="default-banner-bg">
-    <div class="no_iframe_bg background-bg" style="background-image: url('./images/solution-banner@2x.jpg')"></div>
+    <!-- <div class="no_iframe_bg background-bg" style="background-image: url('./images/solution-banner@2x.jpg')"></div> -->
+    <div class="no_iframe_bg background-bg">
+        <picture class="object-fit">
+            <source srcset="images/solution-banner@2x.jpg" media="(min-width: 768px)">
+            <img src="images/solutions-mobile-banner@2x.jpg" alt="solutions-mobile-banner">
+        </picture>
+    </div>
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QLQosf2lW50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
     <!-- <picture class="object-fit">
         <source srcset="images/solution-banner@2x.jpg" media="(min-width: 768px)">

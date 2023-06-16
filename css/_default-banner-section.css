@@ -34,6 +34,7 @@
     .default-banner-text{padding: 18px 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .default-banner-bg{min-height: 375px; position: relative;}
     .default-banner-bg iframe, .default-banner-bg video{min-height: 375px;}
     .product-xk-main{top: -92px; right: -134px; width: 332px; height: 332px;}
     .xk-device{width: 235px; height: 232px;}
