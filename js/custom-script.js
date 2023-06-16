@@ -100,6 +100,8 @@ $(document).ready(function(){
         $(this).addClass("active");
         $(this).parent().siblings().find('a').removeClass("active");
     });
+    $("#ez-toc-container nav > ul > li:first > a").addClass("active");
+
     let headerHeight = $(".main-header").outerHeight(true);
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

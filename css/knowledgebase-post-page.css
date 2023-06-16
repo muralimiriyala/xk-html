@@ -59,6 +59,23 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 .footnotes-desc p{margin-bottom: 8px; font-size: 12px; line-height: 20px; letter-spacing: -0.24px; font-family: 'Gotham-Book',sans-serif;}
 .footnotes-desc sup{font-family: 'Gotham-Bold', sans-serif; left: -7px; font-size: 8px; line-height: 20px; color: var(--midnight-color);}
 
+#ez-toc-container{padding: 0;}
+#ez-toc-container nav > ul{margin: 0;}
+#ez-toc-container nav > ul > li{margin: 0 0 16px;}
+#ez-toc-container nav > ul > li::before{display: none;}
+#ez-toc-container nav > ul > li > a { padding: 7px 7px 8px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -.36px; font-family: Gotham-Medium; position: relative; }
+#ez-toc-container nav > ul > li > a.active, #ez-toc-container nav > ul > li > a:hover{background-color: var(--electric-color);}
+#ez-toc-container nav > ul > li > a.active::before{border-color: var(--white); opacity: 1;}
+#ez-toc-container nav > ul > li > a::before{width: 8px; height: 8px; opacity: 0.25; left: 8px; top: 50%; transform: translateY(-50%); border: 4px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
+#ez-toc-container nav > ul > li > ul{margin: 25px 0 25px 20px;}
+#ez-toc-container nav > ul > li > ul li{margin: 0 0 16px;}
+#ez-toc-container nav > ul > li > ul li::before{display: none;}
+#ez-toc-container nav > ul > li > ul li a { padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -.36px; font-family: Gotham-Medium; position: relative; }
+#ez-toc-container nav > ul > li > ul li a.active { background-color: var(--electric-color); }
+#ez-toc-container nav > ul > li > ul li a.active::before{border-color: var(--white); opacity: 1;}
+#ez-toc-container nav > ul > li > ul li a::before{width: 8px; height: 8px; opacity: 0.25; left: 10px; top: 50%; transform: translateY(-50%); border: 4px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
+
+
 /* media  css starts here */
 @media only screen and (min-width: 768px){
     .knowledge-post-top{font-size: 24px; line-height: 36px; margin-bottom: 56px;}
