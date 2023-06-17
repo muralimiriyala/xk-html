@@ -1,6 +1,5 @@
 
 .faqs-wrap{padding: 80px 0;}
-.faqs-main{padding: 0 80px; border: 2px solid var(--electric-color); border-top: none; border-bottom: none;}
 .accordion-list{margin-bottom: 23px; background-color: var(--white);}
 .accordion-list:last-child{margin-bottom: 0;}
 .accordion-list.active{background-color: var(--light-gray-color); }
@@ -14,8 +13,13 @@
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
+    .faqs-main{padding: 0 80px;}
     .faqs-title h3{margin-bottom: 20px;}
     .faqs-desc{font-size: 18px; line-height: 26px; margin-bottom: 48px;}
+    .faqs-line{position: absolute; width: 2px; height: 100%; background-color: var(--electric-color);}
+    .faqs-line.left{left: 0; top: 0; }
+    .faqs-line.right{right: 0; bottom: 0; }
+
 }
 @media only screen and (min-width: 1024px){
     .faqs-title{flex: 0 0 50%; order: 1;}
@@ -23,12 +27,9 @@
     .faqs-desc{flex: 0 0 100%; order: 3;}
     .accordion-main{flex: 0 0 100%; order: 4;}
 }
-
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-
-}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .accordion-main {margin-bottom: 40px;}
+    .faqs-main{padding: 0 32px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .faqs-wrap{padding: 40px 0;}

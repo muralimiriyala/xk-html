@@ -6,7 +6,7 @@
 .no_image .demo-cta-pos{position: relative;}
 .demo-cta-radar{width: 640px; height: 640px; left: -24px; top: 50%; transform: translateY(-50%); position: absolute; background-image: url("./images/radar-art-blue.svg"); background-size: contain; background-repeat: no-repeat; background-position: center;}
 .demo-cta-text p{margin-bottom: 24px;}
-.demo-cta-text .button:hover{background-color: var(--white); color: cadetblue;}
+.demo-cta-text .button:hover{background-color: var(--white); color: var(--electric-color);}
 .demo-cta-device{width: 380px; height: 378px; transition: opacity 0.45s linear; background-size: cover; background-repeat: no-repeat; background-position: center;} 
 .cta-device-2{top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; position: absolute;}
 .demo-cta-image:hover .cta-device-2{opacity: 1;}
@@ -28,7 +28,9 @@
     .demo-cta-text { padding: 32px; flex: 0 0 550px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .demo-cta-bg{position: relative;}
     .demo-cta-bg::after{ bottom: 0; width: 100%; height: 96px; background: linear-gradient(180deg, rgba(0, 210, 225, 0) 0%, #00D2E1 100%); clip-path: polygon(0 5%, 0% 100%, 100% 100%); }
+    .demo-cta-bg iframe, .demo-cta-bg video{min-height: 400px;}
     .demo-cta-pos{display: block;}
     .demo-cta-image { top: 18px; right: -92px; width: 184px; height: 184px; position: absolute; z-index: 1; }
     .demo-cta-thumb{width: 100%; height: 100%;}
