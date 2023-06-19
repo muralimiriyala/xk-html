@@ -1,14 +1,13 @@
-.solutions-main{padding: 80px 0;}
 .solutions-text{font-size: 20px; line-height: 32px;}
 .solutions-text span.optional-text{margin-bottom: 38px;}
 .solutions-image-list{position: relative; overflow: hidden;}
 .xk-shape-1{width: 361px; height: 387px; top: -42px; right: -104px; background-image: url("../images/2c10.svg"); background-repeat: no-repeat; background-size: contain; position: absolute;}
 .xk-shape-2{width: 312px; height: 329px;         top: 74px; 
     left: 2px;  animation: xk-shape-222222 0.95s linear infinite; background-image: url("../images/cone2.svg"); background-repeat: no-repeat; background-size: contain;  position: absolute;}
-@keyframes xk-shape-2{
-    0%{
-        top: 74px; 
-        left: 2px; 
+    @keyframes xk-shape-2{
+        0%{
+            top: 74px; 
+            left: 2px; 
         opacity: 1;
     }
     50%{
@@ -28,6 +27,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .solutions-main{padding: 80px 0 120px;}
     .solutions-intro{gap: 64px;}
     .solutions-text{flex: 0 0 394px;}
     .solutions-text h2{margin-bottom: 42px;}
