@@ -19,7 +19,7 @@
 @media only screen and (min-width: 1024px){
     .more-blogs-main{padding: 80px 0 56px;}
     .more-blogs-title{order: 1; flex: 0 0 50%; padding-right: 80px;}
-    .more-blogs-row{gap: 40px; order: 3;}
+    .more-blogs-row{gap: 40px; order: 3; padding-top: 39px;}
     .more-blogs-list{flex: 0 0 calc(33.3333% - 27px); height: 100%; display: flex; flex-direction: column;}
     .more-blogs-text{height: 100%; display: flex; flex-direction: column;}
     .more-blogs-btn{order: 2; flex: 0 0 50%; text-align: right;}
