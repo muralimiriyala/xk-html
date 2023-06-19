@@ -23,7 +23,7 @@ body.page-template-company .expertise-main{padding: 75px 0 80px;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .general-default-page .expertise-main{padding-bottom: 114px;}
-    .expertise-head{gap: 250px; margin-bottom: 52px;}
+    {gap: 250px; margin-bottom: 52px;}
     .expertise-title{flex: 0 0 calc(100% - 435px);}
     .expertise-btn{flex: 0 0 185px; padding-top: 3px; text-align: right;}
     .expertise-row{gap: 72px 32px;}
@@ -32,6 +32,12 @@ body.page-template-company .expertise-main{padding: 75px 0 80px;}
     body.page-template-product .expertise-head{gap: 220px;}
     body.page-template-product .expertise-title{flex: 0 0 calc(100% - 414px);}
     body.page-template-product .expertise-btn{flex: 0 0 194px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+
+    body.page-template-company .expertise-head{gap: 0; display: block;}
+    body.page-template-company .expertise-btn{text-align: left; margin-bottom: 40px;} 
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){ 
 
