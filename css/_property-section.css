@@ -25,7 +25,7 @@ ul.property-links > li::before{display: none;}
 @media only screen and (max-width: 1023px) and (min-width: 767px){
     .property-main{display: block;}
     .property-wrap{padding-bottom: 0;}
-    .property-list{margin-bottom: 40px;}
+    .property-list{margin-bottom: 80px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .property-wrap{padding: 40px 0 0; display: block;}
