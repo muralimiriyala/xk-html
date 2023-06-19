@@ -125,9 +125,9 @@ button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button
 .text-link.reverse:hover{padding-left: 58px;}
 .text-link:hover{color: var(--electric-color);}
 
-.button span.right-arrow{margin-left: 7px; top: 1px; font-size: 1rem; line-height: 1rem; color: var(--white); position: relative; transition: all 0.45s ease-in-out;}
-.button:hover span.right-arrow::before{transition: all 0.45s ease-in-out;}
-.button:hover span.right-arrow::before{content: "\f060";}
+.button.btn-arrow{padding-right: 42px;}
+.btn-arrow span.right-arrow{top: 50%; transform: translateY(-50%); right: 17px; font-size: 1rem; line-height: 1rem; color: var(--white); position: absolute; transition: all 0.45s ease-in-out;}
+.btn-arrow:hover span.right-arrow{right: 12px;}
 .button.sm{padding: 9.5px 11px;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
@@ -249,5 +249,9 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
     .play-btn-bg > span.square::after{font-size: 32px; line-height: 28px;}
     blockquote:not(span.optional-text){font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
     .page-not-main{max-width: 668px; padding: 28px 0 110px;}
-    .button span.right-arrow{color: var(--electric-color);}
+    .btn-arrow span.right-arrow{color: var(--electric-color);}
+    .btn-arrow:hover span.right-arrow{color: var(--midnight-color);}
+
+    .button.btn-arrow{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 16px; line-height: 24px; display: flex; align-items: center; justify-content: center;}
+    .btn-arrow span.right-arrow{right: 10px;}
 }
