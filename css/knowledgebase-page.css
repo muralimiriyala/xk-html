@@ -68,6 +68,7 @@ body.page-template-product .training-main{border-bottom: none;}
     .training-image{flex: 96px;}
     .training-content{flex: 0 0 calc(100% - 116px);}
 
+    body.single-post .training-main{padding: 78px 0 2px;}
     body.page-template-product .training-main{padding:0 0 40px}
     body.page-template-product .training-row{margin-bottom: 40px;}
 }
