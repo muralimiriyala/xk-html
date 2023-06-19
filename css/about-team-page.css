@@ -43,8 +43,8 @@ ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-siz
     .leadership-head{margin-bottom: 40px; display: block;}
     .leadership-head h2{margin-bottom: 0;}
     .leadership-btn {margin-top: 40px;}
-    .leadership-list{margin-bottom: 40px;}
-    .leadership-text{width: calc(100% - 52px); max-height: 99px; overflow: hidden; cursor: pointer;}
+    .leadership-list{margin-bottom: 47px;}
+    .leadership-text{width: calc(100% - 52px); max-height: 112px; overflow: hidden; cursor: pointer;}
     .leadership-text.expand{max-height: 320px; overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: none; }
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
