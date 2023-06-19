@@ -1,7 +1,7 @@
 
 .knowledge-post-main{padding: 80px 0;}
 .knowledge-post-article{font-size: 16px; line-height: 32px;}
-ul.breadcrumbs{margin: 0 0 56px; gap: 34px;} 
+ul.breadcrumbs{margin: 0 0 56px; gap: 20px 34px;} 
 ul.breadcrumbs li{margin: 0; color: var(--midnight-50); font-size: 16px; line-height: 24px;}
 ul.breadcrumbs li::before{display: none;}
 ul.breadcrumbs li::after{content: "/"; top: 0px; right: -19px; color: var(--electric-color); position: absolute;}
@@ -128,6 +128,8 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
     .knowledge-post-main{padding: 40px 0 31px; display: block;}
     .footnotes-main {padding: 40px 0 40px;}
     ul.breadcrumbs{margin: 0 0 33px;}
+    ul.breadcrumbs li:nth-last-child(2)::after{display: none;}
+    ul.breadcrumbs li:last-child{display: none;}
     body.single-news_events ul.breadcrumbs{display: none;}
     .signup-wrap{margin: 39px 0 38px; padding: 20px;} 
     .signup-main{padding: 20px; display: block;}
