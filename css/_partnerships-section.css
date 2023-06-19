@@ -36,7 +36,7 @@ ul.partnerships-links > li::before{display: none;}
     .partnerships-links{gap: 14px 24px;}
     ul.partnerships-links{margin: 0;}
     ul.partnerships-links li{flex: 0 0 calc(50% - 12px);}
-    .partnerships-main{padding: 80px 0 40px; display: block;}
+    .partnerships-main{padding: 26px 0 40px; display: block;}
     .partnerships-logos{gap: 24px; padding: 40px 0 54px; border-top: 1px solid var(--electric-color);}
     .partnerships-logo{flex: 0 0 calc(50% - 12px);}
     .partnerships-text .button {width: 100%; }
