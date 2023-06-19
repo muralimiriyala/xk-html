@@ -16,15 +16,15 @@ ul.partnerships-links > li::before{display: none;}
     ul.partnerships-links > li{flex: 0 0 calc(50% - 12px);}
 }
 @media only screen and (min-width: 1024px){
-    .partnerships-main{gap: 80px; padding: 80px 0 80px;}
-    .partnerships-text{flex: 0 0 560px; padding-right: 80px; border-right: 1px solid var(--electric-color);}
-    .partnerships-logos{flex: 0 0 calc(100% - 640px); gap: 36px 56px;}
+    .partnerships-main{padding: 80px 0 80px;}
+    .partnerships-text{flex: 0 0 50%; padding-right: 80px; border-right: 1px solid var(--electric-color);}
+    .partnerships-logos{flex: 0 0 50%; gap: 36px 56px; padding-left: 80px;}
     .partnerships-logo{flex: 0 0 calc(33.3333% - 38px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .partnerships-main{padding: 40px 0; gap: 40px;}
-    .partnerships-text{flex: 0 0 450px; padding-right: 40px;}
-    .partnerships-logos{flex: 0 0 calc(100% - 490px); gap: 36px 56px;}
+    .partnerships-main{padding: 40px 0;}
+    .partnerships-text{padding-right: 40px;}
+    .partnerships-logos{gap: 36px 56px; padding-left: 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 767px){
     .partnerships-main{padding: 40px 0; display: block;}

@@ -7,9 +7,8 @@
 .more-blogs-text p a:hover{color: var(--electric-color);}
 .custom-date{margin-bottom: 20px; gap: 8px; font-size: 10px; line-height: 12px; letter-spacing: 0.2em;}
 .additional-news-text .custom-date{margin-bottom: 8px;}
-.date-icon{color: var(--electric-color); font-size: 12px;}
+.date-icon{color: var(--electric-color); font-size: 12px; top: -1px; position: relative;}
 .date-icon-text{color: var(--slate-color);}
- body.page-template-company .more-blogs-title span.optional-text.black{margin-bottom: 56px;}
 .more-blogs-text .tag-links-main{margin-top: auto;}
 
 /*-- media css starts here --*/
