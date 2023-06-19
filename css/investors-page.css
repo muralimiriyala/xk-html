@@ -38,6 +38,12 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     ul.category-links li:before{width: 1px; height: 100%; top: 0; left: -12px; background-color: var(--electric-color); border-radius: 0;}
     ul.category-links li:first-child::before{display: none;}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .financial-text{margin-right: 20px;}
+    .financial-form{max-width: 328px;}
+    .financial-content{flex: 0 0 calc(100% - 372px);}
+    ul.positions-links{gap: 20px;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .financial-section{margin-bottom: 0;}
     .financial-main{display: block;}

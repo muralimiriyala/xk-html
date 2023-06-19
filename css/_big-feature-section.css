@@ -52,8 +52,8 @@ body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 
     .feature-point .sub-heading {margin-bottom: 17px;}
     .feature-point p{margin-bottom: 14px;}
     
-    .big-feature-main{padding-left: 0; display: flex; flex-direction: column-reverse;}
-    .feature-point{padding: 24px;  max-width: 303px; position: relative; margin: -25px auto 0; transform: none;}
+    .big-feature-main{padding-left: 0; display: block;}
+    .feature-point{padding: 24px; max-width: 303px; position: relative; margin: -25px auto 0; transform: none;}
 
     .big-feature-wrap {padding: 40px 0;}
     .big-feature-right .big-feature-wrap {padding:40px 0;}
