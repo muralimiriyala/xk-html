@@ -4,18 +4,21 @@
 
 
 .radio-wave{
-    /* stroke-dasharray: 1; */
-    stroke-dashoffset: 600;
+    stroke-dashoffset: 500;
     opacity: 0;
-    animation: radioWave 4s ease-in-out alternate infinite;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    animation: radioWave 5s ease-in-out alternate infinite;
+    animation-play-state: paused; 
 }
-.wave-g-1{ animation-delay: 1s; }
-.wave-g-2{ animation-delay: 2s; }
-.wave-g-3{ animation-delay: 3s; }
-.wave-g-4{ animation-delay: 4s; }
-.wave-g-5{ animation-delay: 5s; }
-.wave-g-6{ animation-delay: 6s; }
+.anim-play-state:hover .radio-wave{
+    animation-play-state: running;
+}
+.wave-g-1{ animation-delay: 8s; }
+.wave-g-2{ animation-delay: 6s; }
+.wave-g-3{ animation-delay: 4s; }
+.wave-g-4{ animation-delay: 2s; }
+.wave-g-5{ animation-delay: 1s; }
+.wave-g-6{ animation-delay: 0.5s; }
 @keyframes radioWave{
     from {
         opacity: 0;
@@ -23,12 +26,20 @@
     }
     to {
         opacity: 1;
-        stroke-width: 2;
+        stroke-width: 1;
     }
 }
-
-
-
+.radio-wave linearGradient stop{
+    animation: radioWaveStop 4s ease-in-out alternate infinite;
+}
+@keyframes radioWaveStop{
+    from {
+        stop-color: var(--electric-color);
+    }
+    to {
+        stop-color: var(--electric-50);
+    }
+}
 
 
 
