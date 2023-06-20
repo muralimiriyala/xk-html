@@ -13,7 +13,7 @@
 .financial-qlinks li > a.active{background-color: var(--midnight-color); color: var(--white);}
 .financial-qlinks li > a:hover{background-color: var(--midnight-color); color: var(--white);}
 
-.financial-row{display: none;}
+.financial-row{margin-bottom: 24px;}
 .financial-row.current-q{display: block;}
 .financial-list{background-color: var(--white); margin-bottom: 24px; padding: 14px 16px 15px 24px; border-left: solid 1px var(--electric-color);}
 .financial-list:last-child{margin-bottom:0;}

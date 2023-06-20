@@ -12,7 +12,7 @@ body .frm_forms .frm_form_fields .frm_fields_container{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label{display: block; font-size: 12px; line-height: 12px; font-family: "Gotham-Medium", sans-serif; color: var(--slate-50); opacity: 0; top: 22px; left: 0; position: absolute; text-transform: capitalize; transition: all 0.45s ease-in-out; z-index: -1;}
 body .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.active{opacity: 1; top: -3px;}
 body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{height: auto; padding: 16px 50px 15px 16px; font-size: 16px; line-height: 24px; font-weight: normal; letter-spacing: normal; font-family: 'Gotham-Medium', sans-serif; color: var(--midnight-color); border-radius: 0; -webkit-border-radius: 0; background-color: transparent; box-shadow: none; text-transform: none; border: 2px solid transparent; border-bottom-color: var(--midnight-60);}
-body .frm_forms .frm_form_fields .frm_form_field input.focused{background-size: 24px 25px; background-position: 94% 50%; background-image: url("./images/check.svg"); background-repeat: no-repeat; transition: none;}
+body .frm_forms .frm_form_fields .frm_form_field input.focused{background-size: 24px 25px; background-position: 98% 50%; background-image: url("./images/check.svg"); background-repeat: no-repeat; transition: none;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
 body .frm_forms .frm_form_fields .frm_form_field input.hide-placeholder::placeholder{opacity: 0; transition: all 0.45s ease-in-out;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus{background-color: transparent; box-shadow: none; border-color: transparent; border-bottom-color: var(--electric-color); color: var(--black);}
@@ -36,7 +36,6 @@ body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%; text-transform: uppercase;}
 
-/* body .frm_forms form .frm_required_field::after{content: ""; font-size: 0; line-height: 0; right: 1px; top: 2px; width: 8px; height: 8px; background-image: url("images/error.svg"); background-repeat: no-repeat; background-position: center; position: absolute;} */
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 10px; line-height: 14px; color: var(--error); position: absolute;}
 body .with_frm_style .frm_message, .frm_success_style{font-weight: 700; color: var(--black); border: none; background: none; text-align: center; } 
 body .with_frm_style .frm_message p{color: var(--black);}
@@ -58,6 +57,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{ma
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .frm_form_field_wrapper .frm_submit{width: 110px;}
     body .frm_forms .frm_form_fields .frm_field_wrapper .frm_form_field{margin-bottom: 0;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half input.focused{background-position: 94% 50%;}
 }
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 12px); margin-left: 12px; margin-right: 12px; float: left; clear: none;}
