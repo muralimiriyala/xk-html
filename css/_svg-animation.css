@@ -1,0 +1,37 @@
+
+
+
+
+
+.radio-wave{
+    /* stroke-dasharray: 1; */
+    stroke-dashoffset: 600;
+    opacity: 0;
+    animation: radioWave 4s ease-in-out alternate infinite;
+    transition: all 0.4s ease-in-out;
+}
+.wave-g-1{ animation-delay: 1s; }
+.wave-g-2{ animation-delay: 2s; }
+.wave-g-3{ animation-delay: 3s; }
+.wave-g-4{ animation-delay: 4s; }
+.wave-g-5{ animation-delay: 5s; }
+.wave-g-6{ animation-delay: 6s; }
+@keyframes radioWave{
+    from {
+        opacity: 0;
+        stroke-width: 4;
+    }
+    to {
+        opacity: 1;
+        stroke-width: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
