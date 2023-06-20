@@ -1,8 +1,5 @@
 
 
-
-
-
 .radio-wave{
     stroke-dashoffset: 500;
     opacity: 0;
@@ -10,10 +7,10 @@
     animation: radioWave 5s ease-in-out alternate infinite;
     animation-play-state: paused; 
 }
-.anim-play-state:hover .radio-wave{
+.anim-play-state-wave .radio-wave{
     animation-play-state: running;
 }
-.wave-g-1{ animation-delay: 8s; }
+.wave-g-1{ animation-delay: 8s;}
 .wave-g-2{ animation-delay: 6s; }
 .wave-g-3{ animation-delay: 4s; }
 .wave-g-4{ animation-delay: 2s; }

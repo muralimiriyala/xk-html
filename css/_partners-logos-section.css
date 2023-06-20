@@ -20,13 +20,12 @@ ul.partners-links > li > a.active, ul.partners-links > li > a:hover{background-c
     ul.partners-links{gap: 40px;}
     ul.partners-links > li{flex: 0 0 calc(20% - 32px);}
 
-    .partners-logos-head{gap: 0 245px; margin-bottom: 51px;}
+    .partners-logos-head{gap: 0 145px; margin-bottom: 51px;}
     .partners-logos-title{flex: 0 0 calc(100% - 425px);}
-    .partners-logos-btn{flex: 0 0 180px;}
+    .partners-logos-btn{flex: 0 0 280px; margin-left: auto; text-align: right;}
     .partners-logos-row{gap: 38px 96px;}
     .partners-logos-list{flex: 0 0 calc(20% - 77px);}
     body.page-template-investors .partners-logos-main{padding: 80px 0;}
-    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     ul.partners-links > li{flex: 0 0 calc(25% - 30px);}
