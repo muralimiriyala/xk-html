@@ -2,7 +2,7 @@
 .common-form-main{padding: 50px 52px 50px; border: solid 12px var(--light-blue);}
 .common-form-icon{max-width: 24px; margin-bottom: 14px;}
 .common-form-icon img{object-fit: cover;}
-.common-person-desc{color: var(--slate-color);}
+.common-person-desc{color: var(--midnight-50);}
 span.first_name{font-size: 18px; line-height: 22px; margin-bottom: 0; color: var(--midnight-color); display: block;}
 ul.custom-form-links{margin: 12px 0 0;}
 ul.custom-form-links li{margin: 0 0 2px 0; line-height: 1.57;}
@@ -11,23 +11,25 @@ ul.custom-form-links li a{gap: 8px; font-size: 14px; letter-spacing: -0.28px; co
 ul.custom-form-links li a:hover{color: var(--electric-color);}
 .custom-author-icon{flex: 0 0 24px;}
 .custom-author-text{flex: 0 0 calc(100% - 32px);}
-
-
 body.myxk-tech-page .common-form-wrap{padding: 80px 0;}
+
 /* media css starts here */
 @media screen and (min-width: 768px){
     .general-default-page .common-form-wrap{padding-top: 80px;}
     .common-form-wrap{padding: 56px 0 80px;}
     .common-person-details{gap: 24px; margin-top: 57px;}
     .common-person-image{width: 88px;}
-    .common-person-text{width: calc(100% - 113px); padding-left: 24px; border-left: 1px solid var(--electric-color);}
-
-    
+    .common-person-text{width: calc(100% - 113px); padding-left: 24px; border-left: 1px solid var(--electric-color);}    
 }
 @media screen and (min-width: 1024px) {
     .common-form-text{flex: 0 0 352px; margin-right: 80px;}
     .common-form-right{flex: 0 0 calc(100% - 432px);}
     body.page-template-investors .common-form-wrap {padding: 80px 0;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .common-form-main{padding: 32px;}
+    .common-form-text{margin-right: 52px;}
+    .common-form-right { flex: 0 0 calc(100% - 404px); }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .common-form-main{display: block;}
@@ -40,6 +42,5 @@ body.myxk-tech-page .common-form-wrap{padding: 80px 0;}
     .common-form-text h3{font-size: 24px; line-height: 28px; margin-bottom: 16px;}
     .common-person-details{gap: 20px;}
     .common-person-image{width: 80px;}
-    .common-person-text{width: calc(100% - 100px); padding-left: 20px; border-left: 1px solid var(--electric-color);}
-    
-}   
+    .common-person-text{width: calc(100% - 100px); padding-left: 20px; border-left: 1px solid var(--electric-color);}   
+}

@@ -31,9 +31,9 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     .financial-content{flex: 0 0 calc( 100% - 432px);}
     .financial-date{flex: 0 0 180px;}
     .financial-qlinks{flex: 0 0 calc(100% - 180px);}
-    .financial-list-btn{flex: 0 0 121px;}
-    .financial-list-heading{flex: 0 0 calc(100% - 121px);}
-
+    .financial-list{gap: 20px;}
+    .financial-list-heading{flex: 0 0 calc(100% - 151px);}
+    .financial-list-btn{flex: 0 0 131px; text-align: right;}
     ul.category-links{gap: 22px;}
     ul.category-links li:before{width: 1px; height: 100%; top: 0; left: -12px; background-color: var(--electric-color); border-radius: 0;}
     ul.category-links li:first-child::before{display: none;}
@@ -50,8 +50,8 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     .financial-form { gap: 0 20px; width: 100%; display: flex; flex-wrap: wrap; }
     .financial-form-field { flex: 0 0 calc(50% - 10px); }
     .financial-list{gap: 20px;}
-    .financial-list-heading{flex: 0 0 calc(100% - 140px);}
-    .financial-list-btn{flex: 0 0 120px;}
+    .financial-list-heading{flex: 0 0 calc(100% - 150px);}
+    .financial-list-btn{flex: 0 0 130px; text-align: right;}
     .financial-qyears{gap: 20px;}
     .financial-date {flex: 0 0 calc(50% - 10px);}
     .financial-qlinks.flex {flex: 0 0  calc(50% - 10px);}
@@ -67,8 +67,7 @@ body.doc-repository-template .open-positions-bg{margin-bottom: 24px;}
     .financial-list{padding: 14px 24px;}
     .financial-links-left{flex: 0 0 calc(100% - 40px);}
     .financial-list-btn{flex: 0 0 40px;}
-    .financial-list-btn .button{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 16px; line-height: 24px; display: flex; align-items: center; justify-content: center;}
-    
+
     ul.category-links {display: block;}
     ul.category-links li{padding-left: 0; border-left: none; margin-bottom: 4px;}
     ul.category-links li:before{display: none;}
