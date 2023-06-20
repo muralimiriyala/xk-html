@@ -1,7 +1,8 @@
 
 .knowledge-post-main{padding: 80px 0;}
+.knowledge-post-top h1{font-family: 'Gotham-Bold',sans-serif;}
 .knowledge-post-article{font-size: 16px; line-height: 32px;}
-ul.breadcrumbs{margin: 0 0 56px; gap: 20px 34px;} 
+ul.breadcrumbs{margin: 0 0 50px; gap: 20px 34px;} 
 ul.breadcrumbs li{margin: 0; color: var(--midnight-50); font-size: 16px; line-height: 24px;}
 ul.breadcrumbs li::before{display: none;}
 ul.breadcrumbs li::after{content: "/"; top: 0px; right: -19px; color: var(--electric-color); position: absolute;}
@@ -52,6 +53,7 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 .article-helpful-btn:hover{background-color: var(--electric-color);}
 
 .footnotes-main{padding: 0 0 71px;}
+.footnotes {font-family: 'Gotham-Bold',sans-serif;}
 .footnotes small{display: block; margin-bottom: 16px; font-size: 12px; line-height: 16px; letter-spacing: -0.24px; color: var(--slate-color);}
 .footnotes-desc{position: relative; padding-left: 32px;}
 .footnotes-desc:before{content: ""; display: block; width: 1px; height: 100%; top: 0px; left: 0; background-color: var(--electric-color); position: absolute;}
@@ -140,7 +142,7 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
     .post-feature-point{margin: -25px auto 0; width: calc(100% - 40px); padding: 20px; position: relative;}
     .post-note-main{padding: 18px 20px; margin: 80px 0 78px;}
 
-    .post-product-main{padding: 40px 20px; margin: 40px 0;}
+    .post-product-main{padding: 40px 20px; margin: 40px 0 70px;}
     .post-product-text{padding: 20px;}
     .knowledge-post-article .post-product-text h2{font-size: 24px; line-height: 28px;}
     .post-product-text ul{margin: 24px 0 24px 25px;}
@@ -150,4 +152,6 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
     .article-helpful-main{padding: 20px; display: block;}
     .article-helpful-text { padding: 16px 0 14px 16px; margin-bottom: 20px; }
     .article-helpful-btns{ gap: 16px; }
+
+    .footnotes-desc{padding-left: 30px;}
 }
