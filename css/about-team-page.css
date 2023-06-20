@@ -37,7 +37,7 @@ ul.leadership-tags > li > a{ background-color: rgba(0, 240, 255, 0.25); font-siz
     .leadership-title h2{font-size: 30px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .leadership-main{padding-bottom: 0;}
+    .leadership-main{padding: 40px 0 0;}
     .leadership-repeater-list{padding-bottom: 40px;}
     .leadership-row{display: block;}
     .leadership-head{margin-bottom: 40px; display: block;}
