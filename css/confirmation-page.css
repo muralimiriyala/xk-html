@@ -10,7 +10,7 @@
 .confirmation-text hr{margin: 23px 0 23px;}
 .confirmation-text p{margin-bottom: 24px;}
 .confirmation-text a span{color : var(--white);}
-.confirmation-right h2{margin-bottom: 88px; font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
+.confirmation-right h2{margin-bottom: 85px; font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .confirmation-main{gap: 96px;}
