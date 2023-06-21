@@ -24,13 +24,18 @@ $(document).ready(function(){
         ]
     };
 
-    $hcSlider.on('init', function(event, slick) {
-        $hcSlider.find('.slick-prev').removeClass('slick-arrow');
-        $hcSlider.find('.slick-next').removeClass('slick-arrow');
-        let slick_next =  $hcSlider.find('.slick-next');
-        let slickList = $hcSlider.find('.slick-list');
-        slick_next.insertBefore(slickList);
-    });
+    $(".slick-prev").click(function () {
+		$hcSlider.slick("slickPrev");
+        $(".slick-next").removeClass("slick-disabled");
+        $(this).addClass("slick-disabled");
+	});
+
+	$(".slick-next").click(function () {
+		$hcSlider.slick("slickNext");
+        $(".slick-prev").removeClass("slick-disabled");
+        $(this).addClass("slick-disabled");
+	});
+    
 
     $hcSlider.slick(hcSettings);
     $window.on('load resize', function(){

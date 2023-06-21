@@ -115,7 +115,23 @@ $(document).ready(function(){
             }
         }
     });
-
+    let techRow = $(".training-row");
+    techRow.each(function(index, item){
+        var biolist = jQuery(this);
+        var techList = biolist.children('.tech-support-list');
+        if(techList.length > 6) {
+            techList.slice(6).hide();
+            let buttons = biolist.next(".tech-support-more");
+            let button = buttons.children(".show-all-btn");
+            let originalText = button.text().trim();
+            button.on('click', function(event) {
+                event.preventDefault();
+                techList.slice(6).fadeToggle('normal');
+                $(this).toggleClass('expanded');
+                $(this).text($(this).text() == originalText ? 'Show Less' : originalText);
+            });
+        }
+    });
 });
 
 
