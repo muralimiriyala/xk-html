@@ -14,7 +14,11 @@ animatedSlider.slick({
     autoplaySpeed: 5000,
     speed: 1000,
 });
-animatedSlider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+$('.animated-slide:nth-child(6)').addClass("third-animate");
+animatedSlider.on('init beforeChange', function(event, slick, currentSlide, nextSlide) {
     $('.animated-slide').removeClass('third-animate');
-    $('.animated-slide[data-slick-index=' + (currentSlide + 3) + ']').addClass("third-animate");
+    if(nextSlide == 0){
+        $('.animated-slide[data-slick-index=' + (nextSlide + 3) + ']').addClass("third-animate");
+    }
+    $('.animated-slide[data-slick-index=' + (nextSlide + 2) + ']').addClass("third-animate");
 });

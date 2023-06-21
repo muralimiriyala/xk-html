@@ -4,7 +4,6 @@
 .logo a{width: 100%; display: block;}
 .insights-page .main-header:not(.fixed-header){background-color: var(--light-gray-color);}
 body.page-template-product .main-header:not(.fixed-header) {background-color: var(--light-gray-color); }
-/* body.page-not-found .main-header:not(.fixed-header) {background-color: var(--light-gray-color); } */
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -86,8 +85,9 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     .fixed-header ul.nav-users li a:hover{color: var(--electric-color);}
     .main-content{padding-top: 88px;}
     .toggle_bar{display: none;}
-    ul.main-menu > li.solutions-nav-item > ul > li:last-child > a{margin: 0;}
+    ul.main-menu > li.solutions-nav-item > ul > li:last-child > a{margin: 0; height: 100%;}
     ul.main-menu > li.solutions-nav-item > ul > li:last-child > a img{width: 100%; height: 100%; object-fit: cover;}
+    ul.main-menu > li.nav-item > ul > li.hide-nav-item > a{display: none;}
 }
 @media only screen and (min-width: 1440px){
     ul.main-menu > li.solutions-nav-item > ul > li{width: calc(33.3333% - 10px);}
@@ -137,6 +137,7 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     ul.main-menu > li.nav-item > ul > li::before{display: none;}
     ul.main-menu > li.nav-item > ul > li:last-child{display: none;}
     ul.main-menu > li.nav-item > ul > li > a{margin-bottom: 24px; color: var(--electric-color); font-size: 12px; line-height: 20px; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
+
     ul.main-menu > li.nav-item > ul > li > ul{margin: 0;}
     ul.main-menu > li.nav-item > ul > li > ul > li{margin: 0 0 23px;}
     ul.main-menu > li.nav-item > ul > li > ul > li > a{display: block; color: var(--white);}
@@ -152,6 +153,7 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     ul.nav-users > li > a.electric, ul.nav-users > li > a:hover{background-color: var(--electric-color); color: var(--midnight-color);}
     ul.nav-users > li > a.electric:hover{background-color: var(--midnight-color); color: var(--electric-color);} 
     .main-content{padding-top: 64px;}
+    ul.main-menu > li.nav-item > ul > li.hide-nav-item > a{display: none;}
 }
 
 
