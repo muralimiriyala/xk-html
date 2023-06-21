@@ -16,7 +16,7 @@
 .home-banner-desc .animated-slide.slick-current{opacity: 1; color: var(--midnight-color);}
 .home-banner-desc .animated-slide::after{ width: calc(100% + 12px); height: 20px; max-width: 255px; bottom: -2px; left: -4px; display: none; background-color: var(--electric-color); content: ""; position: absolute; z-index: -1; }
 .home-banner-desc .animated-slide.slick-current::after{display: inline-block;}
-.home-banner-desc .animated-slide:last-child{opacity: 0.12;}
+.home-banner-desc .animated-slide.third-animate{opacity: 0.12;}
 .home-banner-right{z-index: 1;}
 .additional-news-main{padding: 32px; background-color: var(--white-80);}
 .additional-news-list{gap: 12px; margin-bottom: 32px;}
