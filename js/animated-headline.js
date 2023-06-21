@@ -1,5 +1,8 @@
+
+
 var $ = jQuery.noConflict();
-$('.animated-headlines').slick({
+let animatedSlider = $('.animated-headlines');
+animatedSlider.slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
@@ -10,4 +13,8 @@ $('.animated-headlines').slick({
     autoplay: true,
     autoplaySpeed: 5000,
     speed: 1000,
+});
+animatedSlider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+    $('.animated-slide').removeClass('third-animate');
+    $('.animated-slide[data-slick-index=' + (currentSlide + 3) + ']').addClass("third-animate");
 });
