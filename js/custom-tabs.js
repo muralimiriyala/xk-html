@@ -43,14 +43,18 @@ $(document).ready(function(){
     });
 
     $('ul.positions-links li:first a').addClass("active");
-    // $(".financial-row:first").addClass("current-q");
+    $(".positions-row:first").addClass("current-q");
     $('ul.positions-links li a').on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings().find('a').removeClass('active');
         $(this).addClass('active');
         var attrName = $(this).attr("data-value");
-        $(".financial-row").removeClass("current-q").hide();
-        $('.financial-row[data-target="' + attrName + '"]').fadeIn(1000);
+        $(".positions-row").removeClass("current-q").hide();
+        $('.positions-row[data-target="' + attrName + '"]').fadeIn(1000);
+        let allAttr = $('ul.positions-links li:first a').attr("data-value");
+        if(allAttr == attrName){
+            $(".positions-row").fadeIn(1000);
+        }
     });
 
 
