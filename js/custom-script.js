@@ -30,8 +30,8 @@ $(document).on("load ready", function() {
             e.preventDefault();
             $(this).parent("li").siblings().children("a").removeClass("active");
             $(this).toggleClass("active");
-            $(this).parent("li").siblings().children("ul").slideUp();
-            $(this).siblings("ul").slideToggle();
+            $(this).parent("li").siblings().children("ul").slideUp(900);
+            $(this).siblings("ul").slideToggle(900);
         });
         // let level2 = $("ul.main-menu > li > ul > li.menu-item-has-children > a");
         // level2.on("click", function(){
