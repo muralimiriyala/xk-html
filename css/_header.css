@@ -4,7 +4,6 @@
 .logo a{width: 100%; display: block;}
 .insights-page .main-header:not(.fixed-header){background-color: var(--light-gray-color);}
 body.page-template-product .main-header:not(.fixed-header) {background-color: var(--light-gray-color); }
-/* body.page-not-found .main-header:not(.fixed-header) {background-color: var(--light-gray-color); } */
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -154,6 +153,7 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     ul.nav-users > li > a.electric, ul.nav-users > li > a:hover{background-color: var(--electric-color); color: var(--midnight-color);}
     ul.nav-users > li > a.electric:hover{background-color: var(--midnight-color); color: var(--electric-color);} 
     .main-content{padding-top: 64px;}
+    ul.main-menu > li.nav-item > ul > li.hide-nav-item > a{display: none;}
 }
 
 
