@@ -23,7 +23,7 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .confirmation-main{gap: 60px;}
     .confirmation-text{flex: 0 0 290px;}
-    .confirmation-right{flex: 0 0 calc(100% - 350px);}
+    .confirmation-right{flex: 0 0 calc(100% - 350px); padding: 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .confirmation-main { padding: 57px 0 80px; }
