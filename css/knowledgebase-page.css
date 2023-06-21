@@ -44,7 +44,7 @@
 .tag-links-main{gap: 20px;}
 ul.tag-links{margin: 0; flex: 0 0 calc(100% - 44px);}
 ul.tag-links > li::before{display: none;}
-ul.tag-links > li{margin: 0;}
+ul.tag-links > li{margin: 0; gap: 4px; width: 100%; display: flex; flex-wrap: wrap;}
 ul.tag-links > li > a{ background-color: rgba(0, 240, 255, 0.25); font-size: 12px; line-height: 12px; padding: 7px 8px 7px 8px; font-weight: 500; font-family: 'Gotham-Medium', sans-serif; text-transform: capitalize; color: #0a0a1e; }
 ul.tag-links > li > a:hover{background-color: var(--midnight-color); color: var(--white);}
 .tag-link-btn{flex: 0 0 24px; width: 24px;}
