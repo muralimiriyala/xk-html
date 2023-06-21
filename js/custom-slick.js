@@ -9,9 +9,9 @@ $(document).ready(function(){
         infinite: false,
         speed: 1000,
         dots: false,
-        arrows: true,
-        prevArrow: '<button class="slick_arrow slick-prev button"><span class="fa-sharp fa-regular fa-arrow-left"></span>Healthcare</button>',
-        nextArrow: '<button class="slick_arrow slick-next button">BUILT ENVIRONMENTS<span class="fa-sharp fa-regular fa-arrow-right"></span></button>',  
+        arrows: false,
+        // prevArrow: '<button class="slick_arrow slick-prev button"><span class="fa-sharp fa-regular fa-arrow-left"></span>Healthcare</button>',
+        // nextArrow: '<button class="slick_arrow slick-next button">BUILT ENVIRONMENTS<span class="fa-sharp fa-regular fa-arrow-right"></span></button>',  
         variableWidth: true,
         responsive: [
             {

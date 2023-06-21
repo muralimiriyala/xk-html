@@ -6,6 +6,7 @@ body.page-template-product .healthcare-row{padding: 0;}
 .healthcare-thumb{margin-bottom: 20px;}
 .healthcare-list p{margin-bottom: 20px;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .healthcare-slider .slick-list{padding-top: 40px; width: 100%; overflow: inherit;}
@@ -22,6 +23,7 @@ body.page-template-product .healthcare-row{padding: 0;}
     button.slick-prev.slick-disabled{padding-left: 17px;}
     button.slick_arrow:hover{background-color: var(--midnight-color); color: var(--electric-color);}
     button.slick_arrow.slick-disabled{background-color: var(--electric-color); color: var(--midnight-color);}
+    .healthcare-slider-btns{gap: 20px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     body.page-template-product .healthcare-row{gap: 8px;}
