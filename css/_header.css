@@ -71,8 +71,8 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     .menu-item-text .heading-three{margin-bottom: 23px;}
     /*-- nav items nav --*/
 
-    .nav-right.sib{opacity: 0.25; transition: all 0.45s ease-in-out;}
-    .nav-right{flex: 0 0 100px; gap: 32px;}
+    .nav-right.sib{opacity: 0.25; }
+    .nav-right{flex: 0 0 100px; gap: 32px; transition: opacity 0.45s ease-in-out;}
     .nav-rule{width: 1px; height: 30px; margin-right: 5px; transform: rotate(-26deg); background-color: var(--electric-color); transition: all 0.45s linear;}
     ul.nav-users{gap: 32px; flex: 1; margin: 0;}
     ul.nav-users li::before{display: none;}
