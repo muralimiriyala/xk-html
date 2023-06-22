@@ -12,7 +12,14 @@ $(".toggle_icon").on("click", function(event){
     $(".main-header").removeClass("fixed-header");
     $(".navigation").toggleClass("open");
 });
-$(document).on("load ready", function() {
+$(document).on("load ready", function(){
+    if($(window).width() >= 1024){
+        $("ul.main-menu > li > a").mouseover(function(){
+            $(this).parent().siblings().addClass("sib");
+        }).mouseleave(function(){
+            $(this).parent().siblings().removeClass("sib");
+        });
+    }
     if($(window).width() >= 768){
         $(".leadership-list").each(function() {
             let $this = $(this).children('.leadership-text');
