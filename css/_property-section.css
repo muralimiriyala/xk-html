@@ -19,9 +19,11 @@ ul.property-links > li::before{display: none;}
     .property-btn{order: 2; flex: 0 0 300px; padding-top: 7px; text-align: right;}
     .property-main{gap: 80px; order: 3;}
     .property-list{flex: 0 0 calc(50% - 40px);}
+    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .property-wrap{padding: 40px 0;}
+    .general-default-page .property-wrap{padding: 40px 0 80px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 767px){
     .property-main{display: block;}
