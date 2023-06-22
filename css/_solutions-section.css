@@ -1,7 +1,7 @@
 .solutions-text{font-size: 20px; line-height: 32px;}
 .solutions-text span.optional-text{margin-bottom: 38px;}
 .solutions-image-list{position: relative; overflow: hidden;}
-.xk-shape-1{width: 361px; height: 387px; top: -42px; right: -104px; background-image: url("../images/2c10.svg"); background-repeat: no-repeat; background-size: contain; position: absolute;}
+.xk-shape-1{width: 361px; height: 387px; top: -42px; right: -104px; position: absolute;}
 .xk-shape-2{transform: rotate(-48deg); top: 123px;  right: 105px; width: 312px; height: 267px; position: absolute;}
 .xk-shape-2 svg{width: 100%; height: auto; object-fit: contain;}
 

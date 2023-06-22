@@ -14,10 +14,12 @@ $(".toggle_icon").on("click", function(event){
 });
 $(document).on("load ready", function(){
     if($(window).width() >= 1024){
-        $("ul.main-menu > li > a").mouseover(function(){
-            $(this).parent().siblings().addClass("sib");
+        $("ul.main-menu > li").mouseover(function(){
+            $(this).siblings().addClass("sib");
+            $(".nav-right").addClass("sib");
         }).mouseleave(function(){
-            $(this).parent().siblings().removeClass("sib");
+            $(this).siblings().removeClass("sib");
+            $(".nav-right").removeClass("sib");
         });
     }
     if($(window).width() >= 768){
