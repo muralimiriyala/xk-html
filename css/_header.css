@@ -20,7 +20,7 @@ body.page-template-product .main-header:not(.fixed-header) {background-color: va
     ul.main-menu{margin: 0; gap: 33px; padding-right: 7px; flex: 1; justify-content: flex-end;}
     ul.main-menu > li{margin: 0; padding: 29px 0 28px;}
     .fixed-header ul.main-menu > li{padding: 13px 0 12px;}
-    ul.main-menu > li::before{display: none;}
+    ul.main-menu li::before{display: none;}
     ul.main-menu > li.sib > a{color: var(--midnight-25);}
     ul.main-menu > li > a{padding-bottom: 7px; color: var(--midnight-color); font-size: 14px; line-height: 22px; font-family: 'Gotham-Medium', sans-serif; display: inline-block; position: relative;}
     ul.main-menu > li > a::after{width: 0%; height: 2px; bottom: 0; left: 0; background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: width 0.45s ease-in-out;}
