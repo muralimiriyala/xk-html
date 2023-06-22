@@ -141,6 +141,10 @@ $(document).ready(function(){
             });
         }
     });
+    $("ul.ez-toc-list a").on("click", function(){
+        $("ul.ez-toc-list a").removeClass("active");
+        $(this).addClass("active");
+    });
 });
 
 
