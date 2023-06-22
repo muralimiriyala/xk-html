@@ -31,7 +31,7 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 
 .post-note-main{padding: 36px 36px 31px; border: 12px solid var(--light-blue); margin : 80px 0;}
 .post-note-head{margin-bottom: 24px; gap: 8px;}
-.post-note-thumb{flex: 0 0 24px;}
+.post-note-thumb{flex: 0 0 24px; top: -2px; position: relative;}
 .post-note-title{flex: 0 0 calc(100% - 32px); font-size: 20px; line-height: 24px; letter-spacing: -0.4px;}
 .post-note-main p{font-size: 20px; line-height: 32px; letter-spacing: -0.8px; margin-bottom: 24px;}
 
@@ -92,8 +92,8 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
     .knowledge-post-article{flex: 0 0 calc(100% - 380px); max-width: calc(100% - 380px);}
     .knowledge-post-aside{flex: 0 0 300px;}
     .signup-main{gap: 20px;}
-    .signup-text{flex: 0 0 calc(100% - 248px);}
-    .signup-btns{flex: 0 0 228px; gap: 20px;}
+    .signup-text{flex: 0 0 calc(100% - 270px);}
+    .signup-btns{flex: 0 0 250px; gap: 20px; text-align: right;}
     .signup-btns .button{flex: 0 0 calc(50%  - 10px);}
     
     .post-feature-image{max-width: 795px;}
