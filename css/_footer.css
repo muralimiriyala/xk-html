@@ -7,8 +7,10 @@
 ul.copyright-links{margin: 0;}
 ul.copyright-links li{margin: 0;}
 ul.copyright-links li::before{display: none;}
-ul.copyright-links li a:not(.button){font-size: 12px; line-height: 14px; color: var(--white-50); display: inline-block;}
-ul.copyright-links li a:not(.button):hover{color: var(--electric-color);}
+ul.copyright-links li a{font-size: 12px; line-height: 14px; color: var(--white-50); display: inline-block;}
+ul.copyright-links li a:hover{color: var(--electric-color);}
+ul.copyright-links li.button > a{color: var(--electric-color); font-size: 14px; line-height: 18px;}
+ul.copyright-links li.button:hover > a{color: var(--midnight-color);}
 .copyrights{font-size: 12px; line-height: 20px; letter-spacing: -0.02em;}
 .copyrights-text{font-size: 12px; line-height: 20px; color: var(--white-80); font-family: 'Gotham-Medium', sans-serif;}
 ul.footer-links{margin: 0;}
