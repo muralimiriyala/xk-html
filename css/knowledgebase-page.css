@@ -14,7 +14,7 @@
 /* Browse logos section */
 .browse-bg{background-image: url("./images/browse-bg@2x.png"); background-repeat: no-repeat; background-size: cover;}
 .browse-logos-main{padding: 80px 0;}
-.browse-logos-list{background-color: var(--white); transition: all 0.45s ease-in-out;}
+.browse-logos-list{background-color: var(--white); color: var(--midnight-color); transition: all 0.45s ease-in-out;}
 .browse-logos-list.active, .browse-logos-list:hover{background-color: var(--midnight-color); color: var(--white);}
 .browse-icon{width: 32px; }
 .browse-icon-text{width: calc(100% - 52px); font-size: 20px; line-height: 24px; letter-spacing: -0.4px;}
@@ -59,7 +59,7 @@ body.page-template-product .training-main{border-bottom: none;}
 @media only screen and (min-width: 1024px){
     .knowledgebase-text{width: 768px;}
     .browse-logos-row{gap: 32px;}
-    .browse-logos-list{flex: 0 0 calc(20% - 26px); gap: 20px; padding: 40px 32px; }
+    .browse-logos-list{flex: 0 0 calc(20% - 26px); gap: 20px; padding: 31px 32px 32px; }
     .training-left{flex: 50%;}
     .training-right{flex: 50%;}
     .training-row{gap: 40px;}
