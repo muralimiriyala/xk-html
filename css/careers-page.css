@@ -13,7 +13,7 @@ ul.positions-links > li > a.active, ul.positions-links > li > a:hover{background
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
     .open-positions-bg{margin-bottom: 46px;}
-    ul.positions-links{gap: 40px;}
+    ul.positions-links{gap: 45px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     ul.positions-links{gap: 20px;}
