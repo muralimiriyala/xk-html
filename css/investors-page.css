@@ -65,6 +65,7 @@ body.page-template-careers .finanacial-main{padding: 78px 0 55px;}
     .financial-main{display: block; padding: 40px 0;}
     .financial-text{margin-bottom: 40px;}
     .financial-list{padding: 14px 24px;}
+    .financial-list-heading{flex: 0 0 100%;}
     .financial-links-left{flex: 0 0 calc(100% - 40px);}
     .financial-list-btn{flex: 0 0 40px;}
 
