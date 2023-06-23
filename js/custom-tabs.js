@@ -57,6 +57,11 @@ $(document).ready(function(){
         }
     });
 
+    $('.browse-btn').on('click', function(e){
+        e.preventDefault();
+        $(this).toggleClass('active');
+        $(".browse-logos-row").fadeToggle("slow");
+    });
 
     $('ul.graphic-filters li:first a').addClass("active");
     $(".contact-list:first").addClass("current-g");
