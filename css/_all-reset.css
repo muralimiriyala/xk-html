@@ -16,7 +16,7 @@ h5 {font-size: 20px; line-height: 24px; margin-bottom: 14px;}
 h6 {font-size: 1rem; line-height: 26px; margin-bottom: 8px;}
 h1 span{position: relative; font-family: 'Gotham-Bold', sans-serif;}
 h1 span::after{width: calc(100% + 12px); height: 20px; max-width: 255px; bottom: -2px; left: -4px; background-color: var(--electric-color); content: ""; display: block; position: absolute; z-index: -1;}
-body.knowledgebase-page h1 span::after{height: 25px;}
+body.category-knowledgebase h1 span::after{height: 25px;}
 body.myxk-tech-page h1 span::after{height: 25px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--midnight-color);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--electric-color);}

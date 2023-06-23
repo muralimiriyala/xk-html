@@ -16,10 +16,12 @@ ul.copyright-links li.button:hover > a{color: var(--midnight-color);}
 ul.footer-links{margin: 0;}
 ul.footer-links > li::before{display: none;}
 ul.footer-links > li{margin-bottom: 24px;}
-ul.footer-links > li > a{color: var(--white); font-size: 1rem; line-height: 1.5;}
+ul.footer-links > li > a{color: var(--white); font-size: 1rem; line-height: 1.5; gap: 16px; align-items: flex-start; display: flex; flex-wrap: wrap;}
 ul.footer-links > li > a:hover{color: var(--electric-color);}
 ul.footer-links > li span{flex: 1;}
-.footer-icon{width: 25px; flex: 0 0 25px; margin-right: 16px;}
+ul.footer-links > li > a > img.menu-image{width: 25px; padding: 0;}
+ul.footer-links > li > a > span.menu-image-title{flex: 1; padding: 0;}
+.footer-icon{width: 25px; flex: 0 0 25px;}
 .footer-list span.optional-text{font-size: 12px; line-height: 14px; margin-bottom: 27px;} 
 
 /*-- media css starts here --*/
