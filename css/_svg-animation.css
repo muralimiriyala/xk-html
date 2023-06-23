@@ -37,9 +37,47 @@
         stop-color: var(--electric-50);
     }
 }
+svg .clone-st0 {
+	animation: cloneRotate 8s ease-in-out alternate infinite;
+	fill: transparent;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-dasharray: 500;
+	transition: 0.45s;
+    animation-play-state: paused; 
+}
+.anim-play-state-clone svg .clone-st0{
+    animation-play-state: running;
+}
+@keyframes cloneRotate{
+    0% {
+        stroke-width: 0.5px;
+        stroke-dashoffset: 1000;
+        stroke: var(--electric-color);
+    }
+    100%{
+        stroke-width: 1px;
+        stroke-dashoffset: 0;
+        stroke: var(--white-50);
+    }
+}
 
-
-
-
+.big-feature-estate-svg-1 svg .clone-st0{
+    animation: cloneRotate1 8s ease-in-out alternate infinite;
+}
+@keyframes cloneRotate1{
+    0% {
+        opacity: 0.25;
+        stroke-width: 0.25px;
+        stroke-dashoffset: 1000;
+        stroke: var(--electric-color);
+    }
+    100%{
+        opacity: 0.5;
+        stroke-width: 0.5px;
+        stroke-dashoffset: 0;
+        stroke: var(--electric-50);
+    }
+}
 
 
