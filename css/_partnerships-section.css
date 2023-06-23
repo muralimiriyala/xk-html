@@ -26,7 +26,7 @@ ul.partnerships-links > li::before{display: none;}
     .partnerships-text{padding-right: 40px;}
     .partnerships-logos{gap: 36px 56px; padding-left: 40px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 767px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .partnerships-main{padding: 40px 0; display: block;}
     .partnerships-text{padding-bottom: 40px;}
     .partnerships-logos{gap: 36px 56px;}

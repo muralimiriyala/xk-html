@@ -4,7 +4,16 @@
 .demo-cta-bg::after{left: 0; z-index: 0; content: ""; display: block; position: absolute; }
 .demo-cta-bg iframe, .demo-cta-bg video{width: 100%; height: 100%; margin: 0;}
 .no_image .demo-cta-pos{position: relative;}
-.demo-cta-radar{width: 640px; height: 640px; left: -24px; top: 50%; transform: translateY(-50%); position: absolute; background-image: url("./images/radar-art-blue.svg"); background-size: contain; background-repeat: no-repeat; background-position: center;}
+.demo-cta-radar{width: 640px; height: 640px; left: -24px; top: 50%; transform: translateY(-50%); position: absolute; background-image: url("./images/radar-art-blue.svg"); background-size: contain; background-repeat: no-repeat; background-position: center; animation: rotation 10s ease-in-out alternate-reverse forwards; animation-play-state: paused;}
+.anim-rotation{animation-play-state: running;}
+@keyframes rotation{
+    0%{
+        transform: translateY(-50%) rotate(0deg);
+    }
+    0%{
+        transform: translateY(-50%) rotate(180deg);
+    }
+}
 .demo-cta-text p{margin-bottom: 24px;}
 .demo-cta-text .button:hover{background-color: var(--white); color: var(--electric-color);}
 .demo-cta-device{width: 380px; height: 378px; transition: opacity 0.45s linear; background-size: cover; background-repeat: no-repeat; background-position: center;} 
