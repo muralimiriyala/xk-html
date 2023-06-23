@@ -41,9 +41,11 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .testimonial-wrap{padding: 80px 0 40px;}
-    .testimonial-main{display: block;}
-    .testimonial-text {padding: 28px 28px 52px;}
-    .testimonial-text span{text-align: center;}
+    .testimonial-main{display: block; padding: 43px 28px 22px;}
+    .testimonial-image{max-width: 255px; margin: 0 auto;}
+    .testimonial-thumb{border: none;}
+    .testimonial-text {padding: 62px 0 30px; text-align: center;}
+    .testimonial-text blockquote:not(span.optional-text){padding-bottom: 23px;}
     .testimonial-desc{text-align: center;}
     .testimonial-bg-img {width: 442px; height: 442px;}
 }

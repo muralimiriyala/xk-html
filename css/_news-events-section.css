@@ -10,6 +10,7 @@
 .big-post-text{background-color: var(--white);}
 .no_post_image.small-post-bg{height: auto;}
 .small-post-bg:last-child{margin-bottom: 0;}
+.small-post-text{font-size: 20px; line-height: 32px;}
 .small-post-text .custom-date{margin-bottom: 24px;}
 .small-post-desc{margin-bottom: 18px;}
 .small-post-text .tag-links-main{margin-top: auto;}
@@ -35,7 +36,7 @@
     .big-post-list{flex: 0 0 calc(100% - 468px);}
     .small-post-list{flex: 0 0 420px;}
     .small-post-bg{margin-bottom: 48px;  height: 100%; display: flex; flex-direction: column; background-color: var(--white);}
-    .small-post-text{padding: 32px; font-size: 20px; line-height: 32px; height: 100%; display: flex; flex-direction: column;}
+    .small-post-text{padding: 32px; height: 100%; display: flex; flex-direction: column;}
     .big-post-main{flex-wrap: nowrap;}
     .big-post-image{flex: 0 0 calc(100% - 446px); min-width: 446px;}
     .big-post-text{flex: 0 0 446px; transform: translateX(-81px); padding: 48px; font-size: 18px; line-height: 26px;}
@@ -54,6 +55,7 @@
     .small-post-bg:last-child{margin-bottom: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .news-events-main{padding: 77px 0 68px;}
     .news-events-row{display: block;}
     .big-post-main{display: block;}
     .big-post-image{max-height: 400px; overflow: hidden;}

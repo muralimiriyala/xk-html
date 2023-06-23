@@ -19,20 +19,24 @@ ul.property-links > li::before{display: none;}
     .property-btn{order: 2; flex: 0 0 300px; padding-top: 7px; text-align: right;}
     .property-main{gap: 80px; order: 3;}
     .property-list{flex: 0 0 calc(50% - 40px);}
-    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .property-wrap{padding: 40px 0;}
     .general-default-page .property-wrap{padding: 40px 0 80px;}
+    .property-main{gap: 30px;}
+    .property-list { flex: 0 0 calc(50% - 15px); }
+    ul.property-links{flex-direction: column;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .property-main{display: block;}
-    .property-wrap{padding-bottom: 0;}
+    .property-wrap{padding-bottom: 39px; display: block;}
     .property-list{margin-bottom: 80px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .property-wrap{padding: 40px 0 0; display: block;}
     .general-default-page .property-wrap{padding-bottom: 118px;}
+    .property-title{padding-bottom: 19px;}
+    .property-title h2{font-size: 32px; line-height: 40px;}
     .property-image {margin-bottom: 30px;}
     .property-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
     .property-text .property-links{margin: 0 0 38px;}
