@@ -95,18 +95,17 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
     .solutions-repeater-text span.optional-text {margin-bottom: 24px;}
     .solutions-repeater-list {padding-bottom: 40px;}
 
-    .solutions-feature-list{padding: 40px 0 0;}
+    .solutions-feature-list{padding: 40px 0 0; display: block;}
     .solutions-feature-mobile{margin-bottom: 40px;}
     .solutions-feature-text{margin-bottom: 40px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
-    .reverse .solutions-feature-list {flex-direction: column-reverse;}
+    .reverse .solutions-feature-list {padding: 20px 0 0px; display: block;}
     .reverse .solutions-repeater-list {padding: 40px 0;}
-    .reverse .solutions-feature-list {padding: 20px 0 0px;}
     .reverse .solutions-feature-image{margin-bottom: 80px;}
     .reverse .solutions-xk-shape {left: auto; right: -156px;}
 
     .stats-main {padding: 40px 0 0;}
     .stats-head{margin-bottom:64px;}
-    .stats-title h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+    .stats-title h2{margin-bottom: 40px; font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
     .stats-btn{margin-top: 40px;}
     .stats-post-text {padding: 20px; max-width: 295px; margin: 0 auto; margin-top: -30px; position: relative;}
     .stats-post-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
