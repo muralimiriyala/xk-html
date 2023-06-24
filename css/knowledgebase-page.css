@@ -36,8 +36,7 @@
 .training-content p{margin-bottom: 14px;}
 .training-content p a{color: var(--midnight-color);}
 .training-content p a:hover{color: var(--electric-color);}
-.training-image img {
-max-width: 96px; min-height: 96px; object-fit: cover; object-position: center; }
+.training-image img{max-width: 96px; min-height: 96px; object-fit: cover; object-position: center; }
 .show-all-btn{padding-left: 42px; font-size: 12px; line-height: 12px; letter-spacing: 0.2em; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; display: inline-block; cursor: pointer; transition: all 0.45s ease;} 
 .show-all-btn::before{font-size: 18px; line-height: 22px; left: 0; top: calc(50% + 2px); transform: translateY(-50%); color: var(--electric-color); content: "\f107"; font-family: "Font Awesome 6 Pro"; font-weight: 400; position: absolute;}
 .show-all-btn::after{width: 2px; height: 24px; left: 29px; top: 50%; transform: translateY(-50%); background-color: var(--electric-color); display: block; content: ""; position: absolute;}
@@ -52,10 +51,8 @@ ul.tag-links > li > a:hover{background-color: var(--midnight-color); color: var(
 .tag-link-btn{flex: 0 0 24px; width: 24px;}
 .tag-link-btn a{font-size: 22px; color: var(--electric-color);}
 .tag-link-btn a:hover{color: var(--midnight-color);}
-.training-border{border-bottom: none; padding: 50px 0 40px;}
-
-body.myxk-tech-page .training-border{padding: 50px 0 80px;}
 body.page-template-product .training-main{border-bottom: none;}
+body.page-template-tech-support .training-section:nth-last-child(2) .training-main{border-bottom: none; padding-bottom: 82px;}
 
 /* media starts here */
 @media only screen and (min-width: 1024px){
@@ -94,7 +91,7 @@ body.page-template-product .training-main{border-bottom: none;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body.category-knowledgebase .knowledgebase-main{padding-top: 86px;}
-    .knowledgebase-main{padding: 120px 20px 95px;}
+    .knowledgebase-main{padding: 120px 20px 64px;}
     .knowledgebase-text h1 {font-size: 40px; font-weight: 500; line-height: 48px; letter-spacing: -0.8px; margin-bottom: 24px;}
     .knowledgebase-text p{margin-bottom: 30px;}
     .browse-bg {background-image: none;}
