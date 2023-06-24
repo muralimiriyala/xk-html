@@ -20,6 +20,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    body.page-template-solutions .testimonial-wrap{padding-bottom: 88px;}
     .testimonial-main{flex-direction: row-reverse;}
     .testimonial-text{flex: 0 0 calc(100% - 640px);}
     .testimonial-image{flex: 0 0 640px; transform: translateX(10px);}
