@@ -4,7 +4,7 @@
 .news-events-section{background-color: var(--light-gray-color); z-index: 1;}
 .news-events-bg{width: 100%; height: 100%; top: 0; left: 0; background-repeat: no-repeat; background-size: cover; position: absolute; z-index: -1;}
 .news-events-main{padding: 77px 0 32px;}
-.insights-page .news-events-main{padding-top: 17px;}
+body.page-template-news-events .news-events-main{padding-top: 17px;}
 .news-events-title h2{font-size: 32px; line-height: 40px;}
 
 .big-post-text{background-color: var(--white);}

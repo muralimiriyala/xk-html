@@ -24,7 +24,8 @@
     .more-events-list{flex: 0 0 calc(33.33% - 27px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .more-events-head { gap: 30px; } 
+    .more-events-main{padding: 55px 0 80px;}
+    .more-events-head { gap: 30px; padding-bottom: 0;} 
     .more-events-right { flex: 0 0 calc(100% - 332px); } 
     .more-events-form { gap: 30px; } 
     .events-form-field { flex: 0 0 calc(33.33% - 20px); }

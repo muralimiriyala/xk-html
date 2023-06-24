@@ -84,7 +84,7 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
     .trusted-logos-row{gap: 8px 48px; margin-bottom: 40px;}
     .trusted-logos-list{flex: 0 0 calc(50% - 24px);}
 
-     .solutions-page-main{padding: 40px 0 0;} 
+    .solutions-page-main{padding: 40px 0 0;} 
     .solutions-repeater-image{margin-bottom: 40px;}
 
     .solutions-xk-shape{ width: 310.93px; height: 383.17px; left: -157px; top: 41px;}
@@ -111,7 +111,9 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
     .stats-post-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
     .stats-post-main {margin-bottom: 64px;}
 }
-
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .trusted-logos-text span.optional-text.black{padding: 0;}
+}
 
 
 

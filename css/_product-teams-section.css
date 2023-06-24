@@ -15,6 +15,7 @@
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
+    .product-teams-main .newsletter-main{padding-bottom: 0;}
     .product-teams-main{background-image: url("./images/xk-radar-gray-bg.svg");}
     .product-teams-head h2{font-size: 32px; line-height: 40px;}
 }
@@ -26,6 +27,9 @@
     .product-detail-text{flex: 0 0 calc(100% - 560px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .product-teams-main{padding: 77px 30px 82px;}
+    .product-teams-row{gap: 30px;}
+    .product-teams-list { flex: 0 0 calc(33.3333% - 20px); }
     .product-detail-image{flex: 0 0 460px;}
     .product-detail-text {flex: 0 0 calc(100% - 460px);}
     .product-detail-text {padding: 30px;}

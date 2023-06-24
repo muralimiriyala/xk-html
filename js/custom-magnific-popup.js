@@ -1,6 +1,6 @@
-var $ = jQuery.noConflict();
-$(document).ready(function(){
-    $('.popup-youtube').magnificPopup({
+
+jQuery(document).ready(function(){
+  jQuery('.popup-youtube').magnificPopup({
       type: 'iframe',
       mainClass: 'mfp-video',
       removalDelay: 160,
