@@ -32,6 +32,7 @@ body.page-template-product .healthcare-row{padding: 0;}
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .healthcare-row{gap: 0 20px;}
     .healthcare-list{flex: 0 0 calc(50% - 10px); margin-bottom: 20px;}
+    .healthcare-slider-btns{display: none;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .healthcare-bg{background-image: url('./images/xk-radar-bg-mobile.svg');}
@@ -39,4 +40,5 @@ body.page-template-product .healthcare-row{padding: 0;}
     .healthcare-row{padding: 0;}
     .healthcare-list{padding: 20px; margin-bottom: 32px;} 
     .healthcare-list:last-child{margin-bottom: 0;}
+    .healthcare-slider-btns{display: none;}
 }

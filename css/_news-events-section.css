@@ -80,7 +80,7 @@
     .news-events-btn .button{width: 100%;}
     .big-post-main.flex.flex-vcenter{display: block;}
     .big-post-list{position: relative; margin-bottom: 20px;}
-    .big-post-text{max-width: 295px; margin: 0 auto; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;   position: relative; margin-top: -40px;}
+    .big-post-text{width: calc(100% - 40px); margin: -40px auto 0; padding: 26px 24px 24px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px; position: relative; }
     .big-post-text h2{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; font-family: 'Gotham-Medium',sanserif;}
     
     .small-post-text{padding: 24px; background-color: var(--white);}

@@ -29,6 +29,7 @@
     .general-product-bg{padding: 40px 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    body.general-default-page .general-default-main{padding: 0;}
     .general-default-main{padding: 36px 0 40px;}
     .general-product-bg{padding: 40px 20px; margin: 40px 0;}
     .general-product-main{display: block;}

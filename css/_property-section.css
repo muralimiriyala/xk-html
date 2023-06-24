@@ -29,8 +29,9 @@ ul.property-links > li::before{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .property-main{display: block;}
-    .property-wrap{padding-bottom: 39px; display: block;}
+    .property-wrap{padding-bottom: 65px; display: block;}
     .property-list{margin-bottom: 80px;}
+    .property-list:last-child{margin-bottom: 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .property-wrap{padding: 40px 0 0; display: block;}

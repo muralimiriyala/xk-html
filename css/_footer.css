@@ -2,7 +2,7 @@
 .footer-main{background-color: var(--midnight-color); color: var(--white);}
 .footer{padding: 80px 0;}
 .footer-logo a{width: 100%; display: inline-block;}
-.footer-logo a{max-width: 297px; width: 100%; object-fit: cover;}
+.footer-logo a img{max-width: 297px; width: 100%; object-fit: cover;}
 .footer-desc{font-size: 20px; line-height: 32px;}
 ul.copyright-links{margin: 0;}
 ul.copyright-links li{margin: 0;}
