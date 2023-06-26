@@ -12,7 +12,7 @@ $(".toggle_icon").on("click", function(event){
     $(".main-header").removeClass("fixed-header");
     $(".navigation").toggleClass("open");
 });
-$(document).on("load ready", function(){
+$(document).on("ready", function(){
     if($(window).width() >= 1024){
         $("ul.main-menu > li").mouseover(function(){
             $(this).siblings().addClass("sib");
@@ -56,8 +56,7 @@ $(document).on("load ready", function(){
             $(this).children(".leadership-desc").fadeToggle();
         });
     }
-});
-$(document).ready(function(){
+
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().toggleClass('active');
@@ -145,24 +144,23 @@ $(document).ready(function(){
         $("ul.ez-toc-list a").removeClass("active");
         $(this).addClass("active");
     });
-
+    
+    
 });
 
 $(window).on("load scroll", function(){
     let e_scroll = $(this).scrollTop();
-let h_height =  $(".main-header").outerHeight(true);
-let e_height =  $(".events-post-banner-section").outerHeight(true);
-let t_height = h_height + e_height;
-if($(".post-default-section").length > 0 ){
-   if(e_scroll > t_height){
-        $(".post-default-section").addClass("sticky");
-   }
-   else{
-    $(".post-default-section").removeClass("sticky");
-   }
-}
-
-
+    let h_height =  $(".main-header").outerHeight(true);
+    let e_height =  $(".events-post-banner-section").outerHeight(true);
+    let t_height = h_height + e_height;
+    if($(".post-default-section").length > 0 ){
+        if(e_scroll > t_height){
+            $(".post-default-section").addClass("sticky");
+        }
+        else{
+            $(".post-default-section").removeClass("sticky");
+        }
+    }
 });
 
 

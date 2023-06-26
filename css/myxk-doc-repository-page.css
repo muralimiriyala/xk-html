@@ -8,7 +8,7 @@
 ul.tab-scroll-links{margin: 0 0 48px;}
 ul.tab-scroll-links li{margin-bottom: 16px;}
 ul.tab-scroll-links li::before{display: none;}
-ul.tab-scroll-links li a{padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -0.36px; font-family: Gotham-Medium;}
+ul.tab-scroll-links li a{padding: 7px 7px 7px 32px; display: inline-block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -0.36px; font-family: "Gotham-Medium", sans-serif;}
 ul.tab-scroll-links li a.active{background-color: var(--electric-color);}
 ul.tab-scroll-links li a.active::before{border-color: var(--white); opacity: 1;}
 ul.tab-scroll-links li a::before{width: 8px; height: 8px; opacity: 0.25; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
