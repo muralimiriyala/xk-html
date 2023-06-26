@@ -53,6 +53,7 @@
 }
 @media only screen and (min-width: 1300px){
     .post-default-left{left: -200px; top: 149px; position: absolute;}
+    .sticky .social-share-icons{top: 90px; position: fixed; z-index: 8;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .events-post-banner-point{padding: 60px 30px; max-width: 470px;}

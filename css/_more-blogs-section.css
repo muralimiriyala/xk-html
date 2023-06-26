@@ -1,5 +1,5 @@
 
-.more-blogs-section{background-color: var(--light-gray-color); position: relative; z-index: 1;}
+.more-blogs-section{background-color: var(--light-gray-color); position: relative; z-index: 9;}
 .more-blogs-list{background-color: var(--white);}
 .more-blogs-text{padding: 33px 32px 32px; color: var(--midnight-color); font-size: 20px; line-height: 32px;}
 .more-blogs-text p:not(:last-child){margin-bottom: 101px;}
