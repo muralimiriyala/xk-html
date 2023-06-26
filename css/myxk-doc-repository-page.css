@@ -44,8 +44,9 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 .doc-mb span{opacity: 0.75; flex: 1;}
 .doc-mb span.fa-download{opacity: 1; flex: 0 0 20px; color: var(--electric-color); font-size: 18px; line-height: 18px;}
 
-.doc-file-row{display: none;}
+.doc-file-row{display: none; margin-bottom: 24px;}
 .doc-file-row.current-q{display: block;}
+.doc-file-row:last-child{margin-bottom: 0;}
 .doc-file-list{background-color: var(--white); padding: 16px 16px 24px; border-bottom: 1px solid var(--electric-color);}
 .doc-file-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
 .doc-file-text .sub-heading{margin-bottom: 12px;}
@@ -64,14 +65,15 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
     .doc-repos-thumb::before{width: 1px; height: 100%; left: -23px; background-color: var(--electric-color); content: ""; position: absolute;}
     .doc-repos-text{flex: 0 0 calc(100% - 281px);}
     .doc-repos-main{gap: 16px;}
-    .doc-repos{flex: 0 0 calc(50% - 8px); gap:12px;}
+    .doc-repos{flex: 0 0 calc(50% - 8px); gap: 8px;}
     .doc-print{flex: 1;}
-    .doc-mb{flex: 0 0 108px; gap: 10px;}
+    .doc-mb{flex: 0 0 114px; gap: 8px;}
+    .doc-mb span:first-child{flex: 0 0 60px;}
     
     .doc-file-lists{gap: 24px;}
     .doc-file-list{flex: 0 0 calc(33.33% - 16px);}
     .doc-file-image{margin-bottom: 16px;}
-    ul.tab-links{gap: 20px 40px;}
+    ul.tab-links{gap: 20px 36px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .doc-repository-main{gap: 30px;}
