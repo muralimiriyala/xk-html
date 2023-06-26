@@ -27,6 +27,7 @@
     .more-blogs-list{margin-bottom: 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    body.page-template-doc-repository .more-blogs-main{padding-top: 50px;}
     .more-blogs-main{padding: 40px 0 45px; display: block;}
     .more-blogs-title{text-align: center;}
     .more-blogs-title span.optional-text.black{padding-right: 0;}

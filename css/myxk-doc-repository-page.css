@@ -5,10 +5,10 @@
 .doc-repository-left hr{width: 112px; height: 1px; margin: 34px 0 34px;}
 .doc-repository-left .para{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; margin-bottom: 34px;}
 
-ul.tab-scroll-links{margin: 0 0 48px;}
+ul.tab-scroll-links{margin: 0 0 48px; max-width: 300px;}
 ul.tab-scroll-links li{margin-bottom: 16px;}
 ul.tab-scroll-links li::before{display: none;}
-ul.tab-scroll-links li a{padding: 7px 7px 7px 32px; display: inline-block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -0.36px; font-family: "Gotham-Medium", sans-serif;}
+ul.tab-scroll-links li a{padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -0.36px; font-family: "Gotham-Medium", sans-serif;}
 ul.tab-scroll-links li a.active{background-color: var(--electric-color);}
 ul.tab-scroll-links li a.active::before{border-color: var(--white); opacity: 1;}
 ul.tab-scroll-links li a::before{width: 8px; height: 8px; opacity: 0.25; left: 10px; top: 50%; transform: translateY(-50%); border: 5px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute;}
@@ -101,16 +101,16 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
     .doc-file-image{margin-bottom: 23px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .doc-repository-main{padding: 39px 0 40px; display: block;}
+    .doc-repository-main{padding: 39px 0 0px; display: block;}
     .doc-repository-left h1{font-size: 40px; line-height: 48px;}
-
     .doc-repository-bg{padding: 16px;}
-    .doc-repos-image{margin-bottom: 16px;}
+    .doc-repos-image{margin-bottom: 14px;}
     .doc-repos{margin-bottom: 16px;}
-
+    .doc-repos-list{border-bottom: 1px solid var(--electric-color); border-left: none;}
     .doc-file-list{margin-bottom: 24px;}
-    .doc-repository-text{padding: 20px;}
+    .doc-repository-text{padding: 20px; margin-bottom: 40px;}
     .doc-repository-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
-
+    .doc-repos-text .sub-heading{margin-bottom: 14px;}
     ul.tab-links{display: none; padding: 16px; top: calc(100% - 20px); width: calc(100% - 40px); height: auto; position: absolute; background-color: var(--white); box-shadow: 0 2px 1px #D0D0D0; z-index: 2;}
+    ul.tab-scroll-links li a{display: block;}
 }
