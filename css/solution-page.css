@@ -68,6 +68,7 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
     .stats-post-image{flex: 0 0 580px;}
     .stats-post-text{flex: 0 0 calc(100% - 580px); min-width: 580px; transform: translateX(-196px);}
     .stats-post-text h2 {font-size: 28px; line-height: 32px;}
+    .stats-post-thumb img{min-height: 484px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .trusted-logos-row{gap: 40px 20px;}

@@ -1,8 +1,7 @@
 
-var $ = jQuery.noConflict();
-$(document).ready(function(){
-    let $window = $(window);
-    let $hcSlider = $('.healthcare-slider');
+jQuery(document).ready(function(){
+    let $window = jQuery(window);
+    let $hcSlider = jQuery('.healthcare-slider');
     hcSettings = {
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -24,16 +23,16 @@ $(document).ready(function(){
         ]
     };
 
-    $(".slick-prev").click(function () {
+    jQuery(".slick-prev").click(function () {
 		$hcSlider.slick("slickPrev");
-        $(".slick-next").removeClass("slick-disabled");
-        $(this).addClass("slick-disabled");
+        jQuery(".slick-next").removeClass("slick-disabled");
+        jQuery(this).addClass("slick-disabled");
 	});
 
-	$(".slick-next").click(function () {
+	jQuery(".slick-next").click(function () {
 		$hcSlider.slick("slickNext");
-        $(".slick-prev").removeClass("slick-disabled");
-        $(this).addClass("slick-disabled");
+        jQuery(".slick-prev").removeClass("slick-disabled");
+        jQuery(this).addClass("slick-disabled");
 	});
     
 

@@ -31,6 +31,7 @@
     .testimonial-text { flex: 0 0 calc(100% - 512px); padding: 30px; }
     .testimonial-image{flex: 0 0 512px;}
     .testimonial-bg-img{width: 600px; height: 600px;}
+    body.page-template-solutions .testimonial-wrap{padding-bottom: 48px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .testimonial-wrap{padding: 80px 0 40px;}
