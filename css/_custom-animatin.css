@@ -42,7 +42,6 @@
 @keyframes animation-smooth-out{ 0%{ opacity:0; -webkit-transform:translateY(20px); -ms-transform:translateY(20px); transform:translateY(20px); } 100%{ opacity:1; -webkit-transform:translateY(0); -ms-transform:translateY(0); transform:translateY(0); } }
 
 
-
 .zoom-image{animation-name: zoom-out; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
 @keyframes zoom-out { 0% {transform: scale(1.15) rotate(360deg); border-color: var(--electric-color);} 100% {transform: scale(1) rotate(360deg); border-color: var(--white); } }
 

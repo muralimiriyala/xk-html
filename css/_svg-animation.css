@@ -39,10 +39,9 @@
 }
 svg .clone-st0 {
 	animation: cloneRotate 8s ease-in-out alternate infinite;
-	fill: transparent;
+	/* fill: transparent; */
 	stroke-linecap: round;
 	stroke-linejoin: round;
-	stroke-dasharray: 500;
 	transition: 0.45s;
     animation-play-state: paused; 
 }
@@ -52,13 +51,21 @@ svg .clone-st0 {
 @keyframes cloneRotate{
     0% {
         stroke-width: 0.5px;
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        stroke: blue;
+    }
+    50%{
+        stroke-width: 1px;
+        stroke-dasharray: 500;
         stroke-dashoffset: 1000;
-        stroke: var(--electric-color);
+        stroke: green
     }
     100%{
-        stroke-width: 1px;
-        stroke-dashoffset: 0;
-        stroke: var(--white-50);
+        stroke-width: 0.5px;
+        stroke-dasharray: 0;
+        stroke-dashoffset: 1000;
+        stroke: red;
     }
 }
 
