@@ -1,0 +1,44 @@
+
+.healthcare-bg{background-image: url("./images/xk-radar-bg.svg"); background-repeat: no-repeat; background-size: cover;}
+.healthcare-main{padding: 80px 0 80px;}
+body.page-template-product .healthcare-row{padding: 0;}
+.healthcare-list{padding: 32px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px; color: var(--slate-color); background-color: var(--white);}
+.healthcare-thumb{margin-bottom: 20px;}
+.healthcare-list p{margin-bottom: 20px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .healthcare-slider .slick-list{padding-top: 40px; width: 100%; overflow: inherit;}
+    .healthcare-slider .slick-slide{margin-right: 32px; width: 296px;}
+    .healthcare-row{gap: 32px;}
+    .healthcare-list{flex: 0 0 calc(25% - 24px);}
+    .healthcare-slider-btns .slick_arrow span{top: calc(50% + 1px); transform: translateY(-50%); position: absolute; font-size: 16px; line-height: 16px; transition: all 0.45s ease-in-out;}
+    .healthcare-slider-btns .slick_arrow.slick-disabled span{display: none;}
+    .healthcare-slider-btns .slick-next{padding-right: 40px;}
+    .healthcare-slider-btns .slick-next span{right: 13px;}
+    .healthcare-slider-btns .slick-next.slick-disabled{padding-right: 17px;}
+    .healthcare-slider-btns .slick-prev{margin-right: 20px; padding-left: 40px;}
+    .healthcare-slider-btns .slick-prev span{left: 13px;}
+    .healthcare-slider-btns .slick-prev.slick-disabled{padding-left: 17px;}
+    .healthcare-slider-btns .slick_arrow:hover{background-color: var(--midnight-color); color: var(--electric-color);}
+    .healthcare-slider-btns .slick_arrow.slick-disabled{background-color: var(--electric-color); color: var(--midnight-color);}
+    .healthcare-slider-btns{gap: 20px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    body.page-template-product .healthcare-row{gap: 8px;}
+    body.page-template-product .healthcare-list{flex: 0 0 calc(25% - 8px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .healthcare-row{gap: 0 20px;}
+    .healthcare-list{flex: 0 0 calc(50% - 10px); margin-bottom: 20px;}
+    .healthcare-slider-btns{display: none;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .healthcare-bg{background-image: url('./images/xk-radar-bg-mobile.svg');}
+    .healthcare-main {padding: 40px 0;}
+    .healthcare-row{padding: 0;}
+    .healthcare-list{padding: 20px; margin-bottom: 32px;} 
+    .healthcare-list:last-child{margin-bottom: 0;}
+    .healthcare-slider-btns{display: none;}
+}

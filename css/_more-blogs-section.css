@@ -1,0 +1,52 @@
+
+.more-blogs-section{background-color: var(--light-gray-color); position: relative; z-index: 9;}
+.more-blogs-list{background-color: var(--white);}
+.more-blogs-text{padding: 33px 32px 32px; color: var(--midnight-color); font-size: 20px; line-height: 32px;}
+.more-blogs-text p:not(:last-child){margin-bottom: 101px;}
+.more-blogs-text p a{color: var(--midnight-color);}
+.more-blogs-text p a:hover{color: var(--electric-color);}
+.custom-date{margin-bottom: 20px; gap: 8px; font-size: 10px; line-height: 12px; letter-spacing: 0.2em;}
+.additional-news-text .custom-date{margin-bottom: 8px;}
+.date-icon{color: var(--electric-color); font-size: 12px; top: -1px; position: relative;}
+.date-icon-text{color: var(--slate-color);}
+.more-blogs-text .tag-links-main{margin-top: auto;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .more-blogs-main{padding: 80px 0 56px;}
+    body.page-template-doc-repository .more-blogs-main{padding-top: 90px;}
+    .more-blogs-title{order: 1; flex: 0 0 50%; padding-right: 80px;}
+    .more-blogs-row{gap: 40px; order: 3; padding-top: 39px;}
+    .more-blogs-list{flex: 0 0 calc(33.3333% - 27px); height: 100%; display: flex; flex-direction: column;}
+    .more-blogs-text{height: 100%; display: flex; flex-direction: column;}
+    .more-blogs-btn{order: 2; flex: 0 0 50%; text-align: right;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .more-blogs-main{padding: 80px 0 56px;}
+    .more-blogs-row{display: block;}
+    .more-blogs-list{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    body.page-template-doc-repository .more-blogs-main{padding-top: 50px;}
+    .more-blogs-main{padding: 40px 0 45px; display: block;}
+    .more-blogs-title{text-align: center;}
+    .more-blogs-title span.optional-text.black{padding-right: 0;}
+    .more-blogs-row{padding-top: 27px; display: block;}
+    .more-blogs-list{margin-bottom: 20px;}
+    .more-blogs-text p{margin-bottom: 42px;}
+    .more-blogs-text .tag-links-main{margin-bottom: 0;}
+    .more-blogs-list:last-child{margin-bottom: 45px;}
+    .more-blogs-text p:not(:last-child) {margin-bottom: 46px;}
+    .more-blogs-btn{text-align: center;}
+}
+
+
+
+
+
+
+
+
+
+
+

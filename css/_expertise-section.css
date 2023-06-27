@@ -1,0 +1,54 @@
+
+
+.expertise-main{padding: 80px 0;}
+.expertise-text{font-size: 14px; line-height: 22px; color: var(--midnight-color);}
+.number{margin-bottom: 21px; font-size: 96px; line-height: 96px; color: transparent; -webkit-text-stroke-color: var(--midnight-color); -webkit-text-stroke-width: 1px; display: block; animation: flipAnim 5s infinite ease-in-out;}
+@keyframes flipAnim{
+    0%{
+        filter: drop-shadow(4px 4px 0 var(--white-50)); 
+    }
+    50%{
+        filter: drop-shadow(2px 2px 0 var(--electric-50)); 
+    }
+    100%{
+        filter: drop-shadow(4px 4px 0 var(--white-50));      
+    }
+}
+.expertise-heading{margin-bottom: 16px; font-size: 24px; line-height: 28px; color: var(--midnight-color); display: block;}
+.expertise-text p{margin-bottom: 14px;}
+
+body.page-template-product .expertise-section{background-color: var(--light-gray-color);}
+body.page-template-company .expertise-main{padding: 75px 0 80px;}
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .general-default-page .expertise-main{padding-bottom: 114px;}
+    .expertise-head {gap: 250px; margin-bottom: 52px;}
+    .expertise-title{flex: 0 0 calc(100% - 435px);}
+    .expertise-btn{flex: 0 0 185px; padding-top: 3px; text-align: right;}
+    .expertise-row{gap: 72px 32px;}
+    .expertise-list{flex: 0 0 calc(33.3333% - 22px);}
+
+    body.page-template-product .expertise-head{gap: 220px;}
+    body.page-template-product .expertise-title{flex: 0 0 calc(100% - 414px);}
+    body.page-template-product .expertise-btn{flex: 0 0 194px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    body.page-template-company .expertise-head{gap: 0; display: block;}
+    body.page-template-company .expertise-btn{text-align: left; margin-bottom: 40px;} 
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){ 
+     .expertise-btn{margin-bottom: 64px;}
+     .expertise-row{gap: 72px 32px;}
+     .expertise-list{flex: 0 0 calc(50% - 16px);}
+     .expertise-title h2{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){ 
+    .expertise-main{padding: 40px 0;}
+    .expertise-title h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 40px;}
+    .expertise-head{margin-bottom: 64px;}
+    .expertise-list{margin-bottom: 24px;}
+    .expertise-list:last-child{margin-bottom: 0;}
+    body.page-template-company .expertise-main{padding: 40px 0 60px;}
+    body.page-template-company .expertise-head{margin-bottom: 55px;}
+}

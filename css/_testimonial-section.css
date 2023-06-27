@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+.testimonial-wrap{padding: 80px 0;}
+.testimonial-main{border: 12px solid var(--light-blue);}
+.testimonial-text{padding: 52px;}
+.testimonial-desc{font-size: 16px; line-height: 20px;color: var(--dark-color-500);}
+.testimonial-name{margin-bottom: 6px; color: var(--dark-color); display: block;}
+.testimonial-image{z-index: 1;}
+.testimonial-thumb{border: 16px solid var(--white); border-radius: 50%;}
+.testimonial-thumb img{border-radius: 50%; object-fit: cover; width: 100%;} 
+.testimonial-bg-img{top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; background-image: url("./images/radar-art.svg"); background-repeat: no-repeat; background-size: cover; background-position: center; position: absolute;}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    body.page-template-solutions .testimonial-wrap{padding-bottom: 88px;}
+    .testimonial-main{flex-direction: row-reverse;}
+    .testimonial-text{flex: 0 0 calc(100% - 640px);}
+    .testimonial-image{flex: 0 0 640px; transform: translateX(10px);}
+    figure.testimonial-thumb{width: 432px; height: 432px; margin: 0 auto; display: block;}
+    .testimonial-bg-img{width: 640px; height: 640px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .testimonial-text { flex: 0 0 calc(100% - 512px); padding: 30px; }
+    .testimonial-image{flex: 0 0 512px;}
+    .testimonial-bg-img{width: 600px; height: 600px;}
+    body.page-template-solutions .testimonial-wrap{padding-bottom: 48px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .testimonial-wrap{padding: 80px 0 40px;}
+    .testimonial-main{display: block;}
+    .testimonial-text {padding: 28px 28px 52px;}
+    .testimonial-image{margin-bottom: 50px;}
+    .testimonial-thumb{max-width: 442px; margin: 0 auto;}
+    .testimonial-bg-img {width: 542px; height: 542px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .testimonial-wrap{padding: 80px 0 40px;}
+    .testimonial-main{display: block; padding: 43px 28px 22px;}
+    .testimonial-image{max-width: 255px; margin: 0 auto;}
+    .testimonial-thumb{border: none;}
+    .testimonial-text {padding: 62px 0 30px; text-align: center;}
+    .testimonial-text blockquote:not(span.optional-text){padding-bottom: 23px;}
+    .testimonial-desc{text-align: center;}
+    .testimonial-bg-img {width: 442px; height: 442px;}
+}
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    .testimonial-main{padding: 43px 20px 22px;}
+}

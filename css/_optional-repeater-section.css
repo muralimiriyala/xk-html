@@ -1,0 +1,51 @@
+.optional-repeater-main{padding: 40px 0;}
+.optional-xk-shape { width: 515.93px; height: 396.17px; left: -258px; top: 81px; background-image: url('./images/xk-shape.svg'); background-repeat: no-repeat; background-size: contain; position: absolute; z-index: 1; }
+.optional-repeater-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+.optional-repeater-text h2{margin-bottom: 42px;}
+.optional-repeater-text p{margin-bottom: 24px;}
+.optional-repeater-text ul{margin-bottom: 42px;}
+.optional-repeater-text ul li::before{top: 10px; left: -12px;}
+ul.optional-list{margin: 0 0 24px 32px; font-size: 14px; line-height: 22px;} 
+ul.optional-list li{margin-bottom: 0;}
+ul.optional-list li::before{top: 10px;}
+ul.optional-list:last-child{margin-bottom: 0;}
+
+.reverse .optional-repeater-main{flex-direction: row-reverse; padding: 40px 0 80px;}
+.reverse .optional-xk-shape{ left: auto; right: -258px; }
+
+body.page-template-product .reverse .optional-repeater-main{padding: 56px 0 80px;}
+body.page-template-product .optional-repeater-text span{margin-bottom: 38px;}
+body.page-template-product .optional-repeater-text .button{margin-top: 8px;}
+body.page-template-product  .optional-repeater-main{padding: 56px 0 80px;}
+body.page-template-careers .reverse .optional-repeater-main{padding: 70px 0 110px;}
+
+body.page-template-careers .open-positions-bg{margin-bottom: 27px;}
+/* media css starts here */
+@media only screen and (min-width: 1024px){ 
+  .optional-repeater-main{gap: 80px;}
+  .optional-repeater-image{flex: 0 0 600px;}
+  .optional-repeater-text{flex: 0 0 calc(100% - 680px);}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+  .optional-repeater-main {gap: 50px;}
+  .optional-repeater-image {flex: 0 0 450px;}
+  .optional-repeater-text {flex: 0 0 calc(100% - 500px);}
+  .optional-xk-shape{top: 20px;}
+  .reverse .optional-xk-shape{top: 35px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+ .optional-repeater-image{margin-bottom: 40px;}
+ .reverse .optional-repeater-main{padding: 40px 0;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+  .optional-repeater-text h2{font-size: 24px; line-height: 28px; margin-bottom: 24px; letter-spacing: -0.48px;}
+  .optional-xk-shape { width: 307.93px; height: 320.17px; left: -154px; top: 22px; }
+  .optional-repeater-image{margin-bottom: 40px;}
+  .reverse .optional-repeater-main{padding: 40px 0;}
+  body.page-template-product .reverse .optional-repeater-main {padding: 40px 0;}
+  body.page-template-product .optional-repeater-text .button {margin-top: 8px; width: 100%;}
+  body.page-template-product .optional-repeater-text span {margin-bottom: 24px;}
+  body.page-template-product .optional-repeater-main {padding: 40px 0;}
+  .reverse .optional-xk-shape {left: auto; right: -155px; top: 41px;}
+  body.page-template-careers .reverse .optional-repeater-main{padding: 40px 0 39px;}
+}

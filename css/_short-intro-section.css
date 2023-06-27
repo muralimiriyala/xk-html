@@ -1,0 +1,64 @@
+.short-intro-main{padding: 80px 0 80px;}
+.short-intro-head{font-size: 16px; line-height: 32px; letter-spacing: -0.32px; margin-bottom: 76px;}
+.short-intro-title span{margin-bottom: 44px;}
+.short-intro-title h2{margin-bottom: 50px; color: var(--black);   font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
+.short-intro-title h2:last-child{margin-bottom: 0;}
+.short-intro-desc p{padding: 0;}
+.short-intro-desc{padding: 0 80px;}
+.short-intro-line{width: 1px; height: 0%; content: ""; display: block; position: absolute; background-color: var(--electric-color);}
+.short-intro-line.left{left: 0; top: 0; }
+.short-intro-line.right{right: 0; bottom: 0;}
+.short-intro-icon{margin-bottom: 18px; max-width: 24px;}
+.short-intro-icon img{width: 100%; object-fit: cover;}
+.short-intro-text{font-size:14px; line-height: 22px; color: var(--slate-color);}
+.short-intro-text p:not(:last-child){margin-bottom: 18px;}
+.short-intro-text .text-link{opacity: 0.75;}
+.career-intro .short-intro-main{padding: 40px 0 80px;}
+
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){ 
+    .short-intro-head{gap: 80px;}
+    .short-intro-title{flex: 0 0 394px;}
+    .short-intro-desc{flex: 0 0 calc(100% - 474px);}
+    .short-intro-row{gap: 56px;}
+    .short-intro-list{flex: 0 0 calc(25% - 42px);}
+    .intro1-of-3 .short-intro-list{flex: 0 0 calc(33.3333% - 38px);}
+
+    body.page-template-product .short-intro-main{padding: 12px 0 56px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){ 
+    .short-intro-head{gap: 60px;}
+    .short-intro-desc{padding: 0 60px;}
+    .short-intro-row {gap: 35px;}
+    .short-intro-list{flex: 0 0 calc(25% - 27px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){ 
+    .short-intro-main{padding: 40px 0;}
+    .short-intro-title{margin-bottom: 40px;}
+    .short-intro-desc{padding: 0 60px;}
+    .short-intro-row {gap: 42px;}
+    .short-intro-list{flex: 0 0 calc(50% - 21px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .short-intro-main{padding: 40px 0;}
+    .short-intro-head{margin-bottom: 35px; display: block;}
+    .short-intro-title{margin-bottom: 43px;}
+    .short-intro-title span{margin-bottom: 22px;}
+    .short-intro-title h2{font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
+    .short-intro-desc{padding: 0 20px; font-size: 14px; line-height: 28px; letter-spacing: -0.28px; display: block;}
+    .short-intro-list{margin-bottom: 56px;}
+    .short-intro-list:last-child{margin-bottom: 0;}
+    .short-intro-icon{margin-bottom: 15px;}
+
+    
+    body.page-template-solutions .short-intro-desc{margin-bottom: 40px;}
+    body.page-template-solutions .short-intro-title h2{margin-bottom: 0;}
+    body.page-template-solutions .short-intro-title{margin-bottom: 40px;}
+    body.page-template-product .short-intro-title{margin-bottom: 0;}
+    body.page-template-product .short-intro-desc{margin-bottom: 40px;}
+    body.page-template-company .short-intro-title{margin-bottom: 36px;}
+    body.page-template-company .short-intro-head{margin-bottom: 38px;}
+    body.page-template-careers .short-intro-head{margin-bottom: 38px;}
+    body.page-template-partnerships .short-intro-title{margin-bottom: 50px;}
+}

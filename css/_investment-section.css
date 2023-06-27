@@ -1,0 +1,43 @@
+
+.investment-text{font-size: 14px; line-height: 22px; color: var(--midnight-color);}
+.investment-text span.optional-text{margin-bottom: 38px;}
+.investment-text h2{margin-bottom: 42px;}
+.investment-text ul{margin-bottom: 41px;}
+.investment-text ul li{margin-bottom: 0;}
+.investment-text ul li::before{top: 9px;}
+.investment-text ol li::before{left: -20px; top: 0;}
+.investment-thumb{z-index: 0;}
+.investment-xk-shape { width: 515.93px; height: 396.17px; left: -260px; bottom: -68px; background-image: url('./images/xk-shape.svg'); background-repeat: no-repeat; background-size: contain; position: absolute; z-index: 1; }
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .investment-wrap{padding: 77px 0 80px;}
+    .investment-main{gap: 80px; padding-bottom: 80px;}
+    .investment-main:last-child{padding-bottom: 0;}
+    .investment-image{flex: 0 0 600px;}
+    .investment-text{flex: 0 0 calc(100% - 680px);}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .investment-wrap{padding: 40px 0 80px;}
+    .investment-main{gap: 40px;}
+    .investment-image{flex: 0 0 430px;}
+    .investment-text{flex: 0 0 calc(100% - 470px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .investment-wrap{padding: 40px 0;}
+    .investment-main{display: block;}
+    .investment-image{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .investment-xk-shape { width: 310.93px; height: 383.17px; left: -157px; top: 41px; }
+    body.page-template-investors .investment-xk-shape {left: auto; right: -147px; top: 50%; transform: translateY(-50%); width: 292px; height: 224px; background-image: url("./images/xk-shape-mobile.svg");}
+    .investment-wrap {padding: 40px 0}
+    .investment-image{margin-bottom: 38px;}
+    .investment-text span.optional-text {margin-bottom: 18px;}
+    .investment-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 24px;}
+    .investment-text ul {margin-bottom: 24px;}
+    .investment-text .button{width: 100%;}
+}
+@media only screen and (max-width: 414px) and (min-width: 200px){
+    .invest-btn {text-align: center;}
+}
