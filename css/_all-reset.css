@@ -169,7 +169,7 @@ img.aligncenter{margin: 25px 0;}
 .table-cell{display: table-cell; vertical-align: middle;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid;}
 
-body{font-size: 16px; line-height: 24px; letter-spacing: -0.02em; font-family: "Gotham-Book", sans-serif; overflow: hidden; color: var(--midnight-color); background-color: transparent;}
+body{font-size: 16px; line-height: 24px; letter-spacing: -0.02em; font-family: 'Gotham-Book'; overflow: hidden; color: var(--midnight-color); background-color: transparent;}
 span.optional-text{margin-bottom: 22px; color: var(--midnight-50); font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 span.optional-text.black{color: var(--slate-color);}
 .sub-heading{font-size: 20px; line-height: 24px; letter-spacing: -0.4px; color: var(--midnight-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
@@ -255,4 +255,8 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
 
     .button.btn-arrow{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 16px; line-height: 24px; display: flex; align-items: center; justify-content: center;}
     .btn-arrow span.right-arrow{right: 10px;}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6cc287b7797b141e6a2526aeba8bbe3a2388aaa0
