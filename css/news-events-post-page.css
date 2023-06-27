@@ -11,11 +11,7 @@
 .post-default-content h3:not(.events-newsletter-text h3){padding-left: 16px; position: relative; font-size: 24px; line-height: 28px; letter-spacing: -0.8px;}
 .post-default-content h3:not(.events-newsletter-text h3)::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
 
-<<<<<<< HEAD
 .events-newsletter-bg{padding: 80px 0; margin: 79px 0 78px; background-image: url("images/newsletter-post-bg.svg"); background-repeat: no-repeat; background-size: cover;}
-=======
-.events-newsletter-bg{background-image: url("images/newsletter-post-bg.svg"); padding: 80px 0; margin: 79px 0 78px;}
->>>>>>> 6cc287b7797b141e6a2526aeba8bbe3a2388aaa0
 .events-newsletter-main{padding: 60px; background-color: var(--white);} 
 .events-post-feature-wrap{padding: 55px 0 78px;}
 .events-post-feature-point{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; color: var(--slate-color); background-color: var(--white-70); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 1;}
