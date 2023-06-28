@@ -22,20 +22,20 @@
     .fixed-header ul.main-menu > li{padding: 13px 0 12px;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li.sib > a{color: var(--midnight-25);}
-    ul.main-menu > li > a{padding-bottom: 8px; color: var(--midnight-color); font-size: 14px; line-height: 22px; font-family: 'Gotham-Medium', sans-serif; display: inline-block; position: relative;}
+    ul.main-menu > li > a{padding-bottom: 8px; color: var(--midnight-color); font-size: 0.875rem; line-height: 1.375rem; font-family: 'Gotham-Medium', sans-serif; display: inline-block; position: relative;}
     ul.main-menu > li > a::after{width: 0%; height: 2px; bottom: 0; left: 0; background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: width 0.45s ease-in-out;}
     ul.main-menu > li:hover > a::after{width: 100%;}
     ul.main-menu > li:hover > ul{opacity: 1; visibility: visible; max-height: inherit; overflow: inherit;}
     ul.main-menu > li > ul{margin: 0; max-height: 0; overflow: hidden; padding: 12px 0; top: 100%; left: 0; width: 100%; min-width: 260px; opacity: 0; visibility: hidden; background-color: var(--light-gray-color); position: absolute; transition: all 0.45s ease-in-out;}
     ul.main-menu > li > ul > li::before{display: none;}
     ul.main-menu > li > ul > li{margin: 0;}
-    ul.main-menu > li > ul > li > a{ padding: 12px 24px; display: block; font-size: 1rem; line-height: 20px; color: var(--midnight-color); font-family: "Gotham-Medium", sans-serif;}
+    ul.main-menu > li > ul > li > a{ padding: 12px 24px; display: block; font-size: 1rem; line-height: 1.25rem; color: var(--midnight-color); font-family: "Gotham-Medium", sans-serif;}
     ul.main-menu > li > ul > li > a:hover{background-color: var(--white);}
     ul.main-menu > li > ul > li:hover > ul{opacity: 1; visibility: visible; max-height: inherit; overflow: inherit;}
     ul.main-menu > li > ul > li > ul{margin: 0; left: 100%; top: 0; min-width: 260px; max-height: 0; overflow: hidden;  opacity: 0; visibility: hidden; position: absolute; background-color: var(--light-gray-color); transition: all 0.45s ease-in-out;}
     ul.main-menu > li > ul > li > ul > li::before{display: none;}
     ul.main-menu > li > ul > li > ul > li{margin: 0;}
-    ul.main-menu > li > ul > li > ul > li > a{ padding: 12px 24px; display: block; font-size: 1rem; line-height: 20px; color: var(--midnight-color); font-family: "Gotham-Medium", sans-serif;}
+    ul.main-menu > li > ul > li > ul > li > a{ padding: 12px 24px; display: block; font-size: 1rem; line-height: 1.25rem; color: var(--midnight-color); font-family: "Gotham-Medium", sans-serif;}
     ul.main-menu > li > ul > li > ul > li > a:hover{background-color: var(--white);}
 
     /*-- nav items nav --*/
@@ -45,20 +45,20 @@
     ul.main-menu > li.nav-item > ul > li{width: 33.3333%; padding: 62px 47px 49px;}
     ul.main-menu > li.nav-item > ul > li:last-child{padding: 0;}
     ul.main-menu > li.nav-item > ul > li:first-child::after{width: 1px; height: calc(100% - 128px); right: 0; top: 64px; background-color: var(--electric-color); content: ""; display: block; position: absolute;}
-    ul.main-menu > li.nav-item > ul > li > a{margin: 0 16px 16px; padding: 0; color: var(--midnight-color); font-size: 14px; line-height: 22px; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
+    ul.main-menu > li.nav-item > ul > li > a{margin: 0 16px 16px; padding: 0; color: var(--midnight-color); font-size: 0.875rem; line-height: 1.375rem; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
     ul.main-menu > li.nav-item > ul > li.no_link > a{pointer-events: none; cursor: initial; background-color: transparent;}
     ul.main-menu > li.nav-item > ul > li > a:hover{background: none;}
     ul.main-menu > li.nav-item > ul > li > ul{margin: 0; max-height: inherit; opacity: 1; visibility: visible; position: static; background-color: transparent;}
     ul.main-menu > li.nav-item > ul > li > ul > li{margin: 0;}
     ul.main-menu > li.nav-item > ul > li > ul > li::before{display: none;}
-    ul.main-menu > li.nav-item > ul > li > ul > li > a{padding: 16px; font-size: 12px; line-height: 20px; display: block; background-color: transparent; color: var(--midnight-color);}
+    ul.main-menu > li.nav-item > ul > li > ul > li > a{padding: 16px; font-size: 0.75rem; line-height: 1.25rem; display: block; background-color: transparent; color: var(--midnight-color);}
     ul.main-menu > li.nav-item > ul > li > ul > li > a:hover{background-color: var(--white);}
     .nav-item{gap: 8px;}
     .nav-icon{flex: 0 0 24px; width: 24px;}
     .nav-icon img{width: 100%; object-fit: cover;}
-    .nav-text{width: calc(100% - 32px); font-size: 12px; line-height: 20px;}
+    .nav-text{width: calc(100% - 32px); font-size: 0.75rem; line-height: 1.25rem;}
     ul.main-menu > li.nav-item > ul > li > ul > li > a .menu-image{float: left; width: 24px; margin-right: 8px; padding: 0;}
-    .nav-heading, ul.main-menu > li.nav-item > ul > li > ul > li > a .menu-image-title{margin-bottom: 10px; padding: 0; overflow: hidden; display: block; font-size: 18px; line-height: 22px; color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif;}
+    .nav-heading, ul.main-menu > li.nav-item > ul > li > ul > li > a .menu-image-title{margin-bottom: 10px; padding: 0; overflow: hidden; display: block; font-size: 1.125rem; line-height: 1.375rem; color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif;}
     ul.main-menu > li.nav-item > ul > li > ul > li > a p{overflow: hidden; padding-left: 32px;}
     .nav-image{width: 100%; height: 100%;}
     .nav-image img{mix-blend-mode: multiply;}
@@ -79,7 +79,7 @@
     ul.nav-users > li{margin-bottom: 0;}
     ul.nav-users li a{font-size: 0; line-height: 0; color: var(--midnight-color);}
     ul.nav-users li a:hover{color: var(--link-color);}
-    ul.nav-users li a span{font-size: 16px; line-height: 16px;}
+    ul.nav-users li a span{font-size: 1rem; line-height: 1rem;}
 
     .fixed-header ul.main-menu > li > a{color: var(--white);}
     .fixed-header .nav-rule{background-color: var(--white);}
@@ -115,7 +115,7 @@
     .toggle_bar{flex: 0 0 calc(100% - 154px); justify-content: flex-end;}
     .nav-rule{width: 1px; height: 30px; margin-right: 38px; transform: rotate(-34deg); background-color: var(--electric-color); transition: all 0.45s linear;}
 
-    .toggle_icon{width: 28px; margin-top: 3px; cursor: pointer; color: var(--midnight-color); font-size: 32px; line-height: 32px; transition: all 0.45s ease;}
+    .toggle_icon{width: 28px; margin-top: 3px; cursor: pointer; color: var(--midnight-color); font-size: 2rem; line-height: 2rem; transition: all 0.45s ease;}
     .toggle_icon span.line{width: 28px; height: 3px; margin-left: auto; border-radius: 0; background-color: var(--midnight-color); display: block;}
     .toggle_icon span.line2{margin-top: 7px;}
     .toggle_icon span.line3{margin-top: 7px}
@@ -130,9 +130,9 @@
     ul.main-menu{margin: 0 0 20px; display: block;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu li::before{display: none;}
-    ul.main-menu > li > a{padding: 18px 21px 22px;  color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif; display: block; position: relative;}
+    ul.main-menu > li > a{padding: 18px 21px 22px;  color: var(--midnight-color); font-size: 1.25rem; line-height: 1.5rem; font-family: 'Gotham-Medium', sans-serif; display: block; position: relative;}
     ul.main-menu > li > a.active{background-color: var(--light-gray-color);}
-    ul.main-menu > li.menu-item-has-children > a::after { right: 24px; top: 50%; transform: translateY(-50%); font-size: 24px; line-height: 24px; color: var(--electric-color); content: "\f107"; font-weight: 400; font-family: "Font Awesome 6 Sharp"; position: absolute; }
+    ul.main-menu > li.menu-item-has-children > a::after { right: 24px; top: 50%; transform: translateY(-50%); font-size: 1.5rem; line-height: 1.5rem; color: var(--electric-color); content: "\f107"; font-weight: 400; font-family: "Font Awesome 6 Sharp"; position: absolute; }
     ul.main-menu > li.menu-item-has-children > a.active::after{content: "\f106";}
     ul.main-menu > li > ul{margin: 0; display: none; padding: 25px 20px 5px; background-color: var(--midnight-color);}
     ul.main-menu > li > ul > li::before{display: none;}
@@ -142,7 +142,7 @@
     ul.main-menu > li.nav-item > ul > li:nth-last-child(2){margin-bottom: 0;}
     ul.main-menu > li.nav-item > ul > li::before{display: none;}
     ul.main-menu > li.nav-item > ul > li:last-child{display: none;}
-    ul.main-menu > li.nav-item > ul > li > a{margin-bottom: 24px; color: var(--electric-color); font-size: 12px; line-height: 20px; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
+    ul.main-menu > li.nav-item > ul > li > a{margin-bottom: 24px; color: var(--electric-color); font-size: 0.75rem; line-height: 1.25rem; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 
     ul.main-menu > li.nav-item > ul > li > ul{margin: 0; display: block !important;}
     ul.main-menu > li.nav-item > ul > li > ul > li{margin: 0 0 23px;}

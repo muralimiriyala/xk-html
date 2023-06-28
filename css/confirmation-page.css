@@ -5,12 +5,12 @@
 .confirmation-head span{margin-bottom: 0;}
 .confirmation-head{margin-bottom: 26px;}
 .confirmation-image{margin-bottom: 24px;}
-.confirmation-text{font-size: 18px; line-height: 26px; letter-spacing: -0.36px;}
-.confirmation-text h1{font-size: 32px; line-height: 40px; letter-spacing: -0.68px;}
+.confirmation-text{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px;}
+.confirmation-text h1{font-size: 2rem; line-height: 2.5rem; letter-spacing: -0.68px;}
 .confirmation-text hr{margin: 23px 0 23px;}
 .confirmation-text p{margin-bottom: 24px;}
 .confirmation-text a span{color : var(--white);}
-.confirmation-right h2{margin-bottom: 85px; font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
+.confirmation-right h2{margin-bottom: 85px; font-size: 2.5rem; line-height: 3rem; letter-spacing: -0.8px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .confirmation-main{gap: 96px;}
@@ -39,7 +39,7 @@
     .confirmation-icon{flex: 0 0 24px;}
     .confirmation-head span{flex: 0 0 calc(100% -34px);}
     .confirmation-right{padding: 20px;}
-    .confirmation-right h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 44px;}
+    .confirmation-right h2{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px; margin-bottom: 44px;}
     .confirmation-image{margin-bottom: 22px;}
     .confirmation-image img{width: 100%;}
 

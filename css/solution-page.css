@@ -5,7 +5,7 @@
 .solutions-repeater-list{padding-bottom: 56px;}
 .solutions-xk-shape { width: 515.93px; height: 396.17px; left: -258px; top: 81px; background-image: url('./images/xk-shape.svg'); background-repeat: no-repeat; background-size: contain; position: absolute; z-index: 1; }
 .solutions-repeater-text span.optional-text{margin-bottom: 39px;}
-.solutions-repeater-text h2{margin-bottom: 42px; font-size: 32px; line-height: 40px;}
+.solutions-repeater-text h2{margin-bottom: 42px; font-size: 2rem; line-height: 2.5rem;}
 .solutions-repeater-text p{margin-bottom: 24px;}
 .solutions-repeater-text .button{margin-top: 17px;}
 
@@ -20,10 +20,10 @@ ul.blog_list{margin: 0;}
 .stats-section{background-color: var(--light-gray-color);}
 .stats-main{padding: 80px 0 80px;}
 .stats-head{margin-bottom: 80px;}
-.stats-title{font-size: 18px; line-height: 26px;}
+.stats-title{font-size: 1.125rem; line-height: 1.625rem;}
 .stats-title h2{margin-bottom: 16px;}
 .stats-post-text{padding: 49px 40px 40px; background-color: var(--white);}
-.stats-post-text h2{font-size: 32px; line-height: 40px;}
+.stats-post-text h2{font-size: 2rem; line-height: 2.5rem;}
 .stats-post-main{margin-bottom: 80px;}
 body.page-template-solutions .training-row{margin-bottom: 0;}
 .stats-post-image{z-index: 2;}
@@ -67,7 +67,7 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
 
     .stats-post-image{flex: 0 0 580px;}
     .stats-post-text{flex: 0 0 calc(100% - 580px); min-width: 580px; transform: translateX(-196px);}
-    .stats-post-text h2 {font-size: 28px; line-height: 32px;}
+    .stats-post-text h2 {font-size: 1.75rem; line-height: 2rem;}
     .stats-post-thumb img{min-height: 484px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -90,15 +90,15 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
 
     .solutions-xk-shape{ width: 310.93px; height: 383.17px; left: -157px; top: 41px;}
 
-    .solutions-repeater-text{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
-    .solutions-repeater-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 24px;}
+    .solutions-repeater-text{font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -0.28px;}
+    .solutions-repeater-text h2{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px; margin-bottom: 24px;}
     .solutions-repeater-text .button{width: 100%; margin-top: 0;}
     .solutions-repeater-text span.optional-text {margin-bottom: 24px;}
     .solutions-repeater-list {padding-bottom: 40px;}
 
     .solutions-feature-list{padding: 40px 0 0; display: block;}
     .solutions-feature-mobile{margin-bottom: 40px;}
-    .solutions-feature-text{margin-bottom: 40px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+    .solutions-feature-text{margin-bottom: 40px; font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -0.28px;}
     .reverse .solutions-feature-list {padding: 20px 0 0px; display: block;}
     .reverse .solutions-repeater-list {padding: 40px 0;}
     .reverse .solutions-feature-image{margin-bottom: 80px;}
@@ -106,10 +106,10 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
 
     .stats-main {padding: 40px 0 0;}
     .stats-head{margin-bottom:64px;}
-    .stats-title h2{margin-bottom: 40px; font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+    .stats-title h2{margin-bottom: 40px; font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px;}
     .stats-btn{margin-top: 40px;}
     .stats-post-text {padding: 20px; max-width: 295px; margin: 0 auto; margin-top: -30px; position: relative;}
-    .stats-post-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+    .stats-post-text h2{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px;}
     .stats-post-main {margin-bottom: 64px;}
     .trusted-logos-text span.optional-text.black{padding: 0;}
 }

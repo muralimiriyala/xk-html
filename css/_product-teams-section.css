@@ -10,14 +10,14 @@
 .product-teams-btn img{width: 100%; object-fit: cover;}
 
 .product-detail-main{margin-bottom: 80px; background-color: var(--white);}
-.product-detail-text{padding: 48px; font-size: 14px; line-height: 22px;}
-.product-detail-text h2{font-size: 32px; line-height: 40px; }
+.product-detail-text{padding: 48px; font-size: 0.875rem; line-height: 1.375rem;}
+.product-detail-text h2{font-size: 2rem; line-height: 2.5rem; }
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
     .product-teams-main .newsletter-main{padding-bottom: 0;}
     .product-teams-main{background-image: url("./images/xk-radar-gray-bg.svg");}
-    .product-teams-head h2{font-size: 32px; line-height: 40px;}
+    .product-teams-head h2{font-size: 2rem; line-height: 2.5rem;}
 }
 @media only screen and (min-width: 1024px){ 
     .product-teams-main{padding: 77px 80px 82px;}
@@ -46,11 +46,11 @@
     .product-teams-row{display: block; padding: 0;}
     .product-teams-text{padding: 0 16px;}
     .product-teams-desc {padding: 23px 0 24px;}
-    .product-teams-head h2{font-size: 24px; line-height: 28px;}
+    .product-teams-head h2{font-size: 1.5rem; line-height: 1.75rem;}
     .product-teams-list{margin-bottom: 24px;}
     .product-detail-main{margin-bottom: 24px;}
     .product-detail-text{padding: 24px;}
-    .product-detail-text h2 {font-size: 24px; line-height: 28px; margin-bottom: 16px;}
+    .product-detail-text h2 {font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 16px;}
 }
 
 

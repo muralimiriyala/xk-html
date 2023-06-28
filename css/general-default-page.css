@@ -1,5 +1,5 @@
 
-.general-default-main{ font-size: 16px; line-height: 32px; color: var(--slate-color);}
+.general-default-main{ font-size: 1rem; line-height: 2rem; color: var(--slate-color);}
 .general-default-main h3{padding-left: 18px; position: relative;}
 .general-default-main h3::before{width: 2px; height: 100%; top: 3px; left: 0; content: ""; display: block; position: absolute; background-color: var(--electric-color); position: absolute;}
 .general-default-main h4{padding-left: 18px; position: relative;}
@@ -9,8 +9,8 @@
 .general-product-main{background-color: var(--white);}
 .general-product-list h3{padding-left: 0;}
 .general-product-list h3::before{display: none;}
-.general-product-text{font-size: 14px; line-height: 22px;}
-.general-product-text h2{font-size: 32px; line-height: 40px;}
+.general-product-text{font-size: 0.875rem; line-height: 1.375rem;}
+.general-product-text h2{font-size: 2rem; line-height: 2.5rem;}
 .post-default-content .general-product-text h2::before{display: none;}
 .general-product-text ul{margin-bottom: 24px;}
 .general-product-text ul li{margin-bottom: 0;}

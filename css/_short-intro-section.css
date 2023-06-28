@@ -1,7 +1,7 @@
 .short-intro-main{padding: 80px 0 80px;}
-.short-intro-head{font-size: 16px; line-height: 32px; letter-spacing: -0.32px; margin-bottom: 76px;}
+.short-intro-head{font-size: 1rem; line-height: 2rem; letter-spacing: -0.32px; margin-bottom: 76px;}
 .short-intro-title span{margin-bottom: 44px;}
-.short-intro-title h2{margin-bottom: 50px; color: var(--black);   font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
+.short-intro-title h2{margin-bottom: 50px; color: var(--black);   font-size: 2.5rem; line-height: 3rem; letter-spacing: -0.8px;}
 .short-intro-title h2:last-child{margin-bottom: 0;}
 .short-intro-desc p{padding: 0;}
 .short-intro-desc{padding: 0 80px;}
@@ -10,7 +10,7 @@
 .short-intro-line.right{right: 0; bottom: 0;}
 .short-intro-icon{margin-bottom: 18px; max-width: 24px;}
 .short-intro-icon img{width: 100%; object-fit: cover;}
-.short-intro-text{font-size:14px; line-height: 22px; color: var(--slate-color);}
+.short-intro-text{font-size:14px; line-height: 1.375rem; color: var(--slate-color);}
 .short-intro-text p:not(:last-child){margin-bottom: 18px;}
 .short-intro-text .text-link{opacity: 0.75;}
 .career-intro .short-intro-main{padding: 40px 0 80px;}
@@ -45,8 +45,8 @@
     .short-intro-head{margin-bottom: 35px; display: block;}
     .short-intro-title{margin-bottom: 43px;}
     .short-intro-title span{margin-bottom: 22px;}
-    .short-intro-title h2{font-size: 40px; line-height: 48px; letter-spacing: -0.8px;}
-    .short-intro-desc{padding: 0 20px; font-size: 14px; line-height: 28px; letter-spacing: -0.28px; display: block;}
+    .short-intro-title h2{font-size: 2.5rem; line-height: 3rem; letter-spacing: -0.8px;}
+    .short-intro-desc{padding: 0 20px; font-size: 0.875rem; line-height: 1.75rem; letter-spacing: -0.28px; display: block;}
     .short-intro-list{margin-bottom: 56px;}
     .short-intro-list:last-child{margin-bottom: 0;}
     .short-intro-icon{margin-bottom: 15px;}

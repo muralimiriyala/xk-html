@@ -1,6 +1,6 @@
 
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
-body .request-demo-form .with_frm_style .frm_form_field.frm_html_container#frm_field_42_container{color: var(--black); font-size: 20px; line-height: 24px; font-family: 'Graphik-Bold', sans-serif;}
+body .request-demo-form .with_frm_style .frm_form_field.frm_html_container#frm_field_42_container{color: var(--black); font-size: 1.25rem; line-height: 1.5rem; font-family: 'Graphik-Bold', sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 40px; position: relative; clear: both;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 18px;}
 body .request-demo-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio#frm_field_44_container{margin-top: 40px;}
@@ -9,9 +9,9 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio#frm_field_40_con
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{margin: 0; padding: 0; display: none;}
 body .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block;}
-body .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label{display: block; font-size: 12px; line-height: 12px; font-family: "Gotham-Medium", sans-serif; color: var(--slate-50); opacity: 0; top: 22px; left: 0; position: absolute; text-transform: capitalize; transition: all 0.45s ease-in-out; z-index: -1;}
+body .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label{display: block; font-size: 0.75rem; line-height: 0.75rem; font-family: "Gotham-Medium", sans-serif; color: var(--slate-50); opacity: 0; top: 22px; left: 0; position: absolute; text-transform: capitalize; transition: all 0.45s ease-in-out; z-index: -1;}
 body .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.active{opacity: 1; top: -3px;}
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{height: auto; padding: 16px 50px 15px 16px; font-size: 16px; line-height: 24px; font-weight: normal; letter-spacing: normal; font-family: 'Gotham-Medium', sans-serif; color: var(--midnight-color); border-radius: 0; -webkit-border-radius: 0; background-color: transparent; box-shadow: none; text-transform: none; border: 2px solid transparent; border-bottom-color: var(--midnight-60);}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea{height: auto; padding: 16px 50px 15px 16px; font-size: 1rem; line-height: 1.5rem; font-weight: normal; letter-spacing: normal; font-family: 'Gotham-Medium', sans-serif; color: var(--midnight-color); border-radius: 0; -webkit-border-radius: 0; background-color: transparent; box-shadow: none; text-transform: none; border: 2px solid transparent; border-bottom-color: var(--midnight-60);}
 body .frm_forms .frm_form_fields .frm_form_field input.focused{background-size: 24px 25px; background-position: 98% 50%; background-image: url("./images/check.svg"); background-repeat: no-repeat; transition: none;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
 body .frm_forms .frm_form_fields .frm_form_field input.hide-placeholder::placeholder{opacity: 0; transition: all 0.45s ease-in-out;}
@@ -24,7 +24,7 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 8px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 30px; font-family: 'Graphik-Regular'; cursor: pointer; display: block; font-size: 1rem; line-height: 1.5; text-indent: 0; color: var(--black); position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 20px; height: 20px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding-left: 30px; margin: 0; text-indent: 0; font-size: 16px; line-height: 20px; font-family: 'Gotham-Medium', sans-serif; display: block; cursor: pointer; color: var(--midnight-color);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding-left: 30px; margin: 0; text-indent: 0; font-size: 1rem; line-height: 1.25rem; font-family: 'Gotham-Medium', sans-serif; display: block; cursor: pointer; color: var(--midnight-color);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{margin: 0; top: 50%; transform: translateY(-50%); border-radius: 0; background-color: var(--midnight-color); background-image: none;}
 
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 8px; height: 8px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--electric-color);}
@@ -36,7 +36,7 @@ body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%; text-transform: uppercase;}
 
-body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 10px; line-height: 14px; color: var(--error); position: absolute;}
+body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.625rem; line-height: 0.875rem; color: var(--error); position: absolute;}
 body .with_frm_style .frm_message, .frm_success_style{font-weight: 700; color: var(--black); border: none; background: none; text-align: center; } 
 body .with_frm_style .frm_message p{color: var(--black);}
 
@@ -45,7 +45,7 @@ body .with_frm_style .frm_message p{color: var(--black);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox{margin-bottom: 10px; position: relative;}
 body .with_frm_style .frm_loading_prev .frm_prev_page, body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important; background-color: var(--black);}
 body .frm_forms .frm_verify{display: none;}
-body .with_frm_style .frm_form_field.frm_html_container{font-size: 14px; line-height: 20px; color: var(--black-75); font-family: 'Graphik-Regular', sans-serif;}
+body .with_frm_style .frm_form_field.frm_html_container{font-size: 0.875rem; line-height: 1.25rem; color: var(--black-75); font-family: 'Graphik-Regular', sans-serif;}
 .frm_field_wrapper{margin-top: 39px; gap: 20px; justify-content: space-between; flex-direction: row-reverse;}
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, button{margin: 0; text-transform: none;}
 .frm-g-recaptcha{height: 78px; overflow: hidden;}

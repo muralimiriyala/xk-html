@@ -1,6 +1,6 @@
 .product-banner-section::after{background-color: var(--light-gray-color); width: 100%; height: calc(100% - 68px); content: ""; position: absolute; top: 0; left: 0; z-index: -1;}
 .product-banner-main{padding-top: 14px;}
-.product-banner-text{font-size: 20px; line-height: 32px; letter-spacing: -0.4px; font-family: 'Gotham-Book',sans-serif;}
+.product-banner-text{font-size: 1.25rem; line-height: 2rem; letter-spacing: -0.4px; font-family: 'Gotham-Book',sans-serif;}
 .product-banner-text h1{font-family: 'Gotham-Bold',sanserif;}
 .product-banner-thumb img{max-width: 377px;}
 
@@ -23,7 +23,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .product-banner-section::after{height: 100%;}
-    .product-banner-text h1{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 24px; font-family: 'Gotham-Medium',sans-serif;}
-    .product-banner-text {font-size: 16px; line-height: 24px; letter-spacing: -0.32px;}
+    .product-banner-text h1{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px; margin-bottom: 24px; font-family: 'Gotham-Medium',sans-serif;}
+    .product-banner-text {font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
     .product-banner-thumb img{max-width: 329px;}
 }

@@ -2,22 +2,22 @@
 
 .product-finder-main{padding: 96px 0 80px; background-color: var(--light-gray-color); background-repeat: no-repeat; background-size: cover;}
 .product-finder-list{padding: 17px 16px; background-color: var(--white);}
-.product-finder-text{border-left: 1px solid var(--electric-color); padding-left: 16px; font-size: 14px; line-height: 22px; color: var(--slate-color);}
+.product-finder-text{border-left: 1px solid var(--electric-color); padding-left: 16px; font-size: 0.875rem; line-height: 1.375rem; color: var(--slate-color);}
 .product-finder-text .sub-heading{margin-bottom: 0;}
-.product-finder-btns .button{width: 48px; height: 48px; padding: 0; font-size: 24px; line-height: 28px; color: var(--white);}
+.product-finder-btns .button{width: 48px; height: 48px; padding: 0; font-size: 1.5rem; line-height: 1.75rem; color: var(--white);}
 .product-finder-btns .button.electric{color: var(--midnight-color);}
 .product-finder-btns .button.electric:hover{color: var(--white);}
 .product-finder-btns .button span{padding-left: 5px;}
 
-body.page-template-product .product-finder-btns .product-xk300{font-size: 12px; line-height: 20px; letter-spacing: -0.28px; color: var(--slate-color); border-left: 2px solid var(--electric-color); border-right: 2px solid var(--electric-color); padding: 0 14px;}
+body.page-template-product .product-finder-btns .product-xk300{font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.28px; color: var(--slate-color); border-left: 2px solid var(--electric-color); border-right: 2px solid var(--electric-color); padding: 0 14px;}
 body.page-template-product .product-finder-btns .product-xk300 p{margin-bottom: 0;}
-body.page-template-product .product-finder-btns .prod-find-heading{font-size: 18px; line-height: 22px; letter-spacing: -0.36px; font-family: 'Gotham-Medium',sanserif;}
+body.page-template-product .product-finder-btns .prod-find-heading{font-size: 1.125rem; line-height: 1.375rem; letter-spacing: -0.36px; font-family: 'Gotham-Medium',sanserif;}
 
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
     .product-finder-main{background-image: url("./images/xk-radar-gray-bg.svg");}
-    .product-finder-head h2{font-size: 32px; line-height: 40px; margin-top: 39px;}
+    .product-finder-head h2{font-size: 2rem; line-height: 2.5rem; margin-top: 39px;}
 }
 @media only screen and (min-width: 1024px){ 
     .product-finder-wrap{padding: 78px 0 0;}
@@ -43,7 +43,7 @@ body.page-template-product .product-finder-btns .prod-find-heading{font-size: 18
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .product-finder-wrap{padding: 40px 0 40px;}
     .product-finder-main{padding: 32px 20px 40px; background-image: url("./images/xk-radar-gray-mobile-bg.svg");}
-    .product-finder-head h2{font-size: 20px; line-height: 24px;}
+    .product-finder-head h2{font-size: 1.25rem; line-height: 1.5rem;}
     .product-finder-row{padding-bottom: 30px;}
     .product-finder-list{display: block; margin-bottom: 20px;}
     .product-finder-list:last-child{margin-bottom: 0;}

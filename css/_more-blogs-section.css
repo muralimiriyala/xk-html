@@ -1,13 +1,13 @@
 
 .more-blogs-section{background-color: var(--light-gray-color); position: relative; z-index: 9;}
 .more-blogs-list{background-color: var(--white);}
-.more-blogs-text{padding: 33px 32px 32px; color: var(--midnight-color); font-size: 20px; line-height: 32px;}
+.more-blogs-text{padding: 33px 32px 32px; color: var(--midnight-color); font-size: 1.25rem; line-height: 2rem;}
 .more-blogs-text p:not(:last-child){margin-bottom: 101px;}
 .more-blogs-text p a{color: var(--midnight-color);}
 .more-blogs-text p a:hover{color: var(--electric-color);}
-.custom-date{margin-bottom: 20px; gap: 8px; font-size: 10px; line-height: 12px; letter-spacing: 0.2em;}
+.custom-date{margin-bottom: 20px; gap: 8px; font-size: 0.625rem; line-height: 0.75rem; letter-spacing: 0.2em;}
 .additional-news-text .custom-date{margin-bottom: 8px;}
-.date-icon{color: var(--electric-color); font-size: 12px; top: -1px; position: relative;}
+.date-icon{color: var(--electric-color); font-size: 0.75rem; top: -1px; position: relative;}
 .date-icon-text{color: var(--slate-color);}
 .more-blogs-text .tag-links-main{margin-top: auto;}
 

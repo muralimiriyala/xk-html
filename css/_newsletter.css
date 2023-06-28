@@ -6,7 +6,7 @@
 .newsletter-form .frm_forms .frm_form_fields .frm_fields_container{position: relative;}
 .newsletter-form .frm_forms .frm_form_fields .frm_form_field{margin: 0;}
 .newsletter-form .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {display: none;}
-body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input { font-size: 14px; padding: 16px 126px 15px 48px; line-height: 22px; background-position: 16px 13px; background-image: url('./images/email-icon.svg'); background-repeat: no-repeat; background-size: 24px 24px; }
+body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input { font-size: 0.875rem; padding: 16px 126px 15px 48px; line-height: 1.375rem; background-position: 16px 13px; background-image: url('./images/email-icon.svg'); background-repeat: no-repeat; background-size: 24px 24px; }
 body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input:focus{border-width: 2px; border-color: transparent; border-bottom-color: var(--electric-color);}
 body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-placeholder::placeholder{opacity: 1; transition: all 0.45s ease-in-out;}
 .newsletter-form  .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder {color: var(--midnight-color); font-family: 'Gotham-Book', sans-serif;}
@@ -16,7 +16,7 @@ body .newsletter-form .frm_forms .frm_form_fields .frm_form_field input.hide-pla
 
 .newsletter-form .frm_forms .frm_form_fields .frm_submit{right: 0; top: 0; height: 100%; position: absolute;}
 .newsletter-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{height: 100%; text-transform: uppercase;}
-.newsletter_disclaimer{margin-top: 19px; font-size: 12px; line-height: 20px; color: var(--midnight-50);}
+.newsletter_disclaimer{margin-top: 19px; font-size: 0.75rem; line-height: 1.25rem; color: var(--midnight-50);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

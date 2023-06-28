@@ -3,14 +3,14 @@ body .cky-consent-container{left: auto; right: 40px;}
 body .cky-notice .cky-title{font-family: 'Gotham-Bold', sans-serif; font-weight: normal; color: var(--midnight-color);}
 body .cky-consent-bar .cky-notice-des p, body .cky-gpc-wrapper .cky-gpc-desc p, body .cky-preference-body-wrapper .cky-preference-content-wrapper p, body .cky-accordion-header-wrapper .cky-accordion-header-des p, body .cky-cookie-des-table li div:last-child p{font-family: 'Gotham-Book', sans-serif; color: var(--black); font-size: 1rem; line-height: 1.5; font-weight: normal; }
 body .cky-notice-btn-wrapper{gap: 20px;}
-body .cky-notice-btn-wrapper .cky-btn, body .cky-prefrence-btn-wrapper .cky-btn{padding: 8px 17px 9px; margin: 0; font-size: 14px; line-height: 1.5; font-weight: normal; font-family: "Gotham-Medium", sans-serif; letter-spacing: 0.2em; border-radius: 0; background: var(--electric-color) !important; color: var(--midnight-color) !important; border: none !important; text-transform: uppercase; transition: all 0.45s ease-in-out;}
+body .cky-notice-btn-wrapper .cky-btn, body .cky-prefrence-btn-wrapper .cky-btn{padding: 8px 17px 9px; margin: 0; font-size: 0.875rem; line-height: 1.5; font-weight: normal; font-family: "Gotham-Medium", sans-serif; letter-spacing: 0.2em; border-radius: 0; background: var(--electric-color) !important; color: var(--midnight-color) !important; border: none !important; text-transform: uppercase; transition: all 0.45s ease-in-out;}
 body .cky-notice-btn-wrapper .cky-btn:hover, body .cky-prefrence-btn-wrapper .cky-btn:hover{opacity: 1; background: var(--midnight-color) !important; color: var(--electric-color) !important;}
 body .cky-notice-btn-wrapper .cky-btn:hover:after{background-color: transparent;}
 body .cky-notice-btn-wrapper .cky-btn.cky-btn-accept,  body .cky-prefrence-btn-wrapper .cky-btn-accept{background: var(--midnight-color) !important; border: none !important; color: var(--electric-color) !important;}
 body .cky-notice-btn-wrapper .cky-btn.cky-btn-accept:hover,  body .cky-prefrence-btn-wrapper .cky-btn-accept:hover{background: var(--electric-color) !important; color: var(--midnight-color) !important;}
 
 body .cky-prefrence-btn-wrapper{gap: 20px;}
-body .cky-accordion-header .cky-accordion-btn{ margin-bottom: 22px; color: var(--midnight-50); font-size: 14px; line-height: 22px; letter-spacing: 2.8px; font-weight: 400; display: block; font-family: "Gotham-Bold", sans-serif; text-transform: uppercase;}
+body .cky-accordion-header .cky-accordion-btn{ margin-bottom: 22px; color: var(--midnight-50); font-size: 0.875rem; line-height: 1.375rem; letter-spacing: 2.8px; font-weight: 400; display: block; font-family: "Gotham-Bold", sans-serif; text-transform: uppercase;}
 
 
 @media only screen and (max-width: 767px) and (min-width: 200px){

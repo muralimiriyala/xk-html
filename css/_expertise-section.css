@@ -1,8 +1,8 @@
 
 
 .expertise-main{padding: 80px 0;}
-.expertise-text{font-size: 14px; line-height: 22px; color: var(--midnight-color);}
-.number{margin-bottom: 21px; font-size: 96px; line-height: 96px; color: transparent; -webkit-text-stroke-color: var(--midnight-color); -webkit-text-stroke-width: 1px; display: block; animation: flipAnim 5s infinite ease-in-out;}
+.expertise-text{font-size: 0.875rem; line-height: 1.375rem; color: var(--midnight-color);}
+.number{margin-bottom: 21px; font-size: 6rem; line-height: 6rem; color: transparent; -webkit-text-stroke-color: var(--midnight-color); -webkit-text-stroke-width: 1px; display: block; animation: flipAnim 5s infinite ease-in-out;}
 @keyframes flipAnim{
     0%{
         filter: drop-shadow(4px 4px 0 var(--white-50)); 
@@ -14,7 +14,7 @@
         filter: drop-shadow(4px 4px 0 var(--white-50));      
     }
 }
-.expertise-heading{margin-bottom: 16px; font-size: 24px; line-height: 28px; color: var(--midnight-color); display: block;}
+.expertise-heading{margin-bottom: 16px; font-size: 1.5rem; line-height: 1.75rem; color: var(--midnight-color); display: block;}
 .expertise-text p{margin-bottom: 14px;}
 
 body.page-template-product .expertise-section{background-color: var(--light-gray-color);}
@@ -45,7 +45,7 @@ body.page-template-company .expertise-main{padding: 75px 0 80px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){ 
     .expertise-main{padding: 40px 0;}
-    .expertise-title h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 40px;}
+    .expertise-title h2{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px; margin-bottom: 40px;}
     .expertise-head{margin-bottom: 64px;}
     .expertise-list{margin-bottom: 24px;}
     .expertise-list:last-child{margin-bottom: 0;}

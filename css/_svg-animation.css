@@ -10,9 +10,9 @@
 .anim-play-state-wave .radio-wave{
     animation-play-state: running;
 }
-.wave-g-1{ animation-delay: 8s;}
-.wave-g-2{ animation-delay: 6s; }
-.wave-g-3{ animation-delay: 4s; }
+.wave-g-1{ animation-delay: 5s;}
+.wave-g-2{ animation-delay: 4s; }
+.wave-g-3{ animation-delay: 3s; }
 .wave-g-4{ animation-delay: 2s; }
 .wave-g-5{ animation-delay: 1s; }
 .wave-g-6{ animation-delay: 0.5s; }
@@ -38,11 +38,10 @@
     }
 }
 svg .clone-st0 {
-	animation: cloneRotate 8s ease-in-out alternate infinite;
-	/* fill: transparent; */
+	animation: cloneRotate 10s ease-in-out alternate infinite;
 	stroke-linecap: round;
 	stroke-linejoin: round;
-	transition: 0.45s;
+	transition: 0.5s all ease;
     animation-play-state: paused; 
 }
 .anim-play-state-clone svg .clone-st0{
@@ -51,24 +50,23 @@ svg .clone-st0 {
 @keyframes cloneRotate{
     0% {
         stroke-width: 0.5px;
-        stroke-dasharray: 0;
-        stroke-dashoffset: 0;
-        stroke: blue;
-    }
-    50%{
-        stroke-width: 1px;
         stroke-dasharray: 500;
         stroke-dashoffset: 1000;
-        stroke: green
+        stroke: var(--electric-color);
+    }
+    50%{
+        stroke-width: 0.5px;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        stroke: var(--white-50)
     }
     100%{
         stroke-width: 0.5px;
-        stroke-dasharray: 0;
-        stroke-dashoffset: 1000;
-        stroke: red;
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        stroke: var(--electric-50);
     }
 }
-
 .big-feature-estate-svg-1 svg .clone-st0{
     animation: cloneRotate1 8s ease-in-out alternate infinite;
 }

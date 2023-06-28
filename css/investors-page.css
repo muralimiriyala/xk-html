@@ -1,7 +1,7 @@
 
 .financial-section{background-color: var(--light-gray-color);}
 .financial-main{padding: 78px 0 80px;}
-.financial-text h2{font-size: 32px; font-weight: 500; line-height: 1.25; letter-spacing: -0.64px;}
+.financial-text h2{font-size: 2rem; font-weight: 500; line-height: 1.25; letter-spacing: -0.64px;}
 .financial-text p{line-height: 1.5; letter-spacing: -0.32px; color: var(--midnight-color);}
 .financial-form-field{margin-bottom: 20px;}
 
@@ -9,7 +9,7 @@
 .financial-qlinks{margin: 0; justify-content: flex-end; align-items: center; gap: 20px;}
 .financial-qlinks li{margin: 0;}
 .financial-qlinks li::before{display: none;}
-.financial-qlinks li > a{width: 56px; height: 46px; padding: 12px 16px; display: block; text-align: center; font-size: 18px; font-weight: 500; line-height: 1.22; letter-spacing: -0.36px; color: var(--midnight-color); }
+.financial-qlinks li > a{width: 56px; height: 46px; padding: 12px 16px; display: block; text-align: center; font-size: 1.125rem; font-weight: 500; line-height: 1.22; letter-spacing: -0.36px; color: var(--midnight-color); }
 .financial-qlinks li > a.active{background-color: var(--midnight-color); color: var(--white);}
 .financial-qlinks li > a:hover{background-color: var(--midnight-color); color: var(--white);}
 
@@ -19,7 +19,7 @@
 .financial-list:last-child{margin-bottom:0;}
 .financial-list-heading h5{margin-bottom: 10px;}
 ul.category-links{margin: 0;}
-ul.category-links li{font-size: 12px; line-height: 16px; color: var(--slate-color); font-family: 'Gotham-Medium', sanserif; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0;}
+ul.category-links li{font-size: 0.75rem; line-height: 1rem; color: var(--slate-color); font-family: 'Gotham-Medium', sanserif; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0;}
 ul.category-links li > a{color: var(--slate-color);}
 ul.category-links li > a:hover{color: var(--electric-color);}
 

@@ -1,71 +1,71 @@
 
 .knowledge-post-main{padding: 80px 0;}
 .knowledge-post-top h1{font-family: 'Gotham-Bold',sans-serif;}
-.knowledge-post-article{font-size: 16px; line-height: 32px;}
+.knowledge-post-article{font-size: 1rem; line-height: 2rem;}
 ul.breadcrumbs{margin: 0 0 50px; gap: 20px 34px;} 
-ul.breadcrumbs li{margin: 0; color: var(--midnight-50); font-size: 16px; line-height: 24px;}
+ul.breadcrumbs li{margin: 0; color: var(--midnight-50); font-size: 1rem; line-height: 1.5rem;}
 ul.breadcrumbs li::before{display: none;}
 ul.breadcrumbs li::after{content: "/"; top: 0px; right: -19px; color: var(--electric-color); position: absolute;}
 ul.breadcrumbs li:last-child::after{display: none;}
 ul.breadcrumbs li a{color: var(--midnight-color);}
 ul.breadcrumbs li a:hover{color: var(--electric-color);}
 .knowledge-post-article h1{margin-bottom: 56px; letter-spacing: -0.96px; font-family: 'Gotham-Bold',sans-serif;}
-.knowledge-post-article h2{padding-left: 16px; position: relative; font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+.knowledge-post-article h2{padding-left: 16px; position: relative; font-size: 2rem; line-height: 2.5rem; letter-spacing: -0.64px;}
 .knowledge-post-article h2::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
 .knowledge-post-article p:not(:last-child, .footnotes-desc p){margin-bottom: 16px;}
 
 .signup-wrap{padding: 64px 40px; margin: 80px 0; background-image: url("images/signup-bg.svg"); background-repeat: no-repeat; background-size: cover;}
 .signup-main{background-color: white; padding: 38px 32px;}
-.signup-text{padding-left: 15px; border-left: 1px solid var(--electric-color); font-size: 24px; line-height: 28px; letter-spacing: -0.28px; font-family: 'Gotham-Medium',sans-serif;}
+.signup-text{padding-left: 15px; border-left: 1px solid var(--electric-color); font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.28px; font-family: 'Gotham-Medium',sans-serif;}
 
 .aside-icon{color: var(--link-color);}
-.aside-text{font-size: 10px; line-height: 12px; letter-spacing: 2px; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
+.aside-text{font-size: 0.625rem; line-height: 0.75rem; letter-spacing: 2px; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 
-.knowledge-post-article h3{padding-left: 16px; position: relative; font-size: 24px; line-height: 28px; letter-spacing: -0.48px;}
+.knowledge-post-article h3{padding-left: 16px; position: relative; font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px;}
 .knowledge-post-article h3::before{content: ""; display: block; width: 2px; height: 100%; top: 0; left: 0; background-color: var(--electric-color); position: absolute;}
-.post-feature-point{font-size: 14px; line-height: 22px; letter-spacing: -.28px; color: var(--slate-color); z-index: 1;}
+.post-feature-point{font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -.28px; color: var(--slate-color); z-index: 1;}
 .post-feature-bg{width: 100%; height: 100%; top: 0; left: 0; background-color: var(--white); opacity: .75; position: absolute; z-index: -1; -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); }
-.post-feature-point span{font-size: 14px; line-height: 22px; letter-spacing: 2.8px; text-transform: uppercase; color: var(--midnight-color); opacity: 0.5; font-family: 'Gotham-Bold',sanserif; margin-bottom: 24px; display: block;}
-.post-feature-point p{font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+.post-feature-point span{font-size: 0.875rem; line-height: 1.375rem; letter-spacing: 2.8px; text-transform: uppercase; color: var(--midnight-color); opacity: 0.5; font-family: 'Gotham-Bold',sanserif; margin-bottom: 24px; display: block;}
+.post-feature-point p{font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -0.28px;}
 .post-feature-line{left: 0; top: 50%; transform: translateY(-50%); width: 1px; height: 100%; background-color: var(--electric-color); position: absolute;}
 
 .post-note-main{padding: 36px 36px 31px; border: 12px solid var(--light-blue); margin : 80px 0;}
 .post-note-head{margin-bottom: 24px; gap: 8px;}
 .post-note-thumb{flex: 0 0 24px; top: -2px; position: relative;}
-.post-note-title{flex: 0 0 calc(100% - 32px); font-size: 20px; line-height: 24px; letter-spacing: -0.4px;}
-.post-note-main p{font-size: 20px; line-height: 32px; letter-spacing: -0.8px; margin-bottom: 24px;}
+.post-note-title{flex: 0 0 calc(100% - 32px); font-size: 1.25rem; line-height: 1.5rem; letter-spacing: -0.4px;}
+.post-note-main p{font-size: 1.25rem; line-height: 2rem; letter-spacing: -0.8px; margin-bottom: 24px;}
 
 .post-product-main{padding: 80px; margin: 80px 0; background-image: url("images/post-product-bg.svg");}
 .post-product-image{border-bottom: 2px solid var(--electric-color);}
 .post-product-text{background-color: var(--white); padding: 48px 0;}
 .post-product-text h2{padding-left:0;}
 .post-product-text h2::before{display: none;}
-.post-product-text p{font-size: 14px; line-height: 22px; letter-spacing: -0.28px; font-family: 'Gotham-Book',sans-serif;}
-.post-product-text ul li{margin-bottom: 0; font-size: 14px; line-height: 22px; letter-spacing: -0.28px;}
+.post-product-text p{font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -0.28px; font-family: 'Gotham-Book',sans-serif;}
+.post-product-text ul li{margin-bottom: 0; font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -0.28px;}
 .post-product-text ul li::before{top: 10px;}
 
 .article-helpful-wrap{padding: 64px 40px; margin: 80px 0; background-image: url("./images/signup-bg.svg"); background-repeat: no-repeat; background-size: cover;}
 .article-helpful-main{background-color: var(--white); padding: 33px 32px; }
 .article-helpful-text{padding-left: 16px; position: relative;}
 .article-helpful-text::before{ width: 1px; height: 100%; top: 50%; transform: translateY(-50%); left: 0; content: ""; display: block; background-color: var(--electric-color); position: absolute;}
-.article-helpful-text span{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; font-family: 'Gotham-Medium',sans-serif;}
-.article-helpful-btn{width: 48px; height: 48px; cursor: pointer; font-size: 24px; line-height: 24px; background-color: var(--midnight-color); color: var(--white); transition: all 0.45s ease-in-out;}
+.article-helpful-text span{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px; font-family: 'Gotham-Medium',sans-serif;}
+.article-helpful-btn{width: 48px; height: 48px; cursor: pointer; font-size: 1.5rem; line-height: 1.5rem; background-color: var(--midnight-color); color: var(--white); transition: all 0.45s ease-in-out;}
 .article-helpful-btn:hover{background-color: var(--electric-color);}
 
 .footnotes-main{padding: 0 0 71px;}
 .footnotes {font-family: 'Gotham-Bold',sans-serif;}
-.footnotes small{display: block; margin-bottom: 16px; font-size: 12px; line-height: 16px; letter-spacing: -0.24px; color: var(--slate-color);}
-.footnotes-desc{position: relative; padding-left: 32px; font-size: 12px; line-height: 20px; letter-spacing: -0.24px; font-family: 'Gotham-Book',sans-serif;}
+.footnotes small{display: block; margin-bottom: 16px; font-size: 0.75rem; line-height: 1rem; letter-spacing: -0.24px; color: var(--slate-color);}
+.footnotes-desc{position: relative; padding-left: 32px; font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.24px; font-family: 'Gotham-Book',sans-serif;}
 .footnotes-desc:before{content: ""; display: block; width: 1px; height: 100%; top: 0px; left: 0; background-color: var(--electric-color); position: absolute;}
 .footnotes-desc p{margin-bottom: 6px;}
-.footnotes-desc sup{font-family: 'Gotham-Bold', sans-serif; left: -7px; font-size: 8px; line-height: 20px; color: var(--midnight-color);}
+.footnotes-desc sup{font-family: 'Gotham-Bold', sans-serif; left: -7px; font-size: 0.5rem; line-height: 1.25rem; color: var(--midnight-color);}
 .footnotes-desc sup a{color: var(--midnight-color);}
 
 .knowledge-post-aside #ez-toc-container{padding: 0; border: none; background: none; box-shadow: none;}
 #ez-toc-container nav > ul{margin: 0;}
 #ez-toc-container nav > ul > li{margin: 0 0 16px;}
 #ez-toc-container nav > ul > li::before{display: none;}
-#ez-toc-container nav > ul > li > a{ padding: 7px 7px 8px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -.36px; font-family: Gotham-Medium; position: relative; text-decoration: none;}
+#ez-toc-container nav > ul > li > a{ padding: 7px 7px 8px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 1.125rem; line-height: 1.125rem; letter-spacing: -.36px; font-family: Gotham-Medium; position: relative; text-decoration: none;}
 #ez-toc-container nav > ul > li > a.active, #ez-toc-container nav > ul > li > a:hover{background-color: var(--electric-color); color: var(--midnight-color); text-decoration: none;}
 #ez-toc-container nav > ul > li > a::before{width: 8px; height: 8px; opacity: 0.25; left: 8px; top: 50%; transform: translateY(-50%); border: 4px solid var(--slate-color); display: flex; align-items: center; justify-content: center; background-color: var(--slate-color); border-radius: 50%; content: ""; position: absolute; transition: all 0.45s linear;}
 #ez-toc-container nav > ul > li > a.active::before, #ez-toc-container nav > ul > li > a:hover::before{border-color: var(--white); opacity: 1;}
@@ -73,7 +73,7 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 #ez-toc-container nav > ul > li > ul li{margin: 0 0 16px;}
 #ez-toc-container nav > ul > li > ul li:last-child{margin-bottom: 0;}
 #ez-toc-container nav > ul > li > ul li::before{display: none;}
-#ez-toc-container nav > ul > li > ul li a {padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 18px; line-height: 18px; letter-spacing: -.36px; font-family: Gotham-Medium; position: relative; text-decoration: none;}
+#ez-toc-container nav > ul > li > ul li a {padding: 7px 7px 7px 32px; display: block; background-color: transparent; color: var(--midnight-color); font-size: 1.125rem; line-height: 1.125rem; letter-spacing: -.36px; font-family: Gotham-Medium; position: relative; text-decoration: none;}
 #ez-toc-container nav > ul > li > ul li a:visited{color: var(--midnight-color);}
 #ez-toc-container nav > ul > li > ul li a.active, #ez-toc-container nav > ul > li > ul li a:hover{ background-color: var(--electric-color); text-decoration: none;}
 #ez-toc-container nav > ul > li > ul li a.active::before, #ez-toc-container nav > ul > li > ul li a:hover::before{border-color: var(--white); opacity: 1;}
@@ -82,7 +82,7 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 
 /* media  css starts here */
 @media only screen and (min-width: 768px){
-    .knowledge-post-top{font-size: 24px; line-height: 36px; margin-bottom: 15px;}
+    .knowledge-post-top{font-size: 1.5rem; line-height: 2.25rem; margin-bottom: 15px;}
     .post-feature-point{padding: 40px; top: 50%; transform: translateY(-50%); max-width: 335px; position: absolute; }
    .post-feature-wrap{padding: 38px 0 80px;}
 }
@@ -125,8 +125,8 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
     .article-helpful-btns{gap: 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .knowledge-post-top{margin-bottom: 44px; font-size: 20px; line-height: 32px;}
-    .knowledge-post-top h1{font-size: 32px; line-height: 40px; margin-bottom: 42px;}
+    .knowledge-post-top{margin-bottom: 44px; font-size: 1.25rem; line-height: 2rem;}
+    .knowledge-post-top h1{font-size: 2rem; line-height: 2.5rem; margin-bottom: 42px;}
     .knowledge-post-main{padding: 40px 0 31px; display: block;}
     .footnotes-main {padding: 40px 0 40px;}
     ul.breadcrumbs{margin: 0 0 33px;}
@@ -144,7 +144,7 @@ ul.breadcrumbs li a:hover{color: var(--electric-color);}
 
     .post-product-main{padding: 40px 20px; margin: 40px 0 70px;}
     .post-product-text{padding: 20px;}
-    .knowledge-post-article .post-product-text h2{font-size: 24px; line-height: 28px;}
+    .knowledge-post-article .post-product-text h2{font-size: 1.5rem; line-height: 1.75rem;}
     .post-product-text ul{margin: 24px 0 24px 25px;}
     .post-product-text .button{width: 100%;}
 

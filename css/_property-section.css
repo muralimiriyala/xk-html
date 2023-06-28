@@ -2,7 +2,7 @@
 .property-wrap{padding: 80px 0 156px;}
 .property-image{margin-bottom: 44px;}
 .property-text hr{max-width: 112px;}
-ul.property-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 20px; line-height: 24px; font-family: 'Gotham-Medium', sans-serif;}
+ul.property-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 1.25rem; line-height: 1.5rem; font-family: 'Gotham-Medium', sans-serif;}
 ul.property-links > li::before{display: none;}
 .property-icon{flex: 0 0 24px; width: 24px;}
 .property-icon-text{flex: 0 0 calc(100% - 42px);}
@@ -37,9 +37,9 @@ ul.property-links > li::before{display: none;}
     .property-wrap{padding: 40px 0 0; display: block;}
     .general-default-page .property-wrap{padding-bottom: 118px;}
     .property-title{padding-bottom: 19px;}
-    .property-title h2{font-size: 32px; line-height: 40px;}
+    .property-title h2{font-size: 2rem; line-height: 2.5rem;}
     .property-image {margin-bottom: 30px;}
-    .property-text h2{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+    .property-text h2{font-size: 2rem; line-height: 2.5rem; letter-spacing: -0.64px;}
     .property-text .property-links{margin: 0 0 38px;}
     ul.property-links > li{margin-bottom: 16px;}
     ul.property-links li:last-child{margin-bottom: 0;}

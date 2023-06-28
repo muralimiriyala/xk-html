@@ -3,11 +3,11 @@
 .common-form-icon{max-width: 24px; margin-bottom: 14px;}
 .common-form-icon img{object-fit: cover;}
 .common-person-desc{color: var(--midnight-50);}
-span.first_name{font-size: 18px; line-height: 22px; margin-bottom: 0; color: var(--midnight-color); display: block;}
+span.first_name{font-size: 1.125rem; line-height: 1.375rem; margin-bottom: 0; color: var(--midnight-color); display: block;}
 ul.custom-form-links{margin: 12px 0 0;}
 ul.custom-form-links li{margin: 0 0 2px 0; line-height: 1.57;}
 ul.custom-form-links li::before{display: none;}
-ul.custom-form-links li a{gap: 8px; font-size: 14px; letter-spacing: -0.28px; color: var(--midnight-color);}
+ul.custom-form-links li a{gap: 8px; font-size: 0.875rem; letter-spacing: -0.28px; color: var(--midnight-color);}
 ul.custom-form-links li a:hover{color: var(--electric-color);}
 .custom-author-icon{flex: 0 0 24px;}
 .custom-author-text{flex: 0 0 calc(100% - 32px);}
@@ -39,7 +39,7 @@ body.page-template-tech-support .common-form-wrap{padding: 80px 0;}
     .common-form-wrap{padding: 56px 0 40px;}
     .common-form-main{display: block; padding: 20px;}
     .common-form-text{margin-bottom: 30px;}
-    .common-form-text h3{font-size: 24px; line-height: 28px; margin-bottom: 16px;}
+    .common-form-text h3{font-size: 1.5rem; line-height: 1.75rem; margin-bottom: 16px;}
     .common-person-details{gap: 20px;}
     .common-person-image{width: 80px;}
     .common-person-text{width: calc(100% - 100px); padding-left: 20px; border-left: 1px solid var(--electric-color);}   

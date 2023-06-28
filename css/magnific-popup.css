@@ -135,7 +135,7 @@
     padding: 0 0 18px 10px;
     color: #FFF;
     font-style: normal;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: Arial, Baskerville, monospace; }
     .mfp-close:hover,
     .mfp-close:focus {
@@ -160,8 +160,8 @@
     top: 0;
     right: 0;
     color: #CCC;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
     white-space: nowrap; }
   
   .mfp-arrow {
@@ -279,8 +279,8 @@
     .mfp-figure small {
       color: #BDBDBD;
       display: block;
-      font-size: 12px;
-      line-height: 14px; }
+      font-size: 0.75rem;
+      line-height: 0.875rem; }
     .mfp-figure figure {
       margin: 0; }
   
@@ -294,7 +294,7 @@
   
   .mfp-title {
     text-align: left;
-    line-height: 18px;
+    line-height: 1.125rem;
     color: #F3F3F3;
     word-wrap: break-word;
     padding-right: 36px; }

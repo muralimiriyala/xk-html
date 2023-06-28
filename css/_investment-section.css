@@ -1,5 +1,5 @@
 
-.investment-text{font-size: 14px; line-height: 22px; color: var(--midnight-color);}
+.investment-text{font-size: 0.875rem; line-height: 1.375rem; color: var(--midnight-color);}
 .investment-text span.optional-text{margin-bottom: 38px;}
 .investment-text h2{margin-bottom: 42px;}
 .investment-text ul{margin-bottom: 41px;}
@@ -34,7 +34,7 @@
     .investment-wrap {padding: 40px 0}
     .investment-image{margin-bottom: 38px;}
     .investment-text span.optional-text {margin-bottom: 18px;}
-    .investment-text h2{font-size: 24px; line-height: 28px; letter-spacing: -0.48px; margin-bottom: 24px;}
+    .investment-text h2{font-size: 1.5rem; line-height: 1.75rem; letter-spacing: -0.48px; margin-bottom: 24px;}
     .investment-text ul {margin-bottom: 24px;}
     .investment-text .button{width: 100%;}
 }

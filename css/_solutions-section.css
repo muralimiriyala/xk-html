@@ -1,4 +1,4 @@
-.solutions-text{font-size: 20px; line-height: 32px;}
+.solutions-text{font-size: 1.25rem; line-height: 2rem;}
 .solutions-text span.optional-text{margin-bottom: 38px;}
 .solutions-image-list{position: relative; overflow: hidden;}
 .xk-shape-1 { top: -7px; right: -98px; width: 321px; height: 327px; position: absolute; transform: rotate(130deg); }
@@ -33,7 +33,7 @@
     .solutions-intro{display: block;}
     .solutions-text{margin-bottom: 33px;}
     .solutions-text span.optional-text{margin-bottom: 19px;}
-    .solutions-text h2{font-size: 32px; line-height: 40px; margin-bottom: 22px;}
+    .solutions-text h2{font-size: 2rem; line-height: 2.5rem; margin-bottom: 22px;}
     .solutions-images{display: block;}
     .solutions-image-list{margin-bottom: 24px;}
     .solutions-image-list:last-child{margin-bottom: 0;}

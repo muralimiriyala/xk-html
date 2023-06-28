@@ -3,16 +3,16 @@
 .footer{padding: 80px 0;}
 .footer-logo a{width: 100%; display: inline-block;}
 .footer-logo a img{max-width: 297px; width: 100%; object-fit: cover;}
-.footer-desc{font-size: 20px; line-height: 32px;}
+.footer-desc{font-size: 1.25rem; line-height: 2rem;}
 ul.copyright-links{margin: 0;}
 ul.copyright-links li{margin: 0;}
 ul.copyright-links li::before{display: none;}
-ul.copyright-links li a{font-size: 12px; line-height: 14px; color: var(--white-50); display: inline-block;}
+ul.copyright-links li a{font-size: 0.75rem; line-height: 0.875rem; color: var(--white-50); display: inline-block;}
 ul.copyright-links li a:hover{color: var(--electric-color);}
-ul.copyright-links li.button > a{color: var(--electric-color); font-size: 14px; line-height: 18px;}
+ul.copyright-links li.button > a{color: var(--electric-color); font-size: 0.875rem; line-height: 1.125rem;}
 ul.copyright-links li.button:hover > a{color: var(--midnight-color);}
-.copyrights{font-size: 12px; line-height: 20px; letter-spacing: -0.02em;}
-.copyrights-text{font-size: 12px; line-height: 20px; color: var(--white-80); font-family: 'Gotham-Medium', sans-serif;}
+.copyrights{font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.02em;}
+.copyrights-text{font-size: 0.75rem; line-height: 1.25rem; color: var(--white-80); font-family: 'Gotham-Medium', sans-serif;}
 ul.footer-links{margin: 0;}
 ul.footer-links > li::before{display: none;}
 ul.footer-links > li{margin-bottom: 24px;}
@@ -22,7 +22,7 @@ ul.footer-links > li span{flex: 1;}
 ul.footer-links > li > a > img.menu-image{width: 25px; padding: 0;}
 ul.footer-links > li > a > span.menu-image-title{flex: 1; padding: 0;}
 .footer-icon{width: 25px; flex: 0 0 25px;}
-.footer-list span.optional-text{font-size: 12px; line-height: 14px; margin-bottom: 27px;} 
+.footer-list span.optional-text{font-size: 0.75rem; line-height: 0.875rem; margin-bottom: 27px;} 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
@@ -31,7 +31,7 @@ ul.footer-links > li > a > span.menu-image-title{flex: 1; padding: 0;}
     .footer-right{flex: 0 0 calc(100% - 736px); gap: 17px;}
     .footer-list{flex: 0 0 calc(50% - 20px);}
     .footer-logo{margin-bottom: 77px;}
-    .footer-desc{margin-bottom: 80px; font-size: 24px; line-height: 36px;}
+    .footer-desc{margin-bottom: 80px; font-size: 1.5rem; line-height: 2.25rem;}
     ul.copyright-links{margin: 0 0 80px; gap: 20px 49px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

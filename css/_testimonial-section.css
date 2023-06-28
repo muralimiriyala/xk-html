@@ -9,7 +9,7 @@
 .testimonial-wrap{padding: 80px 0;}
 .testimonial-main{border: 12px solid var(--light-blue);}
 .testimonial-text{padding: 52px;}
-.testimonial-desc{font-size: 16px; line-height: 20px;color: var(--dark-color-500);}
+.testimonial-desc{font-size: 1rem; line-height: 1.25rem;color: var(--dark-color-500);}
 .testimonial-name{margin-bottom: 6px; color: var(--dark-color); display: block;}
 .testimonial-image{z-index: 1;}
 .testimonial-thumb{border: 16px solid var(--white); border-radius: 50%;}
