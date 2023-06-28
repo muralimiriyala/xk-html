@@ -16,13 +16,14 @@
 .reverse .solutions-feature-list{flex-direction: row-reverse;}
 
 .trusted-logos-main{padding: 40px 0 56px;}
+.trusted-logos-icon img{width: 100%; object-fit: contain;}
 ul.blog_list{margin: 0;}
 .stats-section{background-color: var(--light-gray-color);}
 .stats-main{padding: 80px 0 80px;}
 .stats-head{margin-bottom: 80px;}
 .stats-title{font-size: 1.125rem; line-height: 1.625rem;}
 .stats-title h2{margin-bottom: 16px;}
-.stats-post-text{padding: 49px 40px 40px; background-color: var(--white);}
+.stats-post-text{padding: 49px 40px 40px; background-color: var(--white); position: relative; z-index: 2;}
 .stats-post-text h2{font-size: 2rem; line-height: 2.5rem;}
 .stats-post-main{margin-bottom: 80px;}
 body.page-template-solutions .training-row{margin-bottom: 0;}

@@ -184,10 +184,10 @@ figure.object-fit{width: 100%; height: 100%; display: block;}
 picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 .object-img-fit img{width: 100%; height: auto; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
-.slick-arrow{top: -100px; left: auto; right: 0; width: 41px; height: 41px; font-size: 1rem; line-height: 1.5; position: absolute; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; background-color: var(--health-color); color: var(--white);}
-.slick-arrow.slick-prev{right: 50px;}
-.slick-arrow:hover{background-color: var(--slate-color);}
-.slick-arrow.slick-disabled{opacity: 0.25; background-color: var(--slate-color); pointer-events: none;}
+button.slick-arrow{top: -40px; left: auto; right: -40px; width: 40px; height: 40px; font-size: 1rem; line-height: 1.5; position: absolute; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; background-color: var(--electric-color); color: var(--white); z-index: 1;}
+button.slick-arrow.slick-prev{right: 10px;}
+button.slick-arrow:hover{background-color: var(--midnight-color); color: var(--electric-color); box-shadow: none;}
+button.slick-arrow.slick-disabled{opacity: 0.25; background-color: var(--slate-color); pointer-events: none;}
 ul.slick-dots{margin: 0 auto; width: 100%; left: 0; right: 0; gap: 4px; display: flex; align-items: center; justify-content: center; position: absolute;}
 ul.slick-dots li::before{display: none;}
 ul.slick-dots li{margin-bottom: 0;}

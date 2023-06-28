@@ -1,11 +1,13 @@
 
 
 .radio-wave{
-    stroke-dashoffset: 500;
-    opacity: 0;
+    /* opacity: 0; */
     transition: all 0.5s ease-in-out;
     animation: radioWave 5s ease-in-out alternate infinite;
     animation-play-state: paused; 
+    stroke-linecap: round;
+	stroke-linejoin: round;
+    stroke-dashoffset: 500;
 }
 .anim-play-state-wave .radio-wave{
     animation-play-state: running;
@@ -18,8 +20,8 @@
 .wave-g-6{ animation-delay: 0.5s; }
 @keyframes radioWave{
     from {
-        opacity: 0;
-        stroke-width: 4;
+        opacity: 1;
+        stroke-width: 1;
     }
     to {
         opacity: 1;

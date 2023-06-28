@@ -15,12 +15,12 @@ body.page-template-product .healthcare-row{padding: 0;}
     .healthcare-list{flex: 0 0 calc(25% - 24px);}
     .healthcare-slider-btns .slick_arrow span{top: calc(50% + 1px); transform: translateY(-50%); position: absolute; font-size: 1rem; line-height: 1rem; transition: all 0.45s ease-in-out;}
     .healthcare-slider-btns .slick_arrow.slick-disabled span{display: none;}
-    .healthcare-slider-btns .slick-next{padding-right: 40px;}
-    .healthcare-slider-btns .slick-next span{right: 13px;}
-    .healthcare-slider-btns .slick-next.slick-disabled{padding-right: 17px;}
-    .healthcare-slider-btns .slick-prev{margin-right: 20px; padding-left: 40px;}
-    .healthcare-slider-btns .slick-prev span{left: 13px;}
-    .healthcare-slider-btns .slick-prev.slick-disabled{padding-left: 17px;}
+    .healthcare-slider-btns .slick_next{padding-right: 40px;}
+    .healthcare-slider-btns .slick_next span{right: 13px;}
+    .healthcare-slider-btns .slick_next.slick-disabled{padding-right: 17px;}
+    .healthcare-slider-btns .slick_prev{margin-right: 20px; padding-left: 40px;}
+    .healthcare-slider-btns .slick_prev span{left: 13px;}
+    .healthcare-slider-btns .slick_prev.slick-disabled{padding-left: 17px;}
     .healthcare-slider-btns .slick_arrow:hover{background-color: var(--midnight-color); color: var(--electric-color);}
     .healthcare-slider-btns .slick_arrow.slick-disabled{background-color: var(--electric-color); color: var(--midnight-color);}
     .healthcare-slider-btns{gap: 20px;}

@@ -5,7 +5,7 @@
 .xk-device{width: 414px; height: 419px; margin: 0 auto; filter: drop-shadow(-40px 40px 40px rgba(10, 10, 30, 0.25)); background-image: url('./images/xk-device.svg'); background-repeat: no-repeat; background-size: contain; background-position: center; display: block;}
 .default-banner-line{background-color: var(--electric-color); position: absolute;}
 
-.default-banner-text{font-size: 1.125rem; line-height: 1.625rem; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color); letter-spacing: -0.36px;} 
+.default-banner-text{font-size: 1.125rem; line-height: 1.625rem; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color); letter-spacing: -0.36px; position: relative;} 
 .default-banner-text h1{font-size: 2.5rem; line-height: 3rem; margin-bottom: 33px;}
 .default-banner-text p:not(:last-child){margin-bottom: 34px;}
 .default-banner-text span.optional-text{margin-bottom: 30px;}
@@ -47,6 +47,7 @@
     .default-banner-text{padding: 18px 20px;}
     .default-banner-text h1{font-size: 2rem; line-height: 2.5rem; margin-bottom: 33px;}
     .default-banner-text p:not(:last-child){margin-bottom: 33px;}
+    body.page-template-company .default-banner-text .button{width: 100%;}
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
     .default-banner-text h1{font-size: 1.5rem; line-height: 1.75rem;}
