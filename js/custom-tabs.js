@@ -66,8 +66,28 @@ jQuery(document).ready(function(){
     jQuery('ul.graphic-filters li:first a').addClass("active");
     jQuery(".contact-list:first").addClass("current-g");
     jQuery(".contact-form-list:first").addClass("current-g");
+
+    var hash = window.location.hash;
+    var name = hash.substring(1);
+
+    if (name !== '' && name !== jQuery('ul.graphic-filters li:first a').attr('data-name')) {
+        jQuery('ul.graphic-filters li:first a').removeClass("active");
+        jQuery('ul.graphic-filters li a[href="' + "#" + name + '"]').addClass('active');
+        
+        let hashAttr =  jQuery('ul.graphic-filters li a[href="' + "#" + name + '"]').attr('data-name');
+        jQuery(".contact-list").removeClass("current-g");
+        jQuery(".contact-form-list").removeClass("current-g");
+        jQuery(".contact-list[data-value="+ hashAttr +"]").addClass("current-g");
+        jQuery(".contact-form-list[data-value="+ hashAttr +"]").addClass("current-g");
+    }
+
+
     jQuery('ul.graphic-filters li a').on('click', function(e){
         e.preventDefault();
+        var attrName = jQuery(this).attr("href");
+        var newUrl = window.location.href.split('#')[0] + '' + attrName;
+        window.history.pushState({ path: newUrl }, '', newUrl);
+
         jQuery(this).parent().siblings().find('a').removeClass('active');
         jQuery(this).addClass('active');
         var attrName = jQuery(this).attr("data-name");
