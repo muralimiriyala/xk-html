@@ -3,6 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html {overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
+html.js{margin: 0 !important;}
 a{color: var(--link-color); text-decoration: none; transition: all 0.45s ease-in-out;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
@@ -255,4 +256,9 @@ ul.slick-dots li.slick-active button{background: linear-gradient(90deg,#3207ff 0
 
     .button.btn-arrow{width: 40px; height: 40px; padding: 0;color: var(--electric-color);  font-size: 1rem; line-height: 1.5rem; display: flex; align-items: center; justify-content: center;}
     .btn-arrow span.right-arrow{right: 10px;}
+    button.slick-arrow{top: 50%; transform: translateY(-50%); right: -20px;}
+    button.slick-arrow.slick-prev {
+        left: -20px;
+        right: auto;
+    }
 }

@@ -9,13 +9,13 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .product-banner-main{gap: 266px;}
-    .product-banner-text{flex: 0 0 440px; padding-top: 137px;}
+    .product-banner-main{gap: 266px; align-items: center; min-height: 740px;}
+    .product-banner-text{flex: 0 0 440px;}
     .product-banner-image{flex: 0 0 calc(100% - 716px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .product-banner-main{gap: 150px;}
-    .product-banner-text{flex: 0 0 400px; padding-top: 137px;}
+    .product-banner-text{flex: 0 0 400px;}
     .product-banner-image{flex: 0 0 calc(100% - 550px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
