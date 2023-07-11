@@ -10,9 +10,10 @@ animatedSlider.slick({
     vertical: true,
     verticalSwiping: true,
     infinite: true,
-    autoplay: false,
-    autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     speed: 1000,
+    focusOnSelect: true,
 });
 jQuery(".animated-slide:nth-child(6)").addClass("third-animate");
 animatedSlider.on("init beforeChange", function(event, slick, currentSlide, nextSlide) {

@@ -12,7 +12,7 @@
 .home-banner-vline{background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .home-banner-desc{z-index: 2;}
 .home-banner-desc h1{text-transform: uppercase;}
-.home-banner-desc .animated-slide{opacity: 0.25; margin-bottom: 3px; white-space: nowrap; transition: all 0.45s ease-in-out; font-family: 'Gotham-Black', sans-serif; display: block; position: relative;}
+.home-banner-desc .animated-slide{opacity: 0.25; margin-bottom: 3px; transition: all 0.45s ease-in-out; font-family: 'Gotham-Black', sans-serif; display: block; position: relative;}
 .home-banner-desc .animated-slide.slick-current{opacity: 1; color: var(--midnight-color);}
 .animated-slide-text{display: inline-block; position: relative;}
 .animated-slide-text::after{ width: calc(100% + 3px); height: 20px; max-width: 254px; bottom: -2px; left: -3px; display: none; background-color: var(--electric-color); content: ""; position: absolute; z-index: -1; }
@@ -44,7 +44,8 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
-    .home-banner-desc h1{font-size: 2.5rem; line-height: 3rem; margin-bottom: 4px; letter-spacing: 0.02em;}
+    .home-banner-desc h1{font-size: 2.25rem; line-height: 3rem; margin-bottom: 0px; letter-spacing: 0.02em;}
+    .animated-headlines.slick-slider{padding-top: 0px;}
 }
 @media only screen and (min-width: 1024px){
     .home-banner-bg{min-height: 810px;}
@@ -54,10 +55,10 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
     .home-banner-main{gap: 160px;}
     .home-banner-left{flex: 0 0 calc(100% - 495px); position: relative;}
     .home-banner-right{flex: 0 0 335px;}
-    .home-banner-text{min-height: 376px; max-width: 612px; padding: 61px 64px 67px;}
+    .home-banner-text{min-height: 376px; max-width: 650px; padding: 57px 60px 64px; display: flex; align-items: center;}
     .home-banner-vline{width: 2px; height: 100%; right: -30px; top: 0; }
-    .home-banner-desc{max-width: 370px;}
-    .home-banner-device{width: 462px; height: 462px; top: calc(50% - 0px); transform: translateY(-50%); right: -87px;}
+    .home-banner-desc{max-width: 450px;}
+    .home-banner-device{width: 462px; height: 462px; top: calc(50% - 0px); transform: translateY(-50%); right: -137px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .home-banner-main{gap: 30px;}
