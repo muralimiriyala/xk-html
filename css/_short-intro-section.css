@@ -17,6 +17,10 @@
 
 
 /* media css starts here */
+@media only screen and (min-width: 1300px){ 
+    .career-intro .short-intro-list{flex: 0 0 calc(27.3333% - 37px);}
+    .career-intro .short-intro-list:nth-child(2){flex: 0 0 calc(16.3333% - 37px);}
+}
 @media only screen and (min-width: 1024px){ 
     .short-intro-head{gap: 80px;}
     .short-intro-title{flex: 0 0 400px;}

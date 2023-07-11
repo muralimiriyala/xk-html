@@ -47,6 +47,11 @@ body.page-template-solutions .training-row{margin-bottom: 0;}
     .solutions-feature-text{margin-bottom: 39px;}
     .solutions-feature-mobile img{max-height: 421px; object-position: 0% 0%; -o-object-position: 0% 0%;}
 
+    .solutions-feature-left.no_solutions_image{gap: 40px 60px; flex: 0 0 100%; align-items: center; display: flex; flex-wrap: wrap; }
+    .no_solutions_image .solutions-feature-text{flex: 0 0 calc(50% - 30px);}
+    .no_solutions_image .solutions-feature-image{flex: 0 0 calc(50% - 30px);}
+
+
     .trusted-logos-row{gap: 20px 96px;}
     .trusted-logos-list{flex: 0 0 calc(20% - 77px);}
     .trusted-logos-btn{margin-top: -8px;}
