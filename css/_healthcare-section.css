@@ -19,27 +19,37 @@ body.page-template-product .healthcare-row{padding: 0;}
 .healthcare-slider-btns{gap: 20px;}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+    .healthcare-top { height: 100%; display: flex; flex-direction: column; flex-wrap: wrap; }
+    .healthcare-text{margin-top: auto;}
+}
 @media only screen and (min-width: 1024px){
     .healthcare-slider .slick-list{padding-top: 40px; width: 100%; overflow: inherit;}
     .healthcare-slider .slick-slide{margin-right: 32px; width: 296px;}
     .healthcare-row{gap: 32px;}
     .healthcare-list{flex: 0 0 calc(25% - 24px);}
     .healthcare-slider-btns .slick_prev{margin-right: 20px;}
+    .healthcare-top { min-height: 197px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     body.page-template-product .healthcare-row{gap: 8px;}
     body.page-template-product .healthcare-list{flex: 0 0 calc(25% - 8px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .healthcare-row{gap: 0 20px;}
-    .healthcare-list{flex: 0 0 calc(50% - 10px); margin-bottom: 20px;}
+    .healthcare-main {padding: 40px 0;}
+    .healthcare-row{padding: 0;}
+    .healthcare-list{padding: 20px; margin-bottom: 32px;} 
+    .healthcare-slider .slick-list{padding-top: 40px; width: calc(100% + 20px);}
+    .healthcare-list.slick-slide{width: 255px; margin: 0 10px;}
+    .healthcare-list:last-child{margin-bottom: 0;}
+    .healthcare-top { min-height: 219px; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .healthcare-bg{background-image: url('./images/xk-radar-bg-mobile.svg');}
     .healthcare-main {padding: 40px 0;}
     .healthcare-row{padding: 0;}
     .healthcare-list{padding: 20px; margin-bottom: 32px;} 
-    .healthcare-list.slick-slide{width: 255px; margin: 0 10px;}
+    .healthcare-list.slick-slide{width: 295px; margin: 0 10px;}
     .healthcare-list:last-child{margin-bottom: 0;}
     .healthcare-slider-btns{flex-direction: column; gap: 20px; margin-bottom: 40px;}
 }

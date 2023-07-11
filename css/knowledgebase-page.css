@@ -34,7 +34,7 @@
 .training-list::after{background-color: var(--white); width: calc(100% - 68px); left: 68px; height: 100%; content: ""; position: absolute; z-index: -1; top: 0;} 
 .training-content{font-size: 1.125rem; line-height: 1.625rem;}
 .training-content p{margin-bottom: 14px;}
-.training-content p a{color: var(--midnight-color);}
+.training-content p a{color: var(--midnight-color); font-family: 'Gotham-Book', sans-serif;}
 .training-content p a:hover{color: var(--electric-color);}
 .training-image img{max-width: 96px; min-height: 96px; object-fit: cover; object-position: center; }
 .show-all-btn{padding-left: 42px; font-size: 0.75rem; line-height: 0.75rem; letter-spacing: 0.2em; color: var(--midnight-color); font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase; display: inline-block; cursor: pointer; transition: all 0.45s ease;} 
@@ -53,6 +53,7 @@ ul.tag-links > li > a:hover{background-color: var(--midnight-color); color: var(
 .tag-link-btn a:hover{color: var(--midnight-color);}
 body.page-template-product .training-main{border-bottom: none;}
 body.page-template-tech-support .training-section:nth-last-child(2) .training-main{border-bottom: none; padding-bottom: 82px;}
+h2.no-posts-found{padding: 60px 0; margin: 0;}
 
 /* media starts here */
 @media only screen and (min-width: 1024px){

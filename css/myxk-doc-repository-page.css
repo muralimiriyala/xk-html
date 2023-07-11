@@ -41,11 +41,11 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 .doc-print{font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.24px; flex: 0 0 63px; overflow: hidden; text-overflow: ellipsis;}
 .doc-repos{background-color: var(--black); padding: 7px 12px 9px;color: var(--white); gap: 8px;}
 .doc-mb{font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.24px; gap: 8px; flex: 0 0 calc(100% - 71px);}
-.doc-mb span:first-child{flex: 1; text-align: right;}
+.doc-mb span:first-child{flex: 1; text-align: right; font-size: 11px;}
 .doc-mb span{opacity: 0.75; flex: 0 0 30px; text-transform: uppercase;}
 .doc-mb span.fa-download{opacity: 1; flex: 0 0 20px; color: var(--electric-color); font-size: 1.125rem; line-height: 1.125rem;}
 
-.doc-file-row{display: block; margin-bottom: 24px;}
+.doc-file-row{display: none; margin-bottom: 24px;}
 .doc-file-row.current-q{display: block;}
 .doc-file-row:last-child{margin-bottom: 0;}
 .doc-file-list{background-color: var(--white); padding: 16px 16px 24px; border-bottom: 1px solid var(--electric-color);}
