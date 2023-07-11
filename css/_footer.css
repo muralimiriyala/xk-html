@@ -16,7 +16,7 @@ ul.copyright-links li.button:hover > a{color: var(--midnight-color);}
 ul.footer-links{margin: 0;}
 ul.footer-links > li::before{display: none;}
 ul.footer-links > li{margin-bottom: 24px;}
-ul.footer-links > li > a{color: var(--white); font-size: 1rem; line-height: 1.5; gap: 16px; align-items: flex-start; display: flex; flex-wrap: wrap;}
+ul.footer-links > li > a{color: var(--white); font-family: 'Gotham-Book', sans-serif; font-size: 1rem; line-height: 1.5; gap: 16px; align-items: flex-start; display: flex; flex-wrap: wrap;}
 ul.footer-links > li > a:hover{color: var(--electric-color);}
 ul.footer-links > li span{flex: 1;}
 ul.footer-links > li > a > img.menu-image{width: 25px; padding: 0;}

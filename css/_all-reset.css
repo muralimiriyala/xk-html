@@ -19,7 +19,7 @@ h1 span{position: relative; font-family: 'Gotham-Bold', sans-serif;}
 h1 span::after{width: calc(100% + 9px); height: 20px; bottom: -4px; left: -4px; background-color: var(--electric-color); content: ""; display: block; position: absolute; z-index: -1;}
 body.category-knowledgebase h1 span::after{height: 25px;}
 body.page-template-tech-support h1 span::after{height: 25px;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--midnight-color);}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--midnight-color); font-family: inherit;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--electric-color);}
 address{font-size: 0.75rem; line-height: 1.25rem; color: var(--slate-color); margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--midnight-color); cursor: help;}
@@ -177,7 +177,7 @@ body{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.02em; font-family:
 span.optional-text{margin-bottom: 22px; color: var(--midnight-50); font-size: 0.875rem; line-height: 1.375rem; letter-spacing: 2.8px; font-weight: normal; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 span.optional-text.black{color: var(--slate-color);}
 .sub-heading{font-size: 1.25rem; line-height: 1.5rem; letter-spacing: -0.4px; color: var(--midnight-color); font-family: 'Gotham-Medium',sans-serif; margin-bottom: 20px; display: block;}
-.sub-heading a{color: var(--midnight-color);}
+.sub-heading a{color: var(--midnight-color); font-family: inherit;}
 .sub-heading a:hover{color: var(--electric-color);}
 span.optional-text.electric{color: var(--electric-color); letter-spacing: 0.2em;}
 

@@ -17,14 +17,14 @@
     .fixed-header .sticky-logo{opacity: 1; visibility: visible;}
     .fixed-header .normal-logo{opacity: 0; visibility: hidden;}
     nav.navigation{flex: 1; gap: 32px;}
-    ul.main-menu{margin: 0; gap: 33px; padding-right: 7px; flex: 1; justify-content: flex-end;}
+    ul.main-menu{margin: 0; gap: 23px; padding-right: 7px; flex: 1; justify-content: flex-end;}
     ul.main-menu > li{margin: 0; padding: 29px 0 28px;}
     .fixed-header ul.main-menu > li{padding: 13px 0 12px;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li.sib > a{color: var(--midnight-25);}
-    ul.main-menu > li > a{padding-bottom: 8px; color: var(--midnight-color); font-size: 0.875rem; line-height: 1.375rem; font-family: 'Gotham-Medium', sans-serif; display: inline-block; position: relative;}
-    ul.main-menu > li > a::after{width: 0%; height: 2px; bottom: 0; left: 0; background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: width 0.45s ease-in-out;}
-    ul.main-menu > li:hover > a::after{width: 100%;}
+    ul.main-menu > li > a{padding: 0 5px 8px; color: var(--midnight-color); font-size: 0.875rem; line-height: 1.375rem; font-family: 'Gotham-Medium', sans-serif; display: inline-block; position: relative;}
+    ul.main-menu > li > a::after{width: 0%; height: 2px; bottom: 0; left: 5px; background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: width 0.45s ease-in-out;}
+    ul.main-menu > li:hover > a::after{width: calc(100% - 10px);}
     ul.main-menu > li:hover > ul{opacity: 1; visibility: visible; max-height: inherit; overflow: inherit;}
     ul.main-menu > li > ul{margin: 0; max-height: 0; overflow: hidden; padding: 12px 0; top: 100%; left: 0; width: 100%; min-width: 260px; opacity: 0; visibility: hidden; background-color: var(--light-gray-color); position: absolute; transition: all 0.45s ease-in-out;}
     ul.main-menu > li > ul > li::before{display: none;}
