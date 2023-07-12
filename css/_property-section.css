@@ -3,6 +3,8 @@
 .property-image{margin-bottom: 44px;}
 .property-text hr{max-width: 112px;}
 ul.property-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 1.25rem; line-height: 1.5rem; font-family: 'Gotham-Medium', sans-serif;}
+ul.property-links > li a{color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif;}
+ul.property-links > li a:hover{color: var(--electric-color);}
 ul.property-links > li::before{display: none;}
 .property-icon{flex: 0 0 24px; width: 24px;}
 .property-icon-text{flex: 0 0 calc(100% - 42px);}

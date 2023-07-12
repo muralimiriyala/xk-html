@@ -11,7 +11,7 @@ animatedSlider.slick({
     verticalSwiping: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     speed: 1000,
     focusOnSelect: true,
 });

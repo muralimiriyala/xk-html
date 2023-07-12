@@ -85,7 +85,9 @@ span.optional-sign-text{margin-bottom: 25px; padding-right: 40px;}
     .home-banner-main{display: block; padding: 0 0 38px;}
     .home-banner-text { margin-top: -64px; padding: 20px 20px 63px; }
     .home-banner-vline{width: 100%; height: 2px; top: -20px; left: 0; }
-    .home-banner-desc h1{font-size: 2rem; line-height: 2.5rem; margin-bottom: 4px; letter-spacing: 0.02em;}
+    /* .home-banner-desc h1{font-size: 2rem; line-height: 2.5rem; margin-bottom: 4px; letter-spacing: 0.02em;} */
+    .home-banner-desc h1{font-size: 1.5rem; line-height: 2rem; margin-bottom: 4px; letter-spacing: 0.02em;}
+    .animated-slide-text::after{ height: 15px; bottom: 0;}
     .home-banner-desc .animated-slide::after{max-width: 148px;}
     .additional-news-main{padding: 0;}
 }

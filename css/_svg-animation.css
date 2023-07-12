@@ -1,9 +1,8 @@
 
 
 .radio-wave{
-    /* opacity: 0; */
-    transition: all 0.5s ease-in-out;
-    animation: radioWave 5s ease-in-out alternate infinite;
+    transition: all 0.8s ease-in-out;
+    animation: radioWave 8s ease-in-out alternate infinite;
     animation-play-state: paused; 
     stroke-linecap: round;
 	stroke-linejoin: round;
@@ -12,9 +11,9 @@
 .anim-play-state-wave .radio-wave{
     animation-play-state: running;
 }
-.wave-g-1{ animation-delay: 5s;}
-.wave-g-2{ animation-delay: 4s; }
-.wave-g-3{ animation-delay: 3s; }
+.wave-g-1{ animation-delay: 8s;}
+.wave-g-2{ animation-delay: 6s; }
+.wave-g-3{ animation-delay: 4s; }
 .wave-g-4{ animation-delay: 2s; }
 .wave-g-5{ animation-delay: 1s; }
 .wave-g-6{ animation-delay: 0.5s; }
@@ -22,10 +21,14 @@
     from {
         opacity: 1;
         stroke-width: 1;
+        stroke-dasharray: 3;
+        stroke-dashoffset: 100;
     }
     to {
         opacity: 1;
-        stroke-width: 1;
+        stroke-width: 2;
+        stroke-dasharray: 5;
+        stroke-dashoffset: 200;
     }
 }
 .radio-wave linearGradient stop{
@@ -74,17 +77,25 @@ svg .clone-st0 {
 }
 @keyframes cloneRotate1{
     0% {
-        opacity: 0.25;
-        stroke-width: 0.25px;
+        opacity: 1;
+        stroke-width: 0.5px;
+        stroke-dasharray: 500;
         stroke-dashoffset: 1000;
         stroke: var(--electric-color);
+    }
+    50%{
+        opacity: 1;
+        stroke-width: 0.5px;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        stroke: var(--white-50)
     }
     100%{
         opacity: 0.5;
         stroke-width: 0.5px;
+        stroke-dasharray: 800;
         stroke-dashoffset: 0;
         stroke: var(--electric-50);
     }
 }
-
 

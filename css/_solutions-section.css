@@ -37,4 +37,6 @@
     .solutions-images{display: block;}
     .solutions-image-list{margin-bottom: 24px;}
     .solutions-image-list:last-child{margin-bottom: 0;}
+    .xk-shape-1{width: 281px; height: 287px;}
+    .xk-shape-2 { transform: rotate(-47deg); top: 90px; right: 110px; }
 }
