@@ -1,6 +1,6 @@
 
 .property-wrap{padding: 80px 0 156px;}
-.property-image{margin-bottom: 44px;}
+.property-image{margin-bottom: 44px; overflow: hidden;}
 .property-text hr{max-width: 112px;}
 ul.property-links > li{margin: 0; gap: 16px; color: var(--midnight-color); font-size: 1.25rem; line-height: 1.5rem; font-family: 'Gotham-Medium', sans-serif;}
 ul.property-links > li a{color: var(--midnight-color); font-family: 'Gotham-Medium', sans-serif;}
@@ -8,12 +8,18 @@ ul.property-links > li a:hover{color: var(--electric-color);}
 ul.property-links > li::before{display: none;}
 .property-icon{flex: 0 0 24px; width: 24px;}
 .property-icon-text{flex: 0 0 calc(100% - 42px);}
+.property-clone-svg svg{width: 100%; height: 100%;}
+.property-estate-svg-1 svg{width: 100%; height: 100%;}
+.property-estate-svg-2 svg{width: 100%; height: 100%;}
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
     ul.property-links{margin: 0; gap: 11px 24px;}
     ul.property-links > li{flex: 0 0 calc(50% - 12px);}
     .property-wrap.no_heading .property-btn{padding-bottom: 83px; margin-left: auto;}
+    .property-clone-svg{ width: 281px; height: 184px; top: 120px; right: -27px; transform: rotate(194deg); position: absolute; }
+    .property-estate-svg-1{ width: 512px; height: 542px; top: -220px; right: -180px; position: absolute; transform: rotate(138deg); }
+    .property-estate-svg-2{ width: 312px; height: 342px; top: -30px; right: 40px; position: absolute; transform: rotate(-38deg); }
 }
 @media only screen and (min-width: 1024px){
     .property-title{order: 1; flex: 1; padding-bottom: 83px;}
