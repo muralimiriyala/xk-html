@@ -25,6 +25,11 @@ body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 
 .big-feature-estate-svg-2{ width: 512px; height: 542px; top: -15px; right: 108px; position: absolute; transform: rotate(-38deg); }
 .big-feature-estate-svg-2 svg{width: 100%; height: 100%;}
 
+
+.big-feature-svg-3{width: 530px; height: 540px; bottom: 50px; right: 124px; position: absolute;}
+.big-feature-svg-3 svg{width: 100%; height: 100%;}
+
+
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .big-feature-right .feature-point{left: auto; right: 0;}
