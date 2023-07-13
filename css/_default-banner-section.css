@@ -6,9 +6,10 @@
 .default-banner-line{background-color: var(--electric-color); position: absolute;}
 
 .default-banner-text{font-size: 1.125rem; line-height: 1.625rem; background-color: var(--white-85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: var(--midnight-color); letter-spacing: -0.36px; position: relative;} 
-.default-banner-text h1{font-size: 2.5rem; line-height: 3rem; margin-bottom: 33px;}
+.default-banner-text h1:not(.home-banner-desc h1){font-size: 2.5rem; line-height: 3rem; margin-bottom: 33px;}
 .default-banner-text p:not(:last-child){margin-bottom: 34px;}
 .default-banner-text span.optional-text{margin-bottom: 30px;}
+.company_description { padding: 20px 0 24px; }
 
 /* media css starts here */
 @media only screen and (min-width: 768px){
