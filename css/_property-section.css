@@ -51,4 +51,7 @@ ul.property-links > li::before{display: none;}
     .property-text .property-links{margin: 0 0 38px;}
     ul.property-links > li{margin-bottom: 16px;}
     ul.property-links li:last-child{margin-bottom: 0;}
+    .property-clone-svg{ width: 201px; height: 124px; top: 44px; right: -38px; transform: rotate(194deg); position: absolute; }
+    .property-estate-svg-1{ width: 241px; height: 144px; top: -28px; right: -80px; position: absolute; transform: rotate(138deg); }
+    .property-estate-svg-2 { width: 212px; height: 242px; top: -14px; right: 20px; position: absolute; transform: rotate(-38deg); }
 }

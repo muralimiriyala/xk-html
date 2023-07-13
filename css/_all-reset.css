@@ -99,8 +99,8 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;}
 
 /* Buttons */
-button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 0.875rem; line-height: 1.125rem; letter-spacing: 0.2em; padding: 11px 17px 11px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Medium', sans-serif; text-transform: uppercase; transition: all 0.45s ease-in-out;}
-button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--electric-color); color: var(--midnight-color); box-shadow: inset 0px 5px 10px var(--white-40);}
+button, .button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, .product-btns input[type="submit"]{background-color: var(--midnight-color); border-radius: 0; color: var(--electric-color); display: inline-block; font-size: 0.875rem; line-height: 1.125rem; letter-spacing: 0.2em; padding: 11px 17px 11px; vertical-align: middle; cursor: pointer; border: none; position: relative; text-align: center; font-family: 'Gotham-Medium', sans-serif; text-transform: uppercase; transition: all 0.45s ease-in-out;}
+button:hover, .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover, .product-btns input[type="submit"]:hover{background-color: var(--electric-color); color: var(--midnight-color); box-shadow: inset 0px 5px 10px var(--white-40);}
 .button::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ width: 50%; bottom: 0; height: 0; left: 0%; box-shadow: 0 5px 16px var(--slate-50); transition: all 0.45s ease-in-out; background: 0 0; content: ''; position: absolute; z-index: -1; }
 .button:hover::after, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{ left: 50%; height: 5px; bottom: 6px; transform: translateX(-50%) translateY(100%); }
 

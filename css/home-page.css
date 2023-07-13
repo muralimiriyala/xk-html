@@ -12,9 +12,10 @@
 .home-banner-vline{background-color: var(--electric-color); content: ""; display: block; position: absolute;}
 .home-banner-desc{z-index: 2;}
 .home-banner-desc h1{text-transform: uppercase;}
-.home-banner-desc .animated-slide{opacity: 0.25; margin-bottom: 3px; transition: all 0.45s ease-in-out; font-family: 'Gotham-Black', sans-serif; display: block; position: relative;}
+.home-banner-desc .animated-slide.slick-slide{border: none;}
+.home-banner-desc .animated-slide{opacity: 0.25; margin-bottom: 0; transition: all 0.45s ease-in-out; display: block; position: relative;}
 .home-banner-desc .animated-slide.slick-current{opacity: 1; color: var(--midnight-color);}
-.animated-slide-text{display: inline-block; position: relative;}
+.animated-slide-text{display: inline-block; position: relative; font-family: 'Gotham-Black', sans-serif;font-size: 2.25rem; line-height: 3rem; margin-bottom: 0; letter-spacing: .02em; text-transform: uppercase;}
 .animated-slide-text::after{ width: calc(100% + 3px); height: 20px; max-width: 254px; bottom: -2px; left: -3px; display: none; background-color: var(--electric-color); content: ""; position: absolute; z-index: -1; }
 .slick-current .animated-slide-text::after{display: inline-block;}
 .home-banner-desc .animated-slide.third-animate{opacity: 0.12;}

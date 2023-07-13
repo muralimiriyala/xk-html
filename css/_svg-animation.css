@@ -99,3 +99,92 @@ svg .clone-st0 {
     }
 }
 
+svg .clone-up path{
+	animation: cloneUp 10s ease-in-out alternate infinite;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	transition: 10s all linear;
+    animation-play-state: paused; 
+}
+.anim-play-state-clone-up svg .clone-up path{
+    animation-play-state: running;
+}
+@keyframes cloneUp{
+    0% {
+        stroke-width: 1px;
+        stroke-dasharray: 1;
+        stroke-dashoffset: 100;
+        stroke: var(--electric-color);
+    }
+    50%{
+        stroke-width: 1px;
+        stroke-dasharray: 4;
+        stroke-dashoffset: 400;
+        stroke: var(--link-color);
+    }
+    100% {
+        stroke-width: 1px;
+        stroke-dasharray: 2;
+        stroke-dashoffset: 200;
+        stroke: var(--electric-50);
+    }
+}
+
+svg .radio-wave-five {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: 0.5s ease;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: radioWave5 5s linear infinite;
+    animation-play-state: paused;
+  }
+  
+  .solutions-wave-5 svg .radio-wave-five {
+    animation-play-state: running;
+  }
+  /* .radio-wave-five.st0{ animation-delay: 0.5;}
+  .radio-wave-five.st1{ animation-delay: 1s; }
+  .radio-wave-five.st2{ animation-delay: 1.5s; }
+  .radio-wave-five.st3{ animation-delay: 2s; }
+  .radio-wave-five.st4{ animation-delay: 2.5s; } */
+  .radio-wave-five.st5{ animation-delay: 0.5s; }
+  .radio-wave-five.st6{ animation-delay: 1s; }
+  .radio-wave-five.st7{ animation-delay: 0.5s; }
+  .radio-wave-five.st8{ animation-delay: 1s; }
+  .radio-wave-five.st9{ animation-delay: 0.5s; }
+  .radio-wave-five.st10{ animation-delay: 1s; }
+  /* .radio-wave-five.st11{ animation-delay: 6s; }
+  .radio-wave-five.st12{ animation-delay: 6.5s; }
+  .radio-wave-five.st13{ animation-delay: 7s; }
+  .radio-wave-five.st14{ animation-delay: 7.5s; }
+  .radio-wave-five.st15{ animation-delay: 8s; }
+  .radio-wave-five.st16{ animation-delay: 8.5s; }
+  .radio-wave-five.st17{ animation-delay: 9s; }
+  .radio-wave-five.st18{ animation-delay: 9.5s; }
+  .radio-wave-five.st19{ animation-delay: 10s; }
+  .radio-wave-five.st20{ animation-delay: 10.5s; }
+  .radio-wave-five.st21{ animation-delay: 11s; } */
+
+  @keyframes radioWave5 {
+    0% {
+      opacity: 1;
+      stroke-width: 0.5714;
+      stroke-dashoffset: 1000;
+    }
+    50% {
+      opacity: 0.5;
+      stroke-width: 1;
+      stroke-dashoffset: 500;
+    }
+    100% {
+      opacity: 1;
+      stroke-width: 0.5714;
+      stroke-dashoffset: 0;
+    }
+  } 
+  
+  
+  
+  
+  
