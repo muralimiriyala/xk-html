@@ -24,11 +24,13 @@
     .default-banner-main{padding: 87px 0;}
     .default-banner-line{width: 1px; height: 100%; left: -23px; bottom: 0;}
     .default-banner-text{max-width: 520px; padding: 63px 64px 64px; }
+    .company-banner-text{max-width: 650px;}
     .content-gate-page .default-banner-text h1{font-size: 2rem; line-height: 2.5rem; margin-bottom: 35px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .default-banner-line{left: -30px;}
     .default-banner-text{margin-left: 30px; padding: 32px; max-width: 500px;}
+    .company-banner-text{max-width: 600px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .default-banner-bg iframe, .default-banner-bg video{min-height: 432px;}
