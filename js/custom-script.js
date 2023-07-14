@@ -109,20 +109,7 @@ jQuery(document).on("ready", function(){
         jQuery(this).parent().siblings().find('a').removeClass("active");
     });
     jQuery("#ez-toc-container nav > ul > li:first > a").addClass("active");
-
-    let headerHeight = jQuery(".main-header").outerHeight(true);
-    jQuery('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = jQuery(this.hash);
-            target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-            jQuery('html,body').animate({
-                scrollTop: target.offset().top - headerHeight
-            }, 1000);
-            return false;
-            }
-        }
-    });
+    
     let techRow = jQuery(".training-row");
     techRow.each(function(index, item){
         var biolist = jQuery(this);
