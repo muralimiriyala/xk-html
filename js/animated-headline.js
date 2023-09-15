@@ -1,7 +1,7 @@
 
 
 
-let animatedSlider = jQuery(".animated-headlines");
+const animatedSlider = jQuery(".animated-headlines");
 animatedSlider.slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -23,3 +23,16 @@ animatedSlider.on("init beforeChange", function(event, slick, currentSlide, next
     }
     jQuery(".animated-slide[data-slick-index=' + (nextSlide + 2) + ']").addClass("third-animate");
 });
+
+const additionalSlider = jQuery(".additional-news-slider");
+additionalSlider.slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    vertical: true,
+    verticalSwiping: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+});
+
+

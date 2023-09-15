@@ -5,6 +5,7 @@
 .feature-point .optional-text{margin-bottom: 24px;}
 .feature-point .sub-heading{margin-bottom: 22px;}
 .feature-point .text-link{opacity: 0.75;}
+.feature-point ul li::before{top: 9px;}
 .feature-point-line{background-color: var(--electric-color); width: 1px; height: 0; left: 0; bottom: 0; position: absolute;}
 .big-feature-right .feature-point-line{left: auto; right: 0;}
 .big-feature-image{margin-left: auto; overflow: hidden;}
@@ -15,9 +16,9 @@
 body.page-template-product .big-feature-wrap{padding: 56px 0;}
 body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 56px;}
 
-.big-feature-svg { width: 521px; height: 424px; top: 160px; right: -33px; transform: rotate(194deg); position: absolute; }
+.big-feature-svg { width: 521px; height: 424px; top: 0; right: 230px; transform: rotate(50deg); position: absolute; }
 .big-feature-svg svg{width: 100%; height: 100%;}
-.big-feature-right .big-feature-svg{left: -26px; right: auto; transform: none;}
+.big-feature-right .big-feature-svg{left: -26px; right: auto; transform: none; top: 160px;}
 
 .big-feature-estate-svg-1{ width: 812px; height: 842px; top: -300px; right: -230px; position: absolute; transform: rotate(138deg); }
 .big-feature-estate-svg-1 svg{width: 100%; height: 100%;}
@@ -25,10 +26,8 @@ body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 
 .big-feature-estate-svg-2{ width: 512px; height: 542px; top: -15px; right: 108px; position: absolute; transform: rotate(-38deg); }
 .big-feature-estate-svg-2 svg{width: 100%; height: 100%;}
 
-
 .big-feature-svg-3{width: 530px; height: 540px; bottom: 50px; right: 124px; position: absolute;}
 .big-feature-svg-3 svg{width: 100%; height: 100%;}
-
 
 .solutions-wave-svg { width: 785px; height: 170px; top: 155px; right: -240px; position: absolute; transform: scaleX(-1); }
 .solutions-wave-svg svg{width: 100%; height: 100%;}
@@ -40,13 +39,18 @@ body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 
 @media only screen and (min-width: 1024px){
     .big-feature-right .feature-point{left: auto; right: 0;}
     .feature-point{top: 50%; transform: translateY(-50%); max-width: 335px; left: 0; position: absolute; } 
+    .big-feature-image{overflow: inherit;}
+    .big-feature-right .big-feature-image{overflow: hidden;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){ 
+    .big-feature-svg{right: 75px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){ 
     .big-feature-wrap{padding: 40px 0;}
     .feature-point{top: 50%; transform: translateY(-50%); max-width: 335px; left: 0; position: absolute; } 
     body.page-template-product .feature-point{padding: 20px; max-width: 275px;}
     .big-feature-right .feature-point{left: auto; right: 0;}
-    .big-feature-svg{width: 261px; height: 267px; top: 15px;}
+    .big-feature-svg{width: 261px; height: 267px; top: 15px; right: 75px;}
     .big-feature-right .big-feature-svg{left: -10px; top: 0;}
     .big-feature-estate-svg-1{width: 261px; height: 267px; top: -30px; right: -30px;}
     .big-feature-estate-svg-2{width: 251px; height: 287px; top: 40px; right: 70px;}
@@ -68,7 +72,7 @@ body.page-template-product .big-feature-right .big-feature-wrap{padding: 80px 0 
     body.page-template-product .big-feature-wrap {padding: 40px 0;}
     .big-feature-right .feature-point-line{right: auto; left: 0;}
     .big-feature-thumb img{min-height: 190px; max-height: 190px; overflow: hidden;}
-    .big-feature-svg{width: 161px; height: 167px; top: 15px;}
+    .big-feature-svg{width: 161px; height: 167px; top: -10px; right: 55px;}
     .big-feature-right .big-feature-svg{left: -10px; top: 0;}
     .big-feature-estate-svg-1{width: 161px; height: 167px; top: -30px; right: -30px;}
     .big-feature-estate-svg-2{width: 151px; height: 187px; top: 3px; right: 27px;}

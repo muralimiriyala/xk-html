@@ -10,7 +10,18 @@
 .social-share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\f0e0"; font-family: "Font Awesome 6 Sharp"; font-weight: 400;}
 .social-share-icons #st-1.st-animated img{display: none;}
 .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: inherit;}
-
+.social-share-icons.gate-share span.share-text{margin: 0;}
+.social-share-icons.gate-share #st-1.st-animated {
+	display: flex;
+    right: -20px;
+    position: relative;
+}
+.social-share-icons.gate-share #st-1.st-animated .st-btn {
+	border-left: 1px solid var(--electric-color);
+    border-top: none;
+	width: 75px;
+	height: 48px;
+}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
@@ -29,4 +40,6 @@
 @media only screen and (max-width: 370px) and (min-width: 200px){
     .social-share-icons{gap: 10px;}
     .social-share-icons #st-1.st-animated .st-btn{width: 50px; min-width: 50px;}
+    .social-share-icons.gate-share{justify-content: space-between;}
+    .social-share-icons.gate-share #st-1.st-animated .st-btn{width: 50px; min-width: 50px;}
 }

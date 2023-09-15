@@ -14,6 +14,7 @@
 .short-intro-text p:not(:last-child){margin-bottom: 18px;}
 .short-intro-text .text-link{opacity: 0.75;}
 .career-intro .short-intro-main{padding: 40px 0 80px;}
+.new_feature_section .short-intro-main{padding-bottom: 0;}
 
 
 /* media css starts here */
@@ -29,7 +30,7 @@
     .short-intro-list{flex: 0 0 calc(25% - 42px);}
     .intro1-of-3 .short-intro-list{flex: 0 0 calc(33.3333% - 38px);}
 
-    body.page-template-product .short-intro-main{padding: 12px 0 56px;}
+    body.page-template-product .short-intro-section:not(.new_feature_section) .short-intro-main{padding: 12px 0 56px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){ 
     .short-intro-head{gap: 60px;}

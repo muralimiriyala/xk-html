@@ -4,6 +4,7 @@
 body.page-template-product .healthcare-row{padding: 0;}
 .healthcare-list{padding: 32px; font-size: 0.875rem; line-height: 1.375rem; letter-spacing: -0.28px; color: var(--slate-color); background-color: var(--white);}
 .healthcare-thumb{margin-bottom: 20px;}
+.healthcare-thumb img{height: 25px; object-fit: contain;}
 .healthcare-list p{margin-bottom: 20px;}
 
 .healthcare-slider-btns .slick_arrow span{top: calc(50% + 1px); transform: translateY(-50%); position: absolute; font-size: 1rem; line-height: 1rem; transition: all 0.45s ease-in-out;}
@@ -29,7 +30,6 @@ body.page-template-product .healthcare-row{padding: 0;}
     .healthcare-row{gap: 32px;}
     .healthcare-list{flex: 0 0 calc(25% - 24px);}
     .healthcare-slider-btns .slick_prev{margin-right: 20px;}
-    .healthcare-top { min-height: 197px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     body.page-template-product .healthcare-row{gap: 8px;}

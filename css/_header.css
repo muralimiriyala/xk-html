@@ -23,6 +23,7 @@
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li.sib > a{color: var(--midnight-25);}
     ul.main-menu > li > a{padding: 0 10px 8px; color: var(--midnight-color); font-size: 0.875rem; line-height: 1.375rem; font-family: 'Gotham-Medium', sans-serif; display: inline-block; position: relative;}
+    ul.main-menu > li.no_link > a{pointer-events: none; cursor: initial;}
     ul.main-menu > li > a::after{width: 0%; height: 2px; bottom: 0; left: 10px; background-color: var(--electric-color); content: ""; display: block; position: absolute; transition: width 0.45s ease-in-out;}
     ul.main-menu > li:hover > a::after{width: calc(100% - 20px);}
     ul.main-menu > li:hover > ul{opacity: 1; visibility: visible; max-height: inherit; overflow: inherit;}
@@ -72,7 +73,7 @@
     /*-- nav items nav --*/
 
     .nav-right.sib{opacity: 0.25; }
-    .nav-right{flex: 0 0 100px; gap: 32px; transition: opacity 0.45s ease-in-out;}
+    .nav-right{flex: 0 0 52px; gap: 32px; margin-top: -2px; transition: opacity 0.45s ease-in-out;}
     .nav-rule{width: 1px; height: 30px; margin-right: 5px; transform: rotate(-26deg); background-color: var(--electric-color); transition: all 0.45s linear;}
     ul.nav-users{gap: 32px; flex: 1; margin: 0;}
     ul.nav-users li::before{display: none;}
@@ -89,7 +90,9 @@
     .toggle_bar{display: none;}
     ul.main-menu > li.nav-item > ul > li:last-child > a{margin: 0; height: 100%;}
     ul.main-menu > li.nav-item > ul > li:last-child > a img{width: 100%; height: 100%; object-fit: cover;}
-    ul.main-menu > li.nav-item > ul > li.hide-nav-item > a{display: none;}
+    ul.main-menu > li.nav-item > ul > li:nth-child(2) > a{height: auto; margin: 0 16px 16px;}
+    ul.main-menu > li.nav-item > ul > li:nth-child(2) .menu-item-pos{padding: 0 16px 16px;}
+    
     ul.main-menu > li.product-nav-item > ul > li:last-child{margin: 0;}
     ul.main-menu > li.product-nav-item > ul > li:last-child > a img{mix-blend-mode: multiply; object-fit: contain;}
     ul.main-menu > li.about-nav-item > ul > li{padding: 47px 47px 49px;}
@@ -103,9 +106,13 @@
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .header{gap: 12px;}
-    .logo{flex: 0 0 245px;}
-    ul.main-menu{gap: 20px; padding-right: 0;}
+    .logo{flex: 0 0 245px; top: -1px;}
+    nav.navigation{gap: 20px;}
+    ul.main-menu{gap: 10px; padding-right: 0;}
     ul.main-menu > li.nav-item > ul > li{width: 33.3333%; padding: 64px 30px 49px;}
+    ul.main-menu > li.about-nav-item > ul > li{width: 50%; padding: 49px 47px 49px 47px;}
+    .nav-right { gap: 20px; }
+    ul.nav-users{gap: 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .header{padding: 12px 0; min-height: 64px; transition: padding 0.45s ease-in-out;}
@@ -142,7 +149,6 @@
     ul.main-menu > li.nav-item > ul{margin: 0;}
     ul.main-menu > li.nav-item > ul > li:nth-last-child(2){margin-bottom: 0;}
     ul.main-menu > li.nav-item > ul > li::before{display: none;}
-    ul.main-menu > li.nav-item > ul > li:last-child{display: none;}
     ul.main-menu > li.nav-item > ul > li > a{margin-bottom: 24px; color: var(--electric-color); font-size: 0.75rem; line-height: 1.25rem; letter-spacing: 0.2em; display: block; font-family: 'Gotham-Bold', sans-serif; text-transform: uppercase;}
 
     ul.main-menu > li.nav-item > ul > li > ul{margin: 0; display: block !important;}
@@ -151,6 +157,12 @@
     ul.main-menu > li.nav-item > ul > li > ul > li > a:hover{color: var(--electric-color);}
     ul.main-menu > li.nav-item > ul > li > ul > li > a p{display: none;}
     ul.main-menu > li.nav-item > ul > li > ul > li::before{display: none;}
+    .menu-item-pos{padding: 2rem 0 0; margin-top: 2rem; border-top: 1px solid var(--white-50); display: block; color: var(--white);}
+    .menu-item-text span.optional-text{color: var(--electric-color);}
+    .menu-item-text .button{background-color: var(--electric-color); color: var(--midnight-color); font-family: "Gotham-Bold", sans-serif;}
+    .menu-item-text .button:hover{background-color: var(--electric-50); color: var(--midnight-color);}
+    .menu-item-text .heading-three{margin-bottom: 30px;}
+    ul.main-menu > li.nav-item > ul > li > ul > li img.menu-image{width: 40px;}
     .nav-item{gap: 16px;}
     .nav-text p{display: none;}
 

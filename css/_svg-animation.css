@@ -54,22 +54,18 @@ svg .clone-st0 {
 }
 @keyframes cloneRotate{
     0% {
-        stroke-width: 0.5px;
-        stroke-dasharray: 500;
-        stroke-dashoffset: 1000;
-        stroke: var(--electric-color);
-    }
-    50%{
+        opacity: 0.75;
         stroke-width: 0.5px;
         stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        stroke: var(--white-50)
+        stroke-dashoffset: 1300;
+        stroke: var(--electric-color);
     }
     100%{
+        opacity: 0.5;
         stroke-width: 0.5px;
-        stroke-dasharray: 800;
+        stroke-dasharray: 1000;
         stroke-dashoffset: 0;
-        stroke: var(--electric-50);
+        stroke: var(--electric-color);
     }
 }
 .big-feature-estate-svg-1 svg .clone-st0{
